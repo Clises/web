@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/ajax.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			window.onload=function(){
+				var oBtn = document.getElementById("btn1");
+				oBtn.onclick=function(){
+					var oDate = new Date();
+					var oTime = oDate.getTime();
+					//alert(oTime);
+					ajax("cccc.txt?t="+oTime,function(str){
+						//在IE下存在缓存，只有在浏览器全部关闭的情况下，开会刷新缓存
+						//在一个URL下只缓存一次
+						//需要使用同一种编码格式
+						alert(str);
+					})
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<input type="button" value="获取" id="btn1" />
+	</body>
+</html>

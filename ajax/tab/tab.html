@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<!--
+    作者：702004176@qq.com
+    时间：2017-04-10
+    描述：
+-->
+<head>
+    <meta charset="UTF-8">
+    <title>ajax+tab</title>
+    <meta name="Description" content="ajax获取json数据，并传入页面" />
+    <meta name="author" content="郭菊锋702004176@qq.com"/>
+    <script src="ajax.js" type="text/javascript" charset="utf-8"></script>
+    <style type="text/css">
+        * {
+            margin: 0;
+        }
+
+        body {
+            font-family: "微软雅黑";
+        }
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #194090;
+        }
+
+        .clearfix:after {
+            content: "";
+            clear: both;
+            display: block;
+        }
+
+        .tabWrap {
+            overflow: hidden;
+            width: 611px;
+            margin: 100px auto;
+        }
+
+        .ulWrap {
+            padding: 0;
+        }
+
+        .ulWrap li {
+            overflow: hidden;
+            float: left;
+            width: 199px;
+            height: 50px;
+            line-height: 50px;
+            margin-right: 3px;
+            text-align: center;
+            color: #DFE9F6;
+            background: #5884CF;
+        }
+
+        .ulWrap li.Ahover,
+        .ulWrap li:hover {
+            cursor: pointer;
+            background: #194090;
+        }
+
+        .tabWrap div {
+            overflow: hidden;
+            width: 591px;
+            padding: 20px;
+            padding: 15px 5px;
+            background: #f1f2f3;
+            border: 1px solid #5884CF;
+            border-top: 0;
+        }
+
+        .tabWrap div.hide {
+            display: none;
+        }
+
+        .tabWrap div p {
+            margin-top: 10px;
+        }
+
+
+        .tabWrap div img:hover {
+            -webkit-box-shadow: 1px 2px 4px 1px #8aa59f;
+            box-shadow: 1px 2px 4px 1px #8aa59f;
+        }
+    </style>
+</head>
+
+<body>
+<div class="tabWrap" id="tabWrap">
+    <ul class="ulWrap clearfix" id="ulWrap">
+    </ul>
+</div>
+<script type="text/javascript">
+    window.onload = function() {
+        var ulWrap = document.getElementById("ulWrap"),
+            tabWrap = document.getElementById("tabWrap"),
+            txtArea = document.getElementById("txtArea"),
+            oLi = ulWrap.getElementsByTagName('li'),
+            oDiv = tabWrap.getElementsByTagName('div');
+        ajax('data.json', function(str) {
+            var str = str;
+            var oJson = (new Function('return (' + str + ')'))();
+            var a = oJson['tab'];
+            //for 1-dom
+            for (var i = 0; i < a.length; i++) {
+                var ali = document.createElement("li");
+                var adiv = document.createElement("div");
+                ali.innerHTML = a[i]['title'];
+                adiv.innerHTML = "<a href='#'><img src='" + a[i]['image'] + "'/></a><p><a href='#'>" + a[i]['descript1'] + "</a></p><p><a href='#'>" + a[i]['descript2'] + "</a></p><p><a href='#'>" + a[i]['descript3'] + "</p><p><a href='#'>" + a[i]['descript4'] + "</a></p>";
+                ulWrap.appendChild(ali);
+                tabWrap.appendChild(adiv);
+                var index = i;
+                if (index == 0) {
+                    ali.className = "Ahover"
+                } else {
+                    adiv.className = "hide"
+                }
+            }
+            //for 1 end
+
+            //for 2-tab
+            for (var i = 0; i < oLi.length; i++) {
+                oLi[i].index = i;
+                oLi[i].onclick = function() {
+                    for (var j = 0; j < oLi.length; j++) {
+                        oLi[j].className = "";
+                        oDiv[j].className = "hide";
+                    }
+                    this.className = "Ahover";
+                    oDiv[this.index].className = "";
+                }
+            }
+            //for 2 end
+        })
+    }
+</script>
+</body>
+
+</html>

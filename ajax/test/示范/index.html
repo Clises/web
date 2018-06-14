@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+<script src="js/ajax.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">	
+		
+		window.onload=function(){
+			var oo=document.getElementsByClassName("odiv")
+			ajax("cc.txt",function(str){
+				var arr = eval(str);
+				for(var i=0;i<arr.length;i++){
+				oo[i].style.backgroundImage="url("+arr[i].zgr+")"
+			 }	
+			 
+			});
+			
+		
+	}
+	</script>
+	</head>
+	<body>
+		<div class="odiv" style="border: 1px solid red;width: 300px;height: 300px;">
+		</div>
+		<div class="odiv" style="border: 1px solid red;width: 300px;height: 300px;">
+		</div>
+	</body>
+</html>
