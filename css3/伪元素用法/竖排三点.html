@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .sd,::before,::after{
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            background-color: red;
+            border-radius: 10px;
+        }
+        .sd:before{
+            content:'';
+            left: 0;
+            top: 9px;
+        }
+        .sd::after{
+            content: '';
+            left: 0;
+            top: 18px;
+        }
+        </style>
+</head>
+<body>
+
+<div class="sd"></div>
+
+</body>
+</html>

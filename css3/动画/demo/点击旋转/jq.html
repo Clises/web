@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background: red;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+</div>
+<button id="button">旋转</button>
+<button id="btn">消失</button>
+</body>
+<script src="../../../lib/jquery.js"></script>
+<script>
+    var deg=0;
+    $('#button').on('click',function () {
+        deg +=100;
+        $('.box').css({'transform':'rotate('+(-deg)+'deg)'});
+    })
+    $('#btn').on('click',function () {
+        $('.box').css({'display':'none'})
+    })
+    </script>
+</html>

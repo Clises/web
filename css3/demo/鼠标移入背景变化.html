@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.a {
+				width: 200px;
+				height: 200px;
+				background-color: red;
+			}
+			
+			.a>div {
+				width: 200px;
+				height: 200px;
+				top: 0;
+				left: 0;
+				opacity: 0;
+				line-height: 250px;
+				text-align: center;
+				color: white;
+				cursor: pointer;
+				background-color: green;
+				transition: opacity 0.3s;
+			}
+			
+			.a:hover>div {
+				opacity: 0.9;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="a">
+			<div>
+				<a>123511111111111 </a>
+			</div>
+		</div>
+	</body>
+
+</html>

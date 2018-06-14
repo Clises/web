@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			@keyframes banner {
+				0% {
+					transform: translateX(0);
+				}
+				20% {
+					transform: translateX(-500px);
+				}
+				25% {
+					transform: translateX(-500px);
+				}
+				45% {
+					transform: translateX(-1000px);
+				}
+				50% {
+					transform: translateX(-1000px);
+				}
+				70% {
+					transform: translateX(-1500px);
+				}
+				75% {
+					transform: translateX(-1500px);
+				}
+				95% {
+					transform: translateX(-2000px);
+				}
+				100% {
+					transform: translateX(-2000px);
+				}
+			}
+			
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			.box {
+				width: 500px;
+				height: 500px;
+				border: 1px solid red;
+				overflow: hidden;
+			}
+			
+			.box ul {
+				width: 2500px;
+				height: 500px;
+				animation: banner 2s linear infinite;
+			}
+			
+			.box ul li {
+				width: 500px;
+				height: 500px;
+				list-style: none;
+				float: left;
+			}
+			
+			.box ul li img {
+				width: 100%;
+				height: 100%;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="box">
+			<ul>
+				<li><img src="../../demo/8个css3鼠标滑过图片显示文字动画效果代码/images/img-1.jpg" /></li>
+				<li><img src="../../demo/8个css3鼠标滑过图片显示文字动画效果代码/images/img-2.jpg" /></li>
+				<li><img src="../../demo/css3鼠标hover图片动画效果/img/2.jpg" /></li>
+				<li><img src="../../demo/css3鼠标hover图片动画效果/img/2.jpg" /></li>
+				<li><img src="../../demo/css3鼠标hover图片动画效果/img/1.jpg" /></li>
+
+			</ul>
+		</div>
+
+	</body>
+
+</html>

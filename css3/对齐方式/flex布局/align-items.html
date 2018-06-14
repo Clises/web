@@ -1,0 +1,421 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Playit</title>
+    <style>
+        body
+        {
+            color:#000000;
+            background-color:#ffffff;
+            margin:4px;
+            margin-top:0px;
+        }
+
+        body, html
+        {
+            border:0px;
+            margin:0px;
+            padding: 0px;
+            height:100%;
+            position:relative;
+            width:100%;
+        }
+
+        .maintable
+        {
+            width:100%;
+            background-color:#e5eecc;
+            color:#000000;
+            border:solid #c3c3c3 1px;
+            margin-left:0px;
+        }
+
+        .maintable td
+        {
+            padding-left:5px;
+            padding-right:5px;
+        }
+
+        .code_input, .result_output
+        {
+            border:1px solid #c3c3c3;
+            width:100%;
+            height:400px;
+            background-color:#ffffff;
+            color:#000000;
+        }
+
+        .toptext
+        {
+            color:#617f10;
+            font-family:verdana;
+            margin-top:0px;
+            margin-bottom:8px;
+            font-size:120%;
+        }
+
+        .result_header
+        {
+            color:#617f10;
+            margin-top:0px;
+            font-family:verdana;
+            font-size:90%;
+        }
+
+        .bottomtext_div
+        {
+            margin-right:3px;
+        }
+
+        .bottomtext
+        {
+            color:#617f10;
+            font-family:verdana;
+            margin-bottom:0px;
+            margin-top:6px;
+            font-size:90%;
+        }
+
+        .toprect_txt a:link,.toprect_txt a:visited {text-decoration:none;color:#900B09;background-color:transparent}
+        .toprect_txt a:hover,.toprect_txt a:active {text-decoration:underline;color:#FF0000;background-color:transparent}
+
+        div.toprect_txt
+        {
+            font-family:verdana,helvetica,arial,sans-serif;
+            position:absolute;
+            left:0px;top:0px;
+            width:225px;height:84px;
+            padding:0px;margin:0px;padding-top:4px;
+            border:1px solid #c3c3c3;
+            color:#606060;
+            text-align:center;
+            font-size:12px;
+        }
+        div.toprect_img
+        {
+            font-family:verdana,helvetica,arial,sans-serif;
+            position:absolute;
+            left:0px;top:0px;
+            width:227px;height:90px;
+            margin:0px;padding:0px;
+            color:#606060;
+            text-align:center;
+            font-size:12px;
+        }
+
+        #ads
+        {
+            background-color: #ffffff;
+            position:absolute;
+            height: 104px;
+            width:100%;
+            top:0px;
+            min-width:903px;
+        }
+
+        #footer
+        {
+            position:absolute;
+            width:893px;
+            height:20px;
+            bottom:-20px;
+            color:#617f10;
+            font-family:verdana;
+            font-size:90%;
+            padding-left:10px;
+            background-color: #e5eecc;
+        }
+
+        #content
+        {
+            background-color: #e5eecc;
+            position:absolute;
+            height:auto;
+            top:100px;
+            bottom:20px;
+            width:100%;
+            border-top:solid #c3c3c3 1px;
+            min-width:903px;
+            min-height:400px;
+        }
+
+        #sourcecode
+        {
+            position:absolute;
+            height:auto;
+            left:10px;
+            top:5px;
+            bottom:40px;
+            width:48%;
+        }
+
+        #textareaCode
+        {
+            position:absolute;
+            height:99%;
+            width:99%;
+            top:30px;
+            bottom:10px;
+            border:1px solid #d3d3d3;
+            resize: none;
+            min-width:400px;
+            min-height:350px;
+        }
+
+        #result
+        {
+            position:absolute;
+            height:auto;
+            right:10px;
+            top:5px;
+            bottom:40px;
+            width:48%;
+        }
+
+        #iframeResult
+        {
+            position:absolute;
+            background-color: #ffffff;
+            height:99%;
+            top:30px;
+            bottom:10px;
+            width:100%;
+            border:1px solid #d3d3d3;
+            min-width:400px;
+            min-height:350px;
+        }
+
+        .headerText
+        {
+            color:#617f10;
+            position:absolute;
+            font-family:verdana;
+            font-size:90%;
+            top:8px;
+        }
+
+        .footerText
+        {
+            color:#617f10;
+            font-family:verdana;
+            font-size:90%;
+            position:absolute;
+        }
+
+        #submitBTN
+        {
+            font-family:verdana;
+            right:5px;
+            position:absolute;
+            top:0px;
+            width:130px;
+        }
+    </style>
+    <script type="text/javascript">
+        <!--
+        function playit_onload()
+        {
+            var preval=""
+            preval=document.getElementById("preselectedValue").value
+            if (preval!="")
+            {
+                change_position(preval)
+                var x=document.getElementsByTagName("input")
+                var l=x.length
+                for (i=0;i<l;i++)
+                {
+                    if (x[i].value==preval)
+                    {
+                        x[i].checked=true
+                    }
+                }
+                document.getElementById("playitcontainer").style.display="block";
+            }
+        }
+
+        function click_position(obj)
+        {
+            change_position(obj.value)
+        }
+
+        function change_position(val)
+        {
+
+            var s="demoDIV";
+
+            s="main";
+
+            document.getElementById(s).style.alignItems=val;
+
+            var x="align-items:<span id='enlargecssprop'>" + val + "</span>";
+            var y="div#main<br>		{<br>		display:flex;		<br>		###CSSPROP###;<br>		}<br>";
+            var z=y.replace("###CSSPROP###",x);
+
+            document.getElementById("styleDIV").innerHTML=z;
+
+        }
+
+        //-->
+    </script>
+    <style>
+        body
+        {
+            font-family:verdana;
+            font-size:12px;
+        }
+
+        #playitcontainer
+        {
+            width:974px;
+            background-color:#e5eecc;
+            border:1px solid #98bf21;
+            margin:auto;
+
+        }
+
+        #enlargecssprop
+        {
+            font-weight:bold;
+            font-size:14px;
+            color:#000000;
+        }
+
+        #demoDIV
+        {
+            margin-left:10px;
+            margin-top:3px;
+            background-color:#ffffff;
+            border:1px solid #c3c3c3;
+            height:280px;
+            width:430px;
+
+        }
+
+        div#main
+        {
+            display:flex;
+            align-items:center;
+        }
+
+        #styleDIV
+        {
+            font-family:courier new;
+            margin-left:10px;
+            background-color:#f1f1f1;
+            border:1px solid #c3c3c3;
+            width:424px;
+            padding:3px;
+            color:#222222;
+        }
+
+        div.demoHeader
+        {
+            font-size:14px;
+            margin-top:5px;
+            margin-left:5px;
+            margin-bottom:2px;
+            color:#617f10;
+        }
+
+        div.playitFooter
+        {
+            font-size:13px;
+            color:#617f10;
+            padding:10px;
+        }
+
+        #pfooter
+        {
+            margin:15px;
+        }
+
+        div#main
+        {
+            width:100%;
+            height:278px;
+            border:1px solid black;
+        }
+        div#main div
+        {
+            flex: 1;
+        }
+    </style>
+
+
+</head>
+<body>
+
+<div style="position:relative;width:100%;margin-top:0px;margin-bottom:0px;">
+    <div style="width:974px;height:94px;position:relative;margin:0px;margin-left:auto;margin-right:auto;margin-top:5px;margin-bottom:5px;padding:0px;overflow:hidden;">
+        <!-- TryitLeaderboard -->
+        <div id='div-gpt-ad-1383036313516-0' style='width:970px; height:90px;'>
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- demo测试页广告 -->
+            <ins class="adsbygoogle"
+                 style="display:inline-block;min-width:300px;max-width:970px;width:100%;height:90px"
+                 data-ad-client="ca-pub-5751451760833794"
+                 data-ad-slot="6979016065"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>		</div>
+        <div style="clear:both"></div>
+    </div>
+</div>
+
+<div id="playitcontainer">
+
+    <div style="width:450px;float:left;">
+        <div class="demoHeader">CSS 属性:</div>
+        <div style="font-size:14px;margin:10px;font-weight:bold;">align-items:</div>
+
+        <form style="margin:15px;" action="javascript:return false;">
+            <input type="hidden" id="preselectedValue" value="center" />
+
+            <div><input autocomplete="off" type="radio" name="radio_position" onclick="click_position(this)" id="value_1" value="flex-start" checked='checked' /><label for="value_1">flex-start</label></div>
+
+            <div><input autocomplete="off" type="radio" name="radio_position" onclick="click_position(this)" id="value_2" value="flex-end" /><label for="value_2">flex-end</label></div>
+
+            <div><input autocomplete="off" type="radio" name="radio_position" onclick="click_position(this)" id="value_3" value="stretch" /><label for="value_3">stretch</label></div>
+
+            <div><input autocomplete="off" type="radio" name="radio_position" onclick="click_position(this)" id="value_4" value="baseline" /><label for="value_4">baseline</label></div>
+
+            <div><input autocomplete="off" type="radio" name="radio_position" onclick="click_position(this)" id="value_5" value="center" /><label for="value_5">center</label></div>
+
+            <div><input autocomplete="off" type="radio" name="radio_position" onclick="click_position(this)" id="value_6" value="initial" /><label for="value_6">initial</label></div>
+
+        </form>
+        <div id="pfooter"></div>
+    </div>
+    <div style="width:450px;float:left;">
+        <div class="demoHeader">结果:</div>
+
+        <div id="demoParent">
+            <div id="demoDIV"><div>
+                <div id="main">
+                    <div style="background-color:coral;">RED</div>
+                    <div style="background-color:lightblue;">BLUE</div>
+                    <div style="background-color:lightgreen;">Green div with more content.</div>
+                </div>
+            </div></div>
+        </div>
+        <div class="demoHeader">CSS 代码:</div>
+        <div id="styleDIV">
+            div#main<br>		{<br>		display:flex;		<br>		align-items:<span id='enlargecssprop'>center</span>;<br>		}<br>
+        </div>
+    </div>
+    <div style="clear:both;"></div>
+
+    <div class="playitFooter" style="float:left;">点击上面的属性值然后查看效果</div>
+    <div class="playitFooter" style="text-align:right;">
+        <a style="color:#617f10" href="http://www.w3cschool.cc">
+            w3cschool.cc</a> - 测试
+    </div>
+    <div style="clear:both;"></div>
+</div>
+<script type="text/javascript">playit_onload()</script>
+</body>
+
+</html>

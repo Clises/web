@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .ani-rotate{
+            animation: bounceD 1s;
+            width: 100px;
+            height: 100px;
+            background: red;
+        }
+        @-webkit-keyframes bounceD {
+            20% {
+                transform: scale(1);
+            }
+            40%, 45% {
+                transform: scale(3);
+            }
+            to {
+                transform: scale(4);
+            }
+        }
+
+    </style>
+</head>
+<body>
+<div class="ani-rotate">
+</div>
+</body>
+</html>
