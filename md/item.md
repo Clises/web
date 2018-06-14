@@ -1,0 +1,29 @@
+
+### 点赞效果
+```html
+html
+<span class="like_count">
+    22
+</span>
+<span class=" like like_img">
+</span>
+javascript
+function userLike(){
+        $('body').on('click','.like',function () {
+            console.log('aaa')
+            var Num=$(this).siblings('.like_count').html()
+            if ($(this).is('.like_img')){
+                Num++
+                $(this).addClass("nolike_img") .removeClass('like_img')
+                $(this).siblings('.like_count').html(Num)
+            }else {
+                Num--
+                $(this).addClass("like_img") .removeClass('nolike_img')
+                $(this).siblings('.like_count').html(Num)
+            }
+        })
+    }
+```
+注意事项：<br/>
+(1)必须在span上添加like标签，不然会失去效果。
+(2)如果是诸如addclass removeClass这类的可以不添加类名的前缀，如果是is、siblings等的需要添加前缀，否则会失去效果。
