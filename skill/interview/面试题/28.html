@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var foo="11"+2-"1"
+			alert(foo)//111
+			alert(typeof foo)//number
+			//字符串相减
+			var underfined;
+			alert(NaN==NaN)//false ？？？
+			alert([]==![])//true
+			alert(0=="")//true
+			alert (undefined==null);//true
+			alert(1==true)
+			alert(2==true)
+				alert(0==false)
+		</script>
+		undefined与null相等但不恒等（===），
+		一个number一个是string时候，会把string转换成number
+		尝试将boolean转换成number，0或1
+		尝试将object转换成number和string，取决与另一个对比量的类型。
+		所以对于0，空字符串的判断，建议先使用“===”。“===”会先判断两边值的类型，类型不匹配时为false。
+	</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <p>段落文本内容
+        <input type="button" value="点击" />
+    </p>
+</div>
+
+
+
+</body>
+<script src="lib/jquery.js">
+</script>
+<script>
+    $(function () {
+
+
+        // 为所有div元素绑定click事件
+        $("div").click( function(event){
+            alert("div-click");
+        } );
+
+//为所有p元素绑定click事件
+        $("p").click( function(event){
+            alert("p-click");
+        } );
+
+//为所有button元素绑定click事件
+        $(":button").click( function(event){
+            alert("button-click");
+            // 阻止事件冒泡到DOM树上
+            event.stopPropagation(); // 只执行button的click，如果注释掉该行，将执行button、p和div的click
+        } );
+
+
+    })
+
+</script>
+</html>

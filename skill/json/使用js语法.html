@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<span id="name">
+		</span>
+	</body>
+	<script type="text/javascript">
+		var jsonobject = [{
+			"name": "errol",
+			"age": 20,
+			"sex": "男"
+		}]
+		jsonobject[0].name = "clise"
+		document.getElementById("name").innerHTML = jsonobject[0].name;
+	</script>
+</html>

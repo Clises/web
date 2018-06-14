@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+ <script type="text/javascript" src="jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="jquery.mlens-1.0.min.js"></script>
+    <style type="text/css">
+        #green_wrapper {
+	position: relative;
+	width: 640px;
+	height: auto;
+	margin: 0 auto;
+	border: 12px solid #fff;
+	border-radius: 10px;
+	box-shadow: 1px 1px 5px rgba(50,50,50 0.5);
+	float: left;
+}
+    </style>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#green_monster").mlens(
+            {
+                imgSrc: $("#green_monster").attr("data-big"),	// path of the hi-res version of the image
+                lensShape: "circle",				// shape of the lens (circle or square)
+                lensSize: 180,					// size of the lens (in px)
+                borderSize: 4,					// size of the lens border (in px)
+                borderColor: "#fff",				// color of the lens border (#hex)
+                borderRadius: 0					// border radius (optional, only if the shape is square)
+            });
+        });
+</script>
+</head>
+<body>
+<img id="green_monster" src="images/GreenMonster_640px.jpg" alt="green monster graffiti by Kotzian" data-big="images/GreenMonster_1280px.jpg" />
+</body>
+</html>

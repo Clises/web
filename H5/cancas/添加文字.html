@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<canvas id="myCanvas" width="1000px" height="1000px" style="border: 1px solid red;"> </canvas>
+			</body>
+	<script type="text/javascript">
+		var canvas=document.getElementById("myCanvas")
+		var context = canvas.getContext("2d")
+		context.font='50px bold 宋体';  //  设置字体以及字体大小    这个必须放在填充的文本之前，
+		context.textAlign="center";//设置对齐方式
+		context.textBaseline="top"//在中心点上，  ？？？？？
+		//调用方法
+/*	var colors=	context.createLinearGradient(400,400,700,800);//颜色渐变
+		colors.addColorStop("0","red");
+		colors.addColorStop("0.5","pink");
+		colors.addColorStop("1","blue");
+		context.fillStyle=colors;*/
+//		context.fillText("hellow word！",500,500);
+		context.strokeText("errol",500,500)
+		
+//		context.fill()
+	</script>
+</html>

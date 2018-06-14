@@ -1,0 +1,329 @@
+.animalsBox{
+	max-width:1920px;
+	min-width:1000px;
+	margin:0px auto;
+	text-align: center;
+	color: gray;
+}
+/*淡入淡出的轮播图*/
+.aFadeBanner{
+	width: 1000px;
+	height: 500px;
+	margin: 80px auto;
+	overflow: hidden;
+	position: relative;
+}
+.aFadeBanner li{
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: all 15s;
+}
+.aFadeBanner li img{
+	width: 100%;
+	height: 100%;
+}
+/*淡入淡出的动画效果*/
+@keyframes afadeBanner1{
+	0%{opacity: 0;}
+	5%{opacity:1}
+	10%{opacity:1}
+	15%{opacity:0}
+}
+.aFadeBanner li:nth-child(1){
+	animation: afadeBanner1 15s linear infinite;
+}
+@keyframes afadeBanner2{
+	10%{opacity: 0;}
+	15%{opacity:1}
+	20%{opacity:1}
+	25%{opacity:0}
+}
+.aFadeBanner li:nth-child(2){
+	animation: afadeBanner2 15s linear infinite;
+}
+@keyframes afadeBanner3{
+	20%{opacity: 0;}
+	25%{opacity:1}
+	30%{opacity:1}
+	35%{opacity:0}
+}
+.aFadeBanner li:nth-child(3){
+	animation: afadeBanner3 15s linear infinite;
+}
+@keyframes afadeBanner4{
+	30%{opacity: 0;}
+	35%{opacity:1}
+	40%{opacity:1}
+	45%{opacity:0}
+}
+.aFadeBanner li:nth-child(4){
+	animation: afadeBanner4 15s linear infinite;
+}
+@keyframes afadeBanner5{
+	40%{opacity: 0;}
+	45%{opacity:1}
+	50%{opacity:1}
+	55%{opacity:0}
+}
+.aFadeBanner li:nth-child(5){
+	animation: afadeBanner5 15s linear infinite;
+}
+@keyframes afadeBanner6{
+	50%{opacity: 0;}
+	55%{opacity:1}
+	60%{opacity:1}
+	65%{opacity:0}
+}
+.aFadeBanner li:nth-child(6){
+	animation: afadeBanner6 15s linear infinite;
+}
+@keyframes afadeBanner7{
+	60%{opacity: 0;}
+	65%{opacity:1}
+	70%{opacity:1}
+	75%{opacity:0}
+}
+.aFadeBanner li:nth-child(7){
+	animation: afadeBanner7 15s linear infinite;
+}
+@keyframes afadeBanner8{
+	70%{opacity: 0;}
+	75%{opacity:1}
+	80%{opacity:1}
+	85%{opacity:0}
+}
+.aFadeBanner li:nth-child(8){
+	animation: afadeBanner8 15s linear infinite;
+}
+@keyframes afadeBanner9{
+	80%{opacity: 0;}
+	85%{opacity:1}
+	90%{opacity:1}
+	95%{opacity:0}
+}
+.aFadeBanner li:nth-child(9){
+	animation: afadeBanner9 15s linear infinite;
+}
+@keyframes afadeBanner10{
+	90%{opacity: 0;}
+	95%{opacity:1}
+	100%{opacity:1}
+	5%{opacity:0}
+}
+.aFadeBanner li:nth-child(10){
+	animation: afadeBanner10 15s linear infinite;
+}
+/*走进狂野动物世界*/
+.animalsWorld{
+	width: 1000px;
+	/*height:500px;*/
+	margin:30px auto;
+}
+.animalsWorld h4{
+	font-weight: normal;
+	margin:20px auto;
+}
+.animalsWorld section{
+	font-size: 14px;
+	line-height: 40px;
+}
+.aPhotoWall{
+	width: 100%;
+	height: 500px;
+	margin-top:20px;
+}
+.aPhotoWallLeft{
+	width:400px;
+	height: 360px;
+	background: url(../img/top-1.jpg) no-repeat ;
+	background-size: 100% 100%;
+	padding:25px 35px;
+	box-sizing: border-box;
+	float:left;
+}
+.aPhotoWallLeft h1{
+	color: #fff;
+	font-size: 24px;
+}
+.aPhotoWallLeft section{
+	line-height: 20px;
+	text-align: left;
+	margin: 10px 0px 30px;
+}
+.aPhotoWalRight{
+	width: 600px;
+	height: 400px;
+	float:left;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+.aPhotoWalRight li:nth-child(1){
+	width: 100%;
+	height: 240px;
+	margin-bottom: 10px;
+	overflow: hidden;
+
+}
+.aPhotoWalRight li:nth-child(2){
+	width: 100%;
+	height: 160px;
+	overflow: hidden;
+
+}
+.aPhotoWalRight li img{
+	transition: all 1s;
+}
+.aPhotoWalRight li:nth-child(1) img{
+	width: 100%;
+	height: 100%;
+}
+.aPhotoWalRight li:nth-child(2) span{
+	display: inline-block;
+	width: 45%;
+	height: 100%;
+	margin-left:3%;
+	overflow: hidden;
+}
+.aPhotoWalRight li img:hover{
+	transform: scale(1.2);
+}
+/*因为关注所以出众*/
+.aAtention{
+	width:1000px;
+	margin: 0px auto;
+}
+.aAtention h1{
+	margin-bottom: 20px;
+	font-size:36px
+}
+.aAtention section{
+	line-height: 40px;
+
+}
+.aAtentionList{
+	margin-top: 30px;
+	height: 500px;
+}
+.aAtentionList li{
+	width: 300px;
+	height: 476px;
+	margin-right: 20px;
+	float: left;
+
+}
+.aAtentionList li span{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.aAtentionList li img{
+	width: 100%;
+	height: 100%;
+	transition: all 1s;
+}
+.aAtentionList li p{
+	width: 260px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	background-color: #FFC001;
+	color: #fff;
+	margin: auto;
+	position: relative;
+	top:-50px
+
+}
+.aAtentionList li:hover img{
+	transform: scale(1.2);
+}
+/*Tab Control*/
+.aTabs{
+	width: 1000px;
+	height: 800px;
+	background-color:#000;
+	opacity: 0.8;
+	margin: 100px auto;
+	padding: 0px 80px;
+    box-sizing: border-box;
+    position: relative;
+}
+.aTabs li{
+	float: left;
+}
+.aTabs li a{
+	display: inline-block;
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	background-color: #282828;
+	color: #FFFFFF;
+	border-radius: 20px;
+	margin-top: 25px;
+	margin-right: 10px;
+	margin-bottom: 50px;
+
+}
+.aTabCon{
+	position: absolute;
+    left: 50%;
+	margin-left: -420px;
+	display: none;
+	background-color: #000;
+	opacity: 0.8;
+	overflow: hidden;
+}
+.aTabs li:nth-child(1) .aTabCon{
+	display: block;
+}
+.aTabCon section:nth-child(1) span{
+	display: inline-block;
+	width: 277.5px;
+	height: 230px;
+	margin-bottom: 50px;
+	transition: all 1s;
+
+}
+.aTabCon span img{
+	width: 100%;
+	height: 100%;
+}
+
+.aTabCon section:nth-child(2) span{
+	display: inline-block;
+	width: 420px;
+	height: 230px;
+}
+/*鼠标移入的动画效果*/
+@keyframes aRotate{
+	0%{transform: rotate(0);}
+	100%{transform: rotate(720deg);}
+}
+.aTabCon section:nth-child(1) span:hover{
+	animation: aRotate 1s ease infinite;
+}
+@keyframes aTranslate{
+	from{margin-left:0}
+	to{margin-left:-50px}
+}
+.aTabCon section:nth-child(2) span:nth-child(1):hover{
+	animation: aTranslate 1s linear infinite forwards;
+}
+.aTabCon section:nth-child(2) span:nth-child(1):hover img{
+	transform: scale(1.1,1.1);
+}
+.aTabCon section:nth-child(2) span:nth-child(2):hover img{
+	animation: aTranslate 1s linear infinite forwards;
+}
+/*选项卡的操作*/
+.aTabs li a:hover{
+	background-color: #FFC001;
+	color:fff;
+}
+.aTabs li:hover .aTabCon{
+	display: block;
+}

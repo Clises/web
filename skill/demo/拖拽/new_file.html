@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.red {
+				width: 500px;
+				height: 500px;
+				border: 1px solid red;
+				float: left;
+				margin-right: 100px;
+			}
+
+			.red img {
+				width: 100px;
+				height: 100px;
+			}
+
+			.box {
+				width: 500px;
+				height: 500px;
+				border: 1px solid red;
+				float: left;
+			}
+
+			.box img {
+				width: 100%;
+				height: 100%;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!--<div draggable="true">这是一段文字</div>-->
+		<!--	拖拽的过程
+		拖拽的位置 拖拽进入的目标区域
+		拖拽放置的事件,ondrop事件
+		拖拽的离开事件
+
+		拖拽开始的事件
+		拖拽过程中的事件
+		进入目标区域的事件
+		在目标区域移动的事件
+		ondrop放置的操作,绑定给的是放置的区域,绑定给目标区域
+		使用时根据情况选择使用哪一个事件
+		-->
+		<div class="red">
+			<img src="2.jpg" id="pic" />
+
+		</div>
+
+		<div class="box">
+
+		</div>
+	</body>
+	<script src="jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function() {
+			$("img").on("dragstart", function(e) {
+				event.dataTransfer.setData("id", event.target.id)
+				//触摸开始事件
+			})
+			$(".box").on("drag", function() {
+				console.log("触摸过程中不断出发的事件，是不断出发的 ")
+
+			})
+			//进入目标区域的事件
+			$(".box").on("dragenter", function() {
+				console.log("进入目标区域的事件")
+
+			})
+			$(".box").on("dragover", function() {
+				event.preventDefault()
+				console.log("进入目标区域的移动事件")
+
+			})
+			$(".box").on("drop", function() {
+				event.preventDefault()
+//				console.log("放置托动源，需要阻止浏览器的默认行为")
+				//					event.DataTransfer.getData("id")
+				$(this).append($("#pic"))
+
+			})
+		})
+	</script>
+
+</html>

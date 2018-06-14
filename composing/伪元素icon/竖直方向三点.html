@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div,::before,::after{
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            background-color: red;
+            border-radius: 10px;
+        }
+        div::before{
+            content:'';
+            left: 0;
+            top: 9px;
+        }
+        div::after{
+            content: '';
+            left: 0;
+            top: 18px;
+        }
+    </style>
+</head>
+<body>
+<div>
+</div>
+
+</body>
+</html>

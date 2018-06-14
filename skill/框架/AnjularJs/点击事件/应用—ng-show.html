@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/angular.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div ng-app="aa" ng-controller="bb">
+			<button ng-click="toggle()" >显示/隐藏</button>
+			<!--toggle方法-->
+			<p style="width: 100px;height: 100px;background-color: red;"ng-show='msg';>
+					ngshow显示隐藏的信息。
+			</p>
+		</div>
+		<script type="text/javascript">
+			var app=angular.module("aa",[])
+			app.controller("bb",function($scope){
+				$scope.msg=true;
+				$scope.toggle=function(){
+						$scope.msg=!$scope.msg;
+				}
+			})
+		</script>
+	</body>
+</html>

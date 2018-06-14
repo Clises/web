@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../lib/jquery.js"></script>
+    <style>
+        .aa{
+            width: 100px;
+            height: 100px;
+            background: red;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<div class="aa"></div>
+<script>
+    $.fn.extend({
+        drag :function () {
+            var  disx=0;
+            var  disy=0;
+            var  This=this
+            this.mousedown(function (ev) {
+                console.log(ev)
+                console.log('aa')
+                disx=ev.pageX-$(this).offset().left;
+                disy=ev.pageX-$(this).offset().top;
+                $(document).mousemove(function (ev) {
+                    This.css('left',ev.pageX-disx)
+                    This.css('top',ev.pageY-disy)
+                })
+                $(document).mouseup(function () {
+                    $(this).off()
+
+                })
+                return false
+
+            })
+
+        }
+    });
+
+    $(function () {
+        $('.aa').drag()
+        
+    })
+
+</script>
+</body>
+</html>

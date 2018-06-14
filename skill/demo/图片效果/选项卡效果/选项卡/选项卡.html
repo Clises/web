@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			ul {
+				margin-left: 400px;
+			}
+			ul li {
+				list-style: none;
+				width: 200px;
+				height: 50px;
+				background-color: blue;
+				margin-top: 10px;
+				margin-left: -40px;
+				cursor: pointer;
+			}
+			.box {
+				width: 500px;
+				height: 350px;
+				position: absolute;
+				z-index: 99;
+			}
+		</style>
+		<script type="text/javascript">
+			window.onload = function() {
+				var oimg = document.getElementsByTagName("img");
+				var oli = document.getElementsByTagName("li")
+				var obottom = document.getElementById("btnbottom")
+				var otop = document.getElementById("btntop")
+				var oleft = document.getElementById("btnleft")
+				var oright = document.getElementById("btnright")
+				//图片切换
+				var sum = 0;//全局变量
+				for(var i = 0; i < oli.length; i++) {
+					oli[i].index = i;//设置索引值
+					oli[i].onclick = function() {
+						sum = this.index; //索引值
+						for(var j = 0; j < oimg.length; j++) {
+							oimg[j].style.display = "none";//点击的时候先清空其他值。
+							oli[j].style.backgroundColor="blue"//颜色同步
+						}
+						oimg[this.index].style.display = "block"//清空其他，设置自己。 
+						this.style.backgroundColor="red"//this用法。
+					}
+				}
+				//顶部按钮
+				otop.onclick = function() {
+					oli[sum].style.backgroundColor="blue"
+					oli[0].style.backgroundColor="red"
+					oimg[sum].style.display = "none"
+					oimg[0].style.display = "block"
+					sum = 0;
+				}
+			//底部按钮
+				obottom.onclick = function() {
+					oli[sum].style.backgroundColor="blue"
+					oli[oli.length-1].style.backgroundColor="red"
+					oimg[sum].style.display = "none"
+					oimg[oli.length-1].style.display = "block"
+					sum = oli.length - 1;
+				}
+				//上一张
+					oleft.onclick=function(){
+						oli[sum].style.backgroundColor="blue"//sum在索引值变化时候
+					if(sum==0){
+						oimg[0].style.display="block"
+						oli[0].style.backgroundColor="red"
+					}
+					else{
+						oimg[sum-1].style.display="block"
+						oli[sum-1].style.backgroundColor="red"
+						
+						
+					}
+					if(sum==0){
+						
+					}else{
+						sum--;
+					}
+					
+				}
+				//下一张
+				oright.onclick=function(){
+					oli[sum].style.backgroundColor="blue"
+					oimg[sum].style.display="none";
+						if(sum==oli.length-1){
+						oimg[oli.length-1].style.display="block";
+						oli[oli.length-1].style.backgroundColor="red"
+					}
+							else{
+						oimg[sum+1].style.display="block";
+						oli[sum+1].style.backgroundColor="red"
+						
+					}
+						if(sum==oli.length-1){
+						
+					}else{
+						sum++;
+					}
+				}
+				
+			}
+		</script>
+	</head>
+	<body>
+		<img src="img/1.jpg" style="display: block;width: 500px;height: 350px;border-radius: 0px 100px 100px 0px;position: absolute;z-index: 6;" />
+		<img src="img/2.jpg" style="display: none;width: 500px;height: 350px;border-radius: 0px 100px 100px 0px;position: absolute;z-index: 5;" />
+		<img src="img/3.jpg" style="display: none;width: 500px;height: 350px;border-radius: 0px 100px 100px 0px;position: absolute;z-index: 4;" />
+		<img src="img/4.jpg" style="display: none;width: 500px;height: 350px;border-radius: 0px 100px 100px 0px;position: absolute;z-index: 3;" />
+		<img src="img/5.jpg" style="display: none;width: 500px;height: 350px;border-radius: 0px 100px 100px 0px;position: absolute;z-index: 2;" />
+		<img src="img/6.jpg" style="display: none;width: 500px;height: 350px;border-radius: 0px 100px 100px 0px;position: absolute;z-index: 1;" />
+		<div class="box">
+			<input type="button" id="btntop" value="到顶部" style="display: block; margin-top:0px ;margin-left: 230px;" />
+			<input type="button" id="btnbottom" value="到底部" style="display: block; margin-top:303px ;margin-left: 230px;" />
+			<input type="button" id="btnleft" value="上一张" style="display: block; margin-top: -200px;" />
+			<input type="button" id="btnright" value="下一张" style="display: block; margin-top:-15px ;margin-left: 445px;" />
+		</div>
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</body>
+</html>

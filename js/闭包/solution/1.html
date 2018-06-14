@@ -1,0 +1,51 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload="onMyLoad()">
+<p>产品一</p>
+<p>产品二</p>
+<p>产品三</p>
+<p>产品四</p>
+<p>产品五</p>
+<script>
+    /*
+    解决思路:
+        增加若干个对应的闭包域空间(这里采用的是匿名函数),
+        专门用来存储原先需要引用的内容(下标),不过只限于基本类型(基本类型值传递,对象类型引用传递)
+     */
+    function onMyLoad() {
+         var arr = document.getElementsByTagName("p");
+         for (var i = 0; i < arr.length; i++) {
+
+            //声明一个匿名函数,若传进来的是基本类型则为值传递,故不会对实参产生影响,
+             //该函数对象有一个本地私有变量arg(形参) ,该函数的 function scope 的 closure 对象属性有两个引用,一个是 arr,一个是 i
+             //尽管引用 i 的值随外部改变 ,但本地私有变量(形参) arg 不会受影响,其值在一开始被调用的时候就决定了.
+             (function (arg) {
+                 arr[i].onclick = function () {  //onclick函数实例的 function scope 的 closure 对象属性有一个引用 arg,
+                     alert(arg);                 //只要 外部空间的 arg 不变,这里的引用值当然不会改变
+                 }
+             })(i);                              //立刻执行该匿名函数,传递下标 i(实参)
+         }
+     }
+
+    //避免在循环中创建函数，可以在循环之外创建一个辅助函数，让这个辅助函数返回一个绑定了当前i值得函数，避免混淆
+    function onMyLoad() {
+        var arr = document.getElementsByTagName("p");
+        var length=arr.length;
+        // console.log(length)
+        var hander=function (i) {
+            return function () {
+                alert(i)
+            }
+
+        }
+        for (var i=0;i<length;i++){
+            arr[i].onclick=hander(i)
+        }
+    }
+    </script>
+</body>
+</html>

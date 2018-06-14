@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function openWin()
+{
+myWindow=window.open('','','width=200,height=100');
+myWindow.document.write("<p>This is 'myWindow'</p>");
+myWindow.focus();//获取浏览器的焦点
+myWindow.opener.document.write("<p>This is the source window!</p>");  //opener新的窗口打开之后
+}
+</script>
+</head>
+<body>
+
+<input type="button" value="Open 'myWindow'" onclick="openWin()" />
+
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+    <style type="text/css">  
+    	.tb-rd{
+    		
+    	}
+    </style>
+</head>
+<body>
+	<!--
+		右滑。
+	-->
+	<!-- 主界面菜单同时移动 -->
+	    <!-- 侧滑导航根容器 -->
+	    <div class="mui-off-canvas-wrap mui-draggable">
+	        <!-- 主页面容器 -->
+	        <div class="mui-inner-wrap">
+	            <!-- 菜单容器 -->
+	            <aside class="mui-off-canvas-left" id="offCanvasSide">
+	                <div class="mui-scroll-wrapper">
+	                    <div class="mui-scroll">
+	                        <!-- 菜单具体展示内容 -->
+	                        <!--***插入信息，滑动之后显示情况-->
+	                        <div class="mui-slider">
+	                          <div class="mui-slider-group">
+	                            <!--第一个内容区容器-->
+	                            <img src="img/109951162988435464.jpg"/>
+	                            <div class="mui-slider-item">
+	                              <!-- 具体内容 -->
+	                              <img src="img/109951162988435472.jpg"/>
+	                            </div>
+	                            <!--第二个内容区-->
+	                            <div class="mui-slider-item">
+	                              <!-- 具体内容 -->
+	                              <img src="img/109951162988438839.jpg"/>
+	                            </div>
+	                            <!--
+	                            	轮播处理，最后一个容器插入到第一个容器的前面。
+	                            -->
+	                          </div>
+	                        </div>
+	                    </div>
+	                </div>
+	            </aside>
+	            <!-- 主页面标题 -->
+	            <header class="mui-bar mui-bar-nav">
+	                <a class="mui-icon mui-action-menu mui-icon-bars mui-pull-left" href="#offCanvasSide"></a>
+	                <h1 class="mui-title">主页</h1>
+	            </header>
+	            <nav class="mui-bar mui-bar-tab">
+	    		    <a class="mui-tab-item mui-active">
+	    		        <span class="mui-icon mui-icon-home"></span>
+	    		        <span class="mui-tab-label">首页</span>
+	    		    </a>
+	    		    <a class="mui-tab-item">
+	    		        <span class="mui-icon mui-icon-phone"></span>
+	    		        <span class="mui-tab-label">电话</span>
+	    		    </a>
+	    		    <a class="mui-tab-item">
+	    		        <span class="mui-icon mui-icon-email"></span>
+	    		        <span class="mui-tab-label">邮件</span>
+	    		    </a>
+	    		
+	    		</nav>
+	            <!-- 主页面内容容器 -->
+	            <!---->
+	            <div class="mui-content mui-scroll-wrapper">
+	                <div class="mui-scroll">
+	                    <!-- 主界面具体展示内容 -->
+	                    <ul class="mui-table-view">
+	                        <li class="mui-table-view-cell mui-media">
+	                            <a href="javascript:;">
+	                                <img class="mui-media-object mui-pull-left tb-rd" src="img/109951162988435464.jpg">
+	                                <div class="mui-media-body">
+	                                    幸福
+	                                    <p class="mui-ellipsis">能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>
+	                                </div>
+	                            </a>
+	                        </li>
+	                        <li class="mui-table-view-cell mui-media">
+	                            <a href="javascript:;">
+	                                <img class="mui-media-object mui-pull-left tb-rd" src="http://placehold.it/40x30">
+	                                <div class="mui-media-body">
+	                                    木屋
+	                                    <p class="mui-ellipsis">想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>
+	                                </div>
+	                            </a>
+	                        </li>
+	                        <li class="mui-table-view-cell mui-media">
+	                            <a href="javascript:;">
+	                            	<!--做注释，给图片自主添加样式。 td-tr-->
+	                                <img class="mui-media-object mui-pull-left tb-rd" src="http://placehold.it/40x30">
+	                                <div class="mui-media-body">
+	                                    CBD
+	                                    <p class="mui-ellipsis">烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+	                                </div>
+	                            </a>
+	                        </li>
+	                    </ul>
+	                    
+	                </div>
+	            </div>
+	       	 <div class="mui-off-canvas-backdrop"></div>
+	        </div>
+	    </div>
+	
+	<!--
+		所有的class都不能去修改。 行内写样式。
+	
+	-->
+	<!--
+		
+		
+		github
+	-->
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+
+			<canvas width="1000px" height="1000px" style="border: 1px solid red;" id="myCanvas">
+				<!--不能在style样式里规定样式，只能在行内规定该样式-->
+		</canvas>
+		<!--不是块级元素 -->
+		
+			<!--模拟画布环境-->
+	<script type="text/javascript">
+		//canvas 转换成对象
+		var canvas = document.getElementById("myCanvas")
+		var context = canvas.getContext("2d")
+		//一般的画布上就是一个2d的环境，不能定义多个2d
+		context.moveTo(100,100);//直线落点，
+		context.lineTo(500,500);//直线起点
+		context.lineWidth="10";//线条的宽度
+		context.strokeStyle="red";//线条颜色、模式、渐变
+		context.lineCap="butt"//指定线条末端如何绘制    butt   round圆的  square方的
+		context.stroke()//绘制线条
+		//新路径
+		
+		context.beginPath()//开启一条新的路径
+		context.moveTo(100,500);//直线落点，
+		context.lineTo(500,100);//直线起点
+		context.lineWidth="10";//线条的宽度
+		context.strokeStyle="black";//线条颜色、模式、渐变
+		context.lineCap="butt"//指定线条末端如何绘制    butt   round  square
+		context.stroke()//绘制线条
+		
+		
+	</script>
+		
+		
+		
+		
+		
+	</body>
+
+
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#a1{
+				width: 200px;
+				height: 200px;
+				background-image: url(img/109951162988444032.jpg);
+				background-size: 100% 100%;
+				position: relative;
+				margin-left: 100px;
+				margin-top: 100px;
+			}
+			#a{
+				width: 100px;
+				height: 100px;
+				background-color:red;
+				opacity: 0.5;
+				position: absolute; 
+				display: none;
+				
+			}
+			#a2{
+				width: 400px;
+				height: 400px;
+				background-image: url(img/109951162988444032.jpg);
+				background-size: 200% 200%;
+				display: none;
+				background-repeat: no-repeat;
+								
+			}
+		</style>
+		<script type="text/javascript">
+			window.onload=function(){
+				var adiv=document.getElementById("a1");
+			var bdiv=document.getElementById("a")
+			var big=document.getElementById("a2")
+		adiv.onmouseover=function(){
+				bdiv.style.display="block";
+				big.style.display="block";
+			}
+		
+		adiv.onmousemove=function(){
+			if(event.clientX-adiv.offsetLeft-50<0){
+				bdiv.style.left=0;
+			}
+			else if(event.clientX-adiv.offsetLeft-50>100){
+				bdiv.style.left=100+"px"
+			}
+			else{
+			bdiv.style.left = event.clientX - adiv.offsetLeft-50+"px"
+            bdiv.style.top = event.clientY-adiv.offsetTop-50+"px";
+            big.style.backgroundPositionX=-(event.clientX-adiv.offsetLeft-50)*4+"px"
+                    big.style.backgroundPositionY=-(event.clientY-adiv.offsetLeft-50)*4+"px"
+			}
+			
+			
+			
+            if(event.clientY-adiv.offsetTop-50<0){
+				bdiv.style.top=0;
+			}
+			else if(event.clientY-adiv.offsetTop-50>100){
+				bdiv.style.top=100+"px";
+			}
+		}
+		adiv.onmouseout=function(){
+			bdiv.style.display="none";
+			big.style.display="none";
+		}
+			}
+			
+		
+		</script>
+	</head>
+	<body>
+		<div id="a1">
+			<div id="a">
+				
+			</div>
+		</div>
+		<div id="a2">
+			
+		</div>
+	</body>
+</html>

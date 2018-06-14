@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            margin:0px;
+            padding:0px;
+        }
+        #box{
+            background:#ccc;
+            min-width:500px;
+            _width:expression(document.body.clientWidth<501 ? "500px" :"auto"); /*添加上这一句便可*/
+            /*代码解释：
+                由于只需在IE6下进行一些改变，所以加上_符号，当浏览器宽度小于501px时，div宽度指定为500px，大于501px时，自动*/
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+    ---------内容--------
+</div>
+
+</body>
+</html>

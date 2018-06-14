@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var str="errrrrolerrolerrolerrol";
+			var json={};
+			for(var i=0;i<str.length;i++){
+				if(!json[str.charAt(i)]){
+					json[str.charAt(i)]=1;
+				}else{
+						json[str.charAt(i)]++;
+				}
+			}
+			var iMax=0;
+			var index="";
+			for(var i in json){
+				if(json[i]>iMax){
+					iMax=json[i]
+					index=i;
+				}
+			}
+			alert("出现次数最多的是"+index+"出现的次数时"+iMax+"次")
+		</script>
+	</body>
+</html>

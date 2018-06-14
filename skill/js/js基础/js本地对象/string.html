@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script type="text/javascript">
+			var a="abcdefghc "
+			var b="igk"
+				alert(a.substring(1,3))//bc
+			//**charAt(n)返回在指定位置的字符。
+//			alert(a.charAt(2))
+			//concat()连接字符串
+//			alert(a.concat(b))
+			//**************************截取字符串
+			//slice()返回字符串的一部分，不包含开始包含结束
+			alert(a.slice(2,3))//b
+			//substring提取字符串中两个指定的索引号之间的字符，不包含开始包含结束
+
+			//substr()从起始索引号提取字符串中指定数目的字符，从第一个开始不包含第一个截取三个字符串。
+			alert(a.substr(1,3))//bcd
+			//*********
+			//indexof()从前开始向后检索字符,字符串不存在返回-1
+			alert(a.indexOf("c"))//2
+			//lastIndexOf从后开始检索字符串的位置。读取后面的。字符串不存在返回的是-1。
+			alert(a.lastIndexOf("c"))//8
+			//trim()删除字符串前后的空格
+			alert(a.trim())
+			//但是它的长度是不改变的。
+			alert(a.length)
+			//单独删除前面的空格，中间的空格是删除不掉的。
+			alert(a.trimLeft())
+
+			//********字符串的大小写转换
+			//转换成小写
+			alert(a.toLowerCase())
+			//转换成大写
+			alert(a.toUpperCase())
+			//***************************分割字符串
+			//split 把字符串分割成字符串数组。
+			var c="a-b-b-c"
+			alert(c.split("-"))
+
+
+	</script>
+</html>

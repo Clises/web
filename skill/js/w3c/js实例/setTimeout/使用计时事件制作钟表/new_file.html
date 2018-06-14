@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body onload="starttime()"><!--页面预加载-->
+		<div id="demo"></div>
+	</body>
+	<script type="text/javascript">
+		//实例化
+		function starttime(){
+			var odate=new Date();
+			var oho=odate.getHours();
+			var omi=odate.getMinutes();
+			var ose=odate.getSeconds();
+			omi=checktime(omi);
+			ose=checktime(ose)
+			document.getElementById("demo").innerHTML=oho+":"+omi+":"+ose;
+			t=setTimeout(function(){starttime()},1000)
+		}
+		function checktime(i){
+			if(i<10){
+				i="0"+i;
+			}
+			return i;
+		}
+	
+	</script>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<input type="button" name="" id="" value="播放" onclick="play()" />
+			<input type="button" name="" id="" value="快进" onclick="forward()" />
+				<input type="button" name="" id="" value="后退"onclick="back()" />
+					<input type="button" name="" id="" value="放大" onclick="maxx()"/>
+					<input type="button" name="" id="" value="缩小"  onclick="minn()" />
+					<input type="button" name="" id="" value="暂停" onclick="stop()"/>
+					<input type="button" name="" id="" value="正常" />
+					<input type="button" name="" id="" value="重新播放" onclick="reload()"/>
+					<label for="clear"></label>
+					<input type="checkbox" name="" id="clear" value=""  onclick="muted()" />静音
+							<label for="continue"></label>
+					<input type="checkbox" name="" id="continue" value="" />单曲循环
+					
+					<br />
+					<video id="movie">
+			<source src="movie.webm"width="300px"></source>
+		</video>
+	</body>
+	<script type="text/javascript">
+		var movie=document.getElementById("movie")
+		function play(){
+			movie.play();
+		}
+		function forward(){
+			movie.currentTime+=10;
+			//现在因为对视频的需求高啦，需要在后台服务器设定，加载的如果是在线的视频的话就行啦。 
+			
+		}
+		function back(){
+					movie.currentTime-=10;
+		}
+			function maxx(){
+				movie.style.width="1000px";
+		}
+			function minn(){
+				movie.style.width="100px";
+				//高度是自适应，只需要设置宽就行。
+			}
+			function stop(){
+				movie.pause();
+			}
+			function reload(){
+				movie.load();
+				movie.play();
+			}
+			function muted(){
+				movie.muted=document.getElementById("clear").checked;
+				
+			}
+	</script>
+</html>

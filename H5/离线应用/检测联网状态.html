@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div>判断当前页面是不是联网的状态</div>
+	</body>
+	<script type="text/javascript">
+		//判断页面加载的时候是否是联网的状态
+		//window.navigator.onLine返回的是一个布尔值
+		if(window.navigator.onLine){
+			alert("加载页面是联网的状态")
+		}else{
+			alert("加载页面是断网的")
+		}
+		//判断页面加载时联网
+		window.ononline=function(){
+			alert("页面加载时是联网的")
+			}
+			window.onoffline=function(){
+				alert("页面加载时是断网的")
+			}
+		
+	</script>
+	
+</html>

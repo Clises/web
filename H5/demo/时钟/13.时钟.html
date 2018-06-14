@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css" media="screen">
+		.clock{width:500px;height:500px;border:1px solid red;position: relative;}
+	</style>
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript">		
+		添加图片
+		图片加载,加载的时候需要一个onload事件
+		添加文本
+		求角度
+			
+		
+		// inner variables
+		var canvas, ctx;
+		var clockRadius = 250;//时钟半径
+		var clockImage;		
+		// draw functions :
+		function clear() { 
+			// clear canvas function
+			ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+		}
+		// 绘制场景
+		function drawScene() {
+			 // main drawScene function
+			clear(); // clear canvas
+
+			// get current time
+			var date = new Date();
+			var hours = date.getHours();
+			var minutes = date.getMinutes();
+			var seconds = date.getSeconds();
+			hours = hours > 12 ? hours - 12 : hours;
+			var hour = hours + minutes / 60;
+			var minute = minutes + seconds / 60;
+
+			// save current context
+			ctx.save();//保存当前的路径
+
+			// draw clock image (as background)
+			ctx.drawImage(clockImage, 0, 0, 500, 500);
+			ctx.translate(canvas.width / 2, canvas.height / 2);   //平移00点
+			ctx.beginPath();
+
+			// draw numbers 
+		//添加文本
+			ctx.font = '36px Arial';
+			ctx.fillStyle = '#000';
+			ctx.textAlign = 'center';
+			ctx.textBaseline = 'middle';
+			for (var n = 1; n <= 12; n++) {
+			    var theta = (n - 3) * (Math.PI * 2) / 12;
+			    var x = clockRadius * 0.7 * Math.cos(theta);
+			    var y = clockRadius * 0.7 * Math.sin(theta);
+			    ctx.fillText(n, x, y);
+			}
+
+			// draw hour
+			ctx.save();
+			var theta = (hour - 3) * 2 * Math.PI / 12;      
+			//初始的位置是0点，所以要减去三
+			ctx.rotate(theta);
+			
+			
+			
+			ctx.beginPath();
+			ctx.moveTo(-15, -5);
+			ctx.lineTo(-15, 5);
+			ctx.lineTo(clockRadius * 0.5, 1);
+			ctx.lineTo(clockRadius * 0.5, -1);
+			ctx.fill();
+			ctx.restore();       对应几个保存路径就对应几个释放
+
+			// draw minute
+			ctx.save();
+			var theta = (minute - 15) * 2 * Math.PI / 60;
+			ctx.rotate(theta);    //针转动的角度  
+			ctx.beginPath();
+			ctx.moveTo(-15, -4);
+			ctx.lineTo(-15, 4);
+			ctx.lineTo(clockRadius * 0.8, 1);
+			ctx.lineTo(clockRadius * 0.8, -1);
+			ctx.fill();
+			ctx.restore();
+
+			// draw second
+			ctx.save();
+			var theta = (seconds - 15) * 2 * Math.PI / 60;
+			ctx.rotate(theta);
+			ctx.beginPath();
+			ctx.moveTo(-15, -3);
+			ctx.lineTo(-15, 3);
+			ctx.lineTo(clockRadius * 0.9, 1);
+			ctx.lineTo(clockRadius * 0.9, -1);
+			ctx.fillStyle = '#0f0';
+			ctx.fill();
+			ctx.restore();
+
+			ctx.restore();
+		}
+		//主函数部分，
+		// initialization
+		$(function(){
+			canvas = document.getElementById('canvas');
+			ctx = canvas.getContext('2d');
+
+			// var width = canvas.width;
+			// var height = canvas.height;
+
+			clockImage = new Image();
+			clockImage.src = 'img/clock.png';
+
+			setInterval(drawScene, 1000); // loop drawScene
+		});
+		
+	</script>
+</head>
+<body>
+	<header>
+		<hgroup><h2>HTMl5 时钟</h2></hgroup>
+	</header>
+	<div class="clock">
+		<canvas id="canvas" width="500px" height="500px"></canvas>
+	</div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		
+	</head>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#b1").click(function(){
+				$("#t1").text("hello")
+			})
+				$("#b2").click(function(){
+				$("#t2").html("<b>I think you can do it,just do it!</b>")
+			})
+					$("#b3").click(function(){
+				$("#t3").val("haha")
+			})
+			
+		})
+	</script>
+	<body>
+		<p id="t1">好久不见</p>
+		<p id="t2">Clies-Errol</p>
+	    <input type="text" id="t3" />
+	    <button id="b1">设置文本值</button>
+		<button id="b2">修改名称</button>
+		<button id="b3">文本框输入值</button>
+	</body>
+</html>

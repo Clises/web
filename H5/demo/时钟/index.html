@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.clock {
+				width: 600px;
+				height: 600px;
+				border: 1px solid red;
+				position: relative;
+				margin: 0 auto;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="clock">
+			<canvas width="600px" height="600px" id="mycanvas"></canvas>
+		</div>
+	</body>
+	<script type="text/javascript">
+		var can = document.getElementById("mycanvas");
+		var ctx = can.getContext("2d");
+		var img = new Image();
+		img.src = "img/clock.png"
+		var r = can.width / 2;
+		function clock(){
+		ctx.beginPath()
+			ctx.drawImage(img, 0, 0, 600, 600);
+		ctx.save();
+		ctx.beginPath();
+		ctx.translate(300, 300);
+		ctx.save();
+		ctx.font = "30px bold";
+		ctx.textAlign = "center";
+		for(var i = 1; i <= 12; i++) {
+			var a = Math.PI * 2 / 12 * (i - 3)
+			var x = r * Math.cos(a) * 0.7;
+			var y = r * Math.sin(a) * 0.6;
+			ctx.fillText(i, x, y)
+		}
+					ctx.restore();
+
+		var hours = new Date().getHours();
+		var minutes = new Date().getMinutes();
+		var seconds = new Date().getSeconds();
+		var hour = hours + minutes / 60;
+		var minute = minutes + seconds / 60;
+		//时针
+		ctx.save()
+		ctx.beginPath()
+		var b = Math.PI * 2 / 12 * (hour - 3);
+		ctx.rotate(b);
+		ctx.moveTo(-15, -5)
+		ctx.lineTo(-15, 5)
+		ctx.lineTo(r * 0.45, 1);
+		ctx.lineTo(r * 0.45, -1);
+		ctx.fill()
+		ctx.restore();
+		
+		
+		//分针
+		ctx.save();
+				ctx.beginPath();
+				var c=Math.PI*2/60*(minute-15);
+				ctx.rotate(c);
+				ctx.moveTo(-15,-4);
+				ctx.lineTo(-15,4);
+				ctx.lineTo(r*0.6,1);
+				ctx.lineTo(r*0.6,-1);
+				ctx.fill()
+				ctx.restore();
+
+		
+		//秒针
+				ctx.save();
+				ctx.beginPath();
+				var d=Math.PI*2/60*(seconds-15);
+				ctx.rotate(d);
+				ctx.moveTo(-15,-3);
+				ctx.lineTo(-15,3);
+				ctx.lineTo(r*0.7,1);
+				ctx.lineTo(r*0.7,-1);
+				ctx.fillStyle="#BFD835";
+				ctx.fill()
+				ctx.restore();
+				ctx.restore();
+			}
+		setInterval(function(){
+				ctx.clearRect(0,0,600,600);  //清除之前样式
+
+			clock()
+		},1000)
+
+	</script>
+
+</html>

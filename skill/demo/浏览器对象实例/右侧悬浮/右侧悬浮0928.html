@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#odiv{
+				width: 50px;
+				height: 50px;
+				background-color: red;
+				position:absolute;
+				right:0px;
+				bottom:0px;
+				
+			}
+			body{
+				height: 2000px;
+			}
+		</style>
+		<script type="text/javascript">
+			window.onload=function(){
+				var div=document.getElementById("odiv")
+				window.onscroll=function(){
+					var scrollTop=document.documentElement.scrollTop||document.body.scrollTop;
+					var div_palce=scrollTop+document.documentElement.clientHeight-div.offsetHeight;
+					move(div_palce);
+				}
+				var timer=null;
+				function move(target){
+					clearInterval(timer);
+					timer=setInterval(function (){
+							var speed=(target-div.offsetTop)/4;
+					if(div.offsetTop==target){
+						clearInterval(timer)
+					}
+					else{
+						div.style.top=div.offsetTop+speed+"px";
+					}
+					},30);
+				}
+			}
+		</script>
+	</head>
+	<body>
+		
+		<div id="odiv">
+			<a href="javascript:window.scrollTo(0,0)" class="top" title="回顶部" id="top"><span>回顶部</span></a>
+		</div>
+	</body>
+</html>

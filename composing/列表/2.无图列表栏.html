@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    <title>hello</title>
+    <script src="lib/rem_r.js"></script>
+    <link href="lib/reset.css" rel="stylesheet" type="text/css"/>
+    <title>Title</title>
+    <style>
+        section a{
+            text-decoration: none;
+            font-weight: normal;
+        }
+        section .article-container{
+            width: 100%;
+            margin-top: .2rem;
+        }
+        section .article-container .article{
+            width: 100%;
+            border-bottom:.01rem solid #d4d4d4;
+            padding-bottom: .1rem;
+        }
+        section .article-container  .article .text-type{
+            font-size: .13rem;
+            color: #29a7e2;
+        }
+        /*之后增加访问之后的颜色值*/
+        section .article-container .article .link-div .text-title {
+            color: black;
+            font-size: .28rem;
+            font-weight: bold;
+            /*line-height:1.3;*/
+        }
+
+        section .article-container .article .link-div .text-author{
+            color: black;
+            font-size: .13rem;
+            padding: 0 .2rem;
+        }
+        section .article-container .article .link-div .text-content{
+
+        }
+        section .article-container .article .link-div .text-bottom .text-time{
+            font-size: .23rem;
+            color: #38c;
+        }
+        section .article-container .article .link-div .text-bottom .text-more{
+            font-size: .23rem;
+            color: #38c;
+            margin-left: 4.4rem;
+        }
+
+        section .image-container .comment-box{
+            overflow: auto;
+            width: 100%;
+            height: 1.52rem;
+            -webkit-overflow-scrolling: touch;
+        }
+        section .image-container .text-type{
+            font-size: .13rem;
+            color: #29a7e2;
+        }
+
+        </style>
+</head>
+<body>
+<section>
+    <!--article-->
+    <div class="article-container">
+        <div class="article"><p class="text-type"><a>阅读</a></p>
+            <div class="link-div"><p class="text-title">文章标题</p>
+                <p class="text-author">charlie</p>
+                <p class="text-content">文章内容</p>
+                <div class="text-bottom"><span class="text-time" title="文章事件">文章事件</span><span
+                        class="text-more">查看更多</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>

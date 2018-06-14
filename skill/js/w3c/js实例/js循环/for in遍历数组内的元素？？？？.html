@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<p id="demo"></p>
+		<input type="button" name="" id="" value="点击查看"onclick="aa()" />
+		<script type="text/javascript">
+			function aa(){
+				var preson={name:"Errol",age:"20"}
+				var txt="";  //遍历结果
+				for(x in preson){
+					txt=txt+preson[x];
+				}
+				document.getElementById("demo").innerHTML=txt;
+			}
+		</script>
+	</body>
+</html>

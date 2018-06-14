@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.red {
+				width: 500px;
+				height: 500px;
+				border: 1px solid red;
+				float: left;
+				margin-right: 100px;
+			}
+			
+			.red img {
+				width: 100%;
+				height: 100%;
+			}
+			
+			.box {
+				width: 500px;
+				height: 500px;
+				border: 1px solid red;
+				float: left;
+			}
+			
+			.box img {
+				width: 100%;
+				height: 100%;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="red">
+			<img src="2.jpg" id="pic" />
+		</div>
+
+		<div class="box">
+
+		</div>
+	</body>
+	<script src="jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function() {
+			$("img").on("dragstart", function(e) {
+				event.dataTransfer.setData("id", event.target.id)
+			})
+			$(".box").on("dragover", function() {
+				event.preventDefault()
+			})
+			$(".box").on("drop", function() {
+				event.preventDefault()
+				$(this).append($("#pic"))
+			})
+
+			$(".red").on("dragover", function() {
+				event.preventDefault()
+
+			})
+			$(".red").on("drop", function() {
+				event.preventDefault()
+				$(this).append($("#pic"))
+
+			})
+
+		})
+	</script>
+
+</html>

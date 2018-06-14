@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<canvas width="1000px" height="1000px" style="background-color: black;" id="canvas"></canvas>
+	</body>
+	<script type="text/javascript">
+		var canvas = document.getElementById("canvas");
+		if(canvas.getContext) {
+			var cxt = canvas.getContext("2d");
+			var time = 0;
+			function show() {
+				cxt.clearRect(0, 0, 1000, 1000); //清除画布内容
+				//轨道
+				cxt.beginPath()
+				cxt.arc(500, 500, 100, 0, 360, false);
+				cxt.closePath();
+				cxt.strokeStyle = "aliceblue"
+				cxt.stroke()
+				//太阳
+				cxt.beginPath()
+				cxt.arc(500, 500, 30, 0, 360, false)
+				cxt.closePath();
+				cxt.fillStyle = "red"
+				cxt.fill();
+				cxt.save(); //存储当前路径
+				cxt.translate(500, 500);
+				cxt.rotate(time * 365 / 360 * Math.PI / 180);
+				cxt.beginPath();
+				cxt.arc(0, -100, 10, 0, 360, false);
+				cxt.closePath();
+				cxt.fillStyle = "aqua";
+				cxt.fill();
+				cxt.restore();
+				time += 1;
+			}
+
+
+
+
+			setInterval(show, 30);
+            // function rotate() {
+             //    var startX = 0;
+             //    var startY = 0;
+             //    var deg=0;
+             //    $('.rotate').on('touchstart',function () {
+             //        startX = event.targetTouches[0].pageX;
+             //        startY = event.targetTouches[0].pageY;
+             //    })
+             //    $('.rotate').on('touchend',function () {
+             //        var endX = event.changedTouches[0].pageX;
+             //        var endY = event.changedTouches[0].pageY;
+             //        //左滑
+             //        if(startX > endX) {
+             //            var x = Math.abs(startX - endX);
+             //            var y = Math.abs(startY - endY);
+             //            var a = Math.atan(y / x);
+             //            if(a < Math.PI) {
+             //                console.log('aaa')
+            //
+             //                deg +=1;
+             //                $('.barrage').css({'transform':'rotate('+(-deg)+'deg)'});
+            //
+             //            }
+             //        }
+             //        if(endX > startX) {
+             //            var m = endX - startX;
+             //            var n = endY - startY;
+             //            var b = Math.atan(n / m)
+             //            if(b < Math.PI) {
+             //                deg +=10;
+             //                $('.barrage').css({'transform':'rotate('+deg+'deg)'});
+            //
+            //
+             //            }
+             //        }
+             //    })
+            //
+            // }
+
+		}
+
+
+
+	</script>
+
+</html>

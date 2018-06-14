@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery.js"></script>
+</head>
+
+<div>
+    父亲
+</div>
+<span>
+    儿子
+</span>
+
+<script>
+    $(function () {
+        // $("span").insertBefore($('div'));    //在指定的节点前插入新的节点，  找到span把span添加到div之前
+        // $('div').insertAfter($('span'))   //在指定的节点后插入新的节点      找到div插入span之后
+        // $('div').appendTo('span')    //appendChild一样道理，放在   找到div将div插入到span之中去
+        // $("div").prependTo('span');  //在元素的开头插入指定内容
+        //以上方法和以下方法的区别
+        $("span").before($('div'));   //span前面必须是div
+
+
+    })
+</script>
+    </body>
+</html>

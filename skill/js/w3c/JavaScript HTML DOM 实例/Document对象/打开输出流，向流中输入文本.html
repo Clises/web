@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+<body>
+<input type="button" value="New document" onclick="createDoc()">
+</body>
+<script>
+function createDoc()
+  {
+  var doc=document.open("text/html","replace");
+  var txt="<!DOCTYPE html><html><body>Learning about the HTML DOM is fun!</body></html>";
+  doc.write(txt);
+  doc.close();
+  }
+</script>
+</html>

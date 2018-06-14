@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<p id="demo"></p>
+		<script type="text/javascript">
+			setInterval(function(){//添加定时器
+					var r=Math.random();   //math必须是大写。  //生成=随机数
+			var x=document.getElementById("demo")
+			if(r>0.5){
+				x.innerHTML="哈哈"
+			}else{
+				x.innerHTML="呵呵"
+			}	
+				
+			},30)
+	
+		</script>
+	</body>
+</html>

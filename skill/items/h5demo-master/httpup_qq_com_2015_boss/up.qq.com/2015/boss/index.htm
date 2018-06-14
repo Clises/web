@@ -1,0 +1,415 @@
+<!DOCTYPE HTML>
+<head>
+<meta charset="utf-8">
+<meta name="author" content="Tencent-TGideas">
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="Copyright" content="Copyright (c) 2006-2015 TENCENT" />
+<meta name="Description" content="UP2015-腾讯互动娱乐年度发布会" />
+<meta name="Keywords" content=">漫“话”UP2015,UP2015,腾讯互动娱乐年度发布会,腾讯游戏,年度发布会,腾讯游戏新品发布会" />
+<title>漫“话”UP2015</title>
+<!-- 设计：leoyijiang | 制作：jasminjiang | 创建时间：2015年3月30日 | 团队博客：http://tgideas.qq.com -->
+<style type="text/css">
+/* reset */
+*{margin:0;padding:0;} body,canvas,div{ -moz-user-select: none;-webkit-user-select: none;-ms-user-select: none;-khtml-user-select: none;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+html,body {-webkit-tap-highlight-color: rgba(0,0,0,0); background:#009152; font-family: Microsoft YaHei}
+html,body,#outer,#loading,#wraper,#wrapinner,.pages{width: 100%; height: 100%; overflow: hidden;position: relative;}
+ol,ul{list-style:none;}a{text-decoration:none;}img{border:0;}i,em{font-style: normal;}
+.swap{-webkit-transition:all 0.5s ease-out;-webkit-backface-visibility:hidden;}
+.swapall{-webkit-transition:all 0.1s linear;-webkit-backface-visibility:hidden;}
+.ani-n{-webkit-transition:none;transition:none;transform:translateY(0px);-webkit-transform:translateY(0px);}
+
+/*loading*/
+#loading{ position: absolute; top: 0; left: 0; z-index: 20; background: url(http://ossweb-img.qq.com/images/up/2015/boss/bg.jpg) no-repeat; background-size: cover;}
+.loading-img{width: 55px; height: 100px; margin: 0 auto; margin-top: 50%;text-align: center; color: #fff; font-size: 1.5rem;}
+.loading-img-load{width: 55px;height: 55px; margin-bottom: 10px; position: relative;overflow: hidden;}
+.loading-img img{position: absolute; z-index: 2;left: 0; width: 100%;}
+.loading-run{display: block;width: 55px; height: 58px; position: absolute;top:100%; left: 0; background: #fff; z-index: 1;-webkit-transition:all 0.1s ease-out;}
+
+.loading-hid{-webkit-animation:loadinghid 0.5s linear forwards}
+@-webkit-keyframes loadinghid{
+    0% {left:0;opacity: 1}
+    90%{left:-100%;opacity: 1;}
+    100%{left:-100%;opacity: 0;}
+}
+
+.startpage{width: 100%; padding-top: 38%}
+.startpage-img{margin: 0 auto; display: block;}
+.startpage-logo{position: absolute; top: 1rem; right: 1rem;}
+.startpage-icon{width: 100%; text-align: center; position:absolute;bottom: 9%; color: #fff;}
+.si1{ opacity: 0.4;}
+.si2{ opacity: 0.6;}
+.startpage-swap .si1{-webkit-animation:startpage 1s linear infinite alternate}
+.startpage-swap .si2{-webkit-animation:startpage 1s linear 0.3s infinite alternate}
+.startpage-swap .si3{-webkit-animation:startpage 1s linear 0.6s infinite alternate}
+@-webkit-keyframes startpage{
+    0% {opacity: 0.4}
+    100%{opacity: 1}
+}
+
+#wrapinner{z-index: 1; width: 1700%;}
+.header{width: 90%; height: 25%; position: absolute; bottom: 0; left: 5%; overflow: hidden; z-index: 10;}
+.header-imgs{width:90rem; position: relative; overflow: hidden;-webkit-transition:all 0.5s ease;-webkit-backface-visibility:hidden;}
+.header-imgs li{ float: left; display: block; width:3.5rem; margin:0 0.5rem;}
+.header-imgs li.hd6{width: 4.4rem;}
+.header-imgs li.hd11{width: 4.3rem;}
+.header-imgs img{width: 92%; opacity:0.7;-webkit-transition:all 0.5s linear;-webkit-backface-visibility:hidden;}
+.header-imgs .hd1 img{opacity:1;-webkit-transform:scale(1.1);}
+
+
+
+.header-bar{ width: 95%; height: 10%; position: relative; margin: 0 auto}
+.header-bar .i1,.header-bar .i2{ position: absolute; bottom: 0; display: block; height: 2px; width: 100%; background-color: #000; opacity: 0.6;}
+.header-bar .i2{ width: 5.88%; background-color: #fff; opacity: 1;-webkit-transition:all 0.1s linear;-webkit-backface-visibility:hidden;}
+.header-bar .i3{ position: absolute; top: -3px; right: -2px; width: 8px; height: 8px; border-radius: 20px; background: #fff;}
+
+.pages{float: left;}
+.pages img{position: relative; top: 1rem; margin: 0 auto;display: block;}
+.page1{ background-color: #9E3A20}
+.page2{background-color: #238591}
+.page3{background-color: #2F3841}
+.page4{background-color: #239152}
+.page5{background-color: #9E3A20}
+.page6{background-color: #238591}
+.page7{background-color: #2F3841}
+.page8{background-color: #239152}
+.page9{background-color: #9E3A20}
+.page10{background-color: #238591}
+.page11{background-color: #2F3841}
+.page12{background-color: #239152}
+.page13{background-color: #9E3A20}
+.page14{background-color: #238591}
+.page15{background-color: #2F3841}
+.page16{background-color: #239152}
+.page17{background-color: #9E3A20}
+
+
+.orient-text{display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-align: center;-moz-box-align: center;-ms-flex-align: center;-webkit-justify-content: center;-moz-justify-content: center;justify-content: center;-webkit-box-pack: center;-moz-box-pack: center;-ms-flex-pack: center;-webkit-align-items: center;-moz-align-items: center;align-items: center;font-size: 1.5em; padding-top:20%}
+
+/* 兼容iphone4/4s */
+@media (device-height:480px) and (-webkit-min-device-pixel-ratio:2){
+	
+}
+</style>  
+
+<body>
+<div id="outer">
+	<div id="loading" style="display:block">
+		<div class="loading-img" style="display:block">
+			<div class="loading-img-load"><i class="loading-run"></i><img width="100%" src="http://ossweb-img.qq.com/images/up/2015/boss/logo3.png"/></div>
+			<i id="loadingNUM">0%</i>
+		</div>
+		<div class="startpage" style="display:none">
+			<img class="startpage-img" width="90%" src="http://ossweb-img.qq.com/images/up/2015/boss/bg-slogan.png"/>
+			<img class="startpage-logo" width="40px" src="http://ossweb-img.qq.com/images/up/2015/boss/logo.png"/>
+			<div class="startpage-icon"><img  class="si3" width="1.5%" src="http://ossweb-img.qq.com/images/up/2015/boss/dot3.png"/><img class="si2" width="1.5%" src="http://ossweb-img.qq.com/images/up/2015/boss/dot3.png"/><img class="si1" width="1.5%" src="http://ossweb-img.qq.com/images/up/2015/boss/dot3.png"/> 向左滑动</div>
+		</div>
+	</div>
+	<div id="wraper" style="display:none">
+		<div class="header">
+			<ul class="header-imgs">
+				<li class="hd1"><img src="http://ossweb-img.qq.com/images/up/2015/boss/head-1.png"/></li>
+				<li><img src="http://ossweb-img.qq.com/images/up/2015/boss/head-2.png"/></li>
+				<li><img src="http://ossweb-img.qq.com/images/up/2015/boss/head-3.png"/></li>
+				<li><img src="http://ossweb-img.qq.com/images/up/2015/boss/head-4.png"/></li>
+				<li><img src="http://ossweb-img.qq.com/images/up/2015/boss/head-5.png"/></li>
+				<li class="hd6"><img src="http://ossweb-img.qq.com/images/up/2015/boss/head-6.png"/></li>
+				<li><img src="http://ossweb-img.qq.com/images/up/2015/boss/head-7.png"/></li>
+				<li><img src="http://ossweb-img.qq.com/images/up/2015/boss/head-8.png"/></li>
+				<li><img src="http://ossweb-img.qq.com/images/up/2015/boss/head-9.png"/></li>
+				<li><img src="http://ossweb-img.qq.com/images/up/2015/boss/head-10.png"/></li>
+				<li class="hd11"><img src="http://ossweb-img.qq.com/images/up/2015/boss/head-11.png"/></li>
+				<li><img src="http://ossweb-img.qq.com/images/up/2015/boss/head-12.png"/></li>
+				<li><img src="http://ossweb-img.qq.com/images/up/2015/boss/head-13.png"/></li>
+				<li><img src="http://ossweb-img.qq.com/images/up/2015/boss/head-14.png"/></li>
+				<li><img src="http://ossweb-img.qq.com/images/up/2015/boss/head-15.png"/></li>
+				<li><img src="http://ossweb-img.qq.com/images/up/2015/boss/head-16.png"/></li>
+				<li><img src="http://ossweb-img.qq.com/images/up/2015/boss/head-17.png"/></li>
+			</ul>
+			<div class="header-bar">
+				<i class="i1"></i>
+				<span class="i2" id="headerBar"><i class="i3"></i></span>
+			</div>
+		</div>
+		<div id="wrapinner" class="swapall">
+			<section class="pages page1"><img width="88%" src="http://ossweb-img.qq.com/images/up/2015/boss/page1.png"/></section>
+			<section class="pages page2"><img width="89%" src="http://ossweb-img.qq.com/images/up/2015/boss/page2.png"/></section>
+			<section class="pages page3"><img width="87%" src="http://ossweb-img.qq.com/images/up/2015/boss/page3.png"/></section>
+			<section class="pages page4"><img width="83%" src="http://ossweb-img.qq.com/images/up/2015/boss/page4.png"/></section>
+			<section class="pages page5"><img width="86%" src="http://ossweb-img.qq.com/images/up/2015/boss/page5.png"/></section>
+			<section class="pages page6"><img width="86%" src="http://ossweb-img.qq.com/images/up/2015/boss/page6.png"/></section>
+			<section class="pages page7"><img width="83%" src="http://ossweb-img.qq.com/images/up/2015/boss/page7.png"/></section>
+			<section class="pages page8"><img width="86%" src="http://ossweb-img.qq.com/images/up/2015/boss/page8.png"/></section>
+			<section class="pages page9"><img width="86%" src="http://ossweb-img.qq.com/images/up/2015/boss/page9.png"/></section>
+			<section class="pages page10"><img width="82%" src="http://ossweb-img.qq.com/images/up/2015/boss/page10.png"/></section>
+			<section class="pages page11"><img width="86%" src="http://ossweb-img.qq.com/images/up/2015/boss/page11.png"/></section>
+			<section class="pages page12"><img width="86%" src="http://ossweb-img.qq.com/images/up/2015/boss/page12.png"/></section>
+			<section class="pages page13"><img width="86%" src="http://ossweb-img.qq.com/images/up/2015/boss/page13.png"/></section>
+			<section class="pages page14"><img width="85%" src="http://ossweb-img.qq.com/images/up/2015/boss/page14.png"/></section>
+			<section class="pages page15"><img width="86%" src="http://ossweb-img.qq.com/images/up/2015/boss/page15.png"/></section>
+			<section class="pages page16"><img width="93%" src="http://ossweb-img.qq.com/images/up/2015/boss/page16.png"/></section>
+			<section class="pages page17"><img width="86%" src="http://ossweb-img.qq.com/images/up/2015/boss/page17.png"/></section>
+		</div>
+	</div>
+</div>
+<div class="orient" style="display: none;"><p class="orient-text">为了更好的体验，请将手机/平板竖起来</p></div>
+
+<script src="http://ossweb-img.qq.com/images/js/zepto/zepto-1.1.3.min.js"></script>
+<script src="http://ossweb-img.qq.com/images/js/comm/gesture.min.js"></script>
+<script src="http://pingjs.qq.com/ping_tcss_ied.js"></script>
+<script>
+var thisRole = null,
+thisPage = 1,
+bodyW = 0,
+bodyH = 0;
+//页面左右滑动
+var LoadPages = function(){
+	this.records = 0;
+	this.marks = null;
+	this.XY = 0;
+	this.thiscnt = 1;
+	this.step = bodyW;
+	this.slateX = 0;
+	this.Run();
+};
+LoadPages.prototype.PageTouch = function(e) {
+	var self = this,
+	tag = $("#wrapinner"),
+	nowY = e.distance.y,
+	nowX = e.distance.x,
+	disTime = nowX - self.records;
+	if(Math.abs(nowX)>=Math.abs(nowY)&&Math.abs(nowX)>44){
+		var tmp = self.slateX-nowX;
+		tag.css({'-webkit-transform':'translateX(-'+tmp+'px)'});
+		// tag.addClass('ani-n');
+		disTime<=0?self.XY = 1:self.XY = 2;
+		self.records = nowX;
+		self.marks = 1;
+		return;
+	}else{
+		tag.addClass('swapall');
+	}
+};
+LoadPages.prototype.PageTouchEnd = function(nowT) {
+	var self = this,str1='',str2='',
+		tag = $("#wrapinner");
+		nowT==-1?self.slateX=0:self.slateX = nowT*self.step;
+		// tag.removeClass();
+		// tag.addClass('swapall');
+		thisPage = nowT+1;
+		tag.css({'-webkit-transform':'translateX(-'+self.slateX+'px)'});
+};
+LoadPages.prototype.ClickIcon = function() {
+	var self = this,
+		tags = $(".header-imgs img");
+	for (var i = 0; i < tags.length; i++) {
+		tags[i].count=i;
+		tags.eq(i).tap(function(){
+			self.PageTouchEnd(this.count);
+			self.PageIcon(this.count+1);
+		});
+	};
+};
+LoadPages.prototype.PageIcon = function(nowT) {
+	var self = this,
+		thisp = nowT-1,
+		bars = $("#headerBar"),
+		mvtag = $(".header-imgs"),
+		tags = $(".header-imgs img");
+	for (var i = 0; i < tags.length; i++) {
+		tags.eq(i).css({'-webkit-transform':'scale(1)','opacity':'0.6'});
+	};
+	tags.eq(thisp).css({'-webkit-transform':'scale(1.1)','opacity':'1'});
+	bars.css({'width':5.88*nowT+'%'});
+	if(thisp<=3){
+		mvtag.css({'-webkit-transform':'translateX(0)'});
+	}else if(thisp>3&&thisp<=7){
+		mvtag.css({'-webkit-transform':'translateX(-18.1rem)'});
+	}else if(thisp>7&&thisp<=11){
+		mvtag.css({'-webkit-transform':'translateX(-37rem)'});
+	}else if(thisp>11&&thisp<=15){
+		mvtag.css({'-webkit-transform':'translateX(-55rem)'});
+	}else{
+		mvtag.css({'-webkit-transform':'translateX(-73rem)'});
+	}
+};
+LoadPages.prototype.Run = function() {
+	var self = this,
+	pgnum = 17,
+	selfHommer = gesture(document);
+	selfHommer.on("touchleft",function(e){
+		self.thiscnt<pgnum?self.PageTouch(e):"";
+	});
+	selfHommer.on("touchright",function(e){
+		self.thiscnt>1?self.PageTouch(e):"";
+	});
+	selfHommer.on("touchend",function(e){
+		if(self.marks==1){
+			if(self.XY==1&&self.thiscnt<pgnum){
+				self.PageTouchEnd(self.thiscnt);
+				self.thiscnt++;
+				self.PageIcon(self.thiscnt);
+			}else if(self.XY==2&&self.thiscnt>0){
+				self.thiscnt--;
+				self.PageTouchEnd(self.thiscnt-1);
+				self.PageIcon(self.thiscnt);
+			}
+		}
+		self.marks =null;	
+	});
+	self.ClickIcon();
+};
+
+//预加载
+var LoadImage = function(obj){
+	this.newimages = [];
+    this.count = 0;
+    this.arr = (typeof obj.imgs!="object")? [obj.imgs] : obj.imgs;
+    this.len =this.arr.length;
+    this.per=(1/this.len);
+    this.loading = obj.loading;
+    this.done = obj.done;
+    this.Run();
+};
+LoadImage.prototype.imageloadpost = function() {
+	var self = this,num=null;
+    self.count++;
+    num = self.count*self.per;
+    num = parseInt(num*100);
+    self.loading(num);
+    if (self.count==self.len){
+        self.loading(100);
+        setTimeout(function(){self.done()},500);
+    }
+};
+LoadImage.prototype.Run = function() {
+	var self = this;
+    for (var i=0; i<self.arr.length; i++){
+        self.newimages[i]=new Image();
+        self.newimages[i].src=self.arr[i];
+        self.newimages[i].onload=function(){
+            self.imageloadpost();
+        }
+        self.newimages[i].onerror=function(){
+            self.imageloadpost();
+        }
+    }
+};
+var LoadStartPage = function(){
+	var selfHommer2 = gesture(document.getElementById('loading'));
+	selfHommer2.on("touchleft",function(e){
+		$('#loading').addClass('loading-hid');
+		$('#wraper').show();
+		setTimeout(function(){
+			var RP = new LoadPages();
+		},1000);
+	});
+};
+var LoadingSwit = function(num){
+	document.getElementById("loadingNUM").innerHTML=num+"%";
+	$('.loading-run').css({'top':(100-num)+'%'})
+},
+initPage = function(){
+	bodyW = window.innerWidth;
+	bodyH = window.innerHeight;
+	$('#outer,.pages').css({'width':bodyW,'height':bodyH});
+	setTimeout(function(){
+		$('.loading-img').hide();
+		$('.startpage').show();
+		$('.startpage').addClass('startpage-swap');
+		LoadStartPage();
+	},1500);
+},
+orient = function(){  
+    if(window.orientation==0||window.orientation==180){ 
+        $(".outer").show();
+        $(".orient").hide();
+    }  
+    if(window.orientation==90||window.orientation==-90){ 
+    	$(".outer").hide();
+        $(".orient").show(); 
+    }
+    initPage();
+	//重置外层高度
+	window.addEventListener("onorientationchange" in window ? "orientationchange" : "resize", orient, false);
+};
+var MyLoadImage = new LoadImage({
+	imgs: ['http://ossweb-img.qq.com/images/up/2015/boss/bg.jpg'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/logo.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/logo3.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/bg-slogan.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/dot3.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/head-1.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/head-2.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/head-3.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/head-4.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/head-5.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/head-6.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/head-7.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/head-8.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/head-9.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/head-10.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/head-11.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/head-12.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/head-13.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/head-14.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/head-15.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/head-16.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/head-17.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/page1.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/page2.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/page3.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/page4.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/page5.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/page6.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/page7.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/page8.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/page9.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/page10.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/page11.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/page12.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/page13.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/page14.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/page15.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/page16.png'
+			,'http://ossweb-img.qq.com/images/up/2015/boss/page17.png'
+		],
+	loading: LoadingSwit,
+	done: orient
+});
+var onBridgeReady = function () {
+    //转发朋友圈 SharePoint
+    WeixinJSBridge.on("menu:share:timeline", function(e) {
+        WeixinJSBridge.invoke("shareTimeline", {
+            img_url: "http://ossweb-img.qq.com/images/up/2015/boss/share.jpg",
+            img_width: "120",
+            img_height: "120",
+            link: 'http://up.qq.com/2015/boss/index.htm',
+            desc:'漫“话”UP2015',
+            title:'漫“话”UP2015'
+        }, function(res) {(callback)(res);});
+        pgvSendClick({hottag:'invitation.relay.quan'});
+    });
+    //分享给朋友
+    WeixinJSBridge.on('menu:share:appmessage', function(argv) {
+        WeixinJSBridge.invoke("sendAppMessage", {
+            img_url: "http://ossweb-img.qq.com/images/up/2015/boss/share.jpg",
+            img_width: "120",
+            img_height: "120",
+            link: 'http://up.qq.com/2015/boss/index.htm',
+            desc: '腾讯互动娱乐年度发布会',
+            title: '漫“话”UP2015'
+        }, function(res) {(callback)(res);});
+        pgvSendClick({hottag:'invitation.relay.friend'});
+    });
+};
+try{document.addEventListener('WeixinJSBridgeReady', function() {
+    onBridgeReady();
+});}catch(e){};
+//页面统计
+if(typeof(pgvMain) == 'function'){pgvMain();}
+</script>
+</body>
+</html><!--[if !IE]>|xGv00|bedacb65dc8299374c1a29a144a4312c<![endif]-->

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../lib/jquery.js"></script>
+    <style>
+        .main{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+<p>
+    点击更换颜色样式
+</p>
+<script>
+    $(function () {
+        $('p').on('click',function () {
+            $(this).toggleClass('main')
+        })
+
+    })
+</script>
+</body>
+原生的offsetWidth是获取不到隐藏的div的宽度的。
+
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery.js">
+        </script>
+</head>
+<body>
+<ul>
+    <li>hello</li>
+    <li>hi</li>
+    <li>welcome</li>
+    <li>to you</li>
+</ul>
+<!--把点击事件添加到了ul上了，没有添加到li上，省略了循环操作-->
+<script>
+    $(function () {
+        $('ul').delegate('li','click',function () {
+                $(this).css({'color':'red'})
+            // $('ul').undelegate();
+            }
+
+        )
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#a1 {
+				width: 100%;
+				height: 800px;
+				background-image:url(../../img/123.jpg);
+				background-attachment: fixed;
+				background-position: 100% 100%;
+				
+			}
+			.div1{
+				width: 200px;
+				height: 300px;
+				background-color: #0000FF;
+				display: none;
+				position: absolute;
+				
+			}
+		</style>
+		<script type="text/javascript">
+		window.onload=function(){
+			var aa=document.getElementById("a1")
+			var odiv=document.getElementsByClassName("div1")[0];
+			aa.oncontextmenu=function(ve){
+				var bb=ve||event;
+				
+			odiv.style.display="block";
+			odiv.style.left=bb.clientX+"px"
+			odiv.style.top=bb.clientY+"px"
+			//left top 两个属性值。
+			return  false;
+			//阻止出现默认事件。  就是之前的单击事件。 
+			
+			}
+		}
+			
+		</script>
+	</head>
+	<body id="a1">
+		<div class="div1">
+			
+		</div>
+	</body>
+</html>

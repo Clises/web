@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .like_img{
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background: red;
+        }
+        .nolike_img{
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background: blue;
+        }
+    </style>
+</head>
+<body>
+<span class="like_count">
+    22
+</span>
+<span class=" like like_img">
+</span>
+<script src="../../lib/jquery-1.11.3.min.js">
+    </script>
+<script>
+    userLike()
+    function userLike(){
+        $('body').on('click','.like',function () {
+            console.log('aaa')
+            var Num=$(this).siblings('.like_count').html()
+            if ($(this).is('.like_img')){
+                Num++
+                $(this).addClass("nolike_img") .removeClass('like_img')
+                $(this).siblings('.like_count').html(Num)
+            }else {
+                Num--
+                $(this).addClass("like_img") .removeClass('nolike_img')
+                $(this).siblings('.like_count').html(Num)
+            }
+        })
+    }
+
+</script>
+</body>
+</html>

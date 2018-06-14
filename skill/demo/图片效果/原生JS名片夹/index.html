@@ -1,0 +1,64 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+#box{ width:308px; height:720px; position:absolute; top:100px; background-image:url(images/bg.jpg); border:5px solid #006; overflow:hidden}
+#box div{ width:308px; height:560px; position:absolute}
+</style>
+<title>无标题文档</title>
+<script>
+window.onload=function()
+{
+	var oBox = document.getElementById("box");
+	var aDiv = oBox.getElementsByTagName("div");
+	
+	for(var i=0;i<aDiv.length;i++)
+	{
+		var timer = null;
+	
+		aDiv[i].style.backgroundImage="url(images/a0"+(i+1)+".jpg)";
+		aDiv[i].style.top=i*40+"px";
+		aDiv[i].style.left=-288+"px";
+		aDiv[4].style.left=0;
+		
+		aDiv[i].index=i;
+		aDiv[i].onclick=function()
+		{
+			clearInterval(timer);
+			var oThis = this;
+			timer = setInterval(function(){
+				for(var i=0;i<aDiv.length;i++)
+				{
+					if(aDiv[i].offsetLeft>-288&&/*aDiv[i].offsetLeft>-288&&aDiv[i].offsetLeft<=0&&*/oThis.offsetLeft>=-288&&oThis.offsetLeft<0)
+					{
+
+
+
+						aDiv[i].style.left=aDiv[i].offsetLeft-16+"px";	
+						oThis.style.left=oThis.offsetLeft+16+"px";
+						
+					}	
+					else
+					{
+						
+					}
+				}
+				
+			},30);
+		}	
+	}	
+}
+</script>
+</head>
+
+<body>
+<div id="box">
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+</div>
+</body>
+</html>

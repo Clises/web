@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/angular.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div ng-app="aa" ng-controller="bb">
+			<button ng-click="count= count+1">啊啊啊</button>			
+			<p>{{count}}</p>
+		</div>
+		
+		<script type="text/javascript">
+			var app=angular.module("aa",[])
+			
+			app.controller("bb",function($scope){
+				$scope.count=0;
+			})
+		</script>
+	</body>
+</html>

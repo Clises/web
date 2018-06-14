@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #search ul li{
+            list-style-type: none;
+            overflow: hidden;
+        }
+        #search ul li a{
+            text-decoration: none;
+        }
+        </style>
+</head>
+<input type="text"id="text" value="">
+<input type="button"value="百度一下">
+<div ID="search">
+    <ul>
+    </ul>
+</div>
+</body>
+<script>
+    var txt=document.getElementById("text")
+    var S=document.getElementById("search")
+    var oUl=S.children[0];
+    txt.onkeyup=function(){
+        var wd =txt.value;
+        var script=document.createElement("script")   //创建元素节点
+        script.src= `https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=${wd}&cb=charlie`;
+        document.body.appendChild(script)
+
+    }
+    function charlie(json) {
+        oUl.innerHTML="";//清空原始数据
+        if(json.s.length){
+         S.style.display="block";
+         json.s.forEach(function(el){
+        console.log(el)
+             var oLi=document.createElement("li")
+             oLi.innerHTML="<a href='https://www.baidu.com/s?wd="+el+"'>"+el+" </a>";
+             oUl.appendChild(oLi);
+         })
+        }
+    }
+</script>
+</html>

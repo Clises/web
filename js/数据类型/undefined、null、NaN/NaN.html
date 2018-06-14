@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*NaN即非数值是一个特殊的值,*/
+            var box=0/0;
+            console.log(box)
+             alert(Number.NaN);  //NaN
+             alert(NaN+1);            //NaN
+             alert(NaN==NaN);   //false
+             alert(isNaN(NaN));    //true;
+                alert(isNaN(25));        //false  25是个数值
+                alert(isNaN('25'));      //false  '25'是一个字符串数值，可以转换成数值
+                alert(isNaN('Lee'));   //true  'Lee'是个字符串，不能转化成数值
+                alert(isNaN(true));    //false  true可以转换成1
+                alert(Number(true));      //1,Boolean类型的true和false分别转换成1和0
+                alert(Number(25));        //25，数值类型直接返回
+                alert(Number(null));      //0，空对象返回0
+                alert(Number(undefined));//NaN，undefined返回NaN
+    </script>
+</body>
+</html>

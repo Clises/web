@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<script type="text/javascript">
+		
+		//当鼠标移动到元素上时，会触发指定的第一个函数(mouseenter);当鼠标移出这个元素时，会触发指定的第二个函数(mouseleave)。
+		$(document).ready(function(){
+			$("img").hover(function(){  
+		$("p").show()
+			
+		},
+			function(){
+				$("p").hide()
+				
+			})
+		})
+	
+	</script>
+	<body>
+		<img src="img/1.jpg"/>
+		<p style="display: none;">张国荣</p>
+	</body>
+</html>

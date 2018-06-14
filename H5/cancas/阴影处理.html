@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<canvas id="myCanvas" width="1000px" height="1000px" style="border: 1px solid red;"> </canvas>
+			</body>
+			
+			
+	<script type="text/javascript">
+		var canvas=document.getElementById("myCanvas")
+		var context = canvas.getContext("2d")
+		context.rect(100,100,300,200)
+		 var colors=context.createLinearGradient(0,0,500,300);
+		 colors.addColorStop("0","red")   //0表示开始的颜色     
+		 colors.addColorStop("1","white")//1表示结束的颜色，
+		 //设置影子的颜色
+		 context.shadowColor="#696969"
+		 context.shadowBlur=10;
+		 context.globalAlpha=0.16;//设置透明度
+		 context.shadowOffsetX=10;  //取正直，取负值的问题。
+		 context.shadowOffsetY=10;
+		 
+		context.fillStyle=colors;
+		context.fill()
+		
+		
+	</script>
+</html>

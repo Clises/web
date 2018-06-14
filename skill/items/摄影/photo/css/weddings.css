@@ -1,0 +1,334 @@
+.psFadeBanner{	
+	max-width: 1920px;
+	min-width: 1000px;
+	height: 800px;
+	position: relative;
+	overflow: hidden;
+}
+.psFadeBanner li{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.psFadeBanner li img{
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: all 10s; 
+}
+/*淡入淡出*/
+@keyframes psBanner1{
+	0%{opacity:0;}
+	5%{opacity:1;}
+	10%{opacity:1;}
+	15%{opacity:0;}
+}
+.psFadeBanner li:nth-child(1) img{
+	animation: psBanner1 10s linear infinite;
+}
+@keyframes psBanner2{
+	10%{opacity:0;}
+	15%{opacity:1;}
+	20%{opacity:1;}
+	25%{opacity:0;}
+}
+.psFadeBanner li:nth-child(2) img{
+	animation: psBanner2 10s linear infinite;
+}
+@keyframes psBanner3{
+	20%{opacity:0;}
+	25%{opacity:1;}
+	30%{opacity:1;}
+	35%{opacity:0;}
+}
+.psFadeBanner li:nth-child(3) img{
+	animation: psBanner3 10s linear infinite;
+}
+@keyframes psBanner4{
+	30%{opacity:0;}
+	35%{opacity:1;}
+	40%{opacity:1;}
+	45%{opacity:0;}
+}
+.psFadeBanner li:nth-child(4) img{
+	animation: psBanner4 10s linear infinite;
+}
+@keyframes psBanner5{
+	40%{opacity:0;}
+	45%{opacity:1;}
+	50%{opacity:1;}
+	55%{opacity:0;}
+}
+.psFadeBanner li:nth-child(5) img{
+	animation: psBanner5 10s linear infinite;
+}
+@keyframes psBanner6{
+	50%{opacity:0;}
+	55%{opacity:1;}
+	60%{opacity:1;}
+	65%{opacity:0;}
+}
+.psFadeBanner li:nth-child(6) img{
+	animation: psBanner6 10s linear infinite;
+}
+@keyframes psBanner7{
+	60%{opacity:0;}
+	65%{opacity:1;}
+	70%{opacity:1;}
+	75%{opacity:0;}
+}
+.psFadeBanner li:nth-child(7) img{
+	animation: psBanner7 10s linear infinite;
+}
+@keyframes psBanner8{
+	70%{opacity:0;}
+	75%{opacity:1;}
+	80%{opacity:1;}
+	85%{opacity:0;}
+}
+.psFadeBanner li:nth-child(8) img{
+	animation: psBanner8 10s linear infinite;
+}
+@keyframes psBanner9{
+	80%{opacity:0;}
+	85%{opacity:1;}
+	90%{opacity:1;}
+	95%{opacity:0;}
+}
+.psFadeBanner li:nth-child(9) img{
+	animation: psBanner9 10s linear infinite;
+}
+@keyframes psBanner10{
+	90%{opacity:0;}
+	95%{opacity:1;}
+	100%{opacity:1;}
+	5%{opacity:0;}
+}
+.psFadeBanner li:nth-child(10) img{
+	animation: psBanner10 10s linear infinite;
+}
+/*品牌特色*/
+.psCharacter{
+	max-width: 1920px;
+	min-width: 1000px;
+	margin:0px auto;
+	height: 600px;
+	text-align: center;
+	color:gray;
+}
+.psCharacter h1{
+	margin:100px 0px 15px;
+}
+.pscbLeft{
+	width:760px;
+	height: 350px;
+	background-color: #f4f4f4;
+	text-align: right;
+	margin-top:30px;
+	padding:60px 80px 0px 0px;
+	box-sizing: border-box;
+	float: left;
+}
+.pscbLimgBox{
+	width:426px;
+	height: 350px;
+	overflow: hidden;
+	float: right;
+
+}
+.pscbLimgBox img{
+	width: 100%;
+	height: 100%;
+	transition: all 1s;
+	animation:psScale 3s linear infinite alternate;
+}
+@keyframes psScale{
+	from{transform: scale(1);}
+	to{transform: scale(1.1);}
+}
+.pscbRight{
+	width:350px;
+	height:350px;
+	float: left;
+	text-align: left;
+	margin-top:30px;
+	color:gray;
+	margin-left:-65px;
+	font-size: 14px;
+	padding:120px 0px;
+}
+.psImgGap{
+	max-width:1920px;
+	min-width:1000px;
+	height: 20px;
+	margin: 0px auto;
+}
+.imgBox{
+	width: 1000px;
+	height: 20px;
+	margin: 0px auto;
+	text-align: center;
+	position: relative;	
+}
+.imgBox img{
+	width: 420px;
+	height: 20px;
+	position: absolute;
+	left: 50%;	
+	margin-left: -210px;
+	margin-top:-30px;
+}
+.psphotoWall1{
+	max-width: 1920px;
+	min-width: 1000px;
+	margin: 0px auto;
+	height: 800px;
+	clear: both;
+	background-color: #F4F4F4;
+	color:gray;
+	text-align: center;
+}
+.psphotoWall1Box{
+	width: 1000px;
+	margin: 0px auto;
+	
+}
+.psphotoWall1 h2{
+	font-weight: normal;
+	padding:92px 0px 100px 0px ;
+	opacity: 0;
+	transition: all 1s;
+	animation: psShow 5s linear infinite ;
+}
+@keyframes psShow{
+	0%{opacity: 0;}
+	50%{opacity: 1;}
+	100%{opacity: 0;}
+}
+.psphotoWall1Box ul{
+	width: 100%;
+	height: 500px;
+}
+.psphotoWall1Box li{
+	width: 270px;
+	height: 440px;
+	float: left;
+	margin-left:95px;
+	background-color: #fff;
+}
+.psphotoWall1Box li:nth-child(1){
+	margin-left:0px;
+}
+.psphotoWall1Box li div:nth-child(1){
+	height: 80px;
+	line-height: 80px;
+	transition: all 1s;
+}
+.psphotoWall1Box li>h4{
+	margin-top:20px;
+	transition: all 1s;
+	color:#C1C1C1;
+}
+.psphotoWall1Box li h4:nth-child(1):hover{
+	font-size: 20px;
+}
+.psphotoWall2{
+	max-width: 1920px;
+	min-width: 1000px;
+	margin: 0px auto;
+}
+.psphotoWall2Box{
+	width:1000px;
+	height: 1000px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+.grayBox{
+	width: 600px;
+	height: 600px;
+	background-color: #F4F4F4;
+	margin-top: 100px;
+    margin-left: 102px;
+}
+
+.grayBox img:nth-child(1){
+	transform: rotate(30deg);
+}
+.grayBox img:nth-child(1):hover{
+	transform: rotate(30deg) scale(1.1);
+}
+.grayBox img:nth-child(2){
+	transform: skew(13deg) translate(600px,-250px);
+}
+.grayBox img:nth-child(2):hover{
+	transform: skew(13deg) translate(600px,-250px) scale(1.1);
+}
+.grayBox img:nth-child(3){
+	transform:rotate(25deg) translate(342px,-207px);
+}
+.grayBox img:nth-child(3):hover{
+	transform:rotate(25deg) translate(342px,-207px)scale(1.1);
+}
+.grayBox img:nth-child(4){
+	transform: rotate(-10deg) translate(55px,-390px);
+}
+.grayBox img:nth-child(4):hover{
+	transform: rotate(-10deg) translate(55px,-390px) scale(1.1);
+}
+/*新新闻贴士*/
+.psNews{
+	max-width: 1920px;
+	min-width: 1000px;
+	margin: 0px auto;
+	background-color: #F4F4F4;
+}
+.newsBox{
+	width: 1000px;
+	height: 800px;
+	margin: 0px auto;
+
+}
+.newsBox h1,.newsBox>h4{
+	text-align: center;
+	font-weight: normal;
+}
+.newsBox h1{
+	padding-top: 70px;	
+}
+.newsBox h4{
+	margin: 10px 0px;
+	font-weight: normal;
+}
+.newsBox h4:hover{
+	color: #FFC001;
+}
+.newsBox>h4{
+	margin: 10px 0px 50px;
+}
+.newsBox img{
+	width: 100%;
+}
+.newsBox p{
+	color: #C0C0C0;
+	font-size: 13px;
+	line-height: 28px;
+	height: 90px;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+}
+.newsBoxLeft{
+	width: 480px;
+	height: 500px;
+	float: left;
+	margin-right: 20px;
+}
+.newsBoxRight{
+	width: 500px;
+	height: 500px;
+	float: left;
+	
+}

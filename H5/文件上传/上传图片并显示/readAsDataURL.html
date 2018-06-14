@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#pic{
+				width: 100px;
+				height: 100px;
+			}
+			#myfile{
+				opacity: 0;
+			}
+		</style>
+	</head>
+
+	<body>
+		<input type="file" name="" id="myfile" value="" multiple="" onchange="read() "/>
+		<!--视频 ， 文本，  地址-->
+		<img src=""id="pic"/>
+	</body>
+	<script type="text/javascript">
+		function read() {
+			var trueFile = document.getElementById("myfile").files[0];
+			var fr = new FileReader();
+			//获取file文件
+			//调用对象的方法获取上传文件的信息。
+			//需要获取上传的文件
+			fr.readAsDataURL(trueFile);
+			fr.onload=function(){
+				//数据读取成功的时候
+			console.log(this.result);  //获取的是图片的地址
+			document.getElementById("pic").setAttribute("src",this.result);
+			//设置所有属性的方法。
+			//获取属性值地方法
+			}
+
+		}
+	</script>
+
+</html>

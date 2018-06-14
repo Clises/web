@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
+		<title>jQuery插件开发学习之分页</title>
+		
+		<script>
+			$(function() {
+				// 分页插件
+				$("#pagination").pagination({
+					pageNum: 1,
+					size: 6,
+					total: 11,
+					click: function(curr, s) {
+						return 11;
+					}
+				});
+				// 分页插件2
+				$("#pagination2").pagination({
+					size: 10,
+					total: 56,
+					click: function(curr, s) {
+						return 56;
+					}
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div id="mainx">
+			<div id="t">
+				<!-- 分页插件 -->
+				<div id="pagination"></div>
+				<!-- 分页插件 END -->
+				<br />
+				<!-- 分页插件2 -->
+				<div id="pagination2"></div>
+				<!-- 分页插件2 END -->
+			</div>
+		</div>
+	</body>
+</html>

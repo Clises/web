@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        @media screen and (min-width: 818px) {
+            body {
+                width: 414px;
+                margin: 0 auto;
+            }
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html,body{
+            height: 100%;
+        }
+        body{
+            font-family: "Microsoft Yahei";
+        }
+
+        @-webkit-keyframes start {
+            0%,30% {opacity: 0;-webkit-transform: translate(0,10px);}
+            60% {opacity: 1;-webkit-transform: translate(0,0);}
+            100% {opacity: 0;-webkit-transform: translate(0,-8px);}
+        }
+        @-moz-keyframes start {
+            0%,30% {opacity: 0;-moz-transform: translate(0,10px);}
+            60% {opacity: 1;-moz-transform: translate(0,0);}
+            100% {opacity: 0;-moz-transform: translate(0,-8px);}
+        }
+        @keyframes start {
+            0%,30% {opacity: 0;transform: translate(0,10px);}
+            60% {opacity: 1;transform: translate(0,0);}
+            100% {opacity: 0;transform: translate(0,-8px);}
+        }
+
+        #music{
+            position: absolute;
+            right: 0.7rem;
+            top: 0.7rem;
+            z-index: 999;
+            width: 3.75rem;
+            height: 3.75rem;
+            background: url(img/play.png) no-repeat;
+            background-size: 100%;
+        }
+        #music audio{
+            display: none;
+        }
+        .play{
+            -webkit-animation: music_disc 4s linear infinite;
+            animation: music_disc 4s linear infinite;
+        }
+        @-webkit-keyframes music_disc{
+            0%{
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+            100%{
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+        @keyframes music_disc{
+            0%{
+                -webkit-transform: rotate(0deg);
+                ransform: rotate(0deg);
+            }
+            100%{
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+<div id="music" class="play"><audio src="audio/huahaoyueyuanye.mp3" autoplay="true"></audio></div>
+</body>
+<script>
+    var music=document.getElementById('music');
+    var audio=document.getElementsByTagName('audio')[0];
+    music.addEventListener('touchstart',function(){
+        if(audio.paused){
+            audio.play();
+            this.setAttribute('class','play');
+            this.style.backgroundImage='url(img/play.png)';
+        }else{
+            audio.pause();
+            this.setAttribute('class','');
+            this.style.backgroundImage='url(img/pause.png)';
+        }
+    },false);
+
+
+
+</script>
+</html>

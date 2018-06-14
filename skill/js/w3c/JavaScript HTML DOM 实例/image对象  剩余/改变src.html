@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function changeSrc()
+{
+	document.getElementById("myImage").src="/statics/images/w3c/eg_compman.gif";
+}
+</script>
+</head>
+<body>
+
+<img id="myImage" src="/statics/images/w3c/eg_compman_lowres.gif" width="107" height="98">
+<br><br>
+<input type="button" onclick="changeSrc()" value="修改图片">
+
+<p><b>注意：</b>  src 属性可以在任何时候被修改。
+但是如果新的图片没有指定高度和宽度，则新图片会采用旧图片的高度和宽度。</p>
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../基础/lib/jquery.js"></script>
+    <style>
+
+        .aa{
+            width: 100px;
+            height: 20px;
+            float: left;
+            margin: 10px;
+            text-align: center;
+        }
+        .line{
+            width: 600px;
+            height: 300px;
+            background: red;
+            position: absolute;
+            top: 100px;
+        }
+        .box_b :nth-child(2){
+            z-index: 999;
+
+        }
+        .active{
+            background: green;
+
+        }
+        .none{
+            display: none;
+        }
+    </style>
+</head>,
+<body>
+<div class="aa">这是第一个</div>
+    <div class="aa">这是第二个</div>
+    <div class="aa">这是第三个</div>
+<div class="box_b">
+    <p>目录</p>
+    <div class="line">
+        第一条
+    </div>
+    <div  class="line">
+        第二条
+    </div>
+    <div  class="line">
+        第三条
+    </div>
+</div>
+
+</body>
+<script>
+    $(function () {
+        $(".aa").click(function () {
+            var $this = $(this), $index = $this.index();
+            console.log($index)
+            console.log($index)
+            var title=['这是第一个','这是第二个','这是第三个']
+            $('.box_b').find('p').html(title[$index])
+            $(".line").addClass("none").eq($index).removeClass("none")
+            $(".aa").removeClass("active").eq($index).addClass("active")
+        })
+    })
+
+</script>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			img{
+				position: absolute;
+				top: 50px;
+				
+			}
+		</style>
+		
+	</head>
+	<body>
+		<img src="../斗地主模拟发牌/img/black9.jpg"/>
+		<img src="../斗地主模拟发牌/img/black10.jpg"/>
+		<img src="../斗地主模拟发牌/img/black4.jpg"/>
+		<input type="button" value="第一张"class="btn"/>
+		<input type="button" value="第二张"class="btn"/>
+		<input type="button" value="第三张"class="btn"/>
+		<script type="text/javascript">
+			var oimg=document.getElementsByTagName("img")
+			var obtn=document.getElementsByClassName("btn")
+			for(var i=0;i<oimg.length;i++){
+				obtn[i].index=i;
+				obtn[i].onclick=function(){
+					for(var j=0;j<oimg.length;j++){
+						oimg[j].style.display="none"
+					}
+					oimg[this.index].style.display="block"
+				}
+			}
+		</script>
+	</body>
+	
+</html>

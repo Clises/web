@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*
+    * 1、什么是对象？
+    *       存储数据；
+    *       对象存储数据的优势：可以存储多个数据，用来保存多个数据容器，
+    *                   一个对象可以代表现实世界中的一个事物。
+    * 2、为什么要用对象？
+    *       统一管理多个数据
+    * 3、对象的组成
+    *       属性:属性名（字符串）和属性值（任意）组成
+    *       方法：是一种特别的属性（属性值为函数）
+    * 4、如何访问对象内部数据？
+    *       .属性名    有时候不能用
+    *       ['']         能通用
+    * */
+    
+    
+    var p={
+            name:"charlie",
+            age:12,
+            setName:function (name) {
+                this.name=name;
+            },
+            setAge:function (age) {
+                this.age=age;
+
+            }
+        
+    }
+    console.log(p.name)
+    p.setName('errol')
+    p['setName'](23)
+
+    console.log(p.setName)   //输出这个函数
+    console.log(p['age'])
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

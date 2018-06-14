@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<ul id="ul1">
+			<li>陈奕迅<a href="javascript:">删除</a></li>
+			<li>张国荣<a href="javascript:">删除</a></li>
+			<li>周润发<a href="javascript:">删除</a></li>
+			<li>梅艳芳<a href="javascript:">删除</a></li>
+			
+		</ul>
+	</body>
+	<script type="text/javascript">
+		var ull=document.getElementById("ul1")
+		var aa=document.getElementsByTagName("a");
+		for(var i=0;i<aa.length;i++){
+			aa[i].onclick=function(){
+//				this.parentNode.style.display="none";
+				ull.removeChild(this.parentNode);
+				//删除DOM元素
+				
+			}
+		}
+		//获取父节点，假装的隐藏。
+	</script>
+</html>

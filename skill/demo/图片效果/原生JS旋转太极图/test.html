@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+#box{ width:800px; height:800px; overflow:hidden; position:relative;}
+#div1{ width:800px; height:800px; background-image:url(images/bg01.png); border-radius:400px; position:absolute}
+#div2{ width:362px; height:362px; background-image:url(images/bg02.png); position:absolute; left:219px; border-radius:181px; top:219px; transform:rotate(45deg);}
+</style>
+<script>
+window.onload=function()
+{
+	var oDiv2 = document.getElementById("div2");
+	var oDiv1 = document.getElementById("div1");
+	var a=0;
+	var b=0;
+	var timer = "这是一个定时器";
+	
+	function Go()
+	{
+		timer = setInterval(function(){
+			oDiv2.style.transform="rotate("+a+"deg)";
+			oDiv1.style.transform="rotate("+b+"deg)";
+			a=a+2;
+			b--
+		},30);
+	}
+	Go();
+	oDiv1.onmouseover=function()
+	{
+		clearInterval(timer);
+	}
+	oDiv1.onmouseout=function()
+	{
+		Go();
+	}
+}
+</script>
+</head>
+
+<body>
+<div id="box">
+    <div id="div1">
+        <div id="div2"></div>
+    </div>
+</div>
+</body>
+</html>

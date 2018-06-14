@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#top{
+				width: 100%;
+				height: 80px;
+				background-color: red;
+			}
+			#show{
+				width: 100%;
+				height: 200px;
+				background-color: blue;
+				display: none;
+			}
+		</style>
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#top").click(function(){
+					$("#show").slideDown(2000)
+				})
+						$("#top").click(function(){
+
+					$("#show").slideUp(2000)
+				})
+			})
+
+
+		</script>
+	</head>
+	<body>
+		<div id="top"></div>
+		<div id="show"></div>
+	</body>
+</html>

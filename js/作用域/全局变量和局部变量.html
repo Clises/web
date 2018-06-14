@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // var a =0;                        //全局变量
+    // b =0;                                //全局变量
+    // function c() {
+    //     var d =0;                //局部变量
+    //     e =0;                        //全局变量
+    //     return d;
+    // }
+    // console.log(a);                //0
+    // console.log(b);                //0
+    // console.log(c());                   //0
+    // console.log(e);                //0
+    // console.log(d);//出错
+
+
+
+
+
+    var a = 0;
+
+    b = 0;
+
+    function c() {
+
+        console.log(a);
+
+        var a = 1;
+
+        console.log(a);
+
+        return a;
+
+    }
+
+    console.log(a);                //0
+
+    c();                                //undefined,1
+    </script>
+</body>
+</html>

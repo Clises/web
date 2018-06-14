@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    function getDateTimeStamp(dateStr){
+        return Date.parse(dateStr.replace(/-/gi,"/"));
+    }
+    console.log(getDateTimeStamp("2016-07-23 12:02:32"))
+</script>
+</body>
+</html>

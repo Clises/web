@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<style type="text/css">
+			#divimg {
+				/*
+对图片进行绝对定位
+*/
+				position:absolute;
+				font-size:100px;
+				
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="divimg">
+			中秋快乐
+		</div>
+		<script language="javascript" type="text/javascript">
+			//获取图片的所有div对象
+			var divimg = document.getElementById("divimg");
+			//设置起始位置，
+			var x = 0,
+				y = 0;
+			//设置图片的前进速度
+			var xSpeed = 8,
+				ySpeed = 2;
+			//计算浏览器的宽度和高度减去图片自身的宽度和高度，得到的是图片活动的最 大活动宽度和高度。
+			//w是最大宽度，h最大高度
+			var w = document.documentElement.clientWidth - 200;
+			var m =document.documentElement.clientHeight;
+			var	h = window.innerHeight-200;
+//			alert(w);
+//			alert(h);
+			setInterval(function(){
+				//当图片的距左距离小于0或者距右距离大于图片最大活动宽度时，让图片的在x轴的运动方向反向
+				//简而言之，就是让图片碰到浏览器边缘时，使图片运动方向改变
+				//w=1161 h=554
+				if(x < 0 || x > w) {
+					//xSpeed是图片在x轴方向的速度
+					xSpeed = -xSpeed;
+				}
+				//y轴上的类似，
+				if(y < 0 || y > h) {
+					//ySpeed是图片在y轴方向的速度
+					ySpeed = -ySpeed;
+				}
+				divimg.style.top = divimg.offsetTop+ySpeed + "px";
+				divimg.style.left =divimg.offsetLeft+xSpeed + "px";
+				x=divimg.offsetLeft;
+				y=divimg.offsetTop;
+			},30)
+			
+			
+				   //鼠标移入的时候让他停止
+			odiv.onmouseover = function(){
+				clearInterval(timer);
+//				alert("停止");
+			}
+			
+			
+			
+			
+			//鼠标离开的时候重新开一个定时器
+			odiv.onmouseout = function(){
+			timer=setInterval(function(){
+//				clearInterval();
+				
+				if(x<0||x>w){
+					xSPeed = -xSPeed;
+				}
+				if(y<0||y>h){
+					ySPeed = -ySPeed
+				}
+				odiv.style.top=odiv.offsetTop+ySPeed+"px";
+				odiv.style.left=odiv.offsetLeft+xSPeed+"px";
+				x=odiv.offsetLeft;
+				y=odiv.offsetTop;
+					
+			},20)
+			}
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<h1>登录</h1>
+		<label for="uname">用户名：</label>
+		<input type="text" placeholder="请输入用户名" id="uname"><br/>
+		<label for="psw">　密码：</label>
+		<input type="password" id="psw" placeholder="请输入密码" value="" /><br />
+		<input type="checkbox" id="btno" value="" />记住密码
+		<button id="btn">登录</button>
+	</body>
+	<script src="jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function() {
+			//登录按钮
+			console.log(window)
+			var truename = localStorage.getItem("username")
+			var truepsw = localStorage.getItem("password")
+			
+			$("#btn").click(function(e) {
+				//保存的用户名用户在首页中获取当前的用户名
+				event.preventDefault();
+				var name = uname.value;
+				var psww = psw.value;
+				//取出信息
+				if(name == truename && psww == truepsw) {
+					sessionStorage.setItem("un", name); //存储信息在主页面显示
+					window.location.href = "index.html"
+					
+				}
+
+			})
+			$("#btno").click(function() {
+				if($(this)[0].checked) {
+					//记录密码
+					localStorage.setItem("saveName", truename)
+					localStorage.setItem("savePass", truepsw)
+					window.onload=function(){
+							var sn=localStorage.getItem("saveName") 
+					var sp=localStorage.getItem("savePass")
+						psw.value=sp;
+						uname.value=sn;
+						}
+					}
+			})	
+		})
+	</script>
+
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*
+    * 什么时候必须使用['属性值']的方式？
+    * 1、属性名为特殊的字符串
+    * 2、变量名不确定
+    * */
+    var  p={
+    };
+     // p.content-type='text/json'
+    p['content-type']="test/json"
+
+    /*变量名不确定*/
+    var propName='myAge'
+    var value=18
+    // p.propName=value;
+    p[propName]=value;
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			body{
+				background: #000;
+			}
+			#herat3d{
+				position: relative;
+				width: 100px;
+				height: 160px;
+				margin: 200px auto; 
+				transform-style:preserve-3d;
+				animation:rot 10s linear infinite;
+						/*css3自定义动画:动画的名称 时间 匀速运动 无限重复*/
+			}
+			/*动画形式*/
+			@keyframes rot{
+				from{transform:rotateY(0deg)rotateX(0deg)}
+				to{transform:rotateY(360deg)rotateX(360deg)}
+			}
+
+			#herat3d div.heart{
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 100px;
+				height: 160px;
+				border: 2px solid red;
+				border-left: 0;
+				border-bottom:0 ;
+				border-radius:50% 50% 0/50% 40% 0;
+				transform: rotate(45deg);
+				
+				/*
+				 * 斜杠之前水平方向
+				 * 1.左上角的水平方向
+				 2.右上角的水平方向
+				 3.右下
+				 4.左下
+				 斜杠之后竖直方向在变
+				 左上、右上、右下、左下
+				 * */
+				
+			}
+			#cube{
+				width: 50px;
+				height: 50px;
+				position: relative;
+				transform-style: preserve-3d;
+				transform:translateX(25px) translateY(53px) translateZ(25px);
+			}
+				#cube div{
+				position:absolute;
+				left:0;
+				top:0;
+				width:50px;
+				height:50px;
+			}
+
+				/*css3结构伪类选择器*/
+			#cube div:nth-child(1){
+				top:-50px;
+				/*旋转基点:默认值(X Y Z)
+				transform-origin:50% 50% 0;*/
+				transform-origin:bottom;
+				/*css3的变换:旋转90度*/
+				transform:rotateX(90deg);
+			}
+			#cube div:nth-child(2){
+				top:50px;
+				transform-origin:top;
+				transform:rotateX(-90deg);
+			}
+			#cube div:nth-child(3){
+				left:-50px;
+				transform-origin:right;
+				transform:rotateY(-90deg);
+			}
+			#cube div:nth-child(4){
+				left:50px;
+				transform-origin:left;
+				transform:rotateY(90deg);
+			}
+			#cube div:nth-child(5){
+				
+			}
+			#cube div:nth-child(6){
+				transform:translateZ(-50px);
+			}
+			#cube img{
+				width:50px;
+				height:50px;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div id="herat3d">
+		<div id="cube">
+		<div><img src="gallery-img6.jpg"/></div>
+		<div><img src="gallery-img6.jpg"/></div>
+		<div><img src="gallery-img6.jpg"/></div>
+		<div><img src="gallery-img6.jpg"/></div>
+		<div><img src="gallery-img6.jpg"/></div>
+		<div><img src="gallery-img6.jpg"/></div>
+	</div>		
+			
+		</div>
+		<script type="text/javascript">
+			//获取id名通过id来获取div父元素
+			var heart3D=document.getElementById("herat3d")
+			var html='';
+			for(var i=0;i<36;i++){
+					html+= "<div class='heart' style='transform:rotateY("+i*10+"deg)rotateZ(45deg) translateX(30px)'></div>"
+			}
+			heart3D.innerHTML += html;
+		</script>
+	</body>
+</html>

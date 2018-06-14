@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery.js"></script>
+</head>
+<form>
+    <input  type="text" name="a" value="1">
+    <input  type="text" name="b" value="2">
+    <input  type="text" name="c" value="3">
+
+</form>
+
+<script>
+    $(function () {
+    console.log($('form').serialize())  //数据串联成字符串
+        console.log($('form').serializeArray())  //数组的形式
+
+    })
+</script>
+</body>
+</html>

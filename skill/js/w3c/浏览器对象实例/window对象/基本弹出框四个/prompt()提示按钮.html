@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<input type="button" name="" id="" value="查看内容"onclick="aa()" />
+		<p id="demo">
+			
+		</p>
+	</body>
+	<script type="text/javascript">
+		function aa(){
+			var x;
+			var preson=prompt("请输入你的名字","Errol")
+			if(preson!=null&&preson!=""){
+				x="你好"+preson+"今天感觉怎么样呀？"
+				
+				document.getElementById("demo").innerHTML=x;
+			}
+			
+		}
+	</script>
+</html>

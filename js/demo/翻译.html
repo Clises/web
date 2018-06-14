@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<textarea id="text1"></textarea>
+<button onclick="translator()">翻译</button>
+<textarea id="text2"></textarea>
+
+</body>
+<script>
+
+    var langPackage = {
+        "主题":"theme",
+        "标题":"title",
+        "theme":"主题",
+        "title":"标题"
+    }
+    function translator(){
+        var txt1=document.getElementById("text1");
+        var txt2=document.getElementById('text2');
+        var pat= new RegExp("[a-z\u4e00-\u9fa5]+","g");
+        var arr=pat.exec(txt1.value);
+        if(arr!=null){
+            txt2.value=langPackage[arr[0]];
+        }
+    }
+
+
+
+</script>
+</html>

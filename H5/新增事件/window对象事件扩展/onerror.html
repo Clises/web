@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	
+	<body>
+		<img src="1.jpg"id="prg" />
+		<script type="text/javascript">
+			document.getElementById("prg").onerror=function(){
+				document.write("图片删除啦")
+			}
+		//注意点。
+			window.onerror=function(){
+				alert("写错了。")
+			}
+			var a=admin;
+		</script>
+	</body>
+</html>

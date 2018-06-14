@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+	</head>
+	<body onload="ABC()" > 
+		<!--
+        	在body里面写onload方法是为了等页面的东西加载完后才执行，
+        	onload事件会在页面或图片加载完后立即执行
+        	因为页面是从头到尾按顺序执行的
+        -->
+        <script type="text/javascript">
+        	var a=new Array();//数组对象的实例化
+            a[0]="中软国际欢迎您";
+            a[1]=" ";
+            var count=-1;// 
+            var timer=null;
+            function ABC()
+      {
+            	count++;
+            	if(count==0)
+            	{
+            		document.aa.bb.value=a[0];
+            		//
+//          		alert(a[0])
+            		
+            		/*
+            		获取表单中输入文本框中的内容变量的值: 
+            		1.document.form名.对象名.value;
+            		2.document.form的name名["input的name名"].value;
+            		3.document.getElementById("").value;
+            		*/
+            	}
+            	
+            	if(count>=1)
+            	{
+            		a[2]=a[0].substring(0,count-1)+a[1]+a[0].substring(7,count);
+            		//7是索引号，截取字符串。
+            		document.aa.bb.value=a[2];
+            			alert(a[2])
+            		/*
+            		substring(7,count)
+                     可以理解为:
+                     1> 7是要返回的长度;
+                     2>  count是所要去掉的多少个字符(从第一位开始)
+                     
+            		*/
+            	}
+            	
+            	if(count==a[0].length)
+            	{
+            		count=-1;
+            	}
+            	
+            	 timer=setTimeout("ABC()",200);
+            	 
+      }
+           
+            
+     
+        
+        </script>
+	<form name="aa">
+		<input type="text"  name="bb" style="width: 300px;
+			height: 100px; font-size: 40px;"/>
+	</form>
+	
+	</body>
+</html>

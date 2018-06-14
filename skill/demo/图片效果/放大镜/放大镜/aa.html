@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#small{
+				width: 200px;
+				height: 200px;
+				background-image: url(img/109951162988444032.jpg);
+				background-size: 100% 100%;
+				position: relative;
+				margin-left: 100px;
+			}
+			#small_small{
+				width: 100px;
+				height: 100px;
+				background-color: red;
+				opacity: 0.5;
+				display: none;
+				position: absolute;
+			}
+			#big{
+				width: 400px;
+				height: 400px;
+				background-image:url(img/109951162988444032.jpg);
+				background-size:200% 200% ;	
+				display: none;		
+			}
+		</style>
+		<script type="text/javascript">
+			window.onload=function(){
+				var oSmall = document.getElementById("small");
+				var oMove = document.getElementById("small_small");
+				var oBig = document.getElementById("big");
+				
+				oSmall.onmouseover = function(){
+					oMove.style.display = "block"
+					oSmall.onmousemove = function(){
+						if(event.clientX - oSmall.offsetLeft-50<0)
+						{
+							oMove.style.left = 0;
+						}else if(event.clientX - oSmall.offsetLeft-50>100)
+						{
+							oMove.style.left = 100+"px";
+						}
+						else{
+							oMove.style.left = event.clientX - oSmall.offsetLeft-50+"px"
+						}
+//						if()
+//						oMove.style.left = event.clientX - oSmall.offsetLeft-50+"px"
+						oMove.style.top = event.clientY-oSmall.offsetTop-50+"px"
+					}
+				}
+				oSmall.onmouseout = function(){
+					oMove.style.display = "none"
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div id="small">
+			<div id="small_small"></div>
+		</div>
+		<div id="big"></div>
+	</body>
+</html>

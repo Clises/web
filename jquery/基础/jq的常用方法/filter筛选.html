@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    <li></li>
+    <li></li>
+    <li class="aaa"></li>
+    <li></li>
+    <li></li>
+</ul>
+
+<p><ol><li>Hello</li></ol></p><p>How are you?</p>
+
+
+</body>
+<script src="../lib/jquery.js">
+</script>
+<script>
+    // $('li').filter('.aaa').css('background','green')
+    // //保留第一个一级带有aaa类的元素
+    // $('li').filter('.aaa,:first').css('background','green')
+
+    //保留子元素中不含有ol的元素  暂时不好用后期再看
+    $("p").filter(function(index) {
+        return $("ol", this).length == 0;
+    });
+
+</script>
+</html>

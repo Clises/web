@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../lib/jquery.js"></script>
+</head>
+<body>
+<div style="height:100px;width:500px;padding:10px;border:1px solid blue;background-color:lightblue;">
+    这是div元素
+    <p style="background-color:pink">这是div的子元素p <br><span style="background-color:orange">这是div的子元素p的子元素span</span>
+    </p></div>
+
+<p><b>Note:</b> Click on each of the elements above. When clicking on the <b>div</b> element, it will alert that the div
+    element was clicked. When clicking on the <b>p</b> element, it will return both the p and the div element, since the
+    p element is inside the div element.
+    But when clicking on the <b>span</b> element, it will only return itself, and not the p and the div element (even
+    though its inside these elements). The event.stopPropagation() stops the click event from bubbling to the parent
+    elements.
+</p>
+<p><b>Tip:</b> Try to remove the event.stopPropagation() line, and click on the span element again (the click event will
+    now bubble up to parent elements).</p>
+
+<script>
+    /*实例：阻止事件冒泡到父元素*/
+    $(document).ready(function () {
+        $("span").click(function (event) {
+            event.stopPropagation();
+            alert("span被选中.");
+        });
+        $("p").click(function (event) {
+            alert("p被选中.");
+        });
+        $("div").click(function () {
+            alert("div被选中.");
+        });
+    });
+</script>
+</body>
+</html>

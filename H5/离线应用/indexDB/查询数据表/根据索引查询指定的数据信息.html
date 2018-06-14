@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="jquery.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+	<!--尽量不要用表格，增大服务器压力，尽量在后端用表格	-->
+	<table border="1px">
+		<tr>
+			<td>id</td>
+			<td>名称</td>
+			<td>种类</td>
+			<td>数量</td>
+			
+		</tr>
+	</table>
+		<script type="text/javascript">	
+			$(function(){
+			var idbFactory = window.indexedDB;
+			var dbrequest = idbFactory.open('goods', 1);
+			var data=0;
+			var db=null;
+			dbrequest.onsuccess = function() {
+				alert("打开成功")
+			 db = this.result; 
+			 	var request = db.transaction(['goods'], 'readwrite') 
+				var objectStore = request.objectStore('goods') 
+				var datas = [{
+						"goodsName": "手机",
+						"goodsKinds": 5,
+						"num": 1000
+					},
+					{
+						"goodsName": "电脑",
+						"goodsKinds": 5,
+						"num": 1000
+					},
+					{
+						"goodsName": "衣服",
+						"goodsKinds": 5,
+						"num": 1000
+					},
+					{
+						"goodsName": "鞋子",
+						"goodsKinds": 5,
+						"num": 1000
+					},
+					{
+						"goodsName": "衬衫",
+						"goodsKinds": 5,
+						"num": 1000
+					}
+				]
+				for(var i = 0; i < datas.length; i++) {
+					objectStore.add(datas[i])
+				}
+		     
+		     //查询商品为衣服的
+		     	var request = db.transaction(['goods'], 'readwrite') 
+				var objectStore = request.objectStore('goods') 
+		     var index=objectStore.index('name')  //获取所以的name索引相关的信息，有了索引之后会得到之后相关的表，在从这个表中查询指定名称。
+		     var res=   index.get("手机")
+		     res.onsuccess=function(){
+		     	console.log(this.result)
+		     }
+		    }
+			dbrequest.onerror = function() {
+				alert("没有打开")
+			}
+			dbrequest.onupgradeneeded = function() {
+				alert("升级成功")
+				var db = this.result;
+				var objectStore = db.createObjectStore('goods', {
+					keyPath: 'id',
+					autoIncrement: true
+				})
+				objectStore.createIndex('name', 'goodsName', {
+					unique: true
+				})
+			}
+				
+				
+			})
+		</script>
+	</body>
+
+</html>

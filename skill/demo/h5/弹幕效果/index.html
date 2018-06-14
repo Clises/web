@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			.all{
+				width:600px;
+				height: 400px;
+				background: black;
+			}
+		</style>
+	</head>
+	<body>
+			<div class="all">
+			</div>
+			<input type="text" class="texts" value="这是一个弹幕"/>
+			<button>发送</button>
+			<script type="text/javascript">
+				var all=document.querySelector('.all')//可以选任意东西
+				var texts=document.querySelector('.texts')
+				var buttons=document.querySelector('button')
+					var p=document.createElement('p');
+					p.style.position='absolute';
+					p.style.color='white';
+					p.style.left=600+"px";
+					p.innerHTML="哈哈哈";
+					//添上不同的文字给不同的速度
+					p.style.top=Math.random()* 380+'px';
+					all.appendChild(p);
+					//动画
+					var x=setInterval(function(){
+						p.style.left= parseInt(p.style.left)-1+'px';
+						if(parseInt(p.style.left)+600<=0){
+							all.removeChild(p);
+							clearInterval(x);
+						}
+					},1)
+			</script>
+	</body>
+</html>

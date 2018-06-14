@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../lib/jquery.js"></script>
+</head>
+<body>
+<div id="div1">
+remove和detach的区别在于：remove删除之后其本身的事件也会被删除，而detach会保留被删除元素的事件，可做恢复。
+
+</div>
+<script>
+    $(function () {
+
+$('#div1').click(function () {
+    alert('asdasd')
+})
+      var DOM= $('#div1').detach()
+        $('body').html(DOM)
+
+    })
+</script>
+</body>
+</html>

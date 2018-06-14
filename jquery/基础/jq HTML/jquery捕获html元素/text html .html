@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#showa").click(function(){
+				alert("text文本："+$("#txt").text())
+			})
+			$("#showb").click(function(){
+				alert("HTML内容："+$("#txt").html())
+			})
+		})
+	</script>
+	<body>
+		<p id="txt">当年情，张国荣</p>
+		<button id="showa">显示文本</button>
+		<button id="showb">显示HTML</button>
+	</body>
+</html>

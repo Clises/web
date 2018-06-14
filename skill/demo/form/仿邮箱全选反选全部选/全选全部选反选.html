@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<div></div>
+		<ul id="ul1">
+			<li><input type="checkbox"/></li>
+			<li><input type="checkbox"/></li>
+			<li><input type="checkbox"/></li>
+			<li><input type="checkbox"/></li>
+		</ul>
+		<input type="button" name="" id="btn" value="全选" />
+		<input type="button" name="" id="btf" value="反选" />
+		<input type="button" name="" id="btx" value="全不选" />
+		<script type="text/javascript">
+			var oU1=document.getElementById("ul1");
+			var oli=oU1.getElementsByTagName("input");
+//			oli[0].checked=true;
+            var btnn=document.getElementById("btn");
+            var btff=document.getElementById("btf");
+            var btxx=document.getElementById("btx");
+            btnn.onclick=function()
+            {
+                 for(var i=0;i<=oli.length;i++){
+                 oli[i].checked=true;
+                }
+            } 
+            btff.onclick=function(){
+            	for(var i=0;i<=oli.length;i++){
+            		if( oli[i].checked==true)
+            		{
+            			 oli[i].checked=false;
+            		}
+            		else{
+            			oli[i].checked=true;
+            		}
+            	}
+            }
+            btxx.onclick=function()
+            {
+                 for(var i=0;i<=oli.length;i++){
+                 oli[i].checked=false;
+                }
+            } 
+		</script>
+	</body>
+</html>

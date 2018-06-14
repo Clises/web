@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<canvas id="myCanvas" width="1000px" height="1000px" style="border: 1px solid red;"> </canvas>
+	</body>
+
+	<script type="text/javascript">
+		var canvas = document.getElementById("myCanvas")
+		var context = canvas.getContext("2d")
+		context.moveTo(300, 300);
+		context.quadraticCurveTo(400, 400, 500, 300)
+		context.stroke()
+		context.beginPath()
+		context.moveTo(200, 100);
+		context.quadraticCurveTo(300, 10, 400, 100)
+		context.stroke()
+		context.beginPath()
+		context.moveTo(420, 100);
+		context.quadraticCurveTo(520, 10, 620, 100)
+		context.stroke()
+	</script>
+
+</html>

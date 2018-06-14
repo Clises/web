@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body onload="scale()">
+		<a href=# target="new"><img src="../../../面试/62、动态显示图片信息/img/3.jpg" name="u" /></a>
+	</body>
+	<script type="text/javascript">
+		var plus = 1;
+		var winc = true;
+
+		function scale() {
+			if(winc == true) {
+				plus++;
+			}
+			if(plus == 100) {
+				plus--;
+				winc = false
+			}
+			if(plus == 10) {
+				plus++;
+				winc = true;
+			}
+			if(winc == false) {
+				plus--;
+			}
+			u.width = 250 + plus;
+			u.height = 200 - plus;
+			setTimeout("scale()", 30);
+		}
+	</script>
+
+</html>

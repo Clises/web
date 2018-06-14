@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>判断滚动条是否到底部</title>
+    <script language="javascript" src="../lib/jquery.js"></script>
+    <script language="javascript">
+        $(document).ready(function () {
+            $('#scroll-top-msg').html($("#outer-div")[0].scrollTop);
+            $('#scroll-height-msg').html($("#outer-div")[0].scrollHeight);
+
+            $("#outer-div").scroll(function () {
+                $('#scroll-to-bottom-msg').html('');
+                $('#scroll-top-msg').html($("#outer-div")[0].scrollTop);
+                $('#scroll-height-msg').html($("#outer-div")[0].scrollHeight);
+
+                if ($("#outer-div")[0].scrollTop >= ($("#outer-div")[0].scrollHeight - $("#outer-div").height()))
+                    $('#scroll-to-bottom-msg').html('滚动到DIV底部了');
+            });
+        });
+    </script>
+<body>
+Scroll Top : <span id="scroll-top-msg">0</span> |
+Scroll Height : <span id="scroll-height-msg">0</span> <br/>
+<span id="scroll-to-bottom-msg"></span>
+<div id="outer-div" style="overflow-y:auto; overflow-x:hidden; width:800px;height:500px;background:gray;">
+    <div style="height:750px;background:#aea;width:600px;margin:0 auto;">
+    </div>
+</div>
+</body>
+</html>
+

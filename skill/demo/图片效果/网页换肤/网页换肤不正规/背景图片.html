@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+		#bck1
+			{	
+				width: 100%;
+				height: 100%;
+			/*	background-image:url(img/109951162988442595.jpg);*/	
+				background-size: 100% 100%;
+				background-attachment: fixed;
+				
+			}
+			
+		</style>
+	</head>
+	<body id="bck1">
+		
+	
+		<input type="button" name="" id="a1" value="1" />
+		<input type="button" name="" id="a2" value="2" />
+		<input type="button" name="" id="a3" value="3" />
+		
+	</body>
+	<script type="text/javascript">
+		var b1=document.getElementById("a1");
+		var b2=document.getElementById("a2");
+		var b3=document.getElementById("a3");
+		var bck=document.getElementById("bck1");
+		  
+   function change(obj,obj1)	 
+   {
+	bck.style[obj]=obj1;
+}
+		b1.onclick=function()
+		{
+//		bck.style.backgroundImage="url(img/109951162988440253.jpg)"
+		change("backgroundImage",'url(img/109951162988440253.jpg)')
+        }
+		b2.onclick=function()
+			{
+//				bck.style.backgroundImage="url(img/109951162988442085.jpg)"
+				change("backgroundImage",'url(img/109951162988442595.jpg)')
+	}
+				b3.onclick=function()
+				{
+//					bck.style.backgroundImage="url(img/109951162988442088.jpg)"
+					change("backgroundImage",'url(img/109951162988442088.jpg)')
+				}
+	</script>
+</html>

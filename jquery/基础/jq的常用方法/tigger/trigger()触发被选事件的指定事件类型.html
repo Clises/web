@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+                $('.box').click(function () {
+                    alert('aaaa')
+                })
+
+            $('.aa').click(function () {
+                $('.box').trigger('click')
+            })
+
+        });
+    </script>
+</head>
+<body>
+<div class="box"style="width: 100px;height: 100px;background: red">
+</div>
+<div class="aa" style="width: 111px;height: 111px;background: grey">
+
+
+
+</div>
+</body>
+</html>

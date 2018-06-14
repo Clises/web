@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<canvas id="myCanvas" width="1000px" height="1000px" style="border: 1px solid red;"> </canvas>
+			</body>
+			
+			
+	<script type="text/javascript">
+		var canvas=document.getElementById("myCanvas")
+		var context = canvas.getContext("2d")
+		context.arc(500,500,200,0,2*Math.PI,true);
+		var colors=context.createRadialGradient(200,300,100,300,300,500);
+		
+		colors.addColorStop("0","red");
+		colors.addColorStop("1","yellow");
+		context.fillStyle=colors;
+		context.fill()	
+	</script>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#float {
+				position: absolute;
+				width: 200px;
+				height: 100px;
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<div id="float">
+			<img src="img/11.jpg" />
+		</div>
+	</body>
+	<script type="text/javascript">
+		var ofloat = document.getElementById("float")
+		var x = 0;
+		y = 0;
+		var xspeed = 3,
+			yspeed = 2;
+		var w = document.body.clientWidth - 200,
+			h = document.body.clientHeight - 100;
+
+		setInterval(function(){
+			if(x < 0 ||x > w) {
+				xspeed = -xspeed;
+			}
+			if(y < 0 || y > h) {
+				yspeed = -yspeed;
+			}
+			x += xspeed;
+			y += yspeed;
+			ofloat.style.top = y + "px";
+			ofloat.style.left = x + "px";
+		},10);
+	</script>
+
+</html>

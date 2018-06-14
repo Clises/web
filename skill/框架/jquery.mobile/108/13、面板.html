@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+			<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+			<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css"/>
+			<script src="js/jquery.min.js"></script>
+			<script src="js/jquery.mobile-1.4.5.min.js"></script>
+	</head>
+	<body>
+		<div data-role="panel"id="mypanel" data-position="right"  data-dismissible="false" data-swipe-close="true"data-display="overlay">  
+			
+		<!--禁止点击其他区域关闭面板，通过滑动关闭按钮-->
+			<h1>面板</h1>
+			<!--添加按钮关闭面板-->
+			<a href=""class="ui-btn ui-icon-delete ui-btn-icon-left ui-btn-inline"data-rel="close"data-inset="true">关闭</a>
+			<!--缩小关闭按钮，需要设置按钮的属性为inline-->
+			<!--设置面板的展示样式-->
+		</div>
+		
+			<div data-role="header">  
+				<h1>这是头部</h1>
+				<a  href="#mypanel"class="ui-btn">打开面板</a>
+			</div>
+			<div data-role="content"> <!--文档内容-->
+				<p>这是网页的中间内容</p>
+				<a href="#pageTwo" data-transition="slide">跳到下一页</a>
+			</div>
+			<div data-role="footer"> <!--文档尾部-->
+				<h1>这是底部</h1>
+			</div>
+
+	</body>
+</html>

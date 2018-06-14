@@ -1,0 +1,494 @@
+@media screen and (max-width: 768px) {
+  .hengxian {
+    text-align: center;
+    display: block;
+  }
+  .hengxian img {
+    width: 0.16rem;
+    height: 0.03rem;
+  }
+  button {
+    outline: none;
+    border: 0;
+    background: -webkit-linear-gradient(left, #ffa408, #ff5912, #d20000);
+  }
+  h2 {
+    font-size: .2rem;
+    color: #333333;
+    line-height: 0.26rem;
+    font-weight: 300;
+    text-align: center;
+  }
+  .home {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .w80 {
+    width: 100%;
+  }
+  .top {
+    width: 100%;
+    height: 4rem;
+    padding-top: .5rem;
+    background: url("http://static.qiezipai.cn/wechat/photoplus/img/home/top.png") no-repeat;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+  }
+  .top h2 {
+    margin-top: 0.45rem;
+  }
+  .top small {
+    font-size: .12rem;
+    margin-top: 0.16rem;
+    color: #757580;
+  }
+  .top p {
+    margin-top: 0.23rem;
+  }
+  .top p a {
+    display: none;
+    outline: none;
+  }
+  .top p a:nth-child(2) {
+    display: block;
+    width: 1.8rem;
+    height: 0.32rem;
+    line-height: .32rem;
+    text-align: center;
+    color: #fff;
+    background: -webkit-linear-gradient(left, #ffa408, #ff5912, #d20000);
+    border: 0;
+    border-radius: .03rem;
+  }
+  .login {
+    display: none !important;
+  }
+  .top .banner {
+    width: 3.48rem;
+    height: 2.05rem;
+    position: absolute;
+    bottom: -.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    z-index: 1;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .top .banner img {
+    width: 90%;
+  }
+  .process {
+    position: relative;
+    height: 6.3rem;
+    background: #F7F7FF;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+  }
+  .process h2 {
+    font-size: .22rem;
+    font-weight: 300;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 0.86rem;
+  }
+  .process h2 span {
+    font-size: .14rem;
+    margin-top: 0.1rem;
+  }
+  .process .hengxian {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 0.14rem;
+  }
+  .process .process_img {
+    width: 90%;
+    height: 4rem;
+    margin-left: 5%;
+    background: url("http://static.qiezipai.cn/wechat/photoplus/img/home/liucengh5.png") center no-repeat;
+    background-size: 80% auto;
+  }
+  .process .function {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: .4rem;
+    color: #E53D00;
+    font-size: .12rem;
+  }
+  .times {
+    width: 100%;
+    margin-top: 0.44rem;
+  }
+  .times .time_child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .times .time_child .bom {
+    text-align: center;
+  }
+  .times .time_child .bom h2 {
+    text-align: center;
+    font-size: .14rem;
+  }
+  .times .time_child .bom a {
+    font-size: .12rem;
+    margin-top: 0.21rem;
+    color: #E53D00;
+    display: inline-block;
+  }
+  .times .time_child .time_left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .times .time_child .time_left small {
+    margin-top: 0.1rem;
+  }
+  .times .time_child .time_left .hengxian {
+    margin-top: 0.14rem;
+  }
+  .times .time_child .time_left p {
+    margin-top: 0.29rem;
+    font-size: .13rem;
+    color: #757580;
+  }
+  .times .time_child .time_left .list {
+    width: 100%;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 0.19rem;
+  }
+  .times .time_child .time_left ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .times .time_child .time_left ul li {
+    width: 0.76rem;
+    height: 0.24rem;
+    background: #f5f5fa;
+    border-radius: 0.02rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 10px;
+    border: 1px solid transparent;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+  }
+  .times .time_child .time_left ul li a {
+    font-size: .11rem;
+    color: #757580;
+  }
+  .times .time_child .time_left ul li:last-child {
+    width: 0;
+    height: 0;
+  }
+  .times .time_child .time_left ul li.active {
+    border-color: #f60;
+    color: #f60;
+    background: #fff;
+  }
+  .times .time_child .time_left ul li.active a {
+    color: #f60;
+  }
+  .times .time_child .time_right {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 0.1rem;
+  }
+  .times .time-phone {
+    width: 3.05rem;
+    height: 5.48rem;
+    background-image: url(http://static.qiezipai.cn/wechat/photoplus/img/home/time-phone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    position: relative;
+  }
+  .times .time-phone > img {
+    width: 2.24rem;
+    position: absolute;
+    left: .4rem;
+    top: .57rem;
+  }
+  .times .time-qr {
+    display: none;
+  }
+  .evaluate {
+    width: 100%;
+    height: 4.16rem;
+    margin-top: 0.33rem;
+    background-size: cover;
+    overflow: hidden;
+    background: url("http://static.qiezipai.cn/wechat/photoplus/img/home/pingjiah5.png");
+    background-size: 100% 100%;
+    position: relative;
+  }
+  .evaluate h2 {
+    margin-top: 0.98rem;
+    text-align: center;
+  }
+  .evaluate .hengxian {
+    margin-top: 0.13rem;
+  }
+  .evaluate .count {
+    width: 100%;
+    height: 88px;
+    padding: 0 .3rem;
+    font-size: .12rem;
+    color: #757580;
+    text-align: center;
+    margin-top: 0.24rem;
+    line-height: 0.22rem;
+  }
+
+  .record {
+    width: 100%;
+    margin-top: 0.48rem;
+  }
+  .record .hengxian {
+    margin-top: 0.13rem;
+  }
+  .record .record_imgh5 {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .record .record_imgh5 img {
+    width: 100%;
+  }
+  .record .record_img {
+    display: none;
+  }
+  .tool {
+    width: 100%;
+    height: 3.82rem;
+    background: url("http://static.qiezipai.cn/wechat/photoplus/img/home/foot.png") no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+  }
+  .tool .tool_box {
+    width: 100%;
+    height: 2.31rem;
+    background: #fff;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+  }
+  .tool .tool_box h3 {
+    width: 63%;
+    font-size: .2rem;
+    font-weight: 300;
+    margin-top: .2rem;
+    text-align: center;
+  }
+  .tool .tool_box small {
+    font-size: .12rem;
+    width: 80%;
+    text-align: center;
+    line-height: 0.2rem;
+    margin-top: 0.15rem;
+    color: #757580;
+  }
+  .tool .tool_box .form {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: .2rem;
+  }
+  .tool .tool_box .form input {
+    width: 2.2rem;
+    height: 0.5rem;
+    border-radius: 10px;
+    border: 0;
+    border: 1px solid #ccc;
+    font-size: .14rem;
+    padding-left: .1rem;
+    outline: none;
+  }
+  .tool .tool_box .form input::-webkit-input-placeholder {
+    font-size: .16rem;
+  }
+  .tool .tool_box .form a {
+    width: 1rem;
+    height: .46rem;
+    border: 0;
+    color: #fff;
+    font-size: .14rem;
+    border-radius: 10px;
+    margin: 0 auto;
+    background: -webkit-linear-gradient(left, #ffa408, #ff5912, #d20000);
+    -webkit-box-shadow: 0px 2px 16px 0px rgba(229, 61, 0, 0.32);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  /* =============== */
+  .swiper-container {
+    width: 100%;
+    height:1.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      width: 1.32rem!important;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin: 0!important;
+  }
+  .swiper-slide a{
+    display: block;
+
+  }
+
+  .swiper-slide a img{
+    width: .64rem;
+    height: .64rem;
+  }
+  .swiper-slide-next a{
+    width: .74rem;
+    height: .74rem;
+  }
+  .swiper-slide-next a img{
+    width: .74rem!important;
+    height: .74rem!important;
+  }
+  .swiper-slide-next strong{
+    color: #000;
+  }
+  .swiper-slide-next small{
+    color: #000;
+  }
+  .swiper-button-prev{
+    position: absolute!important;
+    width: .64rem!important;
+    height:.64rem!important;
+    top: 76%!important;
+    left:.2rem!important;
+    background:transparent!important;
+  }
+  .swiper-button-next{
+    position: absolute!important;
+    width: .64rem!important;
+    height: .64rem!important;
+    top: 76%!important;
+    right:.2rem!important;
+    background:transparent!important;
+  }
+  .swiper-slide p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .swiper-slide p strong{
+    font-size: .12rem;
+    color: #9898A6
+  }
+  .swiper-slide p small{
+    color: #9898A6;
+    font-size: .1rem;
+  }
+
+}

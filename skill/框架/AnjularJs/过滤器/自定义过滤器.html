@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="../js/angular.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div ng-app="aa"ng-controller="ctrl">
+			姓名：{{msg | reverse}}
+		</div>
+		<script type="text/javascript">
+			var app=angular.module("aa",[])
+			app.controller("ctrl",function($scope){
+				$scope.msg="errow";
+			})
+			app.filter("reverse",function(){
+				return function(text){
+					//return给自己定一个规则，自定义的规则。
+					return text.split("").reverse().join("")
+					//字符串截取成数组，然后倒叙数组，然后再将数组拼成字符串
+				}
+			})
+		</script>
+	</body>
+</html>

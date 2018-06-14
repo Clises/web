@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .aa{
+            width: 100px;
+            height: 3000px;
+            background: red;
+        }
+        #outer-div{
+            width: 100px;
+            height: 100px;
+            overflow:scroll;
+        }
+    </style>
+</head>
+<body>
+<script src="../lib/jquery.js">
+</script>
+<!--文档高度-->
+<div class="aa"></div>
+<div id="outer-div">
+    哈哈哈哈哈哈哈
+    哈哈哈哈哈哈哈
+    哈哈哈哈哈哈哈
+    哈哈哈哈哈哈哈
+    哈哈哈哈哈哈哈
+    哈哈哈哈哈哈哈
+    哈哈哈哈哈哈哈
+    哈哈<br/> 哈哈<br/> 哈哈<br/> 哈哈<br/> 哈哈<br/> 哈哈<br/> 哈哈<br/>
+</div>
+<script>
+    console.log($(window).height()+'浏览器下可视区域高度')
+    console.log($(document).height()+'浏览器下窗口文档高度')
+    console.log($(document.body).height()+'浏览器下窗口文档body的高度')
+    console.log($(document.body).outerHeight(true)+'浏览器下窗口文档body的总高度 包括border padding margin  也就是滚动条的高度')
+    console.log($(window).width()+'浏览器下可视区域宽度')
+    console.log($(document).width()+'浏览器下窗口文档宽度')
+    console.log($(document.body).width()+'浏览器下窗口文档body的宽度')
+    console.log($(document).scrollTop()+'获取滚动条到顶部的垂直高度')
+    console.log($(document).scrollLeft()+'获取滚动条到左侧的垂直kuai度')
+    console.log($('#outer-div')[0].scrollHeight+'获取元素内部滚动条的高度')
+    console.log($('#outer-div')[0].scrollLeft+'获取元素内部滚动条左边的垂直宽度')
+</script>
+</body>
+</html>

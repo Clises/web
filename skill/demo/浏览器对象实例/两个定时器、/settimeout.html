@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+
+		<script type="text/javascript">
+			var t;
+			var x = 0;
+			var timer_is_on = 0;
+			//开始
+			function ccc() {
+				document.getElementById("deom").value = x;
+				x = x + 1;
+				if(x>=10){
+					x=10;
+				}
+				t = setTimeout(function() {
+					ccc()
+				}, 10) //？？？？？
+			}
+			//关闭
+			function aaa() {
+				if(!timer_is_on) {
+					timer_is_on = 1;
+					ccc();
+				}
+			}
+
+			function bbb() {
+					
+					clearTimeout(t);
+				
+				timer_is_on = 0;
+			}
+		</script>
+	</head>
+
+	<body>
+		<input type="text" name="" id="deom" value="" />
+		<input type="button" value="开始" onclick="aaa()" />
+		<input type="button" value="暂停" onclick="bbb()" />
+	</body>
+
+</html>

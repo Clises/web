@@ -1,0 +1,12 @@
+CACHE MANIFEST
+#version 1.0
+CACHE:
+#CACHE标注出所有需要缓存的文件路径，与manifest文件的相对路径
+test.html
+test.js
+test.css
+test.jpg
+NETWORK:
+#在线更新的文件名
+FALLBACK:
+#如果文件不存在，访问的文件名，相当于替换404网页

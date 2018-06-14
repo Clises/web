@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			window.color="red";
+			var o={color:"blue"}
+			function sayColor(){
+				alert(this.color)
+			}
+			sayColor();//red
+			sayColor.call(this);//red this指向的是window
+			sayColor(window)
+			sayColor.call(o)//blue
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<ul id="a">
+			<li>11</li>
+			<li>12</li>
+		</ul>
+		<input type="button" name="btn" id="btn" value="添加" onclick="bb();"/>
+		<script type="text/javascript">
+			var aa=document.getElementById("a");
+			function bb(){
+				//获取ul标签
+				var ul=document.getElementById("a");
+				//添加li标签
+				var uli=document.createElement("li");
+				//添加文本
+				var wb=document.createTextNode("666");
+				//文本添加到li下
+				uli.appendChild(wb);
+				//li添加到ul下
+				ul.appendChild(uli);
+			}
+		</script>
+	</body>
+</html>

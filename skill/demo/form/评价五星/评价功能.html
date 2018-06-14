@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			input{
+				background-color:red
+			}
+		</style>
+		<script type="text/javascript">
+			window.onload=function(){
+				var oput=document.getElementsByTagName("input")
+				var oscore=document.getElementById("score")
+				for(var i=0;i<oput.length;i++){
+					oput[i].onclick=function(){
+						for(var j=0;j<oput.length;j++){
+							
+							oput[j].style.backgroundColor="red"
+						}
+						for(var k=0;k<this.name;k++){
+							//当前为蓝色，全局对象，不可更改。
+							oput[k].style.backgroundColor="blue"
+						}
+						oscore.innerHTML=this.name;
+					}
+				
+				}
+			}
+		</script>
+	</head>
+	<body>
+		请打分：
+		<input type="button" name="1" />
+		<input type="button" name="2"  />
+		<input type="button" name="3"  />
+		<input type="button" name="4"  />
+		<input type="button" name="5"  />
+		<span id="score"></span>
+	</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #array {
+        width: 10.12rem;
+        height: 10.46rem;
+        -webkit-animation: start 1.5s infinite ease-in-out;
+        }
+        /**/
+        @-webkit-keyframes start {
+        0%, 30% {
+        opacity: 0;
+        -webkit-transform: translate(0, .10rem);
+        }
+        60% {
+        opacity: 1;
+        -webkit-transform: translate(0, 0);
+        }
+        100% {
+        opacity: 0;
+        -webkit-transform: translate(0, -0.08rem);
+        }
+        }
+        /**/
+        @keyframes start {
+        0%, 30% {
+        opacity: 0;
+        -webkit-transform: translate(0, .10rem);
+        transform: translate(0, .10rem);
+        }
+        60% {
+        opacity: 1;
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+        }
+        100% {
+        opacity: 0;
+        -webkit-transform: translate(0, -.08rem);
+        transform: translate(0, -.08rem);
+        }
+        }
+        </style>
+</head>
+<body>
+<img src="../image/arrow.png" id="array" class="resize">
+</body>
+</html>

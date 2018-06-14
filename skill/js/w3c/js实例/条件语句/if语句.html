@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<p>如果时间迟于23：00；会获得问候"good day"</p>
+		<input type="button" name="" id="" value="点击查看"onclick="aa()" />
+		<p id="demo"></p>
+		<script type="text/javascript">
+			function aa(){
+					var x="";//定义一个空的字符串
+			var time=new Date().getHours();//获取当前时间hour
+			if(time>20){
+				x="good day"
+			}
+				document.getElementById("demo").innerHTML=x;
+			}
+		
+			
+		</script>
+	</body>
+</html>

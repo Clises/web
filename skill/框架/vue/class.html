@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .red{
+            color: red;
+        }
+        .fontsize{
+            size: 50px;
+        }
+        </style>
+</head>
+<body>
+<!--模板-->
+<div id="demo">
+    <span :class='{red:addClass}'>charlie</span>
+    <!--绑定class 发射指令  v-blind  对应的是一个对象
+    绑定形式 原生形式可以共存的
+    -->
+</div>
+</div>
+</body>
+</script>
+<script src="vue.js"></script>
+<script>
+    let data={
+        addClass:true
+
+    };
+
+    var vm= new Vue({
+        el:"#demo",//挂载的元素
+        data:data//数据
+    });
+</script>
+</html>

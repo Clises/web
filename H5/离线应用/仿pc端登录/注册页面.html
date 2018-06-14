@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<h1>注册</h1>
+		<label for="uname">用户名：</label>
+		<input type="text" placeholder="请输入用户名" id="uname"><span id="mess"></span><br/>
+		<label for="psw">　密码：</label>
+		<input type="password" id="psw" placeholder="请输入密码" />
+		<button id="btn">注册</button>
+	</body>
+	<script src="jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function() {
+			$("#btn").on("click", function(e) {
+				event.preventDefault()
+				var uName = uname.value;
+				var myPsw = psw.value;
+					if(uName && myPsw) {
+						localStorage.setItem("username", uName)
+						localStorage.setItem("password", myPsw)
+						window.location = "login.html"
+					}
+
+			})
+		})
+	</script>
+
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+1、两个独立的对象xiaoming、xiaoli
+    2、让xiaoli跟xiaoming通过门铃进行通信
+    3、先看下xiaoming家有没有门，如果有门的话直接通过门铃通讯didi
+        如果没有门就开始建门
+4、两个单例之间进行通信，
+<div id="a">
+</div>
+<div id="b">
+</div>
+<div id="c">
+</div>
+<div id="d">
+</div>
+<div id="e">
+</div>
+<script>
+
+    var xiaoming=(function (argument) {
+        var xiaomingjia=function (message) {
+            this.menling=message;
+
+        };
+        var men;
+        var  info= {
+            sendMessage:function (message) {
+                if(!men){
+                       men= new xiaomingjia(message)
+                }
+                return men;
+            }
+        };
+        return info;
+    })();
+    var  xiaoli={
+        callxiaoming:function (msg) {
+            var _xm=xiaoming.sendMessage(msg)
+            alert(_xm.menling)
+        _xm=null;     //等待垃圾回收  ，小李不能一直去访问小明，所有需要去清除它
+            
+        }
+    };
+    xiaoli.callxiaoming('didi')
+
+//区分a b c 归属到top    b归属banner
+    var top={
+            init:function () {
+                this.render();
+                this.bind()
+            },
+            a:4,  //a的值
+            render:function () {   //存放dom
+                var me=this;
+                me.btna=$('#a')
+            },
+            bind:function () {    //绑定事件
+                var me=this;
+                me.btna.click(function () {
+                    me.test()
+                })
+            },
+            test:function () {
+                a=6;
+            }
+    }
+
+    var banner={
+        init:function () {
+            this.render();
+            this.bind()
+        },
+        a:4,
+        render:function () {
+            var me=this;
+            me.btna=$('#b')
+        },
+        bind:function () {
+            var me=this;
+            me.btna.click(function () {
+                me.test()
+            })
+        },
+        test:function () {
+            top.a=7
+        }
+    }
+top.init()
+    banner.init()
+
+
+//    自己保护自己而且只有一个
+
+
+
+
+
+
+
+//    现在想让b去接收a但是出现了闭包
+$('a').click(function () {
+    var  a=3;
+})
+$('b').click(function () {
+    
+})
+
+
+
+
+</script>
+</body>
+</html>

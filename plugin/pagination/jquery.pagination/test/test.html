@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="pagination.css">
+    <link rel="stylesheet" type="text/css" href="common.css">
+
+</head>
+<body>
+<div class="m-style M-box">
+</div>
+<span id="count-now">4</span>&nbsp;/&nbsp;<span id="count-total">33</span>
+
+<script src="jquery-2.1.4.min.js"></script>
+<script src="jquery.pagination.js"></script>
+<script>
+
+
+
+
+    $('.M-box').pagination({
+        pageCount: totalPage,
+        current:pno,//当前第几页
+        jump: true,
+        coping: true,
+        prevContent: '上一页',
+        nextContent: '下一页',
+        count:3,
+        callback: function (api) {
+            // console.log(api.getCurrent())
+            var data = {
+                page: api.getCurrent(),
+                name: 'mss',
+                say: 'oh'
+            };
+            $.getJSON('https://www.easy-mock.com/mock/58fff7a5739ac1685205ad5d/example/pagination#!method=get', data, function (json) {
+                console.log(json);
+            });
+        }
+    });
+
+
+
+
+
+
+
+    function loadList(pno)
+    {
+        $.ajax({
+            type:"post",
+            url:"/login/s/usercontroller/searchBusiEventInfo",
+            dataType: "json",
+            data: { 'pageNum': pno,'pageSize': pageSize},
+            success:function () {
+                
+            }
+        })
+
+    }
+</script>
+</body>
+</html>

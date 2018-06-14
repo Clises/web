@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<p id="demo">Errol</p>
+		<input type="text" id="txt"/>
+		<input type="button" value="点击修改" onclick="aa()" />
+	</body>
+	<script type="text/javascript">
+		var otxt=document.getElementById("txt");
+		function aa(){
+			var str= document.getElementById("demo").innerHTML;
+			var n=str.replace(str,otxt.value)
+			document.getElementById("demo").innerHTML=n;
+		}
+	
+		document.write("hello\
+		Errol")
+	</script>
+</html>

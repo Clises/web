@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<input type="text" placeholder="请输入值"id="num"/>
+		<input type="button" name="" id="" value="计算" onclick="sum()"/>
+			<script type="text/javascript">
+			var worker=new Worker("worker.js")
+			//创建对象，实例化worker
+				function sum(){
+					var val=Number(num.value);  	
+					worker.postMessage(val) 	
+					//只需要这样去写
+					//发送给worker值，因为js没有window对象，所以不需要写window对象
+					
+				}
+				worker.onmessage=function(e){  		
+					console.log(e)   //取到js（子线程）计算的值
+					alert(e.data)
+				}
+			</script>
+	</body>
+</html>

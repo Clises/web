@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    <title>hello</title>
+    <script src="../lib/rem_r.js"></script>
+    <link href="../lib/useful.css"rel="stylesheet"type="text/css">
+    <style>
+        .article-container{
+
+            height: auto;
+            padding:0 .2rem;
+        }
+        .article-container section{
+            width: 100%;
+            padding: .48rem .1rem;
+        }
+        /*标题*/
+        .article-type {
+            font-size: .13rem;
+            color: #29a7e2;
+            position: relative;
+        }
+        .article-type::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            margin: auto;
+            background: #000;
+        }
+        .article-type span{
+            display: inline-block;
+            position: relative;
+            padding-right: 15px;
+            background: #fff;
+            font-size: 24px;
+            letter-spacing: 2px;
+        }
+        .article-item{
+            width: 100%;
+        }
+        .article-item a{
+            display: block;
+            text-decoration: none;
+        }
+        .article-item a .article-item-image{
+            overflow: hidden;
+            position: relative;
+            height: 0;
+            padding-top: 61.61%;
+        }
+        .article-image{
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: 50%;
+            background-size: cover;
+            background-image: url("./WechatIMG633.jpeg")
+        }
+        .tag{
+            position: absolute;
+            bottom: .12rem;
+            left: 0;
+            z-index: 1;
+            margin: -.03rem;
+            padding: 0 .12rem;
+            letter-spacing: -.4em;
+        }
+        .tag li{
+            display:block;
+            margin: 3px;
+            padding: 4px 6px;
+            background:red;
+            color: #fff;
+            font-size: 11px;
+            font-weight: 300;
+            letter-spacing: 0;
+        }
+        .article-item .article-item-in{
+            margin-top: .1rem;
+            font-size: .3rem;
+        }
+
+    </style>
+</head>
+<body>
+<div class="article-container col-around-center">
+    <section>
+        <header>
+            <h2 class="article-type">
+                <span>hahhaha</span>
+            </h2>
+        </header>
+        <div class="article-body col-around-center">
+            <div class="article-item">
+                <a href="#">
+                    <div class="article-item-image">
+                                            <span class="article-image">
+                                            </span>
+                        <ul class="tag">
+                            <li>哈哈哈</li>
+                        </ul>
+                    </div>
+                    <h3 class="article-item-in">
+                        就安静安静安静就安静安静安静安静安静
+                    </h3>
+                </a>
+            </div>
+        </div>
+
+    </section>
+</div>
+</body>
+</html>

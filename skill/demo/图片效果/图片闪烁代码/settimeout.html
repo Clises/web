@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div id="soccer">
+			<img src="../../../讲课/鼠标移动背景图片的变换效果/img/109951162988437419.jpg" border="0" />
+		</div>
+	</body>
+	<script type="text/javascript">
+			var counter = 0;
+
+	function soccerOnload() {
+			setTimeout("blink()", 30)
+		}
+		function blink() {
+			soccer.style.visibility =
+			(soccer.style.visibility == "hidden") ? "visible" : "hidden"
+				counter += 1;
+			setInterval("blink()", 30)
+		}
+	soccerOnload()
+	</script>
+</html>

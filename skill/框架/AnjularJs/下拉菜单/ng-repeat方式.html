@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/angular.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div ng-app="aa" ng-controller="bb">
+			<select >
+				<option ng-repeat="x in names">
+					{{x}}
+				</option>
+			</select>
+		</div>
+		<script type="text/javascript">
+			var app=angular.module("aa",[])
+			app.controller("bb",function($scope){
+				$scope.names=["百度","京东","淘宝"];
+			})
+		</script>		
+	</body>
+</html>

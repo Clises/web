@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<input type="checkbox" name="" id="" value="" />
+		<input type="checkbox" name="" id="" value="" />
+		<input type="checkbox" name="" id="" value="" />
+		<input type="checkbox" name="" id="" value="" />
+	</body>
+	<script type="text/javascript">
+		var domlist=document.getElementsByTagName("input")
+		//获取所有的input
+		var checkboxlist=[]//创建空数组，返回所有的checkbox
+		var len=domlist.length;//缓存到局部变量
+		while(len--){
+			if(domlist[len].type=="checkbox"){
+				checkboxlist.push(domlist[len])
+			}
+		}
+	</script>
+</html>

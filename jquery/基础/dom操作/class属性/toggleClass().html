@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../lib/jquery.js"></script>
+    <style>
+        .main{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+<p>
+    点击更换颜色样式
+</p>
+<mark>
+    在匹配的元素集合中的每个元素上添加或删除一个或多个样式类,取决于这个样式类是否存在或值切换属性。即：如果存在（不存在）就删除（添加）一个类。
+</mark>
+<script>
+    $(function () {
+        $('p').on('click',function () {
+            $(this).toggleClass('main')
+        })
+
+    })
+</script>
+</body>
+原生的offsetWidth是获取不到隐藏的div的宽度的。
+
+</html>

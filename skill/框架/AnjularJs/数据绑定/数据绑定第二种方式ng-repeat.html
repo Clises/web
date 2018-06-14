@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/angular.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div ng-app="" ng-init="names=['高','城','林']">
+			<ul>
+				<li ng-repeat="x in names"style="list-style: none;">
+					<!--ng-repeat重复元素，复制当前元素到x，包含其所有的属性。-->
+					{{x}}
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

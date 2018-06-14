@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/angular.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div ng-app="aa" ng-controller="bb">
+			{{msg}}
+			
+		</div>
+		<script type="text/javascript">
+			var app=angular.module("aa",[])
+			app.controller("bb",function($scope,$http){
+				$http.get("aa.txt").then(function(res){
+					$scope.msg=res.data;	
+				})
+			})
+		</script>
+	</body>
+</html>

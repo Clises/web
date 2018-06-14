@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //定义json对象
+    var person= {
+        name: 'zhangsan',
+        pass: '123',
+
+        fn: function(){
+
+            console.log(this.name+"的密码="+this.pass);
+
+        }
+    }
+    //遍历person属性包括方法，如果不想显示出方法，可用typeof(person[item])== "function"来判断
+    for(var item in person){
+        console.log("person中"+item+"的值="+person[item]);
+    }
+
+
+//    动态为json对象添加属性
+    var copyPerson={} //创建copyPerson对象，将person中的属性包括方法copy给该对象
+    for(var item in person){
+        copyPerson[item]= person[item]; //这样循环就可以将person中的属性包括方法copy到copyPerson中了
+    }
+
+    for(var item in copyPerson){
+        alert("copyPerson中"+item+"的值="+person[item]);
+    }
+
+    // 注意：使用 Ext.apply(copyPerson, person) 也可以将person中的所有属性包括方法 copy到 copyPerson中
+
+
+
+    // 3.遍历 普通js对象的 属性
+
+    //定义一个普通的js类，包含方法
+    var p= function (){
+        this.name= '李四';
+        this.pass= '456';
+        this.fn= function(){
+            alert(this.name+"的密码="+this.pass);
+        }
+
+    }
+
+    var pp= new p(); //生成一个p类的对象 pp
+
+    for(var item in pp){
+
+//遍历pp对象中的属性，只显示出 非函数的 属性，注意不能 遍历 p这个类
+        if(typeof(pp[item])== "function")
+            continue;
+        alert("p对象中"+item+"的属性="+pp[item]);
+    }
+
+    // 普通的 js对象 也可以copy，copy方法和 2.动态为 json对象 添加属性 思路一样
+
+
+</script>
+</body>
+</html>

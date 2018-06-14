@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../lib/jquery-1.11.3.min.js"></script>
+    <style>
+        .selects {
+            display: block;
+            width: 70%;
+            height: 1.6rem;
+            line-height: 1.6rem;
+            font-size: 0.8rem;
+            color: #555;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 0.1rem;
+            position: relative;
+            margin:auto;
+            padding:0 0 0 0.5rem;
+        }
+        .selects_other {
+            position: absolute;
+            left:-0.02rem;
+            top:1.6rem;
+            width:100%;
+            display: none;
+            z-index:999;
+            border-top: 1px solid #ccc;
+        }
+        .selects a.arrow img {
+            width:0.7rem;
+            position: absolute;
+            right:0.5rem;
+            top:0.6rem
+        }
+        .selects_other a {
+            border: 1px solid #ccc;
+            border-top:none;
+            display: block;
+            width:100%;
+            padding:0.1rem 0;
+            text-indent: 0.5rem;
+            height: 1.6rem;
+            line-height: 1.6rem;
+            background-color: #FFF
+        }
+        .selects_other a img {
+            height: 0.8rem;
+        }
+
+    </style>
+</head>
+<body>
+<div class="selects">
+    <div class="selects_head">
+        <a class="arrow"><img  src="images/arrow_bottom.png"></a>
+        <span class='selected'>储蓄卡</span>
+    </div>
+    <div class="selects_other">
+        <a href="javascript:" title="中国农业银行">
+            <img src="images/zs1.png" />
+        </a>
+        <a href="javascript:"   title="中国建设银行">
+            <img src="images/zs2.png" />
+        </a>
+        <a href="javascript:"   title="中国工商银行">
+            <img src="images/zs3.png" />
+        </a>
+    </div>
+</div>
+
+<script>
+    (function() {
+        function sizeHtml() {
+            window.mtSizeBase = $(window).width() / 16;
+            window.mtSizeBase = window.mtSizeBase > 45 ? 45 : window.mtSizeBase;
+            $("html").css("font-size", window.mtSizeBase + "px");
+        }
+        sizeHtml();
+        $(window).resize(function() {
+            setTimeout(function() {
+                sizeHtml();
+            }, 300);
+        });
+    })();
+    //银行下来点击
+    $(".selects_other").children("a").click(function() {
+        $(this).parents('.selects').find(".selected").text($(this).attr("title"));
+        $(".selects_other").hide();
+        $(this).parents('.selects').find(".selects_head img").attr("src", "images/arrow_bottom.png");
+    })
+    //头部点击 显示或隐藏下拉，并切换箭头图片
+    $(".selects_head").click(function() {
+        if ($(this).parent().children(".selects_other").css("display") == 'none') {
+            $(this).parent().children(".selects_other").show();
+            $(this).find("img").attr("src", "images/arrow_top.png");
+        } else {
+            $(this).parent().children(".selects_other").hide();
+            $(this).find("img").attr("src", "images/arrow_bottom.png");
+        }
+    })
+
+</script>
+</body>
+</html>

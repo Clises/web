@@ -1,0 +1,38 @@
+<!DOCTYPE html>  
+<html>  
+<head>
+	<!--方便在移动设备更好的去展示-->
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />  
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+<title>Hello, World</title>  
+<!--地图充满整个浏览器窗口-->
+<style type="text/css">  
+html{height:100%}  
+body{height:100%;margin:0px;padding:0px}  
+#container{height:100%}  
+</style>  
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=rEW7bLq1wnHOmUiv1oPjf5pPLpDiyZOL">
+//v2.0版本的引用方式：src="http://api.map.baidu.com/api?v=2.0&ak=您的密钥"
+//v1.4版本及以前版本的引用方式：src="http://api.map.baidu.com/api?v=1.4&key=您的密钥&callback=initialize"
+</script>
+</head>  
+ 
+<body>  
+<div id="container"></div> 
+<script type="text/javascript"> 
+	//初始化控件，将标准的地图控件添加到地图中。
+var map = new BMap.Map("container");    
+map.centerAndZoom(new BMap.Point(116.404, 39.915), 11);    //添加控件
+//地图缩放控件，包含地图平移缩放功能，
+map.addControl(new BMap.NavigationControl());    
+//比例尺控件，显示地图的比例关系。
+map.addControl(new BMap.ScaleControl());    
+//缩略地图控件
+map.addControl(new BMap.OverviewMapControl());
+//地图类型控件
+map.addControl(new BMap.MapTypeControl());    
+map.setCurrentCity("北京"); // 仅当设置城市信息时，MapTypeControl的切换功能才能可用
+</script>  
+</body>  
+</html>

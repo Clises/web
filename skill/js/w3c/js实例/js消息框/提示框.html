@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<p id="demo">点击按钮，显示确认框</p>
+		<input type="button" onclick="aa()"value="查看" />
+		<script type="text/javascript">
+			function aa(){
+				var x;
+				var person=prompt("请输入你的名字","errol")
+				if(person!=null&& person!=""){
+					x="你好！"+person+"今天感觉如何？"
+					
+				}
+				document.getElementById("demo").innerHTML=x;
+			}
+		</script>
+	</body>
+</html>

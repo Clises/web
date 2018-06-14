@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../lib/jquery.js"></script>
+</head>
+<body>
+<div>
+    用来解析ajax传来的json数据，也不单单指的的json
+</div>
+<script>
+var aa='{"name":"charlie"}'
+var  bb='{\n' +
+    '    "code": 1,\n' +
+    '    "message": "I\'am OK",\n' +
+    '    "meta": null,\n' +
+    '    "page": null,\n' +
+    '    "result": [\n' +
+    '        {\n' +
+    '            "activity_no": 6901966,\n' +
+    '            "activity_url": "http://wx.plusx.cn/activity/live?activityNo=6901966",\n' +
+    '            "album_id": 1464,\n' +
+    '            "album_index": 1,\n' +
+    '            "cover_pic_url": "",\n' +
+    '            "description": "fjdsj",\n' +
+    '            "name": "进度款附近的开发进度款附近的发",\n' +
+    '            "pic_num": 0,\n' +
+    '            "view_num": 0,\n' +
+    '            "wx_desc": "谱时图片现场，3分钟看到现场精彩照片。第一时间分享到朋友圈，告诉他们活动现场都发生了什么。",\n' +
+    '            "wx_img": "http://s.plusx.cn/plus/immediate/6901966/32719539950?imageslim&sign=e0871a6d6cf641029ca2fa9d8950e82e&t=5ad593f4",\n' +
+    '            "wx_title": "谱时图片现场，3分钟看到活动精彩照片"\n' +
+    '        }\n' +
+    '    ],\n' +
+    '    "success": true\n' +
+    '}\n'
+alert($.parseJSON(bb).result[0])
+
+</script>
+</body>
+
+</html>

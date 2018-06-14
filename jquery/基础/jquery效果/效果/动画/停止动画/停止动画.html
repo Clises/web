@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#start").click(function(){
+				$("div").animate({
+					left:'500px'
+				},2000)
+				$("div").animate({
+					fontSize:'3em'
+				},3000)
+			})
+			$("#stop").click(function(){
+				$("div").stop();
+			})
+				$("#stopa").click(function(){
+				$("div").stop(true);
+			})
+					$("#stopb").click(function(){
+				$("div").stop(true,true);
+			})
+		})
+	</script>
+	<body>
+		<button id="start">查看效果</button>
+		<button id="stop">停止效果</button>
+		<button id="stopa">停止所有</button>
+				<button id="stopb">停止动画但是完成动作</button>
+		<div style="width: 100px;height: 100px;background-color: red;position: absolute;"> 
+			EDG
+		</div>
+	</body>
+</html>

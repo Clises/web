@@ -1,0 +1,62 @@
+<html>
+<head>
+    <title>������ɫ����</title>
+</head>
+
+<body>
+
+<script language="javascript">
+    <!--
+
+    function rndbg() {					//random background
+        document.bgColor = getColor()			//����getColor����ȡ����ɫֵ����
+    }						//����Ӧ�õ��ĵ��ı���ɫ������
+
+    function getColor() {
+        currentdate = new Date()			//ȡ�õ�ǰʱ��
+        backgroundcolor = currentdate.getSeconds()	//��ʱ����������ַ������
+        if (backgroundcolor > 44)			//���¼��н�0��59�ġ�������������0��15֮��
+            backgroundcolor = backgroundcolor - 45
+        else if (backgroundcolor > 29)
+            backgroundcolor = backgroundcolor - 30
+        else if (backgroundcolor > 15)
+            backgroundcolor = backgroundcolor - 16
+        if (backgroundcolor == 0)            /*********************************/
+            return "olive";                /*����Ĵ������øղŵõ���0��15��*/
+        else if (backgroundcolor == 1)            /*������������ض�Ӧ��16����ɫֵ */
+            return "teal";                /*********************************/
+        else if (backgroundcolor == 2)
+            return "red";
+        else if (backgroundcolor == 3)
+            return "blue";
+        else if (backgroundcolor == 4)
+            return "maroon";
+        else if (backgroundcolor == 5)
+            return "navy";
+        else if (backgroundcolor == 6)
+            return "lime";
+        else if (backgroundcolor == 7)
+            return "fuschia";
+        else if (backgroundcolor == 8)
+            return "green";
+        else if (backgroundcolor == 9)
+            return "purple";
+        else if (backgroundcolor == 10)
+            return "gray";
+        else if (backgroundcolor == 11)
+            return "yellow";
+        else if (backgroundcolor == 12)
+            return "aqua";
+        else if (backgroundcolor == 13)
+            return "black";
+        else if (backgroundcolor == 14)
+            return "white";
+        else if (backgroundcolor == 15)
+            return "silver";
+    }
+
+    // -->
+</script>
+<a href="http://www.263.net.cn" onMouseOver=rndbg()><font size=2>�׶�����263</font></a>
+</body>
+</html>

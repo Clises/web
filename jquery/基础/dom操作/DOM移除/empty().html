@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../lib/jquery.js"></script>
+</head>
+<body>
+
+<p>移除dom元素，但是元素本身还存在</p>
+<button>删除元素</button>
+<script>
+    $(function () {
+        $('button').on('click',function () {
+            $('p').empty()
+        })
+    })
+
+
+
+</script>
+
+</body>
+</html>
+

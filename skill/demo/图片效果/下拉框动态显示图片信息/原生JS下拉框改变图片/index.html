@@ -1,0 +1,33 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+#sel1{ width:308px; height:20px;}
+#div1{ width:308px; height:560px; background-image:url(images/a01.jpg); background-size:100%}
+</style>
+<script>
+window.onload = function() {
+    var A = document.getElementById("sel1");
+    var B = document.getElementById("div1");
+    var C = A.getElementsByTagName("option");
+    A.value = null;
+    A.onchange = function() {
+        B.style.backgroundImage = "url(images/a0" + A.value + ".jpg)";
+    }
+}
+</script>
+</head>
+
+<body>
+<select id="sel1">
+	<option value="1">一周年限定 黑暗之女 安妮</option>
+	<option value="2">二周年限定 诺克萨斯之手 德莱厄斯</option>
+	<option value="3">三周年限定 赏金猎人 莎拉厄运</option>
+	<option value="4">四周年限定 放逐之刃 瑞文</option>
+	<option value="5">五周年限定 九尾妖狐 阿狸</option>
+</select>
+<div id="div1"></div>
+</body>
+</html>

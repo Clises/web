@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			* {
+				margin: 0px;
+				padding: 0px;
+			}
+			#show {
+				width: 250px;
+				height: 250px;
+				border: 1px solid red;
+				margin: 0px auto;
+				position: relative;
+			}
+			span {
+				font-size: 30px;
+				position: absolute;
+				z-index: 2;
+				top: 95px;
+				left: 110px;
+				color: red;
+			}
+			#myfile {
+				position: absolute;
+				opacity: 0;
+				z-index: 3;
+				top: 109px;
+				left: 40px;
+			}
+			#pic {
+				width: 250px;
+				height: 250px;
+				position: absolute;
+				z-index: 3;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="show">
+			<img src="" id="pic" />
+			<span>
+				+
+			</span>
+<input type="file" name="" id="myfile" value="+" multiple="" onchange="read()" />
+		</div>
+	</body>
+	<script type="text/javascript">
+		function read() {
+			var trueFile = document.getElementById("myfile").files[0];
+			var fr = new FileReader();
+			fr.readAsDataURL(trueFile);
+			fr.onload = function() {
+				document.getElementById("pic").setAttribute("src", this.result);
+				
+			}
+		}
+	</script>
+
+</html>

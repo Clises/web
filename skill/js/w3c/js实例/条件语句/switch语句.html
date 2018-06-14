@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<p>今天礼拜几啊</p>
+			<input type="button" name="" id="" value="点击查看" onclick="aa()"/>
+			<p id="demo"></p>
+			<script type="text/javascript">
+				function aa(){
+					var x;
+					var d=new Date().getDay();
+					switch(d)
+					{
+						case 0:x="日"
+						break;
+							case 1:x="1"
+						break;
+							case 2:x="2"
+						break;
+							case 3:x="3"
+						break;
+							case 4:x="4"
+						break;
+							case 5:x="5"
+						break;
+								case 6:x="6"
+						break;
+					}
+					//美国把一个礼拜当成的是六天。
+					document.getElementById("demo").innerHTML=x
+				}
+			</script>
+	</body>
+</html>

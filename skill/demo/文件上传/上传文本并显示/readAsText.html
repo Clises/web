@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+	</head>
+	<body>
+		<input type="file" id="myfile"onchange="readText()"/>
+		<div id="show">
+			
+		</div>
+	</body>
+	<script type="text/javascript">
+			function readText(){
+				var txtfile=document.getElementById("myfile").files[0];
+				var fr=new FileReader;
+				fr.readAsText(txtfile,"utf-8");
+				fr.onload=function(){
+					var show=document.getElementById("show")
+					show.innerHTML=this.result;
+				}
+			}
+	</script>
+</html>

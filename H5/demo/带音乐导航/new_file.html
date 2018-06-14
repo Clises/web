@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			* {
+				margin: 0px;
+				padding: 0px;
+			}
+			
+			ul {
+				height: 40px;
+				width: 808px;
+				border: 1px solid #CCCCCC;
+				overflow: hidden;
+			}
+			
+			li {
+				width: 100px;
+				height: 40px;
+				list-style: none;
+				text-align: center;
+				line-height: 40px;
+				float: left;
+				border-right: 1px solid red;
+			}
+			
+			li:nth-child(9) {
+				border-right: none;
+			}
+			
+			.bg {
+				width: 100px;
+				height: 40px;
+				background-color: red;
+				position: relative;
+				opacity: 0.5;
+			}
+			
+			video {}
+		</style>
+	</head>
+
+	<body>
+		<h1>带音乐的导航条</h1>
+		<nav>
+			<ul>
+				<li>首页新闻
+
+				</li>
+				<li>科技新闻
+				</li>
+				<li>社会新闻</li>
+				<li>财经新闻</li>
+				<li>军事新闻</li>
+				<li>民生新闻</li>
+				<li>法制新闻</li>
+				<li>体育新闻</li>
+				<li>外交新闻</li>
+			</ul>
+		</nav>
+	</body>
+	<script src="jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function() {
+			var colors = ["red", "blue", "green", "yellow", "gray", "skyblue", "purple", "black"]
+			$("ul li").hover(function() {
+				$(this).append(' <div class="bg"></div>');
+//				$(this).siblings().children("div.bg").remove();
+				var index = $(this).index();
+				var a = index + 1
+				$(this).children("div.bg").css({
+					"background-color": colors[index]
+				})
+				$(this).children("div.bg").animate({
+					"top": "-38px"
+				}, 500)
+				$(this).append('<audio src="' + a + '.mp3" autoplay="autoplay" ></audio>')
+			}, function() {
+
+				$(this).children('.bg').animate({
+					top: 0
+				}, 500);
+			})
+		})
+	</script>
+
+</html>

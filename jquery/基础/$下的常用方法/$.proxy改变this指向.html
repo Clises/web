@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../lib/jquery.js"></script>
+</head>
+<body>
+<div class="aaa">
+    $.proxy判断this指向
+</div>
+<script>
+
+        function show(n1,n2){
+            a(this)  //window
+            // alert(n1)
+            // alert(n2)
+
+        }
+    // $.proxy(show,document)()//  this 指向的是document
+    // $.proxy(show,document,4,5)()//  this 指向的是document
+    //     $.proxy(show,document,4)(5)//  this 指向的是document
+
+    $(document).click($.proxy(show,$('.aaa').aaa,3,4))
+
+console.log($('.aaa'))
+
+</script>
+</body>
+
+</html>

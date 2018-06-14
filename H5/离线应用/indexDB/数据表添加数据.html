@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			var idbFactory = window.indexedDB;
+			var dbrequest = idbFactory.open('good', 1);
+			dbrequest.onsuccess = function() {
+				alert("打开成功")
+				//实现增删改查
+				var db=this.result;//数据库对象
+				var request=db.transaction(['goods'],'readwrite')  //goods表关联事物  关联的就是readwrite增加数据这条事物
+			 	var objectStore=request.objectStore('goods')//创建数据表对象
+			 	//readwrite添加信息
+			 	//事物对象对表进行操作，   objectStore：指的就是这个数据表，  具体的增删改查就是在这个表中间进行的 ，
+				
+			 	//添加多条数据
+			 	var datas=[{
+			 		"goodsName":"手机","goodsKinds":5,"number":1000
+			 	},
+			 	{
+			 		"goodsName":"电脑","goodsKinds":5,"number":1000
+			 	},
+			 	{
+			 		"goodsName":"衣服","goodsKinds":5,"number":1000
+			 	},
+			 	{
+			 		"goodsName":"鞋子","goodsKinds":5,"number":1000
+			 	},
+			 	{
+			 		"goodsName":"衬衫","goodsKinds":5,"number":1000
+			 	}
+			 	]
+			 	for(var i=0;i<datas.length;i++){
+			 		console.log(datas[i])
+			 			objectStore.add(datas[i])
+			 	}
+				
+			}
+			dbrequest.onerror = function() {
+				alert("没有打开")
+			}
+			dbrequest.onupgradeneeded = function() {
+				alert("升级成功")
+				var db = this.result;
+				var objectStore = db.createObjectStore('goods', {
+					keyPath: 'id',
+					autoIncrement: true
+				})
+				objectStore.createIndex('name', 'goodsName', {
+					unique: true
+				}) 
+			}
+		</script>
+	</body>
+
+</html>

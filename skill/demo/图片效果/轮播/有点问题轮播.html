@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+		
+			#div1
+			{
+				width: 400px;
+				height: 300px;
+				position: relative;
+				overflow: hidden;
+			}	
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+			#ul1{
+				width: 2800px;
+				list-style: none;
+				position: absolute;
+			}
+			#ul1 li{
+				width: 400px;
+				height: 300px;
+				float: left;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="div1">
+		<ul id="ul1">
+			<li><img src="img/1.jpg"width="400px"height="300px"/></li>
+			<li><img src="img/2.jpg"width="400px"height="300px"/></li>
+			<li><img src="img/3.jpg"width="400px"height="300px"/></li>
+			<li><img src="img/4.jpg"width="400px"height="300px"/></li>
+			<li><img src="img/5.jpg"width="400px"height="300px"/></li>
+			<li><img src="img/6.jpg"width="400px"height="300px"/></li>
+				<li><img src="img/1.jpg"width="400px"height="300px"/></li>
+		</ul>
+		</div>
+		<script type="text/javascript">
+			var oul1=document.getElementById("ul1")
+			var timer=null
+			function add(){
+			clearInterval(timer);
+			 timer=setInterval(function(){
+				if(oul1.offsetLeft== -396)
+				{
+					clearInterval(timer);
+					
+				}
+				if(oul1.offsetLeft== -796)
+				{
+					clearInterval(timer);
+				}
+				if(oul1.offsetLeft== -1196)
+				{
+					clearInterval(timer);
+				}
+				if(oul1.offsetLeft== -1596)
+				{
+					clearInterval(timer);
+				}
+				if(oul1.offsetLeft== -1996)
+				{
+					clearInterval(timer);
+//					oul1.style.left="0px"
+				}
+				if(oul1.offsetLeft<= -2396){
+					clearInterval(timer);
+					oul1.style.left="0px";
+				}
+				
+																	
+
+				oul1.style.left=oul1.offsetLeft-4+"px";
+			},3);
+			 }
+			setInterval(function(){
+				add();
+			},1000)
+			
+		</script>
+	</body>
+</html>

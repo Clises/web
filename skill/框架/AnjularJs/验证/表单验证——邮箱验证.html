@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/angular.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<form ng-app="" name="myForm">
+			<input type="email" name="myAdd" ng-model="text"/>
+			<span ng-show="myForm.myAdd.$error.email">
+			这个不是合法的邮箱。
+			
+			</span>
+		</form>
+		<!--添加的信息如果满足文本框的规则，这一行就会被隐藏，如果不满足里面的规则，就会被显示出来。
+		-->
+			？？	判断输入的值是否非法。
+			$dirty:判断输入的值是否改变。
+			$valid:判断输入的值是否合法，
+			$touched:判断是否触屏点击，判断用户和控件之间是否有交互。
+
+	</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../jq的常用方法/jquery.js"></script>
+</head>
+<body>
+<span>span</span>
+<div>
+div
+</div>
+<!--clone:参数，作用是可以复制之前的操作行为，-->
+        <script>
+            $(function () {
+                $('span').click(function () {
+                    alert('aa')
+                })
+                $('span').clone(true).appendTo('div')
+
+            })
+        </script>
+</body>
+</html>
+

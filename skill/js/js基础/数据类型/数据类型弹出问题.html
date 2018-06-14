@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script type="text/javascript">
+		//*****************number与string
+		var a="a"
+		var b=3;
+		var c="4"
+		alert(a+b)//a3
+		alert(a-b)//NaN
+		alert(b-c)//-1
+		//******************number与boolean,true为1.false为0
+		var d=true;
+		alert(b-d)//2
+		//*****************string与boolean
+		//**与字母相减
+		alert(a-d)//NaN
+		//**与字母相加
+		alert(a+d)//atrue
+		//**与数字字符
+		alert(c-d)//3
+		//*****************强制类型的转换。
+		//与字母
+		alert(parseInt(a))//NaN
+		//与数字字符串，只弹出数字
+		var e="123去去a"
+		alert(parseInt(e))//123
+		//与number
+		var f=123.1
+		
+		//**************强制类型的转换。
+				alert(parseInt(f))//转换成整数
+		
+			alert(Number())//0
+			//如果出现非数字返回NaN
+			alert(Number("aa"))//NaN
+		//***************= == ===
+		var h=16;
+		var i="16"
+		alert(h==i)//true ==在判断两个值相等的时候就做类型的转换/
+		alert(h===i)//flase  ===判断相等时不做任何类型的转换。
+		
+		var k
+		alert(k)//变量未赋值弹出undefined
+		var o=null;
+		alert(o)//弹出null
+		//字符串的比较，tw在字母表中的索引值大于th
+		alert("two">"three")//true
+		//*******************null与undefined
+		//null与数字、boolean
+		alert(h-null)//16，null会被看成0.但是它不是数字类型，是一个对象。
+		alert(true-null)//1
+		//null与字符串
+		alert("a"-null)//NaN Not a Number 不是一个数字。
+		alert("123"-null)//123，转换成数字。
+		alert("a"+null)//anull
+		alert("123"+null)//123null
+		//*******undefined
+		//与字符串
+		alert(undefined+"123")//undefined123
+		alert(undefined-"123")//NaN
+		//与数字
+		alert(undefined+123)//NaN
+		alert(undefined-123)//NaN
+		//与布尔类型
+		alert(undefined+true)//NaN
+		
+		alert(null==undefined) //true
+		
+		
+	</script>
+	Null数据类型：<br/>
+	Null相当于是一个对象，<br/>
+1）、js数据类型有哪些? <br/>
+	Number、string、boolean、undefined、null、object<br/>
+2）、js的基本数据类型？<br/>
+	Number、string、boolean、undefined、null、<br/>
+3）、能被typeof弹出的数据类型有哪些?<br/>
+	Number、string、boolean、undefined、null、object<br/>
+4）、能被typeof弹出的基本数据类型？<br/>
+	Number、string、boolean、undefined、null、object<br/>
+5）、function函数类型，有些人认为不属于数据类型，应该包含在object中。<br/>
+<br/>
+</html>

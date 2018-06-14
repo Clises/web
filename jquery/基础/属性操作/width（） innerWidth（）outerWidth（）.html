@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8"/>
+    <title></title>
+    <script src="jquery.js"></script>
+    <script>
+        $(function(){
+            alert($("div").width());
+            alert($("div").innerWidth());
+            alert($("div").outerWidth());
+            alert($("div").outerWidth(true));
+        })
+    </script>
+    <style>
+        div{width:100px;height:100px;padding:10px;margin: 20px;border:1px solid #ff0000;}
+    </style>
+</head>
+<body>
+<p>
+    width()仅仅包括content(内容)
+
+    innerWidth()包括content(内容)和padding(补白)
+
+    outerWidth()包括content(内容),padding(补白)和border(边框)
+
+    outerWidth(true)包括content(内容),padding(补白),border(边框)和margin(边距)
+
+
+</p>
+<div></div>
+</body>
+</html>

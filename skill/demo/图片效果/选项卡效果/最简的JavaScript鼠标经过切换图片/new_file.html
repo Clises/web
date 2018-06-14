@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script>
+			function showDaTu(src) {
+				document.getElementById("show").src = src;
+			}
+		</script>
+	</head>
+
+	<body>
+		<img src="wall1.jpg" id="show" />
+		<br/><br/><br/>
+		<img src='wall_s1.jpg' onmouseover="showDaTu('wall1.jpg')">
+		<img src='wall_s2.jpg' onmouseover="showDaTu('wall2.jpg')">
+		<img src='wall_s3.jpg' onmouseover="showDaTu('wall3.jpg')">
+		<img src='wall_s4.jpg' onmouseover="showDaTu('wall4.jpg')">
+	</body>
+
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<p id="demo"></p>
+		<input type="text" id="txt" />
+		<input type="button" value="点击修改" onclick="aa()"/>
+	</body>
+	<script type="text/javascript">
+	
+		function aa(){
+				var otxt=document.getElementById("txt");
+			var d=new Date();
+	d.setFullYear(otxt.value);
+			document.getElementById("demo").innerHTML=d;
+		}
+	</script>
+</html>

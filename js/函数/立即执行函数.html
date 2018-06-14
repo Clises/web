@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*
+    *常见写法:
+    * (function(){...})()
+      (function(){...}())
+    *
+    * */
+ var aa=function() {
+            var a='';
+            for (var b=0;b<10;b++){
+                a+=b;
+            }
+            return a;
+        }()
+    console.log(aa)
+
+</script>
+</body>
+</html>

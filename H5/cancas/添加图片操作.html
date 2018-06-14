@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<canvas id="myCanvas" width="1000px" height="1000px" style="border: 1px solid red;"> </canvas>
+			</body>
+			
+			
+	<script type="text/javascript">
+		var canvas=document.getElementById("myCanvas")
+		var context = canvas.getContext("2d")
+		var pic=new Image();
+		pic.src="2.jpg";
+		pic.onload=function(){
+		//添加的是图片的对象，所以需要去实例化，在图片加载完之后才会去调用这张图片
+					context.drawImage(pic,200,200,100,100);
+		}
+
+		
+		
+	</script>
+</html>

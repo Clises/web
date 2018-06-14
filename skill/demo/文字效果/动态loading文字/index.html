@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+				var str="Loading...";
+				var i=0;
+				function flash(){
+					var aa=str.charAt(i);
+					aa="<b>"+aa+"</b>";
+					var leftstr=str.substr(0,i);
+					var rightstr=str.substr(i+1,str.length-i);
+					document.getElementById("txt").innerHTML=leftstr+aa+rightstr;
+					i++;
+					if(i>=str.length){
+						i=0;
+						
+					}
+					setTimeout("flash()",30);
+				}
+				
+		</script>
+	</head>
+	<body onload="flash()">
+		<table style="position:absolute;width:100%;height:100%;top:0px;left:0px;">
+			<tr>
+				<td align="center" id="txt" style="color: blue;">
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

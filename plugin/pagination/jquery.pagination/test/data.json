@@ -1,0 +1,12 @@
+{
+  "code": 1,
+  "message": "I'am OK",
+  "meta": null,
+  "page": null,
+  "result": {
+    "total":100,
+    "rows":100,
+    "uid":10
+  },
+  "success": true
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="">
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="js/angular.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div >
+			<!--
+				ng-app：AngularJs的边缘，一个页面中只能出现一个，并且可以出现在任何html标签中，
+				所以需要给的是最外层，也就是html标签中。
+						-->
+			<input type="text" ng-model="username"/>
+			<!--
+				ng-model：数据绑定，用来同步数据。
+			-->
+			<h3>
+				你好{{username}}
+				<!--数据绑定表达式-->
+			</h3>
+		</div>
+	</body>
+</html>

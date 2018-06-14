@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#box{
+			width:400px;
+			height: 300px;
+			border:2px solid red;
+			}
+			.img{
+				width: 50px;
+				height: 300px;
+				overflow:hidden;
+				float:left;
+	
+			}
+		</style>
+		<script type="text/javascript">
+			window.onload=function(){
+					var oimg=document.getElementsByClassName("img")
+			for(var i=0;i<oimg.length;i++){
+				oimg[i].onclick=function(){
+					for(var m=0;m<oimg.length;m++){
+						oimg[m].style.width="50px"
+					}
+					this.style.width="300px"
+				}
+			}	
+				
+			}
+	
+		</script>
+	</head>
+	<body>
+		<div id="box">
+		<div class="img">
+			<img src="img/1.jpg"style="width:300px;height:300px"/>
+		</div>
+			<div class="img">
+			<img src="img/2.jpg"style="width:300px;height:300px"/>
+		</div>
+			<div class="img" style="width: 300px;height: 300px;">
+			<img src="img/3.jpg"style="width:300px;height:300px"/>
+		</div>
+		</div>
+	</body>
+</html>

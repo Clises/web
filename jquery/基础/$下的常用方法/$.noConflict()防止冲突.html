@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../lib/jquery.js"></script>
+</head>
+<body>
+<div>
+    $.type  跟原生的typeof用法一样，但是区分的类型会更多，比方说是date 或者正则  或者是数组等等。。。。。
+</div>
+<script>
+    var  mm=$.noConflict()
+
+
+mm(function () {
+    var a ='aaa'
+    alert(mm.type(a))  //string
+})
+
+
+</script>
+</body>
+
+</html>

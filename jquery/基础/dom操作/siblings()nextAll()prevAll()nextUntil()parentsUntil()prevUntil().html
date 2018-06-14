@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../jq的常用方法/jquery.js"></script>
+</head>
+<body>
+<div>
+    兄弟
+    <div>
+        <span>
+            兄弟的儿子
+        </span>
+
+        <p>
+            兄弟的儿子的儿子
+        </p>
+        <!--找到所有的兄弟节点，添加参数也是筛选功能个-->
+        <!--nextAll():找到该节点下面的所有节点,不包括它本身，也可以添加元素去筛选-->
+        <!--prevAll()与上面相反-->
+        <!--nextUntil():下一个节点
+        parentsUntil()：父节点
+        prevUntil():上一个节点
+        -->
+<script>
+    $(function () {
+        // $('p').siblings('span').css('background','red')
+        $('p').prevUntil().css('background','red')
+
+
+    })
+</script>
+</body>
+</html>
+

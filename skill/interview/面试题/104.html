@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			function changeObjectProperty(o){
+				o.siteUrl="http://www.baidu.com"
+				o=new Object();
+				o.siteUrl="http://www.sougou.com"
+			}
+			var CSSer=new Object();
+			changeObjectProperty(CSSer);
+			console.log(CSSer.siteUrl)
+		</script>
+	</body>
+</html>

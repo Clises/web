@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#box{
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+		<p id="box">
+			平凡之路<br/>
+徘徊着的 在路上的<br/>
+你要走吗 via via<br/>
+易碎的 骄傲着<br/>
+那也曾是我的模样<br/>
+沸腾着的 不安着的<br/>
+你要去哪 via via<br/>
+谜一样的 沉默着的<br/>
+故事你真的在听吗<br/>
+我曾经跨过山和大海<br/>
+也穿过人山人海<br/>
+我曾经拥有着的一切<br/>
+转眼都飘散如烟<br/>
+我曾经失落失望失掉所有方向<br/>
+直到看见平凡才是唯一的答案<br/>
+当你仍然 还在幻想<br/>
+你的明天 via via<br/>
+		</p>
+		<p id="demo">
+			
+		</p>
+	</body>
+	<script type="text/javascript">
+		var obox=document.getElementById("box");
+		var odemo=document.getElementById("demo")
+		var timer=null;
+		var i=0;
+		timer=setInterval(function(){
+			odemo.innerHTML=obox.innerHTML.substring(0,i)
+			i++;
+			if(odemo.innerHTML==obox.innerHTML){
+				clearInterval(timer)
+			}
+		},30)
+	</script>
+</html>

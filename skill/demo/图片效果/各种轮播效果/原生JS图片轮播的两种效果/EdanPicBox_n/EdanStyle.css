@@ -1,0 +1,46 @@
+@charset "utf-8";
+*{
+	margin:0;
+	padding:0;
+}
+#edan_PicBox{
+	width:320px;
+	height:200px;
+	border:1px solid #000;
+	position:absolute;
+	overflow:hidden;
+	left:200px
+}
+#edan_PicUl{
+	width:1280px;
+	height:200px;
+	background-color:rgba(0,0,0,0.5);
+	position:absolute;
+}
+#edan_PicUl li{
+	width:320px;
+	height:200px;
+	float:left;
+	list-style:none;
+	position:relative;
+}
+#edan_PicUl li img{
+	width:320px;
+	height:200px;
+}
+#edan_PicUl li a{
+	display:block;
+	position:absolute;
+	top:170px;
+	z-index:99999;
+	width:305px;
+	height:30px;
+	background-color:rgba(0,0,0,0.5);
+	line-height:30px;
+	padding-left:15px;
+	color:#FFF;
+	font-family:"微软雅黑";
+	text-decoration:none;
+	font-size:14px; 
+}
+

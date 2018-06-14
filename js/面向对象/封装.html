@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+   //  /*生成实例对象的原始模式*/
+   //  var Cat={
+   //      name:'',
+   //      color:''
+   //  }
+   //  /*生成实例对象*/
+   //  var cat1={
+   //  }
+   //  cat1.name='大毛'
+   //  cat1.color='red'
+   //  var cat2={
+   //
+   //  }
+   //  cat2.name='小毛'
+   //  cat2.color='black'
+   // /*在原始模式上进行改进*/
+   //  function cat(name,color) {
+   //      return{
+   //          name:name,
+   //          color:color
+   //      }
+   //
+   //  }
+   //  /*生成实例对象，就等于在调用函数*/
+   //  var cat1=cat('damao','red')
+   //  var cat2=cat('xiiaomao','yellow')
+   //  /*这种方法的问题是：cat1和cat2之间没有内在的联系，不能反映出他们是同一原型的函数*/
+
+
+//   构造函数模式  constructor，其实就是内部使用了this变量，对构造函数使用new运算，就能生成实例，并且this会绑定在实例对象上。
+    function cat(name,color) {
+        this.name=name;
+        this.color=color;
+    }
+    var cat1=new cat('damao','red')
+    var cat2=new cat('xiaomao','black')
+    alert(cat1.name)
+    alert(cat1.color)
+    //cat会自动含有有个constructor属性，指向构造函数
+    //返回创建此对象的数组函数的引用
+    alert(cat1.constructor==cat)
+    console.log(cat1.constructor)
+
+
+
+</script>
+</body>
+</html>

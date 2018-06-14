@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/angular.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div ng-app="aa"ng-controller="ctrl">
+			姓名：{{errow | uppercase}};
+		</div>
+		<script type="text/javascript">
+			var app=angular.module("aa",[]);
+			app.controller("ctrl",function($scope){
+				$scope.errow="C_lies"
+			})
+		</script>
+		<!--uppercase:转换成大写
+			lowercase：转换成小写
+			currency：转换过成美元
+			filter：（过滤器）从数组中选择一个子集
+			orderBy：根据某一个表达式排列数组
+		-->
+	</body>
+</html>

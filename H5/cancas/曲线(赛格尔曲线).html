@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<canvas id="myCanvas" width="1000px" height="1000px" style="border: 1px solid red;"> </canvas>
+<!--		如何去画曲线？
+			确定弯度，中心点 -> 控制点
+			赛格尔曲线一个弯
+			三次赛格尔曲线-->
+			</body>
+			
+			
+	<script type="text/javascript">
+		var canvas=document.getElementById("myCanvas")
+		var context = canvas.getContext("2d")
+		//确定曲线的起点
+		context.moveTo(200,200);
+		context.quadraticCurveTo(300,100,400,200);
+		context.fill()
+		
+	</script>
+</html>

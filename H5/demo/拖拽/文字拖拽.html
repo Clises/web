@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.red {
+				width: 100px;
+				height: 100px;
+				border: 1px solid red;
+				float: left;
+				margin-right: 100px;
+			}
+			.box {
+				width: 100px;
+				height: 100px;
+				border: 1px solid red;
+				float: left;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="red">
+			<p class="txt"draggable="true">天梯几多对 持续爱到几多岁 当生命仍能为你豁出去</p>
+		</div>
+
+		<div class="box">
+
+		</div>
+	</body>
+	<script src="jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function() {
+			$("p").on("dragstart", function(e) {
+				event.dataTransfer.setData("class", event.target.class)
+			})
+			$(".box").on("dragover", function() {
+				event.preventDefault()
+			})
+			$(".box").on("drop", function() {
+				event.preventDefault()
+				$(this).append($(".txt"))
+			})
+			//回拖。
+			$(".red").on("dragover", function() {
+				event.preventDefault()  //清除浏览器的样式
+
+			})
+			$(".red").on("drop", function() {
+				$(this).append($(".txt"))
+
+			})
+
+		})
+	</script>
+
+</html>

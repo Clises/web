@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="jquery.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<h1>这是子页面</h1>
+		<script type="text/javascript">
+			
+			window.onmessage=function(e){  
+				//接收到子页面事件e中，取出e中传递过来的data值；格式为字符串格式
+				var userIdobj=JSON.parse(e.data)  //转换成数字
+				console.log(userIdobj)
+				//创建json数据，主页需要在子页面获取的值 
+				$.get('goods.json',{},function(data){     
+					//三个参数  json数据名，{}访问指定数据参数 ， 成功访问之后操作
+					console.log(data)
+					window.parent.postMessage(JSON.stringify(data[0]),'*')//当前父元素对象，返回到主页面
+					//子页面向主页面发送消息
+					//拿出这个data值   
+					
+				})
+			}
+		</script>
+	</body>
+</html>

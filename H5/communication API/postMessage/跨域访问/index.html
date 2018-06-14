@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<iframe src="second.html?userId" width="" height="" name="child"></iframe>
+		<input type="button" value="发送消息" onclick="aa()"/>
+		<!--postMessage-->
+		<!--查看主页面的window对象是谁-->
+		<script type="text/javascript">
+			{userId=1}//传递的是一个对象
+		console.log(  document.child  )//获取子页面的window对象	  
+//			console.log(window)   //返回的不是子页面的window对象
+		function aa(){
+			document.child.postMessage(JSON.stringify({userId:1}),'*') 
+			
+		}
+		window.onmessage=function(e){
+			console.log(e.data)
+			document.write(e.data)
+		}
+		
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,101 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {
+	margin: 0;
+	padding: 0;
+	font-family: \5FAE\8F6F\96C5\9ED1,verdana;
+	outline: none;
+}
+ul,ol {
+	list-style: none;
+}
+img {
+	border: 0px;
+	vertical-align: middle;
+}
+
+/* 主操作区域样式 */
+#main {
+	padding: 0;
+}
+#top {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+}
+#top h2 {
+	margin-left: 20px;
+	color: #95B8E7;
+	float: left;
+}
+#top a {
+	margin-left: 10px;
+	font-size: 14px;
+	font-style: italic;
+	color: #333333;
+	text-decoration: none;
+}
+#top a:HOVER {
+	color: #c81623;
+	text-decoration: underline;
+}
+#top .bdsharebuttonbox {
+	float: right;
+	height: 100%;
+	margin-right: 50px;
+}
+#top .bdsharebuttonbox a {
+	margin-top: 12px;
+}
+#left {
+	float: left;
+	width: 250px;
+	font-size: 14px;
+	border-top: 1px solid #95B8E7;
+	border-bottom: 1px solid #95B8E7;
+}
+#right {
+	float: left;
+}
+#bottom {
+	float: left;
+	width: 100%;
+	height: 30px;
+	text-align: center;
+}
+#bottom span {
+	font-size: 12px;
+	color: #95B8E7;
+}
+
+/* 示例表格样式 */
+.list {
+	width: 100%;
+	margin-top: 5px;
+	font-size: 12px;
+}
+.list td, .list th {
+	padding: 5px 10px;
+	text-align: left;
+	border-bottom: 1px solid #95B8E7;
+	border-left: 1px solid #95B8E7;
+}
+.list th {
+	border-top: 1px solid #95B8E7;
+	background: #e6efff;
+}
+.list tr td:last-child, .list tr th:last-child {
+	border-right: 1px solid #95B8E7;
+}
+
+/* 按钮样式 */
+.default-button {
+	margin: 5px 5px 10px 0px;
+	padding: 5px 15px;
+	background-color: transparent;
+	outline: none;
+	border-radius: 5px;
+	cursor: pointer;
+	border: 1px solid #95B8E7;
+}
+.default-button:hover {
+	background-color: #e6efff;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/jquery-1.8.3.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("button").click(function(){
+
+						$("div").animate({left:"0"})
+			})
+
+		})
+	</script>
+	<body>
+    属性值介绍：
+        第一个参数：运动的值和属性
+        第二个参数:时间的快慢  默认是400
+        第三个参数：运动形式，只有两种运动形式（默认：swing（慢快慢）linear（匀速））
+
+
+		<button>查看效果</button>
+		<div style="width: 200px; height: 300px;background-color: red; position: absolute;right: 0">
+
+		</div>
+	</body>
+</html>

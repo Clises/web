@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+		
+			#div1
+			{
+				width: 400px;
+				height: 300px;
+				border: 5px solid red;
+				position: relative;
+				overflow: hidden;
+			}	
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+			#ul1{
+				width: 2800px;
+			
+				list-style: none;
+				position: absolute;
+			}
+			#ul1 li{
+				width: 400px;
+				height: 300px;
+				float: left;
+			}
+		</style>
+	</head>
+	<body>
+		<input type="radio" name="btn" class="btn" value="kaishi " />
+		<input type="button"  class="btn" value="下一张" />
+		<div id="div1"> 
+		<ul id="ul1">
+			<li><img src="img/1.jpg"width="400px"height="300px"/></li>
+			<li><img src="img/2.jpg"width="400px"height="300px"/></li>
+			<li><img src="img/3.jpg"width="400px"height="300px"/></li>
+			<li><img src="img/4.jpg"width="400px"height="300px"/></li>
+			<li><img src="img/5.jpg"width="400px"height="300px"/></li>
+			<li><img src="img/6.jpg"width="400px"height="300px"/></li>
+				<li><img src="img/1.jpg"width="400px"height="300px"/></li>
+		</ul>
+		</div>
+		<script type="text/javascript">
+			var oul1=document.getElementById("ul1")
+			var obtn=document.getElementsByClassName("btn")
+			var timer=null;
+			
+			obtn[0].onclick=function(){
+//						clearInterval(timer)
+			timer=	setInterval(function(){
+			
+			
+			if(oul1.offsetLeft==-380)
+				{
+					clearInterval(timer)
+					oul1.style.left="-380px";
+				}
+				oul1.style.left=oul1.offsetLeft-20 +"px";
+				
+			},30)
+			}
+			
+				obtn[1].onclick=function(){
+//						clearInterval(timer)
+			timer=	setInterval(function(){
+			
+			
+			if(oul1.offsetLeft==-780)
+				{
+					clearInterval(timer)
+					oul1.style.left="-780px";
+				}
+				oul1.style.left=oul1.offsetLeft-20 +"px";
+				
+			},30)
+			}
+		</script>
+	</body>
+</html>

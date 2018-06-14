@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		 <input type="file" name="myfile" id="myfile" value="" onchange="readText()" />
+				
+		 <script type="text/javascript">
+		 function readText(){
+		 	var myFile=document.getElementById("myfile").files[0];
+		 	var myFr=new FileReader();
+		 	myFr.readAsText(myFile,"utf-8");
+		 	myFr.onload=function(){
+		 		document.write(this.result)	
+		 	}
+		 }
+		 	
+		 </script>
+	</body>
+</html>

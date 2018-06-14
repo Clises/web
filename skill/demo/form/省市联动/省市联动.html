@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<script type="text/javascript">
+		window.onload = function() {
+			var opr = document.getElementById("province");
+
+			opr.onchange = function() {
+				var arr = Array(2);
+				arr[0] = ["山西", "运城", "阳泉"]
+				arr[1] = ["北京","昌平", "朝阳"]
+				var oci = document.getElementById("city");
+				var copo = oci.getElementsByTagName("option")
+				for(var m = 0; m < copo.length; m++) {
+					var op = copo[m];
+					oci.removeChild(op);
+					m--;
+				}
+				for(var i = 0; i < arr.length; i++) {
+					var arr1 = arr[i];
+					if(arr1[0] == this.value) {
+						for(var j = 1; j < arr1.length; j++) {
+							var value1 = arr1[j];
+							var opo = document.createElement("option");
+							opo.innerHTML=value1;
+							oci.appendChild(opo);
+
+						}
+					}
+
+				}
+				/*
+				1、 得到一个数组，对应关系。
+				2、遍历数组。
+				3、拿到第一个值跟传递值做比较，相同就获取后面的元素。
+				4、添加到第二个下拉列表上。
+				
+				 * */
+
+			}
+		}
+	</script>
+
+	<body>
+		<select id="province">
+			<option selected="selected">请选择省</option>
+			<option value="山西">山西</option>
+			<option vlaue="北京">北京</option>
+		</select>
+		<select id="city">
+		</select>
+	</body>
+
+</html>

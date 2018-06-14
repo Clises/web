@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<style>
+#box{ width:1350px; height:450px; position:absolute; background-color:#CCC}
+#box div{ width:150px; height:450px; background-color:#00F; float:left; background-size:762px}
+</style>
+<script>
+window.onload=function()
+{
+	var oBox = document.getElementById("box");
+	var aDiv = oBox.getElementsByTagName("div");
+	
+	for(var i=0;i<aDiv.length;i++)
+	{
+		
+		aDiv[i].style.backgroundImage="url(images/b0"+(i+1)+".jpg)";
+		aDiv[4].style.width="750px";
+		var timer = null;
+		aDiv[i].index=i;
+		aDiv[i].onmouseover=function()
+		{
+			clearInterval(timer);
+			var oThis = this;
+		
+			timer = setInterval(function(){
+				for(var i=0;i<aDiv.length;i++)
+				{
+					if(aDiv[i].offsetWidth>150&&aDiv[i].offsetWidth<=750&&oThis.offsetWidth>=150&&oThis.offsetWidth<750)
+					{
+						aDiv[i].style.width=aDiv[i].offsetWidth-50+"px";	
+						oThis.style.width=oThis.offsetWidth+50+"px";
+						
+					}	
+				}
+			},30);
+		}
+	}
+}
+</script>
+<meta charset="utf-8">
+<title>无标题文档</title>
+</head>
+
+<body>
+<div id="box">
+	<div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+</body>
+</html>

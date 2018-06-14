@@ -1,0 +1,61 @@
+/*
+2016.09.01
+
+@诺大人Edan	于北京
+
+*/
+@charset "utf-8";
+#Edan_Shades{
+	width:800px;
+	height:400px;
+	background-color:#C33;
+	position:absolute;
+	left:200px;
+}
+.Shades_Window{
+	width:50px;
+	height:400px;
+	background-color:#0FF;
+	float:left; position:relative;
+}
+.Window1{
+	background-image:url(img/01.jpg);
+	background-size:500px 400px
+}
+.Window2{
+	background-image:url(img/02.jpg);
+	background-size:500px 400px
+}
+.Window3{
+	background-image:url(img/03.jpg);
+	background-size:500px 400px
+}
+.Window4{
+	background-image:url(img/04.jpg);
+	background-size:500px 400px
+}
+.Window5{
+	background-image:url(img/05.jpg);
+	background-size:500px 400px
+}
+.Window6{
+	background-image:url(img/01.jpg);
+	background-size:500px 400px
+}
+.Window7{
+	background-image:url(img/02.jpg);
+	background-size:500px 400px
+}
+.Shades_Window a{
+	display:block;
+	width:490px;
+	height:30px;
+	line-height:30px;
+	background-color:rgba(0,0,0,0.5);
+	display:none;
+	position:absolute;
+	bottom:0; text-decoration:none;
+	padding-left:10px;
+	color:#FFF;
+	font-family:"微软雅黑"
+}

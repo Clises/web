@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery.js"></script>
+</head>
+<body>
+<div id="div1">
+get()会将jq代码转换成js去执行。
+</div>
+
+
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+
+</ul>
+<script>
+    $(function () {
+        // alert($('#div1').get(0).innerHTML)
+        for (var i=0;i<$('li').get().length;i++){
+            $('li').get(i).style.background='red';
+        }
+
+    })
+    </script>
+</body>
+</html>

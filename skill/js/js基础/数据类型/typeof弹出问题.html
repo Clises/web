@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+	//alert(typeof Math); //对象 
+	//alert(typeof Date); //function 
+	//alert(typeof Array); //function 
+//	alert(typeof RegExp); //function 
+	// alert(typeof Global); //未定义 
+	
+	var arr = [1,2,3]; 
+	//alert(typeof arr); //function
+	var re = /\d+/g; 
+	alert(typeof re); //对象 
+	
+	
+	//我们需要去实例化使用的，都是function，本地对象 
+	//我们不需要实例化的。都是object，也就是实例化好的，叫做内置对象，直接调用 
+	//Global不存在实体对象 
+	//内置对象，也属于本地对象 但是，本地对象不能说是内置对象 
+	//ECMA-262规定了两个内置对象，就是Math和Global
+	
+     alert( typeof isNaN)//function
+     alert(typeof isNaN(1230))//boolean
+     	alert(typeof null)//objiect
+     	alert(typeof [])//object
+     	alert(typeof undefined)//undefined
+     	 alert(typeof(window))//object
+     	
+	</script>
+	</body>
+</html>

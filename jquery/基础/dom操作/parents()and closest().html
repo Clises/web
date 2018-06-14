@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../jq的常用方法/jquery.js"></script>
+</head>
+<body class="box">
+<div class="aa box">
+<div class="bb">
+
+</div>
+</div>
+<!--parents:获取当前元素的所有祖先节点-->
+<!--closest：获取最近的指定的父节点（包括元素自身）必须要写筛选的参数-->
+<script>
+    $(function () {
+        $('.bb').parents('.box').css('background','red')
+
+        // $('.bb').closest('.box').css('background','red')
+
+
+    })
+</script>
+</body>
+</html>

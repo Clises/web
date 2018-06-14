@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			var my;
+			function openw(){
+				my=window.open("","","width:400,height=200")
+			}
+					function closew(){
+				if(my){
+					my.close();
+				}
+			}
+					function checkc(){
+						if(!my){
+							document.getElementById("deom").innerHTML="你就没开呀";
+						}else{
+							if(my.closed){
+								document.getElementById("deom").innerHTML="你关了";
+							}
+							else{
+								document.getElementById("deom").innerHTML="你没关了";
+							}
+						}
+					}
+		</script>
+	</head>
+	<body>
+		<input type="button" name="" id="" value="打开窗口" onclick="openw()"/>
+		<input type="button"value="关闭窗口"onclick="closew()"/>
+		<input type="button" name="" id="" value="检查新的窗口是否关闭"onclick="checkc()" />
+		<p id="deom"></p>
+	</body>
+</html>

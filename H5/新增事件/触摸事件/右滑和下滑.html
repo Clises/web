@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"/>
+		<style>
+			.box1{
+				width: 100%;
+				height: 500px;
+				background: red;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<div class="box1"></div>
+		<script src="jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			$(function(){
+				var startPageX=0;
+				var startPageY=0;
+				$(".box1").on("touchstart",function(e){
+					startPageX=event.targetTouches[0].pageX;
+					startPageY=event.targetTouches[0].pageY;
+				})
+				$(".box1").on("touchend",function(e){
+					var endPageX=event.changedTouches[0].pageX;
+					var endPageY=event.changedTouches[0].pageY;
+					var x=Math.abs(endPageX-startPageX);//横坐标之差
+					var y=Math.abs(endPageY-startPageX);//纵坐标之差
+					if(endPageX>startPageX){						
+						var a=Math.atan(y/x);
+						if(a<Math.PI/6){
+							alert("右滑动")
+						}
+					}
+					if(endPageX>startPageX){
+						var b=Math.atan(x/y)
+						if(b<Math.PI/6){
+							alert("下滑动")
+						}
+					}
+					
+				})
+				
+			})
+		</script>
+	</body>
+</html>

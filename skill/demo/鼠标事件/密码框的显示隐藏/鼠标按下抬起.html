@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			#div1{
+				width: 400px;
+				height: 100px;
+				background-color: blue;
+				position: absolute;
+			}
+			#div2{
+				width: 400px;
+				height: 100px;
+				background-color: red;
+				position: absolute;
+			}
+			</style>
+			<script type="text/javascript">
+				window.onload=function(){
+					var odiv1=document.getElementById("div1");
+					var odiv2=document.getElementById("div2");
+					odiv2.onmousedown=function(){
+						odiv2.style.opacity="0"
+						//鼠标按下时触发的事件
+					}		
+					odiv2.onmouseup=function(){
+						odiv2.style.opacity="1"
+						//鼠标抬起时触发的事件
+					}
+				}
+			</script>
+				<!--//监听的鼠标上所有的按键，左键、右键、和点击滚轮-->
+					<!--//监听的鼠标上所有的按键，左键、右键、和点击滚轮-->
+				<!--鼠标按下、鼠标抬起、鼠标单击、鼠标按下、鼠标抬起、鼠标单击、鼠标双击-->
+
+	</head>
+	<body>
+		<div id="div1"></div>
+		<div id="div2"></div>		
+	</body>
+</html>

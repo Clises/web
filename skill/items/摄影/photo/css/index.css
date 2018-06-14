@@ -1,0 +1,474 @@
+@keyframes VerticalBanner{
+	0%{transform:translateY(0)}
+	15%{transform:translateY(0)}
+	30%{transform:translateY(-1000px)}
+	45%{transform:translateY(-1000px)}
+	60%{transform:translateY(-2000px)}
+	75%{transform:translateY(-2000px)}
+	90%{transform:translateY(-3000px)}
+	100%{transform:translateY(-3000px)}	
+}
+
+.indexBanner{
+	max-width: 1920px;
+	min-width: 1000px;
+	height:1000px;
+	overflow: hidden;	
+}
+.indexBannerList{	
+	width: 100%;
+	height: 4000px;
+	animation:VerticalBanner 15s linear infinite alternate;
+}
+.indexBannerList li{
+	width:100%;
+	height:1000px;
+}
+.indexBannerList li img{
+	width:100%;
+	height:100%;
+}
+/*下面四张logo图*/
+.Indexlog{
+	max-width: 1920px;
+	min-width: 1000px;
+	height:320px;
+	line-height: 320px;
+}
+.indexLogList{
+	width:1000px;
+	height:220px;	
+	margin:0px auto;
+	margin-top:100px;
+}
+.indexLogList li{
+	width:220px;
+	height:220px;	
+	text-align: center;	
+	border:1px solid #e3e3e3;
+	float:left;
+	margin-left:20px;
+	transition: all 0.5s;
+}
+.indexLogList li a{
+	color:#000;	
+    font-size: 20px;
+}
+.indexLogList li:nth-child(1){
+	background: url(../img/rx_sm.png) no-repeat;
+	background-size: 100px 100px;
+    background-position: center 30px;
+}
+.indexLogList li:nth-child(1):hover{
+	background: url(../img/rx_sm2.png) no-repeat;
+	background-size: 100px 100px;
+	background-position:center 30px;
+	background-color: #FFC001;
+	
+}
+.indexLogList li:nth-child(1):hover a{
+	color:#fff;
+}
+.indexLogList li:nth-child(2){
+	background: url(../img/ss_sm.png) no-repeat;
+	background-size: 100px 100px;
+    background-position: center 30px;
+}
+.indexLogList li:nth-child(2):hover{
+	background: url(../img/ss_sm2.png) no-repeat;
+	background-size: 100px 100px;
+	background-position:center 30px;
+	background-color: #FFC001;
+	
+}
+.indexLogList li:nth-child(2):hover a{
+	color:#fff;
+}
+.indexLogList li:nth-child(3){
+	background: url(../img/hs_sm.png) no-repeat;
+	background-size: 100px 100px;
+    background-position: center 30px;
+}
+.indexLogList li:nth-child(3):hover{
+	background: url(../img/hs_sm2.png) no-repeat;
+	background-size: 100px 100px;
+	background-position:center 30px;
+	background-color: #FFC001;
+	
+}
+.indexLogList li:nth-child(3):hover a{
+	color:#fff;
+}
+.indexLogList li:nth-child(4){
+	background: url(../img/timg4.png) no-repeat;
+	background-size: 100px 100px;
+    background-position: center 30px;
+}
+.indexLogList li:nth-child(4):hover{
+	background: url(../img/timg5.png) no-repeat;
+	background-size: 100px 100px;
+	background-position:center 30px;
+	background-color: #FFC001;
+	
+}
+.indexLogList li:nth-child(4):hover a{
+	color:#fff;
+}
+
+/*捕捉美丽瞬间*/
+.catchBeauty{
+	position: relative;
+	max-width: 1920px;
+    min-width: 1000px;
+}
+.catchBeautyBlack{
+	width: 100%;
+	height:300px;
+	background-color:#000000;
+}
+.cBbannerBox{
+	width:1000px;
+	height:330px;
+	background-color:#FFC001;
+	color:#fff;
+	margin:-200px auto;
+	/*padding:20px;*/
+}
+/*抓住美丽瞬间的淡入淡出的banner*/
+.catchBeautyLeft{
+	float:left;
+	margin-left: 20px;
+	margin-right:15px;
+	width:500px;
+	height:335px;
+	margin-top:-20px;
+	/*overflow: hidden;*/
+	position: relative;
+}
+.catchBeautybanner{	
+	transition: all 25s;
+		
+}
+.catchBeautybanner li{
+	width: 500px;
+	height:335px;
+	position: absolute;
+	top: 0;
+	left: 0;	
+	opacity: 0;
+}
+@keyframes cbBanner1{
+	0%{opacity: 0;}
+	5%{opacity: 1;}
+	10%{opacity: 1;}
+	15%{opacity: 0;}
+}
+.catchBeautybanner li:nth-child(1){
+	animation:cbBanner1 10s linear infinite;
+}
+@keyframes cbBanner2{
+	10%{opacity: 0;}
+	15%{opacity: 1;}
+	20%{opacity: 1;}
+	25%{opacity: 0;}
+}
+.catchBeautybanner li:nth-child(2){
+	animation:cbBanner2 10s linear infinite;
+}
+@keyframes cbBanner3{
+	20%{opacity: 0;}
+	25%{opacity: 1;}
+	30%{opacity: 1;}
+	35%{opacity: 0;}
+}
+.catchBeautybanner li:nth-child(3){
+	animation:cbBanner3 10s linear infinite;
+}
+@keyframes cbBanner4{
+	30%{opacity: 0;}
+	35%{opacity: 1;}
+	40%{opacity: 1;}
+	45%{opacity: 0;}
+}
+.catchBeautybanner li:nth-child(4){
+	animation:cbBanner4 10s linear infinite;
+}
+@keyframes cbBanner5{
+	40%{opacity: 0;}
+	45%{opacity: 1;}
+	50%{opacity: 1;}
+	55%{opacity: 0;}
+}
+.catchBeautybanner li:nth-child(5){
+	animation:cbBanner5 10s linear infinite;
+}
+@keyframes cbBanner6{
+	50%{opacity: 0;}
+	55%{opacity: 1;}
+	60%{opacity: 1;}
+	65%{opacity: 0;}
+}
+.catchBeautybanner li:nth-child(6){
+	animation:cbBanner6 10s linear infinite;
+}
+@keyframes cbBanner7{
+	60%{opacity: 0;}
+	65%{opacity: 1;}
+	70%{opacity: 1;}
+	75%{opacity: 0;}
+}
+.catchBeautybanner li:nth-child(7){
+	animation:cbBanner7 10s linear infinite;
+}
+@keyframes cbBanner8{
+	70%{opacity: 0;}
+	75%{opacity: 1;}
+	80%{opacity: 1;}
+	85%{opacity: 0;}
+}
+.catchBeautybanner li:nth-child(8){
+	animation:cbBanner8 10s linear infinite;
+}
+@keyframes cbBanner9{
+	80%{opacity: 0;}
+	85%{opacity: 1;}
+	90%{opacity: 1;}
+	95%{opacity: 0;}
+}
+.catchBeautybanner li:nth-child(9){
+	animation:cbBanner9 10s linear infinite;
+}
+@keyframes cbBanner10{
+	90%{opacity: 0;}
+	95%{opacity: 1;}
+	100%{opacity: 1;}
+	5%{opacity: 0;}
+}
+.catchBeautybanner li:nth-child(10){
+	animation:cbBanner10 10s linear infinite;
+}
+/*抓住美丽瞬间右侧文字说明*/
+.catchBeautyRight{
+	width:460px;
+	float:left;
+}
+.catchBeautyRight h1{
+	padding: 20px 0px;
+}
+.catchBeautyRight ul li{
+	
+	margin-bottom:20px;
+}
+/*三角形绘制*/
+.caret,.catchBeautyPhotos{
+	clear: both;
+}
+.caret{
+	width:100;
+	height:100;
+	border-left:800px solid #FFC001;
+	border-top:550px solid transparent;
+	border-bottom:665px solid transparent;	
+    transform: translateY(70px);
+    float:left;
+    z-index:1;
+}
+/*三角旁边的照片墙*/
+.catchBeautyPhotos{
+	/*width: 1000px;	*/
+	height: 1020px;
+	position: absolute;
+    top: 650px;
+    left: 50%;
+    margin-left: -300px;
+   
+}
+.catchBeautyPhotos ul{	
+	height: 1020px;
+}
+.catchBeautyPhotos li{
+	margin-bottom: 10px;
+	height: 330px;
+}
+.cBPhotosLeft{
+	width:480px;
+	height:330px;
+	background-image: url(../img/zpxs_img1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	float:left;
+	margin-right: 10px;	
+    box-sizing: border-box;
+   	/*background-color: rgba(255, 192, 1, 0.48);*/    
+}
+.cBPhotosRight{
+	width:300px;
+	height:330px;
+	float:left;
+	background-image: url(../img/zpxs_img5.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;	
+    box-sizing: border-box;
+    /*background-color: rgba(255, 192, 1, 0.48);*/    
+}
+.xiaox{
+	margin:0px;
+	background: url(../img/zpxs_img3.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.xiaoxL{
+	margin-right:10px;
+	background: url(../img/zpxs_img4.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.childAndDog{
+	background: url(../img/zpxs_img2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.childs{
+	background: url(../img/zpxs_img6.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.cBPhotosHidden{
+	height:270px;
+	line-height: 270px;
+	color:#fff;
+	text-align: center;
+	opacity: 0;
+	transition: all 1s;
+	border:1px solid #fff;	
+}
+.cBPhoto{
+	transition:all 1s;
+}
+.cBPhoto div{
+	width:100%;
+	height:100%;
+	padding:25px;
+	box-sizing: border-box;
+}
+.catchBeautyPhotos li .cBPhoto:hover .cBPhotosHidden{
+	opacity: 1;
+
+}
+.catchBeautyPhotos li .cBPhoto:hover div{
+	background-color:rgba(255, 192, 1, 0.48) ;
+}
+.cBPhoto:hover{
+	background-color:red!important;
+}
+/*定格人生瞬间*/
+.staticTime{
+	clear:both;	
+	min-width:1000px;
+	max-width:1920px;
+	height:650px;
+	margin:auto;
+	background:url(../img/lxwm_bg.jpg) no-repeat;
+	position: relative;
+	overflow: hidden;
+	    
+}
+.staticTimeContents{
+	width:490px;
+	height: 650px;
+	background-color: rgba(252, 200, 66, 0.46);
+	transform: skew(-25deg);
+	color:#fff;
+	font-weight: bold;
+	position: absolute;
+	right:0px;
+	padding: 30px;
+	padding-right:40px;
+	box-sizing: border-box;
+	transition: all 1s;
+	opacity: 0;
+}
+.staticTime:hover .staticTimeContents{
+	transform: skew(-25deg) translateX(-500px);
+	opacity: 1;
+}
+.staticTimeContents section:nth-child(1){
+	font-size:30px;
+	margin-top:100px;
+	
+}
+.staticTimeContents section:nth-child(2){
+	font-size:30px;
+	margin-left:150px;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.staticTimeContents section:nth-child(4){
+	margin:30px 0px;
+	
+}
+.sTcontacts{
+	width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    /* background: #fff; */
+    display: inline-block;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 30px;
+    font-size: 30px;
+}
+.sTcontacts:hover{
+	background: #fff;
+	color: rgba(252, 200, 66, 0.8);
+}
+/*链接*/
+.contactUs{
+	max-width: 1920px;
+	min-width: 1000px;
+	height: 800px;
+	color: #fff;
+}
+.cUlistBox{
+	width:1000px;
+	height:620px;	
+	background: url(../img/lxwm_bg2.png) no-repeat;
+	margin: 90px auto;
+}
+.cUlistBox li{
+	width:333px;
+	height:620px;
+	/*display: flex;*/
+	/*display: table;*/
+	float:left;
+	text-align: center;
+}
+.contactLink h1{
+	/*display: table-cell;
+	vertical-align: middle;*/
+	margin-top:100px;
+}
+.contactLink p{
+	font-size:20px;
+}
+.contactLink p:nth-child(2){
+	margin:30px 0px;
+}
+.cUcall{
+	display: inline-block;
+	width:160px;
+	height:60px;
+	line-height: 60px;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 20px;
+	margin-top:100px;
+	border:1px solid #fff;
+	transition: all 1s;
+}
+.cUcall:hover{
+	background: #fff;
+	color:#000;
+}
+

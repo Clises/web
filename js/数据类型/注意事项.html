@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*null和undefined的区别
+    *
+    * un代表定义但是没有赋值
+    * null代表定义了并赋值，只是值为null
+    * */
+
+
+    /*
+    *
+    * 什么时候变量赋值为null？
+    * 初始赋值：表明将要赋值为对象
+    * 结束前：垃圾对象回收
+    *
+    * */
+
+
+    /*
+    *变量的类型（变量内存的类型）
+    * 基本类型：保存的是基本类型的数据
+    * 引用类型：保存的是地址
+    * */
+
+
+    /*
+    * var a=xxx
+    * xxx是基本数据，保存的这个数据
+    * xxx是对象，保存的是地址值
+    * xxx是变量，保存的也是地址值
+    * */
+
+
+    /*
+    *
+    * 引用变量的赋值问题
+    *   多个个引用变量指向一个对象，通过一个变量修改对象内部数据，其他所有变量看到的是修改之后的数据。
+    *
+    *   两个引用变量指向同一个对象，让其中一个引用变量指向另一个对象，另一个引用变量依然指向前一个对象
+    *
+    *
+    *
+    * */
+
+
+
+
+
+    /*
+     *null 应用实例
+     *
+     */
+    var b = null;  //初始复制为null，表明将要赋值为对象，
+    b = ['name', 122]
+    b = null;  //让b指向的对象为垃圾对象，准确的概念是被垃圾回收期回收
+
+    //c中保存的是地址值，
+    var c = function () {
+
+    }
+    console.log(typeof c) //function
+
+    /*
+    *  多个引用变量指向一个对象，通过一个变量修改对象内部数据，其他所有变量看到的是修改之后的数据。
+    * */
+    var obj1 = {"name": "charlie"}
+    var obj2 = obj1;   //变量赋值，拷贝变量内存的内容赋值给obj2
+    obj2.age = 12;
+    console.log(obj1.age)
+    /*obj1中保存的是*/
+    function fn(obj) {
+        obj.name = 'bob'
+    }
+    fn(obj1)
+    console.log(obj2.name)  //bob
+    /*
+    *
+    *   两个引用变量指向同一个对象，让其中一个引用变量指向另一个对象，另一个引用变量依然指向前一个对象
+    * */
+    var a = {age: 12}
+    var b = a;
+    a = {name: 'bob', age: 13}
+    console.log(b.age, a.name, a.age) // 12 bob 13
+    function fn2(obj) {
+        obj = {age: 15}  //变量重新新建了一个obj指向的对象   垃圾对象
+    }
+
+    fn2(a)
+    console.log(a.age)  //13
+
+    /*
+    *
+    * 在js中参数传递变量参数时，是值传递还是引用传递
+    * 理解1：都是值（1、基本值 2、地址值）传递
+    * 理解2：可能是值传递，也可能是引用传递（地址值）
+    *
+    * */
+
+    /*值传递*/
+    /*
+    *函数传参：传递的是变量的值，而不是这个变量整体，在f(a)函数中等号左边的a只是这个参数，等号右边的a指的是局部变量
+    *       最后console的是变量a的值，即整个a。
+    * */
+
+    var a=3;
+    function f(a) {
+        a=a+1;  //在等号左边a是写值对应的是形参变量，右边是进行读值对应是局部变量
+        console.log(a)
+    }
+    f(a); //这里传递的是a的值，不是a，值传递之后跟a就没关系
+    console.log(a)//3
+/*
+    var a=3,
+    c
+    function f(a) {
+        c=a+1;  //在等号左边a是写值对应的是形参变量，右边是进行读值对应是局部变量
+        console.log(a)
+    }
+    f(a); //这里传递的是a的值，不是a，值传递之后跟a就没关系
+    console.log(c)//4
+*/
+    function fn2(obj) {
+       console.log(obj.name)  //charlie
+    }
+    var aa={name:"charlie"}
+    fn(aa)
+
+
+
+    /*
+    *
+    *
+    * js引擎如何管理内存
+    * 1、内存的声明周期
+    *   分配小空间，得到它使用权
+    *   存储数据，可以反复进行操作
+    * 2、释放空间
+    *   局部变量：函数执行自动释放
+    *   对象：成为垃圾对象==》垃圾回收器回收
+    *
+    * */
+
+    var a=3;
+    var  obj={};
+    obj=null;   //两个内存空间
+    /*3个内存空间   a=3   obj    {}*/
+
+    function f1() {
+        var b={}
+    }
+    f1()  //b所指向的对象是在后面的某个时刻由垃圾回收器回收
+
+</script>
+</body>
+</html>

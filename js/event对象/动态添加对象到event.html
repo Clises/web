@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../jquery/基础/lib/jquery.js"></script>
+</head>
+<body>
+<p>
+    不再派发事件。
+    终止事件在传播过程的捕获、目标处理或起泡阶段进一步传播。调用该方法后，该节点上处理该事件的处理程序将被调用，事件不再被分派到其他节点。
+</p>
+<div>
+    查看event对象
+</div>
+<script>
+$(function () {
+    $('div').on('click',{bol:true},function (event) {
+        // var data=event.data.bol
+        console.log(event )
+    })
+
+})
+    </script>
+</body>
+</html>

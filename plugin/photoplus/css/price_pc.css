@@ -1,0 +1,289 @@
+* {font-size: 14px;}
+.price-wrapper {
+  width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  overflow: auto;
+  background: #F5F5FA;
+  padding: 64px 0 0;
+}
+
+.purchase-block {
+  width: 100%;
+}
+.purchase-block:not(:last-child) {
+  margin-bottom: 20px;
+}
+.purchase-block__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fff;
+}
+.price-h5, .service-content--h5, .attention-content--h5, .h2--h5, .tool-h5 {display: none;}
+
+
+/* di yi kuai */
+.purchase-block1 {}
+.purchase-block1 .purchase-block__item {}
+.purchase-block1 .purchase-block__item:nth-child(1) {
+  background-image: url(http://static.qiezipai.cn/wechat/photoplus/img/price/purchase-bg1@2x.png);
+  background-size: 1280px 616px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 72px 0 27px 173px;
+}
+.purchase-block1 .aaa {}
+.purchase-block1 h2 {
+  font-size: 34px;
+  margin-top: 12px;
+  font-weight: 300;
+}
+.purchase-block1 h5 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.purchase-block1 .pay-button {
+  width: 254px;
+  height: 33px;
+  color: #fff;
+  margin-top: 20px;
+  cursor: pointer;
+  background: -webkit-gradient(linear, left top, right top, from(#FE9209), to(#DB1504));
+  background: linear-gradient(to right, #FE9209, #DB1504);
+}
+.purchase-block1 .price {
+  height: 22px;
+}
+.purchase-block1 .aaa:not(:first-child) {
+  margin-top: 52px;
+}
+
+.purchase-block1 .purchase-block__logo {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+}
+.purchase-block1 .logo {
+  height: 41px;
+  margin-right: 21px;
+}
+.purchase-block1 .purchase-block__logo h3 {
+  color: #000;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.purchase-block1 .bbb {
+  width: 938px;
+  margin-top: 48px;
+  padding: 0 0 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.purchase-block1 h4 {
+  font-size: 20px;
+  color: #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.purchase-block1 h4  span {
+  font-size: 12px;
+  -webkit-transform: scale(.7);
+          transform: scale(.7);
+}
+.purchase-block1 h4 span:nth-child(1) {
+  margin-right: 10px;
+}
+.purchase-block1 h4 span:nth-child(2) {
+  margin-left: 10px;
+}
+.purchase-block1 .bbb-price {
+  font-size: 18px;
+  font-weight: 300;
+  color: #333;
+  line-height: 26px;
+  margin-top: 12px;
+}
+.purchase-block1 .attention-content {
+  font-size: 14px;
+  line-height: 40px;
+  color: #333;
+}
+.purchase-block1 .bbb:nth-child(1) {
+  border-bottom: 2px solid #F5F5FA;
+}
+
+
+
+
+
+
+
+.purchase-block1 .bbb-div {
+  width: 100%;
+  margin-top: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 48px;
+}
+
+.purchase-block1 .bbb-div-1 {
+  min-width: 150px;
+}
+.purchase-block1 .bbb-div-1 p {
+  font-size: 14px;
+  color: #333;
+  line-height: 26px;
+  text-align: center;
+}
+.purchase-block1 .bbb-div-1 .iconfont {
+  color: #5E5EFB;
+  font-size: 95px;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+.purchase-block1 .service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 21px;
+}
+.purchase-block1 .service .service-content {
+  line-height: 30px;
+  margin-right: 24px;
+}
+
+
+/*di er kuai*/
+.purchase-block2 .purchase-block__item:nth-child(1) {
+  padding: 60px 0;
+}
+
+.purchase-block2 .purchase-block__item:nth-child(2) {
+  height: 322px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url(http://static.qiezipai.cn/wechat/photoplus/img/price/purchase-bg2@2x.png);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+.purchase-block2 .purchase-block__item:nth-child(2) p {
+  color: #fff;
+  font-size: 32px;
+}
+.purchase-block2 .purchase-block__item:nth-child(2) p:nth-child(1) {
+  font-weight: 700;
+}
+.purchase-block2 .purchase-block__item:nth-child(2) p:nth-child(2) {
+  margin-top: 24px;
+  font-weight: 300;
+}
+.purchase-block2 h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 45px;
+  color: #2c2c34;
+}
+.purchase-block2 .ccc {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+
+.purchase-block2 .tool-wrapper {
+  width: 951px;
+  margin-top: 28px;
+}
+.purchase-block2 .tool-wrapper img {
+  width: 100%;
+}
+.purchase-block2 .tool-wrapper img:not(:last-child) {
+  margin-bottom: 28px;
+}
+/*装备*/
+.purchase-block2 .purchase-block__toolprice {
+  margin: 23px 0 19px;
+}
+.purchase-block2 .purchase-block__toolprice i {
+    color: #e53d00;
+  }
+.purchase-block2 .purchase-block__toolprice span {
+  color: #2c2c34;
+  padding: 0 14px;
+  font-size: 20px;
+  font-weight: 700;
+
+}
+.purchase-block2 .purchase-block__toolprice span span {
+  color: #e53d00;
+  padding: 0;
+  font-weight: 700;
+  margin-left: 16px;
+}
+.purchase-block2 .pay-button {
+  width: 216px;
+  height: 36px;
+  color: #fff;
+  cursor: pointer;
+  background: -webkit-gradient(linear, left top, right top, from(#FE9209), to(#DB1504));
+  background: linear-gradient(to right, #FE9209, #DB1504);
+}
+
+.menu-price a {
+  color: #e53d00;
+}
+.menu-price span {
+  display: block !important;
+}

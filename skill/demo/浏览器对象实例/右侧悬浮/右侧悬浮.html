@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<style type="text/css">
+			#div1{
+				width: 50px;
+			    height: 50px;
+			    background-color: goldenrod;
+			    position: absolute;
+			    right: 0;
+			    bottom: 0;
+			    opacity: 0.7;
+			    text-align: center;
+			}
+			body{
+				height: 2000px;
+			}
+		</style>
+		
+		<script type="text/javascript">
+			window.onload=function ()
+			{
+				var odiv1=document.getElementById("div1");
+				
+				window.onscroll=function ()
+				{
+					//1:计算出这DIV所在的位置；
+					//2：让这个DIV移动到这个位置；
+					//scrollTop:页面隐藏不可见的高度；
+					//clientHeight:页面可见的高度：
+					//offsetHeight:元素距屏幕可见页面的高度；
+					//offsetTop:元素距离最顶端的高度；
+					
+					var scrollTop=document.documentElement.scrollTop||document.body.scrollTop;
+					var div_place=scrollTop+document.documentElement.clientHeight-odiv1.offsetHeight;
+					//div所在地位置
+					
+					move(div_place);
+				};
+				
+				var timer=null;
+				
+				function move (target)
+				{
+					clearInterval(timer);
+					
+					timer=setInterval(function ()
+					{
+						var speed=(target-odiv1.offsetTop)/4;
+						if (odiv1.offsetTop==target)
+						{
+							clearInterval(timer)
+						} 
+						else
+						{
+							odiv1.style.top=odiv1.offsetTop+speed+"px";
+							
+						}
+					},30)
+				};
+				
+			};
+		</script>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<div id="div1">
+		</div>
+	</body>
+</html>

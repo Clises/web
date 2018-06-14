@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="../js/angular.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div ng-app="aa" ng-controller="myCtrl">
+			当前时间:{{msg|date:"yyyy-MM-dd HH:mm:ss"}}
+			<!--正经的显示时间的格式-->
+						
+		</div>
+		<script type="text/javascript">
+			var app=angular.module("aa",[])
+			app.controller("myCtrl",function($scope){
+				$scope.msg=new Date().getTime()
+			})
+		</script>
+	</body>
+</html>

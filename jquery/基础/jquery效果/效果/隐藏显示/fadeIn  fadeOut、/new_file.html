@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/jquery-1.8.3.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			#div1{
+				width: 100px;
+				height: 100px;
+				background-color: red;
+				display: none;
+				margin: 10px;
+			}
+			#div2{
+					width: 100px;
+				height: 100px;
+				background-color: red;
+				display: none;
+				margin: 10px;
+			}
+			#div3{
+					width: 100px;
+				height: 100px;
+				background-color: red;
+				display: none;
+				margin: 10px;
+				
+			}
+		</style>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#show").click(function(){
+					$("#div1").fadeIn();
+					$("#div2").fadeIn("slow");
+					$("#div3").fadeIn(2000);
+				})
+					$("#fade").click(function(){
+					$("#div1").fadeOut();
+					$("#div2").fadeOut("slow");
+					$("#div3").fadeOut(2000);
+				})
+			})	
+		
+			
+		</script>
+	</head>
+	<body>
+		<button id="show">点击查看效果</button>
+			<button id="fade">点击隐藏效果</button>
+		<div id="div1">
+			
+		</div>
+			<div id="div2">
+			
+		</div>
+			<div id="div3">
+			
+		</div>
+	</body>
+</html>

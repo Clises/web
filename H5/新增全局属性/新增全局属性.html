@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div id=""contenteditable="false">
+			内容可以边界
+			contenteditable 文本编辑。
+			如何保存修改后的内容？ 借助后台。
+			</div>
+			<!---------------------------------------------->
+			
+			<div contextmenu="mymenu">
+				规定当前元素的右击 菜单对应的dom对象id;不兼容。  
+			</div>
+			<menu type="context" label="超级链接"id="mymenu">
+				<menuitem label="百度一下"></menuitem>
+				<menu label="链接">
+					<menuitem label="百度一下" ></menuitem>
+					</menu>
+			</menu>
+			<!---------------------------------------------->
+			<div data-userId="uid"id="box1">
+				获取div的id名称，（在商品网站里点击商品，后台会去请求这个图片的data-userId值）
+			</div>
+			<script type="text/javascript">
+				var aa=document.getElementById("box1").getAttribute("data-userId")  
+						//getAttribute获取元素的属性值
+				document.write(aa)
+			</script>
+			<!---------------------------------------------->
+			<div draggable="true">
+				这是可以拖拽的属性，
+			</div>
+			<div hidden="hidden">
+				隐藏一个元素属性  hidden
+			</div>
+			<input type="text"spellcheck="true"/>
+					<div>
+				<input type="text"spellcheck="true"/>
+				规定当元素失去焦点时
+			</div>
+			tabindex
+			用户名：	<input type="text"placeholder="请输入用户名"tabindex="3">
+			密码：<input type="password"tabindex="1"autofocus="autofocus"/><!--autofoucs自动获取焦点，页面预加载显示-->
+			手机号：<input type="text"tabindex="2">
+			<script type="text/javascript">
+				document.designMode="on"//on整个页面都是可以编辑的状态，不仅可以编辑而且可以拖拽1
+				debugger;  //打断点，不会在html中显示出来。
+				document.write("打断点")
+				var str='{"name":"errol","age":"20"}';
+//								var str="{'name':'errol','age':'20'}";     1、格式必须是对象，2、必须是单引号包含双引号
+				console.log(JSON.parse(str))//字符串转换成对象
+				var obj={"name":"errol","age":"20"}
+			console.log(JSON.stringify(obj))    //对象转换成字符串。
+				
+			</script>
+			
+	</body>
+</html>

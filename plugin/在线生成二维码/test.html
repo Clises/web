@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="qrcodejs-master/qrcode.min.js"></script>
+</head>
+<body>
+<div id="qrcode">
+</div>
+<input type="text" id="getval"/> <button id="send">点击更换验证码</button>
+<script>
+    var qrcode = new QRCode(document.getElementById("qrcode"), {
+        width : 96,//设置宽高
+        height : 96
+    });
+    document.getElementById("send").onclick =function(){
+        qrcode.makeCode(document.getElementById("getval").value);
+    };
+
+    qrcode.makeCode("http://www.icharlie.club");
+</script>
+</body>
+</html>

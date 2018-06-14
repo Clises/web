@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			window.onload=function(){
+				var oDate=new Date;
+				oDate.setDate(oDate.getDate()+5)
+				document.cookie="user=clies;expires="+oDate;
+				document.cookie="pass=1234;expires="+oDate;
+				var str=document.cookie;
+				//**将字符串分割成数组，  ？？？？？
+				var arr= str.split("; ");
+				
+				var arr0=[];
+				for(var i=0;i<arr.length;i++){
+					var arr1=arr[i].split("=")
+					
+					arr0.push(arr1)
+					//加入arr0的原因是，在外部只会显示i=1时候数据，所以把arr0就是将每次循环的结果保存。
+				}
+				
+				
+				var otxt1=document.getElementById("txt1");
+				var otxt2=document.getElementById("txt2");
+				var obtn=document.getElementById("btn");
+				btn.onclick=function(){
+					if(otxt1.value==arr0[0][1]){
+						if(otxt2.value==arr0[1][1]){
+							alert("成功")
+						}
+						else{
+							alert("密码错误")
+							
+						}
+					}
+					else{
+						alert("无效")
+					}
+				}
+			}
+			
+		</script>
+	</head>
+	<body>
+	用户名：<input type="text" name="" id="txt1" value="" /><br />
+	密码：<input type="text" name="" id="txt2" value="" />
+	<input type="button" name="btn" id="btn" value="" />
+	</body>
+</html>

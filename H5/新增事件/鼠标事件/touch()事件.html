@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.box1 {
+				width: 100%;
+				height: 200px;
+				background-color: red;
+			}
+		</style>
+	</head>
+<script type="text/javascript">
+	window.onload=function(){
+		
+			document.getElementsByClassName("box1")[0].ontouchstart = function(e) {
+			alert("触摸弹出")
+			debugger;
+		}
+		
+	}
+	
+/*		document.getElementsByClassName("box1")[0].ontouchmove = function(e) {
+			alert("触摸过程")
+		}
+		document.getElementsByClassName("box1")[0].ontouchend = function(e) {
+			alert("触摸结束")
+		}*/
+	</script>
+	<body>
+		<div class="box1">
+		</div>
+
+	</body>
+	
+
+</html>

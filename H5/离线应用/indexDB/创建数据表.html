@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			//进入的是IDB的工厂对象
+			
+			//连接数据库
+			var idbFactory=window.indexedDB;
+			//创建数据库    verson版本号，用整数 
+			//返回的不是直接的数据库对象，返回的是请求数据库的对象
+			//result：IDBDatabases
+			//数据库被保存在result属性中， 
+//			idbFactory.open('goods',1)
+			//判断创建成功或者是创建失败
+			//onupgradeneeded版本号升级
+			var dbrequest=idbFactory.open('good',1);
+			dbrequest.onsuccess=function(){
+				alert("打开成功")
+				//拥有了数据库
+				
+			}
+			dbrequest.onerror=function(){
+				alert("没有打开")
+			}
+			dbrequest.onupgradeneeded=function(){
+				alert("升级成功")	
+				var db=this.result;
+					//创建表   实际的是对象空间    
+					//creataObjectStore （"storeName",paramter）
+				
+					//创建索引包括索引名，字段值  	
+					//返回数据表的对象
+					var objectStore=db.createObjectStore('goods',{keyPath:'id',autoIncrement:true})
+					objectStore.createIndex('name','goodsName',{unique:true})//商品的名称
+			}
+			//版本只能向上走不能向下走，
+		</script>
+	</body>
+</html>

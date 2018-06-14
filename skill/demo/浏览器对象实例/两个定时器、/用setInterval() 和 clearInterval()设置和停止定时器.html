@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			var aa=self.setInterval("clock()",1000)
+			function clock(){
+				var d=new Date();
+				var time=d.toLocaleTimeString();//获取现在的时间
+				document.getElementById("clock").value=time;
+			}
+		</script>
+	</head>
+	<body>
+		<input type="text" id="clock" />
+		<input type="button"  value="停止" onclick="window.clearInterval(aa)"/>
+	</body>
+</html>

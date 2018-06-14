@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			body{
+				margin: 0;
+				padding: 0;
+			}
+			#div1{
+				width:100%;
+				height:0;
+				padding-bottom: 48%;
+				/*设置图片自适应的另一种方式*/
+				background-image: url(img/109951162988435472.jpg);
+				background-size : 100% 100%;
+				background-attachment: fixed;
+				/*如果图片不固定,会默认的是这个div在移动.*/
+			}
+				#div2{
+				width:100%;
+				height:0;
+				padding-bottom: 48%;
+				background-image: url(img/109951162988437419.jpg);
+				background-size :100% 100%;
+				position: absolute;
+				background-attachment: fixed;
+				top: 0;
+				right:0;
+			}
+		</style>
+	
+	</head>
+	<body>
+		<div id="div1"></div>
+		<div id="div2"></div>
+	</body>	
+	<script type="text/javascript">
+				var odiv1=document.getElementById("div1")
+					var odiv2=document.getElementById("div2")
+					onmousemove=function(ev){
+						var oElent=ev||event;
+						odiv1.style.width=oElent.clientX+"px";
+						odiv2.style.width=(document.body.clientWidth-oElent.clientX)+"px";
+					}
+		</script>
+</html>

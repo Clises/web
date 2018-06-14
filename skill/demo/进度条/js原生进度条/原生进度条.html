@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#box{
+				width: 500px;
+				height: 100px;
+				background-color: red;
+			}
+			#jdt{
+				width: 10px;
+				height: 30px;
+				background-color: blue;
+				top: 50px;
+				
+			}
+			#demo{
+				position: absolute;
+				left: 300px;
+				top: 50px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			<p id="demo"></p>
+			<div id="jdt">
+			</div>
+		</div>
+		<script type="text/javascript">
+		var jdtt=document.getElementById("jdt");
+		var x=1;
+		var timer=null;
+		timer=setInterval(function(){
+			x++;
+			if(x>=100){
+				clearInterval(timer)
+			}
+			document.getElementById("demo").innerHTML=x+"%";
+			jdtt.style.width=x+"%";
+			},100)
+		</script>
+	</body>
+</html>

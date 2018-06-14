@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/angular.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div ng-app="aa" ng-controller="mm">
+			
+			{{msg}}
+		</div>
+		<script type="text/javascript">
+			var app=angular.module("aa",[]);
+			app.controller("mm",function($scope,$timeout){
+				$scope.msg="正在登陆"
+				$timeout(function(){
+					$scope.msg="成功"
+				},2000)
+			})
+		</script>
+	</body>
+</html>

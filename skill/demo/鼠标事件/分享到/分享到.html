@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+		 #a1
+		 {
+		 	width: 200px;
+		 	height: 300px;
+		 	background-color: #0000FF;
+		 	position: absolute;
+		 	left: -200px;
+		 	top: 200px;
+		 }
+		 #a2
+		 {
+		 	width:30px;
+			height: 60px;
+			background-color: #FF0000;
+			position: absolute;
+			left: 200px;
+			top: 120px;
+		
+		 }
+		</style>
+	</head>
+	<body>
+		<div id="a1">
+		<div id="a2"> 	
+			分享到
+		</div>
+	</div>
+		</body>
+		<script type="text/javascript">
+			var aa=document.getElementById("a1");
+			var bb=document.getElementById("a2");
+			var timer=null;
+			bb.onclick=function()
+			{
+			  if(aa.style.left=="0px")
+			  {
+	          	timer=setInterval(function()
+			  	{
+			  		aa.style.left=aa.offsetLeft-10+"px";
+			  		if(aa.style.left=="-200px")
+			  		{   
+			  			clearInterval(timer);
+			  		}
+			
+			  },30);
+			 }
+			  else
+			  {   
+			  	
+			  	timer=setInterval(function()
+			  	{   aa.style.left=aa.offsetLeft+10+"px";    
+			  		if(aa.style.left=="0px")
+			  		{   
+			  			clearInterval(timer);
+			  		}
+			
+			  },30);
+			  	
+			  }
+			}
+		</script>
+</html>

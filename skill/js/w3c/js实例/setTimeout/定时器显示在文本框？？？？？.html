@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<input type="button" name="" id="" value="点击开始"  onclick="aa()"/>
+		<input type="button" name=""   id="zt" value="点击暂停"onclick="bb()" />
+		<input type="text" name="" id="txt" value="" />
+		<script type="text/javascript">
+			var ztt=document.getElementById("zt")
+						var otxt=document.getElementById("txt")
+		
+			var timer=null;
+			var c=0;
+			clearInterval(timer)
+			function aa(){	
+			var x=0;	
+				
+			timer =setInterval(function(){
+			x++;
+			if(x>=100){
+				clearInterval(timer)
+				x=100;
+				c=1;
+			}
+			otxt.value=x;
+			},100)
+		
+			
+			}
+				ztt.onclick=function(){
+				clearInterval(timer)	
+			}
+		</script>
+	</body>
+</html>

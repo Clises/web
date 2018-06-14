@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			body,
+			header,
+			h1,
+			ul,
+			nav,
+			li {
+				margin: 0;
+				padding: 0
+			}
+			
+			li {
+				list-style: none;
+			}
+			
+			a {
+				text-decoration: none
+			}
+			
+			nav ul {
+				width: 910px;
+				height: 38px;
+				border: 1px solid #ccc;
+				overflow: hidden;
+				margin: auto;
+			}
+			
+			nav ul li {
+				width: 100px;
+				float: left;
+				line-height: 38px;
+				border-right: 1px solid #ccc;
+				text-align: center;
+			}
+			
+			.selected {
+				border-top: 2px solid #54b82a;
+				border-left: 1px solid #ccc
+			}
+			
+			li span {
+				width: 100px;
+				height: 38px;
+				position: relative;
+				border: 1px solid red;
+				display: block;
+				opacity: 0.5
+			}
+		</style>
+		<script src="jquery.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				var colors = ['#FB4F04', '#FBE204', '#50F709', '#0DF2C5', '#0997F7', '#3504FB', '#E204FB', '#5971A6', '#A4BB44'];
+				$('nav li').hover(function() {
+					$(this).append('<span></span>');
+					var index = $(this).index();
+					$(this).children('span').css('background', colors[index]).animate({
+						top: '-38'
+					}, 500);
+					$('audio').get(index).play(); //获得的是audio标签
+					//console.log($('audio').eq(index));	//jquery对象.play()  index()  css()
+					//console.log($('audio').get(index));
+					//alert(index)
+				}, function() {
+					$(this).children('span').animate({
+						top: 0
+					}, 500);
+				});
+			})
+		</script>
+	</head>
+
+	<body>
+		<header>
+			<h1>带音乐的导航</h1>
+			<nav>
+				<ul>
+					<li class="selected">
+						<a href="">我的主页</a>
+					</li>
+					<li>
+						<a href="">新闻头条</a>
+					</li>
+					<li>
+						<a href="">电视剧</a>
+					</li>
+					<li>
+						<a href="">最新电脑</a>
+					</li>
+					<li>
+						<a href="">小游戏</a>
+					</li>
+					<li>
+						<a href="">小说大全</a>
+					</li>
+					<li>
+						<a href="">度假旅游</a>
+					</li>
+					<li>
+						<a href="">今日团购</a>
+					</li>
+					<li>
+						<a href="">品牌热卖</a>
+					</li>
+				</ul>
+				<audio src="1.mp3"></audio>
+				<audio src="2.mp3"></audio>
+				<audio src="3.mp3"></audio>
+				<audio src="4.mp3"></audio>
+				<audio src="5.mp3"></audio>
+				<audio src="6.mp3"></audio>
+				<audio src="7.mp3"></audio>
+				<audio src="8.mp3"></audio>
+				<audio src="9.mp3"></audio>
+			</nav>
+
+		</header>
+	</body>
+
+</html>

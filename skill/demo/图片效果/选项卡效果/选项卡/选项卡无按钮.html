@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			ul {
+				margin-left: 400px;
+			}
+			
+			ul li {
+				list-style: none;
+				width: 200px;
+				height: 50px;
+				background-color: blue;
+				margin-top: 10px;
+				margin-left: -40px;
+				cursor: pointer;
+			}
+			.box{
+				width: 500px;
+				height: 350px;
+				position: absolute;
+			}
+		</style>
+	</head>
+
+	<body>
+		<img src="img/1.jpg" style="display: block;width: 500px;height: 350px;border-radius: 0px 100px 100px 0px;position: absolute;z-index: 6;" />
+		<img src="img/2.jpg" style="display: none;width: 500px;height: 350px;border-radius: 0px 100px 100px 0px;position: absolute;z-index: 5;" />
+		<img src="img/3.jpg" style="display: none;width: 500px;height: 350px;border-radius: 0px 100px 100px 0px;position: absolute;z-index: 4;" />
+		<img src="img/4.jpg" style="display: none;width: 500px;height: 350px;border-radius: 0px 100px 100px 0px;position: absolute;z-index: 3;" />
+		<img src="img/5.jpg" style="display: none;width: 500px;height: 350px;border-radius: 0px 100px 100px 0px;position: absolute;z-index: 2;" />
+		<img src="img/6.jpg" style="display: none;width: 500px;height: 350px;border-radius: 0px 100px 100px 0px;position: absolute;z-index: 1;" />
+			<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		
+		<script type="text/javascript">
+			var oimg = document.getElementsByTagName("img");
+			var oli = document.getElementsByTagName("li")
+			var obottom=document.getElementById("btnbottom")
+			var otop=document.getElementById("btntop")
+			for(var i = 0; i < oimg.length; i++) {
+				oli[i].index = i;
+				oli[i].onclick = function() {
+					for(var j = 0; j < oimg.length; j++) {
+						oimg[j].style.display = "none"
+					}
+					oimg[this.index].style.display = "block"
+				}
+			}
+			</script>
+	</body>
+</html>

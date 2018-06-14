@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			div{
+				width: 300px;
+				height: 300px;
+				border: 1px solid red;
+			}
+		</style>
+	</head>
+	<body>
+		<div>爱情转移<p>删除所选元素的子元素</p></div>
+		<input type="button"value="点击删除"/>
+		
+	</body>
+	<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$("input").click(function(){
+				$("div").empty()
+			})
+			
+		</script>
+</html>

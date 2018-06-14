@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        #child{
+            width: 100px;
+            height: 100px;
+            background: red;
+                margin:0 auto;
+            /*为了来兼容蛋疼的IE678*/
+        }
+        </style>
+</head>
+<body>
+<!--text-align可以是行内元素在块级元素中居中，参照W3C标准的浏览器 块级元素在块级元素中是无法居中的，但是在IE678混杂模式下
+            就出现居中-->
+<div id="parent" style="text-align:center">
+    <div id="child"></div>
+</div>
+</body>
+</html>

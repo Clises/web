@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery.js">
+    </script>
+</head>
+<body>
+<div>
+    event
+</div>
+<script>
+    $(function () {
+        $('div').on('click',{'name':'charlie'},function (event) {
+            alert(event.data.name)
+            alert(event.target)
+            alert(event.type)
+        })
+    })
+</script>
+</body>
+</html>

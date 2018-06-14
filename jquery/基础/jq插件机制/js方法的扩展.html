@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../lib/jquery.js"></script>
+</head>
+<body>
+<script>
+    $.extend({
+        leftTrim :function (str) {
+            return str.replace(/^\s+/,'')
+        }
+    });
+
+
+    var str=" sdddd"
+    console.log('aaa')
+    console.log('('+$.leftTrim(str)+')')
+    </script>
+</body>
+</html>

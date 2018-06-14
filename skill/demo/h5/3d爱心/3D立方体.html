@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			/*景深*/
+			/*按立方体的角度*/
+			/*在父级中看子元素，意思就是去俯视*/
+			@keyframes rot{
+				from{transform:rotateY(0deg) rotateX(0deg)}
+				to{transform:rotateY(360deg) rotateX(360deg)}
+			}
+			body{
+				
+				perspective: 1000px;
+			}
+			#cube{
+				width: 200px;
+				height: 200px;
+				margin: 300px auto;
+				position: relative;
+				transform-style: preserve-3d;
+				transform-origin: 50% 50% -101px;
+				animation:rot 10s linear infinite;
+			}
+			#cube div{
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 200px;
+				height: 200px;
+			}
+		
+			#cube div:nth-child(1){
+				top: -200px;
+				/*旋转基点（默认值 x y 0）*/
+				/*transform-origin: 50% 50% 0;*/
+				transform-origin: bottom;
+				/*x轴反转90度*/
+				transform: rotateX(90deg);
+			}
+				#cube div:nth-child(2){
+				transform-origin: top;
+				/*x轴反转90度*/
+				transform: rotateX(-90deg);
+				top: 200px;
+			}
+				#cube div:nth-child(3){
+				transform-origin: right;
+				/*x轴反转90度*/
+				transform: rotateY(-90deg);
+				left: -200px;
+			}
+				#cube div:nth-child(4){
+				transform-origin: left;
+				/*x轴反转90度*/
+				transform: rotateY(90deg);
+				left: 200px;
+			}
+				#cube div:nth-child(5){
+			}
+				#cube div:nth-child(6){
+					transform: translateZ(-200px);
+			}
+			#cube:hover{
+				transform: rotateY(360deg);
+					transform: rotateX(360deg) rotateY(360deg);
+			}	
+			#cube img{
+			width: 200px;
+			height: 200px;
+			}
+		</style>
+	</head>
+	<body>
+	<div id="cube">
+		<div><img src="gallery-img6.jpg"/></div>
+		<div><img src="gallery-img6.jpg"/></div>
+		<div><img src="gallery-img6.jpg"/></div>
+		<div><img src="gallery-img6.jpg"/></div>
+		<div><img src="gallery-img6.jpg"/></div>
+		<div><img src="gallery-img6.jpg"/></div>
+	</div>		
+	</body>
+</html>
