@@ -97,17 +97,13 @@
 .case_cases{
     margin: 0 auto;
 }
-/*items*/
-.case_item {
+/*!*items*!*/
+.case_items {
     width: 1155px;
-    height: 684px;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+    margin: 0 auto;
 }
-.case_item li {
+.case_item {
+    float: left;
     margin: 15px;
     padding: 10px;
     width: 355px;
@@ -115,8 +111,9 @@
     background: rgba(255, 255, 255, 1);
     border: 1px solid rgba(228, 228, 235, 1);
     cursor: pointer;
+    display: inline-block;
 }
-.case_item li .case_item_photo {
+.case_item .case_item_photo {
     height: 164px;
     background: red;
 }
@@ -174,5 +171,8 @@
 }
 
 .drop-down-content {
+    display: none;
+}
+.none{
     display: none;
 }

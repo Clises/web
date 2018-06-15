@@ -4,20 +4,27 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        #box {
-            display:flex;
-            height: 120px;
-            border: 2px dashed #f69c55;
-            flex-direction: column;
-            justify-content: center;
+        box{
+            height: 300px;
+            background: red;
+            position:relative;
+        }
+        span{
+            width:50px;
+            height: 50px;
+            background: black;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
         }
 
     </style>
 </head>
 <body>
 <div id="box">
-    <p>软件在能够复用前必须先能用。</p>
-    <p>软件在能够复用前必须先能用。</p>
+    <span>软件在能够复用前必须先能用。</span>
+    <span>软件在能够复用前必须先能用。</span>
 
 </div>
 </body>
