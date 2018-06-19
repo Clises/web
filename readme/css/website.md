@@ -12,3 +12,7 @@
 
 [title](https://www.cnblogs.com/jiasm/p/4648967.html "css3选择器相关")
 
+[titile](https://www.cnblogs.com/xiahj/p/8036419.html "深入研究-webkit-overflow-scrolling:touch及ios滚动")
+-webkit-overflow-scrolling:touch:也就是解决在移动端滚动条滑动很木现象，让滚动条跟随手指进行滑动。
+
+
