@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<span>0</span>
+<script src="../lib/jquery.js"></script>
+<script>
+    x=0;
+    $(document).ready(function(){
+        $(window).resize(function() {
+            $("span").text(x+=1);
+        });
+
+    });
+
+</script>
+</body>
+</html>
