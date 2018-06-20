@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*
+    *1、隐藏实现，变量在函数内部,不会影响外部的命名空间
+    * 用它来编写js模块
+    * */
+    (function () {  //匿名函数自调用
+        var a=3;
+    console.log(a+3)
+    })();
+
+
+
+
+    (function () {
+        var a=1;
+        function test(){
+            console.log(++a)
+        }
+        window.$=function () {   //向外暴露一个全局函数
+                return{
+                    test:test
+                }
+        }
+    })();
+    $().test()  //$是一个函数   $执行后，返回的是一个对象，对应的是一个对象
+</script>
+</body>
+</html>

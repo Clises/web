@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*
+    *1、prototype:原型，每个函数都有prototype属性，默认指向的一个object空对象（即称：原型对象）
+    *               何为object空对象？
+    *                   没有我们的属性，我们需要自己去添加属性。
+    * 原型对象中有一个属性constructor，他指向函数对象
+    *2、给原型对象添加属性（一般来说都是方法）
+    * 作用：函数的所有实例对象自动拥有原型中的属性（方法）
+    *
+    * */
+    console.log(Date.prototype,typeof Date.prototype)   //object
+    function aa() {
+    }
+    console.log(aa.prototype)   //属性为constructor   __proto__Object
+    aa.prototype.test=function () {
+    }
+    console.log(aa.prototype)   //默认指向的是object空对象
+    console.log(aa.prototype.constructor===aa)  //true
+    console.log(Date.prototype.constructor===Date)  // true
+
+    //给原型对象添加属性（一般是方法）===>实例对象可以访问
+    aa.prototype.test=function () {
+        console.log('test()')
+    }
+    var fun =new aa()
+    fun.test()
+
+
+</script>
+</body>
+</html>

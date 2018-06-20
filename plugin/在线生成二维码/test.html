@@ -12,7 +12,8 @@
 <script>
     var qrcode = new QRCode(document.getElementById("qrcode"), {
         width : 96,//设置宽高
-        height : 96
+        height : 96,
+        src:'aa.jpg'
     });
     document.getElementById("send").onclick =function(){
         qrcode.makeCode(document.getElementById("getval").value);
