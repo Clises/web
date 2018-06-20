@@ -1,208 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb8cb017-0f0d-4f67-ae8f-d7d3d35f1afd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/composing/伪元素icon/右边三角.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css3/inherit关键字使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css3/menu按钮效果/汉堡.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css3/对齐方式/两端对齐/实现文字两端对齐.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/页内导航.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/函数/IIFE立即调用函数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/函数/prototype.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/函数/函数和this.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/拖拽/js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme/css/flex布局.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tags/tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css3/对齐方式/水平居中/display：flex.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/对齐方式/水平居中/display：flex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/函数/回调函数.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/函数/回调函数.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/WEB-INF/lib/commons-beanutils-1.8.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/WEB-INF/lib/commons-collections-3.2.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/WEB-INF/lib/commons-collections-3.2.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/WEB-INF/lib/commons-lang-2.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/WEB-INF/lib/commons-lang-2.6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/WEB-INF/lib/commons-logging-1.1.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/WEB-INF/lib/ezmorph-1.0.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/WEB-INF/lib/ezmorph-1.0.6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/WEB-INF/lib/json-lib-2.4-jdk15.jar" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/WEB-INF/lib/json-lib-2.4-jdk15.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/ajax/admin_del.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/ajax/admin_del.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/ajax/admin_dialog.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/ajax/admin_dialog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/ajax/admin_json.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/ajax/admin_json.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/ajax/admin_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/ajax/admin_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/ajax/admin_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/ajax/admin_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/ajax/admin_panel.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/ajax/admin_panel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/ajax/admin_panel2.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/ajax/admin_panel2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/ajax/admin_update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/ajax/admin_update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/ajax/ajax_tree.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/ajax/ajax_tree.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/ajax/util/TreeNode.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/ajax/util/TreeNode.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/ajax/util/pageUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/ajax/util/pageUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/ajax/util/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/ajax/util/user.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/attachment/AjaxUpload.zip" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/attachment/AjaxUpload.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/attachment/jsonp_src.zip" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/attachment/jsonp_src.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/css/blue/accordion.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/css/blue/accordion.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/css/blue/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/css/blue/all.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/css/blue/datatable.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/css/blue/datatable.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/css/blue/dialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/css/blue/dialog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/css/blue/messager.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/css/blue/messager.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/css/blue/pagination.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/css/blue/pagination.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/css/blue/panel.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/css/blue/panel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/css/blue/tab.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/css/blue/tab.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/css/blue/tree.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/css/blue/tree.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/css/gray/accordion.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/css/gray/accordion.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/css/gray/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/css/gray/all.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/css/gray/datatable.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/css/gray/datatable.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/css/gray/dialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/css/gray/dialog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/css/gray/messager.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/css/gray/messager.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/css/gray/pagination.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/css/gray/pagination.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/css/gray/panel.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/css/gray/panel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/css/gray/tab.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/css/gray/tab.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/css/gray/tree.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/css/gray/tree.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/css/icon/accordion_arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/css/icon/accordion_arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/css/icon/messager_icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/css/icon/messager_icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/css/icon/panel_tools.png" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/css/icon/panel_tools.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/css/icon/st_folder.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/css/icon/st_folder.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/css/icon/st_folder_open.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/css/icon/st_folder_open.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/css/icon/st_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/css/icon/st_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/css/icon/st_icon_open.png" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/css/icon/st_icon_open.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/css/icon/st_node.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/css/icon/st_node.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/css/icon/success_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/css/icon/success_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/css/icon/tabs_icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/css/icon/tabs_icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/demo/css/blue/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/demo/css/blue/demo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/demo/css/gray/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/demo/css/gray/demo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/demo/css/pagination_demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/demo/css/pagination_demo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/demo/datatable_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/demo/datatable_demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/demo/dialog_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/demo/dialog_demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/demo/jqzoom/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/demo/jqzoom/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/demo/jqzoom/jqzoom_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/demo/jqzoom/jqzoom_demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/demo/jqzoom/jqzoom_demo.zip" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/demo/jqzoom/jqzoom_demo.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/demo/messager_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/demo/messager_demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/demo/pagination_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/demo/pagination_demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/demo/panel_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/demo/panel_demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/demo/slider_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/demo/slider_demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/demo/tree_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/demo/tree_demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/doc/accordion_doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/doc/accordion_doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/doc/ajax_upload_doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/doc/ajax_upload_doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/doc/css/blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/doc/css/blue.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/doc/css/gray.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/doc/css/gray.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/doc/datatable_doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/doc/datatable_doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/doc/dialog_doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/doc/dialog_doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/doc/jsonp_doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/doc/jsonp_doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/doc/messager_doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/doc/messager_doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/doc/pagination_doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/doc/pagination_doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/doc/panel_doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/doc/panel_doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/doc/slider_doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/doc/slider_doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/doc/tab_doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/doc/tab_doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/doc/theme_doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/doc/theme_doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/doc/tree_doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/doc/tree_doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/html.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/html.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/demo/accordion_demo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/demo/accordion_demo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/demo/accordion_demo_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/demo/accordion_demo_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/demo/datatable_demo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/demo/datatable_demo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/demo/dialog_demo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/demo/dialog_demo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/demo/messager_demo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/demo/messager_demo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/demo/pagination_demo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/demo/pagination_demo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/demo/pagination_demo_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/demo/pagination_demo_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/demo/slider_demo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/demo/slider_demo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/demo/slider_demo_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/demo/slider_demo_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/demo/tab_demo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/demo/tab_demo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/demo/tab_demo_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/demo/tab_demo_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/doc/jsonp_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/doc/jsonp_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/doc/jsonp_10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/doc/jsonp_10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/doc/jsonp_11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/doc/jsonp_11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/doc/jsonp_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/doc/jsonp_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/doc/jsonp_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/doc/jsonp_3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/doc/jsonp_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/doc/jsonp_4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/doc/jsonp_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/doc/jsonp_5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/doc/jsonp_5_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/doc/jsonp_5_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/doc/jsonp_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/doc/jsonp_6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/doc/jsonp_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/doc/jsonp_7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/doc/jsonp_8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/doc/jsonp_8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/doc/jsonp_9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/doc/jsonp_9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/doc/theme_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/doc/theme_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/jqzoom/150077795850755.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/jqzoom/150077795850755.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/jqzoom/big.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/jqzoom/big.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/jqzoom/huawei.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/jqzoom/huawei.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/jqzoom/huawei2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/jqzoom/huawei2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/jqzoom/small.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/jqzoom/small.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/slider/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/slider/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/slider/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/slider/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/slider/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/slider/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/slider/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/slider/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/slider/banner1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/slider/banner1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/slider/banner2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/slider/banner2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/img/slider/banner3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/img/slider/banner3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/js/accordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/js/accordion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/js/ajax_upload/ajax_upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/js/ajax_upload/ajax_upload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/js/ajax_upload/ajax_upload.v2.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/js/ajax_upload/ajax_upload.v2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/js/datatable.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/js/datatable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/js/dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/js/dialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/js/jquery.ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/js/jquery.ui.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/js/jquery/jquery-1.7.2.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/js/jquery/jquery-1.7.2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/js/jquery/jquery-1.7.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/js/jquery/jquery-1.7.2.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/js/jqzoom/jquery.jqzoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/js/jqzoom/jquery.jqzoom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/js/jqzoom/jquery.jqzoom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/js/jqzoom/jquery.jqzoom.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/js/jqzoom/jqzoom.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/js/jqzoom/jqzoom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/js/jsonp/jsonp.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/js/jsonp/jsonp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/js/messager.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/js/messager.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/js/pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/js/pagination.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/js/panel.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/js/panel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/js/slider/jquery.slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/js/slider/jquery.slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/js/slider/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/js/slider/slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/js/tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/js/tab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jq-ui-master/js/tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/很多功能集成jq-ui-master/js/tree.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/audio/黄晓明,邓超,佟大为 - 光阴的故事.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/audio/黄晓明,邓超,佟大为 - 光阴的故事.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/bootPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/bootPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/css/jquery.fullPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/css/jquery.fullPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/image/1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/1.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/image/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/image/1527000199_373026.png" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/1527000199_373026.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/image/2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/2.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/image/3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/3.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/image/4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/4.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/image/5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/5.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/image/6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/6.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/image/7.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/7.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/image/8.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/8.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/image/9.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/9.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/image/WechatIMG163.png" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/WechatIMG163.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/image/cccc.png" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/cccc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/image/damen.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/damen.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/image/end.png" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/end.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/image/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/image/p10.png" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/p10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/image/p12.png" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/p12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/image/p13.png" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/p13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/image/p14.png" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/p14.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/image/p2.png" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/p2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/image/p3.png" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/p3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/image/p4.png" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/p4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/image/p5.png" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/p5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/image/p6.png" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/p6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/image/p7.png" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/p7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/image/p8.png" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/p8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/image/p9.png" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/p9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/image/page1.png" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/page1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/image/timg.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/timg.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/image/xl.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/xl.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/image/ydh.png" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/ydh.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/js/jquery-1.11.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/js/jquery-1.11.3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/js/jquery.fullPage.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/js/jquery.fullPage.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/js/main.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/jquery.fullPage.min/js/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/js/style.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/useful/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/useful/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/useful/复制到剪切版.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/useful/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/在线生成二维码/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/在线生成二维码/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/拖拽/判断手指方向.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/拖拽/判断手指方向.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/拖拽/添加drag对象的插件.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/拖拽/添加drag对象的插件.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/移动端适配/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/rem适配/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/移动端适配/rem_r.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/rem适配/rem_r.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/移动端适配/页面适配.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme/js/website.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme/js/website.md" afterDir="false" />
-    </list>
+    <list default="true" id="fb8cb017-0f0d-4f67-ae8f-d7d3d35f1afd" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -217,7 +16,7 @@
     <favorites_list name="web" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="prototype.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/函数/prototype.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -230,7 +29,7 @@
       <file leaf-file-name="lib.es5.d.ts" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
+            <state relative-caret-position="12075">
               <caret line="818" column="14" selection-start-line="818" selection-start-column="14" selection-end-line="818" selection-end-column="14" />
             </state>
           </provider>
@@ -436,11 +235,12 @@
       <option name="presentableId" value="Default" />
       <updated>1529373291734</updated>
       <workItem from="1529373293896" duration="31302000" />
+      <workItem from="1529488485066" duration="249000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31302000" />
+    <option name="totallyTimeSpent" value="31551000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -448,39 +248,39 @@
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985755" visible="true" weight="0.3169182" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3988604" />
-      <window_info id="Favorites" sideWeight="0.5014245" side_tool="true" weight="0.41143766" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
+      <window_info id="Favorites" order="2" sideWeight="0.5014245" side_tool="true" weight="0.41143766" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4985755" visible="true" weight="0.17633042" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Debug" order="7" visible="true" weight="0.3988604" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="4" />
       <window_info id="Favorites" order="0" sideWeight="0.5014245" side_tool="true" weight="0.41143766" />
     </layout-to-restore>
   </component>
@@ -491,6 +291,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/函数/prototype.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12270">
+          <caret line="818" column="14" selection-start-line="818" selection-start-column="14" selection-end-line="818" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/plugin/拖拽/添加drag对象的插件.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -531,9 +345,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -541,9 +352,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -582,15 +390,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css3/对齐方式/水平居中/块状元素.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugin/在线生成二维码/qrcodejs-master/bower.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugin/在线生成二维码/qrcodejs-master/index-svg.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugin/在线生成二维码/qrcodejs-master/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -608,11 +407,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugin/picturefill文档内容随窗口大小变化的插件/picturefill.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22685">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-22685" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugin/picturefill文档内容随窗口大小变化的插件/test.html">
@@ -642,9 +437,6 @@
           <caret line="25" column="34" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="34" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugin/rem适配/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/plugin/useful/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -682,9 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugin/汉堡/hamburgers.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugin/文本区域扩展/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -692,9 +481,6 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugin/useful/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/plugin/pinchzoom移动端图片的放大缩小/test.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -784,9 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css3/对齐方式/水平垂直居中/固定宽高元素.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/css3/对齐方式/水平垂直居中/translate(-50%,-50%).html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -824,7 +607,7 @@
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
+        <state relative-caret-position="12075">
           <caret line="818" column="14" selection-start-line="818" selection-start-column="14" selection-end-line="818" selection-end-column="14" />
         </state>
       </provider>
