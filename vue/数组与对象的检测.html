@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>数组与对象监测(常用)</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <style>
+        ul {
+            display: inline-block;
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+<div id="app">
+    <hr>
+    <ul v-for="stu in aStudents">
+        <li>
+            {{stu.name}}
+        </li>
+        <li>
+            {{stu.age}}
+        </li>
+        <li>
+            {{stu.gender}}
+        </li>
+    </ul>
+
+    <p>{{fruits[1]}}</p>
+    <button @click="doChange">{{btnText}}</button>
+
+    <hr>
+    <ul>
+        <li v-for="(v, k) in girl">
+            属性:{{k}}-属性值:{{v}}
+        </li>
+    </ul>
+    <br>
+    <button @click="add">新增键值对</button>
+    <button @click="del">删除键值对</button>
+    <hr>
+</div>
+</body>
+
+</html>
+<script>
+    let vm1 = new Vue({
+        el: '#app',
+        data: {
+            aStudents: [{
+                name: '张娟',
+                age: 18,
+                gender: 'female'
+            },
+                {
+                    name: '李强',
+                    age: 20,
+                    gender: 'male'
+                },
+                {
+                    name: '王霞',
+                    age: 30,
+                    gender: 'female'
+                }
+            ],
+            fruits: [
+                '苹果',
+                '香蕉',
+                '梨子',
+                '橘子',
+                '西瓜',
+                '芒果'
+            ],
+            girl: {
+                name: '赤练',
+                age: 18,
+                height: 185
+            },
+            btnText: '点击改变值'
+        },
+        methods: {
+            doChange() {
+                // A.this.arr[index].属性名=新的属性值,会引起页面渲染
+                //this.aStudents[0].name = '惊鲵';
+
+                // B.this.arr[index]=newValue,不会引起页面渲染
+                //this.aStudents[0] = {name: '李斯'};
+                //this.fruits[0] = '桃子';
+
+                // 第一种
+                Vue.set(this.fruits, 0, '桃子');
+                console.log(this);
+                // this指当前创建出来的实例本身
+
+                // 注意：以下参数分别为（实例中的数组或对象,下标/key,更新的值），两种写法等价，如下：
+                vm1.$set(this.fruits, 1, '桃子');
+                Vue.set(this.aStudents, 0, {
+                    name: '谢燕',
+                    age: 25,
+                    gender: 'female'
+                })
+                this.btnText = '已改变值'
+            },
+            add() {
+                // 新增多个键值对,方法一:
+                Vue.set(this.girl, 'gender', 'female');
+                Vue.set(this.girl, 'hobby', '阅读');
+                // 新增多个键值对,方法二:
+                this.girl = Object.assign({}, this.girl, {
+                    gender: 'female',
+                    hobby: '阅读'
+                });
+            },
+            del() {
+                // 删除键值对
+                // delete this.girl.name;
+                // 注意：以下参数分别为（对象，key值）
+                vm1.$delete(this.girl, 'name');
+            }
+        }
+    });
+</script>
