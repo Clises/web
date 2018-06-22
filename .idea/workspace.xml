@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb8cb017-0f0d-4f67-ae8f-d7d3d35f1afd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/js/函数/原型链.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/函数/显示原型和隐式原型.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/数组与对象的检测.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/函数/原型.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jquery/基础/dom操作/class属性/has.html" beforeDir="false" afterPath="$PROJECT_DIR$/jquery/基础/dom操作/class属性/has.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jquery/基础/dom操作/复制元素/clone()节点克隆.html" beforeDir="false" afterPath="$PROJECT_DIR$/jquery/基础/dom操作/复制元素/clone()节点克隆.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jquery/基础/dom操作/通用属性操作/应用:添加自定义属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/jquery/基础/dom操作/通用属性操作/自定义属性应用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/函数/prototype.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/函数/prototype.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/函数/立即执行函数.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/函数/立即执行函数.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/函数/高级函数.md" beforeDir="false" afterPath="$PROJECT_DIR$/js/函数/高级函数.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,31 +20,13 @@
     <favorites_list name="web" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IIFE立即调用函数.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/函数/IIFE立即调用函数.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="什么是函数.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/函数/什么是函数.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" selection-start-line="9" selection-start-column="2" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="高级函数.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/函数/高级函数.md">
+    <leaf>
+      <file leaf-file-name="DailyRead.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme/DailyRead.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="60">
-                <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+              <first_editor relative-caret-position="375">
+                <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               </first_editor>
               <second_editor />
             </state>
@@ -132,6 +107,7 @@
         <option value="$PROJECT_DIR$/js/函数/显示原型和隐式原型.html" />
         <option value="$PROJECT_DIR$/js/函数/原型链.html" />
         <option value="$PROJECT_DIR$/js/函数/高级函数.md" />
+        <option value="$PROJECT_DIR$/js/函数/原型链.md" />
       </list>
     </option>
   </component>
@@ -167,7 +143,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,36 +164,6 @@
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery" type="462c0819:PsiDirectoryNode" />
-              <item name="基础" type="462c0819:PsiDirectoryNode" />
-              <item name="dom操作" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery" type="462c0819:PsiDirectoryNode" />
-              <item name="基础" type="462c0819:PsiDirectoryNode" />
-              <item name="dom操作" type="462c0819:PsiDirectoryNode" />
-              <item name="DOM插入并包裹现在内容" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery" type="462c0819:PsiDirectoryNode" />
-              <item name="基础" type="462c0819:PsiDirectoryNode" />
-              <item name="dom操作" type="462c0819:PsiDirectoryNode" />
-              <item name="通用属性操作" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery" type="462c0819:PsiDirectoryNode" />
-              <item name="基础" type="462c0819:PsiDirectoryNode" />
-              <item name="event" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -227,10 +172,16 @@
               <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="函数" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="readme" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -267,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.显示原型和隐式原型.html">
+  <component name="RunManager" selected="JavaScript Debug.IIFE立即调用函数.html">
     <configuration name="IIFE立即调用函数.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/js/函数/IIFE立即调用函数.html" />
     <configuration name="右边三角.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/composing/伪元素icon/右边三角.html" />
     <configuration name="显示原型和隐式原型.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/js/函数/显示原型和隐式原型.html" />
@@ -277,13 +228,9 @@
       <item itemvalue="JavaScript Debug.IIFE立即调用函数.html" />
       <item itemvalue="JavaScript Debug.右边三角.html" />
       <item itemvalue="JavaScript Debug.prototype.html" />
-      <item itemvalue="JavaScript Debug.显示原型和隐式原型.html" />
-      <item itemvalue="JavaScript Debug.原型链.html" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.显示原型和隐式原型.html" />
-        <item itemvalue="JavaScript Debug.原型链.html" />
         <item itemvalue="JavaScript Debug.prototype.html" />
         <item itemvalue="JavaScript Debug.右边三角.html" />
         <item itemvalue="JavaScript Debug.IIFE立即调用函数.html" />
@@ -305,52 +252,53 @@
       <option name="presentableId" value="Default" />
       <updated>1529373291734</updated>
       <workItem from="1529373293896" duration="31302000" />
-      <workItem from="1529488485066" duration="16298000" />
+      <workItem from="1529488485066" duration="17566000" />
+      <workItem from="1529633039075" duration="436000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47600000" />
+    <option name="totallyTimeSpent" value="49304000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497151" visible="true" weight="0.24702145" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497151" visible="true" weight="0.20571883" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" sideWeight="0.502849" side_tool="true" weight="0.32168388" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32905984" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3988604" />
       <window_info id="Favorites" order="2" sideWeight="0.5014245" side_tool="true" weight="0.41143766" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985755" visible="true" weight="0.32168388" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3988604" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32905984" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Favorites" order="2" sideWeight="0.5014245" side_tool="true" weight="0.41143766" />
     </layout-to-restore>
   </component>
@@ -361,25 +309,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/plugin/rem适配/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/bootPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugin/useful/useful.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugin/获取当前时间/字符串转换成时间戳.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -526,16 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme/DailyRead.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="285">
-            <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/readme/plugin/swiper.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -598,19 +517,6 @@
           <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/基础/dom操作/通用属性操作/自定义属性应用.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/函数/立即执行函数.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/函数/普通函数.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/jquery/基础/dom操作/class属性/toggleClass().html">
       <provider selected="true" editor-type-id="text-editor">
@@ -689,13 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/函数/prototype.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/函数/显示原型和隐式原型.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -710,25 +609,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/函数/IIFE立即调用函数.html">
+    <entry file="file://$PROJECT_DIR$/js/函数/什么是函数.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="351">
+          <caret line="61" column="19" lean-forward="true" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/函数/什么是函数.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="9" selection-start-column="2" selection-end-line="22" />
+    <entry file="file://$PROJECT_DIR$/js/函数/函数">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-45">
+            <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/函数/高级函数.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <first_editor relative-caret-position="225">
+            <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/函数/原型.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/函数/立即执行函数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/函数/IIFE立即调用函数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/函数/prototype.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme/DailyRead.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="375">
+            <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           </first_editor>
           <second_editor />
         </state>
