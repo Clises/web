@@ -6,6 +6,8 @@ import procedure from './procedure'
 
 
 
+//全局注册
+
 Vue.component("procedure",procedure)
 var myVue=new Vue({
   el:'#app',

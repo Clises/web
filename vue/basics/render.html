@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+    .bg{
+        color: red;
+    }
+        </style>
+</head>
+<body>
+<!--模板-->
+<div id="demo">
+</div>
+</div>
+</body>
+</script>
+<script src="vue.js"></script>
+<script>
+    let data={
+        html:"<div>charlie</div>",
+        abc:1
+    };
+    var vm= new Vue({
+        el:"#demo",//挂载的元素
+        data:data,//数据
+        render(createElement){
+            return createElement(    //添加class
+                "ul",{
+                    class:{
+                        bg:true
+                    },
+                    style:{
+                        fontSize:"50px"
+                    },
+                    domProps:{
+                        innerHTML:"<li>哈哈哈</li>"
+                    },
+                },
+                [
+                    createElement("li",1),
+                    createElement("li",2),
+                    createElement("li",3)
+                ]
+            );
+        }
+    });
+</script>
+</html>
