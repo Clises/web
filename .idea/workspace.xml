@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb8cb017-0f0d-4f67-ae8f-d7d3d35f1afd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/readme/schedule.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/readMe/相关目录.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/readMe/组件.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme/DailyRead.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme/DailyRead.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/item/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/vue/procedure/.babelrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/item/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/vue/procedure/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/item/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vue/procedure/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/item/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vue/procedure/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/item/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/procedure/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/item/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue/procedure/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/item/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue/procedure/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/item/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/procedure/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/item/src/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/procedure/src/assets/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/item/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/procedure/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/item/src/procedure.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/procedure/src/procedure.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/item/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/procedure/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/数组与对象的检测.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/demo/数组与对象的检测.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/basics/声明式渲染.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/声明式渲染.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -61,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/vue/demo/数组与对象的检测.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -79,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/vue/basics/双向数据绑定.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -87,8 +70,8 @@
       <file leaf-file-name="声明式渲染.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vue/basics/声明式渲染.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+            <state relative-caret-position="580">
+              <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -126,7 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/高级对象/对象.html" />
         <option value="$PROJECT_DIR$/js/对象/对象.html" />
         <option value="$PROJECT_DIR$/js/对象/访问对象内部数据两种方式比较.html" />
         <option value="$PROJECT_DIR$/js/对象/对象.md" />
@@ -177,6 +159,7 @@
         <option value="$PROJECT_DIR$/vue/item/src/main.js" />
         <option value="$PROJECT_DIR$/vue/readMe/组件.md" />
         <option value="$PROJECT_DIR$/vue/basics/class.html" />
+        <option value="$PROJECT_DIR$/vue/basics/声明式渲染.html" />
       </list>
     </option>
   </component>
@@ -312,7 +295,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53862000" />
+    <option name="totallyTimeSpent" value="53867000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -363,6 +346,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vue/basics/声明式渲染.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/composing/伪元素icon/右边三角.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -691,9 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/procedure/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue/procedure/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -718,17 +705,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/数组与对象的检测.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-845">
-          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/数组与对象的检测.html" />
     <entry file="file://$PROJECT_DIR$/vue/demo/数组与对象的检测.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -742,14 +723,14 @@
     <entry file="file://$PROJECT_DIR$/vue/basics/双向数据绑定.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue/basics/声明式渲染.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+        <state relative-caret-position="580">
+          <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
         </state>
       </provider>
     </entry>
