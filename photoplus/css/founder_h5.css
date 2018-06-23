@@ -1,0 +1,152 @@
+* {color: #000;}
+
+.founder {width: 100%; padding-top: .5rem;}
+.founder-wrap {
+
+}
+.block {
+
+}
+.block--ycc {
+
+}
+.founder-title {
+  width: 100%; height: 1.82rem;
+  background-image: url(http://static.qiezipai.cn/wechat/photoplus/img/founder/bg.png);
+  background-position: left top;
+  background-size: auto 1.82rem;
+  padding: .36rem 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  z-index: 5;
+}
+.founder-head {
+  margin-bottom: .09rem;
+}
+.founder-head > img {
+  width: .62rem;
+}
+.founder-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.founder-name h2 {
+  font-size: .16rem;
+  text-align: center;
+}
+.founder-name h3 {
+  height: .39rem;
+  padding: 0 .27rem;
+  background: #fff;
+  border-radius: .05rem;
+  font-size: .14rem;
+  font-weight: 300;
+  -webkit-transform: translateY(.26rem);
+          transform: translateY(.26rem);
+  -webkit-box-shadow: 1px 7px 8px #F7F7FF;
+          box-shadow: 1px 7px 8px #F7F7FF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.founder-experience {
+  padding: .58rem .17rem .51rem;
+}
+.founder-experience li {
+  font-size: .12rem;
+  position: relative;
+  padding: 0 0 .18rem .15rem;
+}
+.founder-experience li:not(:first-child)::after {
+  content: '';
+  position: absolute;
+  left: .01rem;
+  bottom: 90%;
+  width: 1px;
+  height: 2rem;
+  background-color: #72728F;
+  z-index: 1;
+}
+.founder-experience li::before {
+  content: '';
+  width: .1rem;
+  height: .1rem;
+  border-radius: 50%;
+  border: .01rem solid #72728F;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  top: .03rem;
+  z-index: 2;
+  margin-left: -.05rem;
+}
+
+.contact {
+  width: 100%;
+  height: 1.68rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: url("http://static.qiezipai.cn/wechat/photoplus/img/model/Bitmap@2x.png") no-repeat;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-size: cover;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.contact .tel img {
+  width: 0.36rem;
+  height: 0.36rem;
+}
+.contact .tit {
+  font-size: .16rem;
+  margin-top: 0.18rem;
+}
+.contact .tel_phone {
+  width: 2.57rem;
+  margin-top: 0.2rem;
+  border-top: 1px solid #ccc;
+  position: relative;
+}
+.contact .tel_phone span {
+  width: 1.59rem;
+  text-align: center;
+  font-size: .15rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+          transform: translate3d(-50%, -50%, 0);
+  background: #eee;
+  padding: 0 .19rem;
+}
+.none {display: none;}

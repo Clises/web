@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb8cb017-0f0d-4f67-ae8f-d7d3d35f1afd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/tags/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tags/hha.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tags/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tags/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tags/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tags/tags+翻页.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/demo/form表单提交.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tags/拍理想/hah.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/对齐方式/水平居中/display：flex.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/对齐方式/水平居中/display：flex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme/DailyRead.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme/DailyRead.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,46 +23,40 @@
     <favorites_list name="web" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.54725975">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="tags+翻页.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/tags/tags+翻页.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="100">
-                  <caret line="63" column="10" lean-forward="true" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
-                  <folding>
-                    <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#a#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/tags/main.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-end-line="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="DailyRead.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme/DailyRead.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="255">
+                <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/readme/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="270">
+                <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Vue Single File Component" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -81,8 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/readme/css/website.md" />
-        <option value="$PROJECT_DIR$/css3/demo/css3淡入淡出/图片淡入淡出.html" />
         <option value="$PROJECT_DIR$/readme/css/flex布局.md" />
         <option value="$PROJECT_DIR$/css3/inherit关键字使用.html" />
         <option value="$PROJECT_DIR$/css3/menu按钮效果/汉堡.html" />
@@ -91,7 +82,6 @@
         <option value="$PROJECT_DIR$/plugin/拖拽/js.html" />
         <option value="$PROJECT_DIR$/demo/页内导航.html" />
         <option value="$PROJECT_DIR$/readme/js/website.md" />
-        <option value="$PROJECT_DIR$/css3/对齐方式/水平居中/display：flex.html" />
         <option value="$PROJECT_DIR$/plugin/在线生成二维码/test.html" />
         <option value="$PROJECT_DIR$/plugin/pinchzoom移动端图片的放大缩小/test.html" />
         <option value="$PROJECT_DIR$/plugin/useful/readme.md" />
@@ -126,12 +116,15 @@
         <option value="$PROJECT_DIR$/jquery/demo/两个下拉框切换.html" />
         <option value="$PROJECT_DIR$/jquery/demo/sss.html" />
         <option value="$PROJECT_DIR$/jquery/demo/两个下拉框的切换.html" />
-        <option value="$PROJECT_DIR$/readme/DailyRead.md" />
         <option value="$PROJECT_DIR$/tags/hha.html" />
         <option value="$PROJECT_DIR$/tags/style.css" />
         <option value="$PROJECT_DIR$/tags/base.css" />
         <option value="$PROJECT_DIR$/tags/main.js" />
         <option value="$PROJECT_DIR$/tags/tags+翻页.html" />
+        <option value="$PROJECT_DIR$/jquery/demo/form表单提交.html" />
+        <option value="$PROJECT_DIR$/tags/hah.html" />
+        <option value="$PROJECT_DIR$/css3/对齐方式/水平居中/display：flex.html" />
+        <option value="$PROJECT_DIR$/readme/DailyRead.md" />
       </list>
     </option>
   </component>
@@ -177,7 +170,7 @@
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="tags" type="462c0819:PsiDirectoryNode" />
+              <item name="readme" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -202,10 +195,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/readme" />
+      <recent name="$PROJECT_DIR$/tags/拍理想" />
       <recent name="$PROJECT_DIR$/tags" />
       <recent name="$PROJECT_DIR$/vue/demo" />
       <recent name="$PROJECT_DIR$/css3/横向滚动条" />
-      <recent name="$PROJECT_DIR$/js/函数" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/css3/清楚浮动" />
@@ -266,13 +260,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63604000" />
+    <option name="totallyTimeSpent" value="73470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497151" visible="true" weight="0.0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497151" visible="true" weight="0.2112788" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -317,69 +310,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/readme/plugin/swiper.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="135">
-            <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme/website/分页插件.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme/js/&amp;&amp;和||在if条件中的运用.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme/js/js_advanced">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme/js/作用域.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-945">
-            <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme/js/website.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="45">
-            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/基础/dom操作/通用属性操作/attr设置或者获取元素值.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jquery/基础/dom操作/class属性/toggleClass().html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -673,16 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme/DailyRead.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="360">
-            <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tags/jquery.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -690,13 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tags/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -708,6 +621,113 @@
             <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tags/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tags/hah.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-end-line="26" />
+          <folding>
+            <element signature="n#style#0;n#font#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#font#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#2;n#div#0;n#div#0;n#div#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6929#6935#0" expanded="true" />
+            <element signature="e#6935#6941#0" expanded="true" />
+            <element signature="e#7970#7976#0" expanded="true" />
+            <element signature="e#7976#7982#0" expanded="true" />
+            <element signature="e#9083#9089#0" expanded="true" />
+            <element signature="e#9089#9095#0" expanded="true" />
+            <element signature="e#10125#10131#0" expanded="true" />
+            <element signature="e#10131#10137#0" expanded="true" />
+            <element signature="e#11202#11208#0" expanded="true" />
+            <element signature="e#11208#11214#0" expanded="true" />
+            <element signature="e#12263#12269#0" expanded="true" />
+            <element signature="e#12269#12275#0" expanded="true" />
+            <element signature="e#13301#13307#0" expanded="true" />
+            <element signature="e#13307#13313#0" expanded="true" />
+            <element signature="e#14333#14339#0" expanded="true" />
+            <element signature="e#14339#14345#0" expanded="true" />
+            <element signature="e#15419#15425#0" expanded="true" />
+            <element signature="e#15425#15431#0" expanded="true" />
+            <element signature="e#16459#16465#0" expanded="true" />
+            <element signature="e#16465#16471#0" expanded="true" />
+            <element signature="e#17495#17501#0" expanded="true" />
+            <element signature="e#17501#17507#0" expanded="true" />
+            <element signature="e#18546#18552#0" expanded="true" />
+            <element signature="e#18552#18558#0" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#20814#20820#0" expanded="true" />
+            <element signature="e#20820#20826#0" expanded="true" />
+            <element signature="e#20826#20832#0" expanded="true" />
+            <element signature="e#20841#20847#0" expanded="true" />
+            <element signature="e#20847#20853#0" expanded="true" />
+            <element signature="e#20867#20873#0" expanded="true" />
+            <element signature="e#20876#20882#0" expanded="true" />
+            <element signature="e#20888#20894#0" expanded="true" />
+            <element signature="e#20935#20941#0" expanded="true" />
+            <element signature="e#20941#20947#0" expanded="true" />
+            <element signature="e#20951#20957#0" expanded="true" />
+            <element signature="e#20957#20963#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tags/拍理想/hah.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5675">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#input#2;n#div#0;n#div#0;n#div#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/demo/form表单提交.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/对齐方式/水平居中/display：flex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/对齐方式/水平居中/内联元素.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/对齐方式/水平居中/块状元素.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="270">
+            <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme/DailyRead.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="255">
+            <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

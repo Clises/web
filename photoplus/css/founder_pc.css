@@ -1,0 +1,82 @@
+* {color: #000;}
+
+.founder {width: 100%; padding: 64px 0 0;}
+.founder-wrap {
+  width: 100%; min-height: 578px;
+  background-image: url(http://static.qiezipai.cn/wechat/photoplus/img/founder/bg.png);
+  background-position: left top;
+  background-size: 1600px auto;
+  padding: 99px 0 0 0;
+}
+.block {
+
+}
+.block--ycc {
+
+}
+.founder-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 318px;
+}
+.founder-head {
+  margin-right: 25px;
+}
+.founder-head > img {
+  width: 146px;
+}
+.founder-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.founder-name h2 {
+  font-size: 32px;
+}
+.founder-name h3 {
+  font-size: 24px;
+  margin-top: 22px;
+  font-weight: 400;
+}
+.founder-experience {
+  margin: 0 0 0 450px;
+  padding-top: 40px;
+}
+.founder-experience li {
+  font-size: 16px;
+  position: relative;
+  padding: 0 20px 18px 27px;
+}
+.founder-experience li:after {
+  content: '';
+  position: absolute;
+  left: -1px;
+  bottom: 100%;
+  width: 1px;
+  height: 83px;
+  background-color: #72728F;
+  z-index: 1;
+}
+.founder-experience li::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #72728F;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  margin-left: -12px;
+}
+.contact,
+.none {display: none;}
