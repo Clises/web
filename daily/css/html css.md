@@ -150,7 +150,7 @@ img标签是inline，表现上更加倾向于inline-block，效果等同于块�
 ## vertical-align 属性 
 设置元素的垂直对齐方式<br/>
 属性值包括：
-http://www.w3school.com.cn/cssref/pr_pos_vertical-align.asp<br/>
+[设置元素的垂直方式](http://www.w3school.com.cn/cssref/pr_pos_vertical-align.asp)
 只在inline-block上其起作用，常用的属性值是middle
 
 ## 多个块状元素一行显示
@@ -194,4 +194,7 @@ display:none和visibility:hidden的差别:visibility:hidden隐藏，但在浏览
   表示跳转失效
 </a>
 ```
-             
+
+
+
+

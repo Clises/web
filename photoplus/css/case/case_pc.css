@@ -1,11 +1,13 @@
 * {
     font-size: 14px;
 }
-#menu-case a{
+
+#menu-case a {
     color: #E53D00;
     border-color: #f60;
 }
-#menu-case span{
+
+#menu-case span {
     position: absolute;
     width: 13px;
     height: 3px;
@@ -16,6 +18,7 @@
     transform: translate(-50%);
     display: block;
 }
+
 .block-case {
     background: rgba(245, 245, 250, 1);
     padding: 100px 0 109px;
@@ -53,59 +56,54 @@
     margin: 20px 0;
 }
 
-
 /*
 nav
 */
 /*!*分类*!*/
-.case-classify__details {
-    width: 740px;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+.case-content,.case-classify{
+    width: 1140px;
+    margin: 0 auto;
 }
-.case-classify__details li {
+.case-classify {
+    width: 740px;
+}
+.case-classify li {
     width: 100px;
     height: 32px;
     margin: 10px 0 0 28px;
-    font-size:  16px;
+    font-size: 16px;
     line-height: 32px;
     text-align: center;
     cursor: pointer;
+    float: left;
 }
-
-.case-classify__details li:nth-child(1),
-.case-classify__details li:nth-child(7){
+.case-classify li:nth-child(1),
+.case-classify li:nth-child(7) {
     margin-left: 0;
 }
 
-.case-classify__details .active {
+.case-classify .active {
     background: rgba(255, 255, 255, 1);
     border-radius: 14px;
     color: rgba(229, 61, 0, 1);
     padding: 0 10px;
 }
+
 /*items*/
 .case-item {
-    width: 1140px;
     -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-
-
+        -ms-flex-align: center;
+            align-items: center;
 }
 .case-item__items {
-    display: block;
     margin: 15px;
     padding: 10px;
     width: 355px;
@@ -113,25 +111,34 @@ nav
     background: rgba(255, 255, 255, 1);
     border: 1px solid rgba(228, 228, 235, 1);
 }
-.case-item__items:nth-child(3n+1){
+.case-item__items:nth-child(3n+1) {
     margin-left: 0;
 }
 .case-items__photo {
     height: 164px;
     background: red;
 }
-
 .case-items__msg {
     padding: 18px;
 }
+
 .case-items__msg h2 {
     font-size: 18px;
 }
-
-.case-items__tag {
-    margin-top: 14px;
+.case-items__tag{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    /*ie10+*/
+    -ms-overflow-style: none;
+    /*firefox*/
+    overflow: -moz-scrollbars-none;
 }
- .case-items__tags {
+.case-items__tag::-webkit-scrollbar{
+    width: 0 !important
+}
+.case-items__tags {
+    margin-top: 14px;
     height: 20px;
     padding: 0 10px;
     background: rgba(245, 245, 250, 1);
@@ -141,7 +148,7 @@ nav
     text-align: center;
     color: rgba(117, 117, 128, 1);
     line-height: 20px;
-    margin-left: 8px;
+
 }
 
 .case-items__tags:nth-child(1) {
@@ -151,7 +158,8 @@ nav
 .case-items__sponsor {
     margin-top: 20px;
 }
-.case-items__sponsor .sponsor--icon{
+
+.case-items__sponsor .sponsor--icon {
     width: 14px;
     height: 14px;
     background-image: url("http://static.qiezipai.cn/wechat/photoplus/img/case/tx.png");
@@ -167,7 +175,6 @@ nav
     padding: 0 5px;
 }
 
-
 /*翻页*/
 .case_paging_box {
     margin-top: 47px;
@@ -176,7 +183,13 @@ nav
 .drop-down-content {
     display: none;
 }
-.none{
+
+.none {
     display: none;
 }
 
+
+.case-content{
+    width: 1140px;
+    margin: 0 auto;
+}

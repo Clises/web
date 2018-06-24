@@ -43,11 +43,24 @@
     padding: .1rem 0;
 }
 /*case_classify*/
-.case-classify{
+.case-content{
     position: relative;
-}
-.case-classify__details{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;}
+.case-classify{
     width: 90%;
+    display: flex;
     overflow-x: scroll;
     overflow-y: hidden;
     -webkit-overflow-scrolling:touch;
@@ -55,7 +68,7 @@
         -ms-flex-pack: start;
             justify-content: flex-start;
 }
-.case-classify__details li{
+.case-classify li{
     width: .75rem;
     height: .3rem;
     -webkit-box-flex: 0;
@@ -65,7 +78,7 @@
     line-height:.3rem ;
     text-align: center;
 }
-.case-classify__details .active{
+.case-classify .active{
     background:rgba(255,255,255,1);
     border-radius:.14rem;
     color:rgba(229,61,0,1);
@@ -74,18 +87,8 @@
 .case-cases,.case-item,.drop-down{
     width: 100%;
 }
-/*案例*/
-.case-cases{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack:start;
-        -ms-flex-pack:start;
-            justify-content:flex-start;
-    -ms-flex-wrap:wrap;
-        flex-wrap:wrap;
-}
 .case-item__items{
+    display: block;
     margin: .15rem;
     padding: .1rem;
     background:rgba(255,255,255,1);
@@ -105,8 +108,11 @@
 .case-items__msg h2{
     font-size:.18rem;
 }
-.case-items__tag .case-items__tags{
+.case-items__tag{
     margin-top: .14rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
 }
 .case-items__tags{
     height: .2rem;
@@ -194,6 +200,10 @@
     left:.07rem;
     top: -.075rem;
 }
+
+
+
+
 .drop-down{
     height: 0px;
 }
