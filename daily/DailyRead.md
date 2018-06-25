@@ -1,27 +1,34 @@
 
-[csdn](https://www.csdn.net/nav/web/ "csdn")  
+[csdn](https://www.csdn.net/nav/web/)  
 
-[博客园](https://www.cnblogs.com/cate/108703 "博客园")
+[博客园](https://www.cnblogs.com/cate/108703)
 
-[掘金](https://juejin.im/timeline/frontend "掘金")
+[掘金](https://juejin.im/timeline/frontend)
 
-[title](https://weibo.com/kujian?refer_flag=0000015010_&from=feed&loc=nickname&is_all=1 "前端开发博客")  
-[title](http://caibaojian.com/c/news "前端开发日报")
+[前端开发日报](http://caibaojian.com/c/news)
 
-[title](http://blog.51cto.com/artcommend/30 "51")
+[51](http://blog.51cto.com/artcommend/30)
 
-[title](http://www.css88.com/ "前端开发网站")
+[前端开发网站](http://www.css88.com/)
 
-[title](http://www.jqhtml.com/category/article "")
+[前端开发](http://www.jqhtml.com/category/article)
 
-[title](http://www.zhangxinxu.cfaom/ "张鑫旭博客")
+[张鑫旭的博客](http://www.zhangxinxu.cfaom/)
 
-[title](https://weekly.75team.com/issue257.html "奇舞周刊")
+[奇舞周刊](https://weekly.75team.com/issue257.html)
 
-[title]( https://www.oschina.net/question/tag/github "开源社区")
+[开源社区]( https://www.oschina.net/question/tag/github)
 
-[ES6](http://es6.ruanyifeng.com/ "ES6")
+[ES6](http://es6.ruanyifeng.com/)
 
-[前端乱炖](http://www.html-js.com/ "")
+[前端乱炖](http://www.html-js.com/)
 
-[CDN](http://www.html-js.com/ "")
+[CDN](http://www.html-js.com/)
+
+[w3cplus](http://www.w3cplus.com/)
+
+[](https://developers.google.com/web/fundamentals/)
+
+[css官方文档](https://www.w3.org/TR/2011/REC-CSS2-20110607/#minitoc)
+
+[jqapi](http://www.css88.com/jqapi-1.9/)
