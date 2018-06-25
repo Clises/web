@@ -13,7 +13,7 @@
 
 [前端开发](http://www.jqhtml.com/category/article)
 
-[张鑫旭的博客](http://www.zhangxinxu.cfaom/)
+[张鑫旭的博客](http://www.zhangxinxu.com/)
 
 [奇舞周刊](https://weekly.75team.com/issue257.html)
 
