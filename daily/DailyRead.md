@@ -6,7 +6,7 @@
 [掘金](https://juejin.im/timeline/frontend)
 
 [前端开发日报](http://caibaojian.com/c/news)
-
+``
 [51](http://blog.51cto.com/artcommend/30)
 
 [前端开发网站](http://www.css88.com/)
@@ -27,7 +27,7 @@
 
 [w3cplus](http://www.w3cplus.com/)
 
-[](https://developers.google.com/web/fundamentals/)
+[google交流网站](https://developers.google.com/web/fundamentals/)
 
 [css官方文档](https://www.w3.org/TR/2011/REC-CSS2-20110607/#minitoc)
 
