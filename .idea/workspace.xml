@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb8cb017-0f0d-4f67-ae8f-d7d3d35f1afd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/vue/basics/指令/v-bind/示例.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/basics/指令/v-bind/绑定html和class/对象语法/不必在模板里定义.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/basics/指令/v-bind/绑定html和class/对象语法/在模板之中来定义.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/basics/指令/v-bind/绑定html和class/数组语法/数组语法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/basics/指令/v-bind/绑定内敛样式/对象语法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/basics/指令/v-bind/绑定内敛样式/数组语法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily/wechat/搭建个人博客.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css3/用户界面模块/outline-offest.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/用户界面模块/outline-offest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css3/用户界面模块/resize.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/用户界面模块/resize.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daily/DailyRead.md" beforeDir="false" afterPath="$PROJECT_DIR$/daily/DailyRead.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daily/css/flex布局.md" beforeDir="false" afterPath="$PROJECT_DIR$/daily/css/flex布局.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daily/schedule.md" beforeDir="false" afterPath="$PROJECT_DIR$/daily/schedule.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/指令/v-bind.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/指令/v-bind/绑定内敛样式/自动添加前缀.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/readMe/指令.md" beforeDir="false" afterPath="$PROJECT_DIR$/vue/readMe/指令.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,7 +19,20 @@
     <favorites_list name="web" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="DailyRead.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/daily/DailyRead.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="15">
+                <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -75,7 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tags/hah.html" />
         <option value="$PROJECT_DIR$/css3/对齐方式/水平居中/display：flex.html" />
         <option value="$PROJECT_DIR$/readme/DailyRead.md" />
         <option value="$PROJECT_DIR$/readme/css/隐藏滚动条.md" />
@@ -126,6 +126,7 @@
         <option value="$PROJECT_DIR$/vue/basics/指令/v-bind/绑定html和class/对象语法/在模板之中来定义.html" />
         <option value="$PROJECT_DIR$/css3/用户界面模块/outline-offest.html" />
         <option value="$PROJECT_DIR$/css3/用户界面模块/resize.html" />
+        <option value="$PROJECT_DIR$/daily/wechat/搭建个人博客.md" />
       </list>
     </option>
   </component>
@@ -166,6 +167,17 @@
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="daily" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="daily" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -225,8 +237,6 @@
     <configuration name="resize.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/css3/用户界面模块/resize.html" />
     <list>
       <item itemvalue="JavaScript Debug.绑定的数据对象不必内敛定义在模板里.html" />
-      <item itemvalue="JavaScript Debug.数组语法.html" />
-      <item itemvalue="JavaScript Debug.对象语法.html" />
       <item itemvalue="JavaScript Debug.数组语法.html (1)" />
       <item itemvalue="JavaScript Debug.resize.html" />
     </list>
@@ -234,8 +244,6 @@
       <list>
         <item itemvalue="JavaScript Debug.resize.html" />
         <item itemvalue="JavaScript Debug.数组语法.html (1)" />
-        <item itemvalue="JavaScript Debug.对象语法.html" />
-        <item itemvalue="JavaScript Debug.数组语法.html" />
         <item itemvalue="JavaScript Debug.绑定的数据对象不必内敛定义在模板里.html" />
       </list>
     </recent_temporary>
@@ -260,42 +268,45 @@
       <workItem from="1529820356770" duration="278000" />
       <workItem from="1529855851284" duration="7236000" />
       <workItem from="1529907099505" duration="26158000" />
+      <workItem from="1530010550045" duration="256000" />
+      <workItem from="1530067934068" duration="449000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117745000" />
+    <option name="totallyTimeSpent" value="118450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49541286" visible="true" weight="0.1984375" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50119144" side_tool="true" weight="0.3988604" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32905984" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32905984" />
       <window_info id="Structure" order="1" sideWeight="0.502849" side_tool="true" weight="0.32109374" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32827586" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4988086" weight="0.3986207" />
       <window_info id="Favorites" order="2" sideWeight="0.5045872" side_tool="true" weight="0.2796875" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4988086" weight="0.3986207" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49541286" visible="true" weight="0.2796875" />
       <window_info id="Structure" order="1" sideWeight="0.502849" side_tool="true" weight="0.32109374" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32905984" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -388,9 +399,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/test.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue/basics/指令/v-for/一段取值范围的v-for.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -432,15 +440,6 @@
           <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photoplus/linkus.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photoplus/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/tab/tab.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/daily/schedule.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -490,16 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/daily/DailyRead.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="180">
-            <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue/readMe/v-if和v-show.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -517,44 +506,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/basics/指令/v-bind.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/basics/指令/v-bind/绑定的数据对象不必内敛定义在模板里.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/basics/指令/v-bind/v-bind.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/basics/指令/v-bind/对象语法/在模板之中来定义.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/basics/指令/v-bind/对象语法/不必在模板里定义.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="22" column="38" lean-forward="true" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/basics/指令/v-bind/数组语法/数组语法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/basics/指令/v-bind.html" />
+    <entry file="file://$PROJECT_DIR$/vue/basics/指令/v-bind/绑定的数据对象不必内敛定义在模板里.html" />
+    <entry file="file://$PROJECT_DIR$/vue/basics/指令/v-bind/v-bind.html" />
+    <entry file="file://$PROJECT_DIR$/vue/basics/指令/v-bind/对象语法/不必在模板里定义.html" />
+    <entry file="file://$PROJECT_DIR$/vue/basics/指令/v-bind/数组语法/数组语法.html" />
     <entry file="file://$PROJECT_DIR$/vue/readMe/指令.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -614,13 +570,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css3/button按钮点击特效/button按钮点击特效.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/button按钮点击特效/button按钮点击特效.html" />
     <entry file="file://$PROJECT_DIR$/css3/用户界面模块/box-sizing.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -634,9 +584,6 @@
           <caret line="8" column="34" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="34" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css3/事件/css3点击.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/css3/clip剪切/clip剪切.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -663,14 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -693,6 +632,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daily/wechat/搭建个人博客.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-21">
+            <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daily/DailyRead.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
