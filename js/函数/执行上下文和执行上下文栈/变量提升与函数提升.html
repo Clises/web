@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+     /**
+     1、变量声明提升
+        通过var定义（声明）的变量，在定义语句之前就可以访问到
+        值为：undefined
+
+      2、函数声明提升
+        通过function声明的函数，在之前就可以直接去调用
+        值：函数定义（对象）
+      3、问题：变量提升和函数提升是如何产生的？
+
+     * */
+
+
+     /*
+     面试题：输出undefined
+     * */
+     var a=3;
+     function fn() {
+         var a;
+         console.log(a)
+         var a=4;
+
+     }
+     fn();
+
+    console.log(b)//undefined  变量提升
+     fn2()//可以去调用,函数提升
+     // fn3()//无法调用，这里的函数必须是函数声明
+    var b=3;
+     function fn2() {
+         console.log('fn2')
+     }
+
+
+     var fn3=function () {
+        console.log('fn3')
+     }
+
+
+
+
+
+
+
+
+     //代码规范
+     var name = 'Scott';
+     var sayHello = function(guest) {
+         console.log(name, 'says hello to', guest);
+     };
+
+     var i;
+     var guest;
+     var guests = ['John', 'Tom', 'Jack'];
+
+     for (i = 0; i < guests.length; i++) {
+         guest = guests[i];
+
+         //do something on guest
+
+         sayHello(guest);
+     }
+
+
+</script>
+</body>
+</html>

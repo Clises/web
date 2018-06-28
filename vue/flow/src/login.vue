@@ -3,9 +3,12 @@
 </template>
 
 <script>
-    export default {
-        name: ""
-    }
+  export default {
+  created() {
+    this.$loading.show("loading内容")
+  }
+}
+
 </script>
 
 <style>
