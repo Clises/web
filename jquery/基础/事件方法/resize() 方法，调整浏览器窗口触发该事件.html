@@ -8,10 +8,16 @@
 <span>0</span>
 <script src="../lib/jquery.js"></script>
 <script>
+    /**
+     如果实时去检测浏览器窗口大小，需要在事件内部去定义局部变量，对全局变量不会其作用、、
+    * */
+
     x=0;
+    c=$(window).width()
     $(document).ready(function(){
         $(window).resize(function() {
-            $("span").text(x+=1);
+        var   b=$(window).width()
+                $("span").text(b);
         });
 
     });
