@@ -2,24 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb8cb017-0f0d-4f67-ae8f-d7d3d35f1afd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/demo/jq/下拉框demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jquery/基础/dom操作/DOM插入现有内容内/prependTo()将目标元素插入元素内部.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jquery/基础/dom操作/通用属性操作/prop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jquery/基础/dom操作/通用属性操作/removeAll.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jquery/基础/dom操作/通用属性操作/removeProp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jquery/基础/dom操作/通用属性操作/val.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/basics/条件与循环.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/basics/组件化应用构建/组件应用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/readMe/vue.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article/jquery/jquery.md" beforeDir="false" afterPath="$PROJECT_DIR$/article/jquery/jquery.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article/jquery/事件操作.md" beforeDir="false" afterPath="$PROJECT_DIR$/article/jquery/事件操作.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/jq/tet'.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jquery/基础/$下的常用方法/$.each.html" beforeDir="false" afterPath="$PROJECT_DIR$/jquery/基础/$下的常用方法/$.each遍历json字符串.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jquery/基础/dom操作/DOM插入现有内容内/appendTo().html" beforeDir="false" afterPath="$PROJECT_DIR$/jquery/基础/dom操作/DOM插入现有内容内/appendTo()插入到目标元素之后.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jquery/基础/dom操作/DOM插入现有内容内/html()改变标签里内容.html" beforeDir="false" afterPath="$PROJECT_DIR$/jquery/基础/dom操作/DOM插入现有内容内/html()获取or设置元素内容.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jquery/基础/dom操作/DOM插入现有内容内/prependTo().html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jquery/基础/dom操作/DOM移除/detach().html" beforeDir="false" afterPath="$PROJECT_DIR$/jquery/基础/dom操作/DOM移除/detach()去掉匹配的所有元素.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jquery/基础/dom操作/DOM移除/empty().html" beforeDir="false" afterPath="$PROJECT_DIR$/jquery/基础/dom操作/DOM移除/empty()移除dom但元素本身存在.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jquery/基础/dom操作/wrap()wrapAll()wrapInner()unwrap().html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jquery/基础/事件方法/resize() 方法，调整浏览器窗口触发该事件.html" beforeDir="false" afterPath="$PROJECT_DIR$/jquery/基础/事件方法/resize() 方法，调整浏览器窗口触发该事件.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/jq/获取天气信息ajax实例.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/jq/获取天气信息ajax实例.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/中英文切换/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/中英文切换/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/中英文切换/lang.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/中英文切换/lang.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/中英文切换/中英切换.md" beforeDir="false" afterPath="$PROJECT_DIR$/demo/中英文切换/中英切换.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/js本地对象/string对象/split().html" beforeDir="false" afterPath="$PROJECT_DIR$/js/js本地对象/string对象/split().html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill/interview/面试题/字符串反转大牛做法.html" beforeDir="false" afterPath="$PROJECT_DIR$/skill/interview/面试题/字符串反转大牛做法.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill/js/w3c/js对象实例/array/join()数组作为字符串的输出.html" beforeDir="false" afterPath="$PROJECT_DIR$/skill/js/w3c/js对象实例/array/join()数组作为字符串的输出.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill/js/w3c/js对象实例/array/reverse()数组的反转.html" beforeDir="false" afterPath="$PROJECT_DIR$/skill/js/w3c/js对象实例/array/reverse()数组的反转.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,7 +29,17 @@
     <favorites_list name="web" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="获取天气信息ajax实例.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo/jq/获取天气信息ajax实例.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -80,17 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/vue/basics/指令/v-bind/绑定内敛样式/自动添加前缀.html" />
-        <option value="$PROJECT_DIR$/vue/basics/指令/v-bind/绑定内敛样式/对象语法.html" />
-        <option value="$PROJECT_DIR$/vue/basics/指令/v-bind/绑定内敛样式/数组语法.html" />
-        <option value="$PROJECT_DIR$/vue/basics/指令/v-bind/绑定html和class/对象语法/不必在模板里定义.html" />
-        <option value="$PROJECT_DIR$/vue/basics/指令/v-bind/绑定html和class/对象语法/在模板之中来定义.html" />
-        <option value="$PROJECT_DIR$/css3/用户界面模块/outline-offest.html" />
-        <option value="$PROJECT_DIR$/css3/用户界面模块/resize.html" />
-        <option value="$PROJECT_DIR$/daily/wechat/搭建个人博客.md" />
-        <option value="$PROJECT_DIR$/vue/basics/指令/v-model.html" />
-        <option value="$PROJECT_DIR$/vue/readMe/指令/v-model.md" />
-        <option value="$PROJECT_DIR$/vue/readMe/指令/指令.md" />
         <option value="$PROJECT_DIR$/skill/理论/小学体育老师求next数组.md" />
         <option value="$PROJECT_DIR$/js/tets.html" />
         <option value="$PROJECT_DIR$/jquery/jqtab/test.html" />
@@ -131,6 +124,17 @@
         <option value="$PROJECT_DIR$/jquery/基础/dom操作/通用属性操作/removeProp.html" />
         <option value="$PROJECT_DIR$/demo/jq/选择框demo.html" />
         <option value="$PROJECT_DIR$/jquery/基础/dom操作/通用属性操作/val.html" />
+        <option value="$PROJECT_DIR$/skill/interview/面试题/字符串反转大牛做法.html" />
+        <option value="$PROJECT_DIR$/js/js本地对象/string对象/split().html" />
+        <option value="$PROJECT_DIR$/skill/js/w3c/js对象实例/array/reverse()数组的反转.html" />
+        <option value="$PROJECT_DIR$/vue/basics/条件与循环.html" />
+        <option value="$PROJECT_DIR$/skill/js/w3c/js对象实例/array/join()数组作为字符串的输出.html" />
+        <option value="$PROJECT_DIR$/vue/readMe/vue.md" />
+        <option value="$PROJECT_DIR$/vue/basics/组件化应用构建/组件应用.html" />
+        <option value="$PROJECT_DIR$/demo/中英文切换/中英切换.md" />
+        <option value="$PROJECT_DIR$/demo/中英文切换/lang.js" />
+        <option value="$PROJECT_DIR$/demo/中英文切换/index.html" />
+        <option value="$PROJECT_DIR$/demo/jq/获取天气信息ajax实例.html" />
       </list>
     </option>
   </component>
@@ -176,18 +180,37 @@
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="ajax" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="ajax" type="462c0819:PsiDirectoryNode" />
-              <item name="ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="jq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="basics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="basics" type="462c0819:PsiDirectoryNode" />
+              <item name="组件化应用构建" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="readMe" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,6 +221,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/edz/Desktop/web/vue/basics/条件与循环.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -208,7 +232,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="xpath.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -238,31 +262,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.val.html">
-    <configuration name="实例.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/vue/basics/指令/v-once/实例.html" />
+  <component name="RunManager" selected="JavaScript Debug.获取天气信息ajax实例.html">
+    <configuration name="字符串反转大牛做法.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/skill/interview/面试题/字符串反转大牛做法.html" />
+    <configuration name="组件应用.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/vue/basics/组件化应用构建/组件应用.html" />
     <configuration name="显示原型和隐式原型.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/js/函数/显示原型和隐式原型.html" />
     <configuration name="原型链.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/js/函数/原型链.html" />
+    <configuration name="获取天气信息ajax实例.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/demo/jq/获取天气信息ajax实例.html" />
     <configuration name="动态改变html元素.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/skill/动态改变html元素.html" />
-    <configuration name="resize() 方法，调整浏览器窗口触发该事件.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/jquery/基础/事件方法/resize() 方法，调整浏览器窗口触发该事件.html" />
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/demo/中英文切换/index.html" />
     <configuration name="resize.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/css3/用户界面模块/resize.html" />
-    <configuration name="test.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/css3/test.html" />
-    <configuration name="v-cloak.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/vue/basics/指令/v-cloak.html" />
     <configuration name="v-pre.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/vue/basics/指令/v-pre.html" />
-    <configuration name="val.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/jquery/基础/dom操作/通用属性操作/val.html" />
+    <configuration name="lang.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="lang.js" working-dir="$PROJECT_DIR$/demo/中英文切换" />
     <list>
-      <item itemvalue="JavaScript Debug.实例.html" />
-      <item itemvalue="JavaScript Debug.v-cloak.html" />
-      <item itemvalue="JavaScript Debug.test.html" />
-      <item itemvalue="JavaScript Debug.resize() 方法，调整浏览器窗口触发该事件.html" />
-      <item itemvalue="JavaScript Debug.val.html" />
+      <item itemvalue="JavaScript Debug.字符串反转大牛做法.html" />
+      <item itemvalue="JavaScript Debug.组件应用.html" />
+      <item itemvalue="Node.js.lang.js" />
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="JavaScript Debug.获取天气信息ajax实例.html" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.val.html" />
-        <item itemvalue="JavaScript Debug.resize() 方法，调整浏览器窗口触发该事件.html" />
-        <item itemvalue="JavaScript Debug.test.html" />
-        <item itemvalue="JavaScript Debug.v-cloak.html" />
-        <item itemvalue="JavaScript Debug.实例.html" />
+        <item itemvalue="JavaScript Debug.获取天气信息ajax实例.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.lang.js" />
+        <item itemvalue="JavaScript Debug.组件应用.html" />
+        <item itemvalue="JavaScript Debug.字符串反转大牛做法.html" />
       </list>
     </recent_temporary>
   </component>
@@ -290,18 +314,18 @@
       <workItem from="1530067934068" duration="9900000" />
       <workItem from="1530090501776" duration="398000" />
       <workItem from="1530092509317" duration="17616000" />
-      <workItem from="1530178482448" duration="3837000" />
+      <workItem from="1530178482448" duration="14934000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149752000" />
+    <option name="totallyTimeSpent" value="160849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49541286" visible="true" weight="0.328125" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49541286" visible="true" weight="0.246875" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50119144" side_tool="true" weight="0.3988604" />
@@ -309,7 +333,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="Structure" order="1" sideWeight="0.502849" side_tool="true" weight="0.32109374" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32827586" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4988086" visible="true" weight="0.3986207" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4988086" visible="true" weight="0.3986207" />
       <window_info id="Favorites" order="2" sideWeight="0.5045872" side_tool="true" weight="0.2796875" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -351,170 +375,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vue/flow/src/loading/index.js" />
-    <entry file="file://$PROJECT_DIR$/vue/flow/src/new-loading.vue" />
-    <entry file="file://$PROJECT_DIR$/vue/flow/src/components/nwd-loading.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/flow/src/procedure.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/flow/src/components/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-167">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/flow/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/flow/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/flow/src/login.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/flow/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/basics/指令/v-once.html" />
-    <entry file="file://$PROJECT_DIR$/vue/basics/指令/v-once/实例.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/basics/指令/v-pre.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/basics/指令/v-cloak.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/basics/指令/v-once/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/article/DailyRead.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="225">
-            <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/article/schedule.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css3/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/article/jquery/属性操作/属性操作.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/基础/事件方法/resize() 方法，调整浏览器窗口触发该事件.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/article/jquery/jq获取各种高度.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="45">
-            <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/article/jquery/事件操作.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="45">
-            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/基础/$下的常用方法/$.each遍历json字符串.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/基础/$下的常用方法/$.inArray.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/基础/$下的常用方法/$.makeArray()类数组转换.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/基础/$下的常用方法/$.parseJSON json字符串的解析.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/jquery/基础/$下的常用方法/$.trim去除串首尾空格.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -663,6 +523,205 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ajax/tab/ajax.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/website/性能相关.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/js/函数/函数作用域.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/js/函数/变量提升和函数提升.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="105">
+            <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/js/函数/函数.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-142">
+            <caret line="1" column="21" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/website/分页插件.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skill/js/w3c/js对象实例/array/reverse()数组的反转.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/js本地对象/string对象/split().html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/basics/声明式渲染.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skill/js/w3c/js对象实例/array/split.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skill/js/split（） join（）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skill/interview/面试题/字符串反转大牛做法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skill/框架/MUI/登录/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/basics/指令.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/readMe/vue.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="295">
+            <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/DailyRead.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/basics/条件与循环.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/basics/组件化应用构建/组件应用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/basics/lib/vue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skill/js/w3c/js对象实例/array/join()数组作为字符串的输出.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/中英文切换/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/中英文切换/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/中英文切换/中英切换.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="55">
+            <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/中英文切换/lang.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/js/网页漂浮广告.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="90" column="34" selection-start-line="90" selection-start-column="34" selection-end-line="90" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/jq/获取天气信息ajax实例.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

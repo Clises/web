@@ -1,6 +1,6 @@
 var words = {
     lans: [
-        {"cn": "精彩图片", "en": "Go"},
+        {"cn": "123", "en": "Go"},
         {"cn":"设置精彩图","en":"To"},
         {"cn":"哈哈哈","en":"haha"}
     ]
@@ -23,6 +23,7 @@ function changeLang() {
 }
 function interprete(ele, lan) {
     var eleString = $(ele).html() || '';
+    console.log(typeof eleString)
     console.log(eleString)
     var lans = words.lans;
     switch (lan) {

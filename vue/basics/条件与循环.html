@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <div v-if="even">
+        控制显示和隐藏
+    </div>
+</div>
+<script src="lib/vue.js"></script>
+<script>
+new Vue({
+    el:"#app",
+    data:{
+        even:false
+    }
+})
+</script>
+</body>
+</html>
