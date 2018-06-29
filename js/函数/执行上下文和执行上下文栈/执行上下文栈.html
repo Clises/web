@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+var a=10;
+var bar=function () {
+    var b=5
+    foo(x+b)
+}
+var foo=function () {
+var  c=5;
+console.log(a+c+y)
+}
+bar(1)
+/**
+ 1、在全局代码执行之前，js引擎就会创建一个栈来存储管理所有的执行上下文对象
+ 2、在全局执行上下文（window）确定后，将其添加到栈之中（压栈）
+ 3、在函数执行上下文创建之后，将其添加到栈之中（压栈）
+ 4、在当前函数执行完之后，将栈项的对象移除（出栈）
+ 5、当前所有代码执行完毕之后，栈就只会剩下window
+* */
+/**
+ 1、window
+
+ 2、bar
+    全局执行上下文对象
+
+3、 foo()
+ bar()
+ 全局执行上下文对象
+
+
+4、 执行完毕，此时栈中就剩下window，释放空间
+
+ 对于一个栈来说，永远只能看到栈顶的元素
+
+    最后都执行之后会剩下window
+
+    栈底只会是window
+
+* */
+/*
+栈的特点：先进先出
+* */
+</script>
+</body>
+</html>

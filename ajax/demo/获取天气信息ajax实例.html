@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js
+"></script>
+    <script>
+        $(document).ready(function(){
+            $.ajax({
+                type          : 'get',
+                async         : false,
+                url           : 'http://api.k780.com/?app=weather.today&weaid=101100805&appkey=34784&sign=c0ce2332f61ee8a80b984d18a8615e1e&format=json&jsoncallback=data',
+                dataType      : 'jsonp',
+                jsonp         : 'callback',
+                jsonpCallback : 'data',
+                success       : function(data){
+                    if(data.success!='1'){
+                        alert(data.msgid+' '+data.msg);
+                        exit;
+                    }
+                    //遍历
+                    var description = "";
+                    for(var i in data.result){
+                        var property=data.result[i];
+                        description+=i+" = "+property+"<br />";
+                    }
+                    document.write(description);
+                },
+                error:function(){
+                    alert('fail');
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+</body>
+</html>
