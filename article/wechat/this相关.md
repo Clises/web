@@ -5,11 +5,6 @@ this的
 显示绑定:bind apply  call
 
 
-
-
-
-
-
 bind 返回带有一个明确this指向的函数
 apply   call在执行的时候改变this的指向
 
