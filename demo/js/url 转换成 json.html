@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>将url转化为json数据</title>
+</head>
+<script>
+    function queryString(url){
+        let arr=[]; //存储参数的数组
+        let res={}; //存储最终JSON结果对象
+        arr=url.split("?")[1].split("&"); //arr=["a=1", "b=2", "c=test", "d"]
+
+        for(let i=0,len=arr.length;i<len;i++){
+            //如果有等号，则执行赋值操作
+            if(arr[i].indexOf("=")!=-1){
+                let str=arr[i].split("=");
+                //str=[a,1];
+                res[str[0]]=str[1];
+            }else{//没有等号，则赋予空值
+                res[arr[i]]="";
+            }
+        }
+        res=JSON.stringify(res);//转化为JSON字符串
+        return res; //{"a": "1", "b": "2", "c": "test", "d": ""}
+    }
+    console.log(queryString('www.baidu.com?a=1&b=2&c=test&d'));
+</script>
+<body>
+</body>
+</html>
