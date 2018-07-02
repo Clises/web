@@ -2,50 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb8cb017-0f0d-4f67-ae8f-d7d3d35f1afd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/article/markdown语法.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css3/滚动条/横向滚动条/不用 js/css.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css3/滚动条/横向滚动条/不用 js/flex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css3/滚动条/横向滚动条/建议不要用/flex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css3/滚动条/横向滚动条/建议不要用/行向滚动条.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/js/url 转换成 json.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/js/三级联动.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/Tencent/参考.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/demo/去除 html 标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/basics/模板语法/指令/explain" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/basics/模板语法/指令/修饰符.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/basics/模板语法/指令/参数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/basics/模板语法/插值/explain.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/basics/模板语法/插值/使用 js 表达式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/basics/模板语法/插值/原始 html.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/basics/模板语法/插值/文本.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/basics/模板语法/插值/特性使用 v-bind.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/basics/模板语法/缩写/缩写形式.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/tag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/Tencent/this 相关.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ES6/let.html" beforeDir="false" afterPath="$PROJECT_DIR$/ES6/let.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/basic/get 和 post.md" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/basic/get 和 post.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article/css/website.md" beforeDir="false" afterPath="$PROJECT_DIR$/article/css/hot article.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article/css/对齐方式.md" beforeDir="false" afterPath="$PROJECT_DIR$/article/css/对齐方式.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article/css/隐藏滚动条.md" beforeDir="false" afterPath="$PROJECT_DIR$/article/css/隐藏滚动条.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article/item/案例页面.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/article/js/hotArticle.md" beforeDir="false" afterPath="$PROJECT_DIR$/article/hotaticle/hotArticle.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article/website/分页插件.md" beforeDir="false" afterPath="$PROJECT_DIR$/article/hotaticle/分页插件.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article/website/性能相关.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/wechat/this相关.md" beforeDir="false" afterPath="$PROJECT_DIR$/article/wechat/this 相关.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/article/wechat/快速理解 http.md" beforeDir="false" afterPath="$PROJECT_DIR$/article/wechat/快速理解 http.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css3/对齐方式/水平居中/多块级元素.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/对齐方式/水平居中/多块级元素.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css3/清楚浮动/使用伪元素after清除浮动.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/清除浮动/使用伪元素after清除浮动.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css3/清楚浮动/使用伪类.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/清除浮动/使用伪类.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/3d相册/img/mainvisual01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/demo/js/3d相册/img/mainvisual01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/3d相册/img/mainvisual02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/demo/js/3d相册/img/mainvisual02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/3d相册/img/mainvisual03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/demo/js/3d相册/img/mainvisual03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/3d相册/img/mainvisual04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/demo/js/3d相册/img/mainvisual04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/3d相册/img/mainvisual05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/demo/js/3d相册/img/mainvisual05.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/3d相册/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/js/3d相册/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/中英文切换/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/jq/中英文切换/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/中英文切换/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/jq/中英文切换/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/中英文切换/lang.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/jq/中英文切换/lang.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/中英文切换/中英切换.md" beforeDir="false" afterPath="$PROJECT_DIR$/demo/jq/中英文切换/中英切换.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/页内导航.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photoplus/case.html" beforeDir="false" afterPath="$PROJECT_DIR$/photoplus/case.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Tencent/this绑定.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/Tencent/this绑定.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -93,6 +55,7 @@
       <find>mask</find>
       <find>Tabs</find>
       <find>active</find>
+      <find>parentsEl</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -108,8 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ajax/demo/获取天气信息ajax实例.html" />
-        <option value="$PROJECT_DIR$/vue/music-player/server/package.json" />
         <option value="$PROJECT_DIR$/vue/readMe/MVVM.html" />
         <option value="$PROJECT_DIR$/vue/readMe/MVVM.MD" />
         <option value="$PROJECT_DIR$/article/wechat/this.html" />
@@ -121,14 +82,12 @@
         <option value="$PROJECT_DIR$/skill/interview/变量声明提升.html" />
         <option value="$PROJECT_DIR$/js/interview/变量声明提升.html" />
         <option value="$PROJECT_DIR$/wechat/微信禁止下拉漏出网页来源.html" />
-        <option value="$PROJECT_DIR$/js/Tencent/this绑定.html" />
         <option value="$PROJECT_DIR$/vue/basics/声明周期/生命周期.html" />
         <option value="$PROJECT_DIR$/ajax/basic/get 和 post 请求.html" />
         <option value="$PROJECT_DIR$/article/http/网络模型.md" />
         <option value="$PROJECT_DIR$/article/http/http和 https.md" />
         <option value="$PROJECT_DIR$/article/wechat/this相关.md" />
         <option value="$PROJECT_DIR$/photoplus/case.html" />
-        <option value="$PROJECT_DIR$/article/wechat/快速理解 http.md" />
         <option value="$PROJECT_DIR$/css3/对齐方式/水平居中/多块级元素.html" />
         <option value="$PROJECT_DIR$/article/css/对齐方式.md" />
         <option value="$PROJECT_DIR$/ES6/let.html" />
@@ -159,6 +118,10 @@
         <option value="$PROJECT_DIR$/vue/basics/模板语法/指令/explain" />
         <option value="$PROJECT_DIR$/vue/basics/模板语法/缩写/缩写形式.md" />
         <option value="$PROJECT_DIR$/ajax/basic/get 和 post.md" />
+        <option value="$PROJECT_DIR$/demo/tag.html" />
+        <option value="$PROJECT_DIR$/js/Tencent/this绑定.html" />
+        <option value="$PROJECT_DIR$/js/Tencent/this 相关.md" />
+        <option value="$PROJECT_DIR$/article/wechat/快速理解 http.md" />
       </list>
     </option>
   </component>
@@ -206,97 +169,36 @@
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="ajax" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="ajax" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="ajax" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="tab" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="article" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="article" type="462c0819:PsiDirectoryNode" />
-              <item name="ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="hotaticle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="skill" type="462c0819:PsiDirectoryNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="skill" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="skill" type="462c0819:PsiDirectoryNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="skill" type="462c0819:PsiDirectoryNode" />
-              <item name="items" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="skill" type="462c0819:PsiDirectoryNode" />
-              <item name="items" type="462c0819:PsiDirectoryNode" />
-              <item name="h5demo-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="skill" type="462c0819:PsiDirectoryNode" />
-              <item name="理论" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-              <item name="basics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-              <item name="basics" type="462c0819:PsiDirectoryNode" />
-              <item name="模板语法" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-              <item name="basics" type="462c0819:PsiDirectoryNode" />
-              <item name="组件化应用构建" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="函数" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -323,11 +225,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js/Tencent" />
       <recent name="$PROJECT_DIR$/vue/basics/模板语法/插值" />
       <recent name="$PROJECT_DIR$/demo/js" />
       <recent name="$PROJECT_DIR$/article/hotaticle" />
       <recent name="$PROJECT_DIR$/article/wechat" />
-      <recent name="$PROJECT_DIR$/js/interview" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/demo/jq" />
@@ -349,30 +251,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.参数.html">
-    <configuration name="原始 html.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/vue/basics/模板语法/插值/原始 html.html" />
+  <component name="RunManager" selected="JavaScript Debug.this绑定.html">
     <configuration name="特性使用 v-bind.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/vue/basics/模板语法/插值/特性使用 v-bind.html" />
     <configuration name="参数.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/vue/basics/模板语法/指令/参数.html" />
-    <configuration name="文本.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/vue/basics/模板语法/文本.html" />
     <configuration name="修饰符.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/vue/basics/模板语法/指令/修饰符.html" />
     <configuration name="原型链.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/js/函数/原型链.html" />
     <configuration name="获取天气信息ajax实例.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/ajax/demo/获取天气信息ajax实例.html" />
     <configuration name="动态改变html元素.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/skill/动态改变html元素.html" />
     <configuration name="resize.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/css3/用户界面模块/resize.html" />
+    <configuration name="tag.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/demo/tag.html" />
+    <configuration name="this绑定.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/js/Tencent/this绑定.html" />
     <list>
-      <item itemvalue="JavaScript Debug.文本.html" />
-      <item itemvalue="JavaScript Debug.原始 html.html" />
       <item itemvalue="JavaScript Debug.特性使用 v-bind.html" />
       <item itemvalue="JavaScript Debug.修饰符.html" />
       <item itemvalue="JavaScript Debug.参数.html" />
+      <item itemvalue="JavaScript Debug.tag.html" />
+      <item itemvalue="JavaScript Debug.this绑定.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.this绑定.html" />
+        <item itemvalue="JavaScript Debug.tag.html" />
         <item itemvalue="JavaScript Debug.参数.html" />
         <item itemvalue="JavaScript Debug.修饰符.html" />
         <item itemvalue="JavaScript Debug.特性使用 v-bind.html" />
-        <item itemvalue="JavaScript Debug.原始 html.html" />
-        <item itemvalue="JavaScript Debug.文本.html" />
       </list>
     </recent_temporary>
   </component>
@@ -402,18 +304,18 @@
       <workItem from="1530092509317" duration="17616000" />
       <workItem from="1530178482448" duration="32936000" />
       <workItem from="1530347854150" duration="224000" />
-      <workItem from="1530348104422" duration="35893000" />
+      <workItem from="1530348104422" duration="41608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214968000" />
+    <option name="totallyTimeSpent" value="220683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49541286" visible="true" weight="0.26484376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49541286" visible="true" weight="0.31953126" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50119144" side_tool="true" weight="0.3988604" />
@@ -466,78 +368,10 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/article/demo/点赞.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/article/demo/获得页面内某个url参数问题.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/article/demo/遮罩层内禁止滑动.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/article/http/http和 https.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="356">
-            <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/article/item/案例页面.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/article/js/hotArticle.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/article/jquery/jq获取各种高度.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/article/jquery/jquery.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/article/jquery/属性操作/属性操作.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -567,14 +401,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/article/hotaticle/分页插件.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/article/hotaticle/hotArticle.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -650,16 +476,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="45">
             <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/Tencent/参考.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           </first_editor>
           <second_editor />
         </state>
@@ -863,6 +679,81 @@
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/tag.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="72" column="34" lean-forward="true" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/jq/获取天气信息ajax实例.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/wechat/this 相关.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/hotaticle/hotArticle.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Tencent/参考.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="80" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="80" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/wechat/快速理解 http.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="83">
+            <caret line="103" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Tencent/this 相关.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="71">
+            <caret line="87" column="31" lean-forward="true" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Tencent/this绑定.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="108" column="13" lean-forward="true" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/数据类型/分类/基本值类型.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/数据类型/数据变量内存.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

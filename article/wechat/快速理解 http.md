@@ -33,7 +33,6 @@ PORT：端口号，没项服务在服务器上都对应一个监听端口号
 
 USER:用户名，某些方案访问资源时需要指定用户名 默认值为anonymouse 
 pwd：密码，默认为地址 
-例如：ftp://admin:123@ip地址/adm/secret.xls
 
 PATH：路径，服务器上资源的本地名称，由一个/将其分开 
 例如：ftp://admin:123@ip地址/admin/secret.xls 这其中的admin是虚拟路径，虚拟路径映射为物理路径，这个过程称为资源映射
