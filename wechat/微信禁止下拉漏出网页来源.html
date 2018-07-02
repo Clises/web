@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <title>禁止下拉</title>
+    <style type="text/css">
+        .scroll{
+            position:absolute;
+            overflow:scroll;
+            -webkit-overflow-scrolling: touch;
+            top:0;
+            left:0;
+            bottom:0;
+            right:0;
+
+        }
+        body{height:100%;overflow: hidden;}
+    </style>
+</head>
+<body>
+
+<div class="scroll" id="contain">
+    begin
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    禁止下拉！<br/>
+    是不是可以啊！！！
+    end
+</div>
+
+
+<div class="bottom"></div>
+</body>
+<script src="https://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">
+    document.body.ontouchmove = function (e) {
+        e.preventDefault();
+    };
+    var startX = 0, startY = 0;
+    //touchstart事件
+    function touchSatrtFunc(evt) {
+        try
+        {
+            //evt.preventDefault(); //阻止触摸时浏览器的缩放、滚动条滚动等
+
+
+            var touch = evt.touches[0]; //获取第一个触点
+            var x = Number(touch.pageX); //页面触点X坐标
+            var y = Number(touch.pageY); //页面触点Y坐标
+            //记录触点初始位置
+            startX = x;
+            startY = y;
+
+
+        } catch (e) {
+            alert('touchSatrtFunc：' + e.message);
+        }
+    }
+    document.addEventListener('touchstart', touchSatrtFunc, false);
+    var _ss = document.getElementById("contain");
+    _ss.ontouchmove = function (ev) {
+        var _point = ev.touches[0],
+            _top = _ss.scrollTop;
+        // 什么时候到底部
+        var _bottomFaVal = _ss.scrollHeight - _ss.offsetHeight;
+        // 到达顶端
+        if (_top === 0) {
+            // 阻止向下滑动
+            if (_point.clientY > startY) {
+                ev.preventDefault();
+            } else {
+                // 阻止冒泡
+                // 正常执行
+                ev.stopPropagation();
+            }
+        } else if (_top === _bottomFaVal) {
+            // 到达底部
+            // 阻止向上滑动
+            if (_point.clientY < startY) {
+                ev.preventDefault();
+            } else {
+                // 阻止冒泡
+                // 正常执行
+                ev.stopPropagation();
+            }
+        } else if (_top > 0 && _top < _bottomFaVal) {
+            ev.stopPropagation();
+        } else {
+            ev.preventDefault();
+        }
+    };
+</script>
+</html>
+
