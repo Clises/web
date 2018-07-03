@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //面向对象
+    //定义人（姓名）
+    let People=function(name){
+        this.name=name;
+    }
+    //动作
+    People.prototype={
+        eat:function(someThing){
+            console.log(`${this.name}吃${someThing}`);
+        }
+    }
+    //守候是个人，所以要创建一个人(new一次People)
+    let shouhou=new People('守候','男',24);
+    shouhou.eat('火锅');
+
+
+</script>
+</body>
+</html>

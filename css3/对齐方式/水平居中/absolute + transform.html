@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box{
+            position: relative;
+            width: 500px;
+            height: 500px;
+            background: red;
+        }
+        .child{
+            position: absolute;
+            left: 50%;
+            width: 100px;
+            height: 100px;
+            background: blue;
+            transform: translateX(-50%);
+        /*兼容性*/
+          /*  position: absolute;
+            width:100px;
+            left: 50%;
+            margin-left:-50px;
+*/
+        }
+
+
+    </style>
+</head>
+<body>
+
+
+
+
+<div class="box">
+    <div class="child">
+
+    </div>
+</div>
+
+
+
+</body>
+</html>

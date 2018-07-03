@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>post 请求方式</h2>
+<form action="" method="post">
+    <p>用户名:</p> <input type="text"id="username" onblur="checkname()">
+    <p> 密码:</p> <input type="text" name="userpwd">
+    <p><input type="submit" value="注册"></p>
+</form>
+<script>
+    function checkname(){
+        var nm=document.getElementById('username').value;
+        nm=encodeURIComponent(nm)//对浏览器容易混淆的信息进行编码
+        console.log(name)
+        var xhr=new XMLHttpRequest();
+        xhr.onreadystatechange=function () {
+            if(xhr.readyState==4){
+                // alert(xhr.responseText)
+            }
+        };
+        xhr.open('post','data.json');
+        //把传递数据阻止为请求字符串
+
+        /*
+        post模仿form表单把数据传递给服务器端
+        form 表单把数据组织为 xml格式
+        要在 open 方法之后设置
+        * */
+
+        //以下方法设置 head头信息,作用把传递数据阻止为 xml 信息,表单的数据是以 xml 形式
+        xhr.setRequestHeader('content-type','application/x-www-form-urlencoded')
+        var info="name="+nm;
+        xhr.send(info)
+
+    }
+</script>
+</body>
+</html>

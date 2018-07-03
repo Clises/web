@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>get 请求方式</h2>
+<form action="" method="post">
+    <p>用户名:</p> <input type="text"id="username" onblur="checkname()">
+    <p> 密码:</p> <input type="text" name="userpwd">
+    <p><input type="submit" value="注册"></p>
+</form>
+<script>
+    function checkname(){
+        var nm=document.getElementById('username').value;
+        /**
+        如果包含 关于url 的符号,会被误解,例如 & = 或者中文
+            解决方式:进行编码处理
+         在js 中使用encodeURIComponent进行编码处理
+         **/
+        nm=encodeURIComponent(nm)//对浏览器容易混淆的信息进行编码
+        console.log(name)
+        var xhr=new XMLHttpRequest();
+        xhr.onreadystatechange=function () {
+            if(xhr.readyState==4){
+                alert(xhr.responseText)
+            }
+        };
+        xhr.open('get','data.json?name='+nm);
+        xhr.send(null)
+    }
+</script>
+</body>
+</html>

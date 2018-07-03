@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<script>
+    window.onload=function () {
+        var xhr=new XMLHttpRequest();
+        xhr.onreadystatechange=function () {
+            if(xhr.readyState==4){
+                alert(xhr.responseText)
+            }
+        };
+        xhr.open('get','data.json');      //true 为异步请求 false 为同步请求
+        xhr.send(null)
+    }
+
+</script>
+</head>
+
+
+<body>
+
+<img src="../../../css3/image/pause.png"style="width: 300px;height:300px">
+</body>
+</html>
