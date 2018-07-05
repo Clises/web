@@ -2,72 +2,141 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb8cb017-0f0d-4f67-ae8f-d7d3d35f1afd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/vue/basics/5.列表渲染/对象更改检测注意事项.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/basics/5.列表渲染/数组更新和检测/变异方法-push().html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/basics/5.列表渲染/数组更新和检测/替换数组.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/basics/5.列表渲染/数组更新和检测/注意事项.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/basics/6.事件处理/explain.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/basics/6.事件处理/事件修饰符.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/basics/6.事件处理/事件处理方法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/basics/6.事件处理/内敛处理器中的方法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/basics/6.事件处理/监听事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/exprice/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/exprice/goods.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/exprice/src/assets/image/54205424_big.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/exprice/src/components/DetailHeader.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/exprice/src/components/Message.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/exprice/src/components/commonFooter.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/exprice/src/components/homeHeader.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/exprice/src/components/list.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/exprice/src/pages/goodsDetail.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/exprice/src/pages/home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/wechat/image/函数闭包.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/wechat/函数" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/wechat/对齐方式.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css3/ademo/8个css3鼠标滑过图片显示文字动画效果代码/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css3/ademo/8个css3鼠标滑过图片显示文字动画效果代码/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css3/ademo/8个css3鼠标滑过图片显示文字动画效果代码/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css3/ademo/下划线跟随效果.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css3/ademo/按钮效果/css/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css3/ademo/立体图形效果/images/solarSystem.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css3/对齐方式/垂直居中/内敛元素/多行元素垂直居中/flex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/函数/闭包/js 模块/module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/函数/闭包/js 模块/闭包应用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/函数/闭包/test'.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/函数/闭包/闭包的作用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/函数/闭包/闭包的声明周期.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/exprice/explain.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/class 与 style 绑定/explain.md" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/3.class 与 style 绑定/explain.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/class 与 style 绑定/多重值.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/3.class 与 style 绑定/多重值.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/class 与 style 绑定/对象语法.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/3.class 与 style 绑定/对象语法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/class 与 style 绑定/数组语法.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/3.class 与 style 绑定/数组语法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/class 与 style 绑定/自动添加前缀.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/3.class 与 style 绑定/自动添加前缀.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/class.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/html模板.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/render.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/列表渲染/explain.md" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/5.列表渲染/explain.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/列表渲染/v-for.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/5.列表渲染/v-for.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/列表渲染/一段取值范围的v-for.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/5.列表渲染/一段取值范围的v-for.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/列表渲染/数组更新和检测/变异方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/5.列表渲染/显示过滤排序结果.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/双向数据绑定.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/声明式渲染.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/字符串模板.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/实例.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/指令.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/条件与循环.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/条件渲染/explain.md" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/4.条件渲染/explain.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/条件渲染/v-else-if.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/4.条件渲染/v-else-if.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/条件渲染/v-if.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/4.条件渲染/v-if.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/条件渲染/v-show.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/4.条件渲染/v-show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/模板语法/指令/explain" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/1.模板语法/指令/explain" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/模板语法/指令/修饰符.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/1.模板语法/指令/修饰符.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/模板语法/指令/参数.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/1.模板语法/指令/参数.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/模板语法/插值/explain.md" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/1.模板语法/插值/explain.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/模板语法/插值/使用 js 表达式.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/1.模板语法/插值/使用 js 表达式.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/模板语法/插值/原始 html.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/1.模板语法/插值/原始 html.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/模板语法/插值/文本.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/1.模板语法/插值/文本.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/模板语法/插值/特性使用 v-bind.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/1.模板语法/插值/特性使用 v-bind.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/模板语法/缩写/缩写形式.md" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/1.模板语法/缩写/缩写形式.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/绑定内敛样式/explain.md" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/3.class 与 style 绑定/绑定内敛样式/explain.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/绑定内敛样式/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/3.class 与 style 绑定/绑定内敛样式/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/计算属性和监视器/explain.md" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/2.计算属性和监视器/explain.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/计算属性和监视器/侦听器.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/2.计算属性和监视器/侦听器.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/计算属性和监视器/侦听属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/2.计算属性和监视器/侦听属性.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/计算属性和监视器/方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/2.计算属性和监视器/方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/计算属性和监视器/计算属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/2.计算属性和监视器/计算属性.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/basics/计算属性和监视器/计算属性的 setter.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/2.计算属性和监视器/计算属性的 setter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/flow/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue/flow/goods.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/flow/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue/flow/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/flow/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/flow/src/login.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/css/对齐方式.md" beforeDir="false" afterPath="$PROJECT_DIR$/article/css/对齐方式.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/css3实现虚线.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/8个css3鼠标滑过图片显示文字动画效果代码/css/hover-effects.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/8个css3鼠标滑过图片显示文字动画效果代码/css/hover-effects.css" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/8个css3鼠标滑过图片显示文字动画效果代码/css/hover-effects.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/8个css3鼠标滑过图片显示文字动画效果代码/css/htmleaf-demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/8个css3鼠标滑过图片显示文字动画效果代码/css/htmleaf-demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/8个css3鼠标滑过图片显示文字动画效果代码/css/htmleaf-demo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/8个css3鼠标滑过图片显示文字动画效果代码/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/8个css3鼠标滑过图片显示文字动画效果代码/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/8个css3鼠标滑过图片显示文字动画效果代码/css/normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/8个css3鼠标滑过图片显示文字动画效果代码/fonts/icomoon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/8个css3鼠标滑过图片显示文字动画效果代码/fonts/icomoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/8个css3鼠标滑过图片显示文字动画效果代码/fonts/icomoon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/8个css3鼠标滑过图片显示文字动画效果代码/fonts/icomoon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/8个css3鼠标滑过图片显示文字动画效果代码/fonts/icomoon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/8个css3鼠标滑过图片显示文字动画效果代码/fonts/icomoon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/8个css3鼠标滑过图片显示文字动画效果代码/images/bg-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/8个css3鼠标滑过图片显示文字动画效果代码/images/bg-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/8个css3鼠标滑过图片显示文字动画效果代码/images/bg-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/8个css3鼠标滑过图片显示文字动画效果代码/images/img-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/8个css3鼠标滑过图片显示文字动画效果代码/images/img-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/8个css3鼠标滑过图片显示文字动画效果代码/images/img-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/8个css3鼠标滑过图片显示文字动画效果代码/images/img-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/8个css3鼠标滑过图片显示文字动画效果代码/images/img-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/8个css3鼠标滑过图片显示文字动画效果代码/images/img-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/8个css3鼠标滑过图片显示文字动画效果代码/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/8个css3鼠标滑过图片显示文字动画效果代码/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/8个css3鼠标滑过图片显示文字动画效果代码/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/css3-文档分列显示/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/css3-文档分列显示/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/窗口文档自适应显示.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/css3弹性展开动画导航菜单特效/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/css3弹性展开动画导航菜单特效/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/css3弹性展开动画导航菜单特效/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/css3弹性展开动画导航菜单特效/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/css3弹性展开动画导航菜单特效/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/css3弹性展开动画导航菜单特效/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/css3淡入淡出/ease-in-out淡入淡出.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/css3淡入淡出/ease-in-out淡入淡出.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/css3淡入淡出/ease-in-out淡入淡出.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/css3淡入淡出/从顶部弹出.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/css3淡入淡出/从顶部弹出.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/css3淡入淡出/从顶部弹出.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/css3淡入淡出/图片淡入淡出.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/css3淡入淡出/图片淡入淡出.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/css3淡入淡出/图片淡入淡出.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/css3点击向上滑动效果.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/css3点击向上滑动效果.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/css3点击向上滑动效果.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/css3轮播/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/css3轮播/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/image/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/css3轮播/css3slider.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/css3轮播/css3slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/css3轮播.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/css3轮播/cssslider.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/css3轮播/cssslider.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/css 点击切换.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/css3轮播/timg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/css3轮播/timg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/image/timg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/图片轮播.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/图片轮播.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/图片轮播.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/按钮效果/css/1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/按钮效果/css/1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/按钮效果/css/1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/按钮效果/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/wechat/快速理解 js 中的闭包.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/按钮效果/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/按钮效果/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/按钮效果/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/.idea/css3--master.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/.idea/css3--master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/立体图形效果/.idea/css3--master.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/立体图形效果/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/立体图形效果/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/立体图形效果/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/立体图形效果/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/css/solarSystemStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/css/solarSystemStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/立体图形效果/css/solarSystemStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/立体图形效果/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/html/exampleSolarSystem.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/html/exampleSolarSystem.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/立体图形效果/html/exampleSolarSystem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/立体图形效果/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/images/boom.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/images/boom.gif" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/立体图形效果/images/boom.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/images/example1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/images/example1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/立体图形效果/images/example1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/images/example2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/images/example2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/立体图形效果/images/example2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/images/example3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/images/example3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/立体图形效果/images/example3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/images/example4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/images/example4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/立体图形效果/images/example4.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/images/solarSystem.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/js/TweenMax.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/js/TweenMax.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/立体图形效果/js/TweenMax.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/立体图形效果/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/js/index/mod-taskBar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/js/index/mod-taskBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/立体图形效果/js/index/mod-taskBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/js/solarSystem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/立体图形效果/js/solarSystem.js" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/立体图形效果/js/solarSystem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/蒙版文字制作/制作蒙版文字.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/蒙版文字制作/制作蒙版文字.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/制作蒙版文字.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/鼠标移入.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/鼠标移入.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/给图片添加蒙版介绍.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/鼠标移入背景变化.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/demo/鼠标移入背景变化.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/鼠标移入背景变化.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/refer.md" beforeDir="false" afterPath="$PROJECT_DIR$/css3/refer.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/对齐方式/垂直居中/内敛元素/多行元素垂直居中/利用flex布局.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/对齐方式/垂直居中/内敛元素/多行元素垂直居中/transform.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/对齐方式/水平居中/absolute + transform.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/对齐方式/水平居中/absolute + transform.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/对齐方式/水平居中/内联元素.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/对齐方式/水平居中/内联元素.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/网页阴影.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/网页阴影.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/网页阴影.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/选择器/新增选择器/~选择兄弟元素.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/选择器/新增选择器/~选择兄弟元素.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/高斯模糊.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/高斯模糊.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/高斯模糊.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/黑白背景.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/黑白背景.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/黑白背景.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/函数/函数" beforeDir="false" afterPath="$PROJECT_DIR$/js/函数/函数" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/函数/闭包/闭包理解.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/函数/闭包/闭包理解.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/数据类型/分类/基本值类型.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/数据类型/分类/基本值类型.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/exprice/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/exprice/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/exprice/src/components/list.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/exprice/src/components/list.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/exprice/src/pages/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/exprice/src/pages/home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/exprice/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/exprice/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/readMe/MVVM.MD" beforeDir="false" afterPath="$PROJECT_DIR$/js/函数/闭包/js 模块/modle2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/readMe/指令/指令.md" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/指令/指令.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/readMe/流程.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/readMe/环境配置.md" beforeDir="false" afterPath="$PROJECT_DIR$/vue/readMe/环境配置.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/readMe/相关目录.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/readMe/组件/组件.md" beforeDir="false" afterPath="$PROJECT_DIR$/vue/basics/组件化应用构建/组件.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -83,72 +152,21 @@
     <favorites_list name="web" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="goodsDetail.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/exprice/src/pages/goodsDetail.vue">
+    <leaf>
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css3/animate的运用/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="49" column="15" lean-forward="true" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
-              <folding>
-                <element signature="e#427#480#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vue/exprice/src/components/list.vue">
+      <file leaf-file-name="inherit关键字使用.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css3/inherit关键字使用.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/exprice/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DetailHeader.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/exprice/src/components/DetailHeader.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/exprice/src/pages/home.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
-              <folding>
-                <element signature="e#368#417#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Message.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/exprice/src/components/Message.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/exprice/src/App.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+            <state relative-caret-position="105">
+              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -158,12 +176,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="XHTML File" />
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="tsconfig.json" />
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -189,10 +207,12 @@
       <find>parentsEl</find>
       <find>use</find>
       <find>goods</find>
+      <find>#</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>case-classify</replace>
+      <replace>.</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/demo/demo</dir>
@@ -204,34 +224,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/vue/basics/列表渲染/一段取值范围的v-for.html" />
-        <option value="$PROJECT_DIR$/vue/basics/列表渲染/数组更新和检测/变异方法.html" />
-        <option value="$PROJECT_DIR$/ajax/ajax/js封装/js/ajax.js" />
-        <option value="$PROJECT_DIR$/ajax/ajax/02.php" />
-        <option value="$PROJECT_DIR$/ajax/demo/get 方式请求/index.php.html" />
-        <option value="$PROJECT_DIR$/ajax/demo/get 方式请求/get.php" />
-        <option value="$PROJECT_DIR$/ajax/demo/post/post.php" />
-        <option value="$PROJECT_DIR$/ajax/demo/post/index.html" />
-        <option value="$PROJECT_DIR$/ajax/demo/get 方式请求/index.html" />
-        <option value="$PROJECT_DIR$/ajax/demo/同步请求和异步请求/data.json" />
-        <option value="$PROJECT_DIR$/ajax/basic/explain.md" />
-        <option value="$PROJECT_DIR$/ajax/demo/同步请求和异步请求/index.html" />
-        <option value="$PROJECT_DIR$/js/函数/闭包/常见的闭包.html" />
-        <option value="$PROJECT_DIR$/vue/basics/render.html" />
-        <option value="$PROJECT_DIR$/vue/basics/5.列表渲染/数组更新和检测/变异方法.html" />
-        <option value="$PROJECT_DIR$/vue/basics/5.列表渲染/数组更新和检测/替换数组.html" />
-        <option value="$PROJECT_DIR$/vue/basics/5.列表渲染/数组更新和检测/注意事项.html" />
-        <option value="$PROJECT_DIR$/vue/basics/5.列表渲染/数组更新和检测/explain.md" />
-        <option value="$PROJECT_DIR$/vue/basics/5.列表渲染/数组更新和检测/对象更改检测注意事项.html" />
-        <option value="$PROJECT_DIR$/vue/basics/5.列表渲染/数组更新和检测/显示过滤/排序结果.html" />
-        <option value="$PROJECT_DIR$/vue/basics/5.列表渲染/explain.md" />
-        <option value="$PROJECT_DIR$/vue/basics/5.列表渲染/显示过滤排序结果.html" />
-        <option value="$PROJECT_DIR$/vue/basics/5.列表渲染/一段取值范围 v-for.html" />
-        <option value="$PROJECT_DIR$/vue/basics/6.事件处理/监听事件.html" />
-        <option value="$PROJECT_DIR$/vue/basics/6.事件处理/事件处理方法.html" />
-        <option value="$PROJECT_DIR$/vue/basics/6.事件处理/内敛处理器中的方法.html" />
-        <option value="$PROJECT_DIR$/vue/basics/6.事件处理/事件修饰符.html" />
-        <option value="$PROJECT_DIR$/vue/basics/6.事件处理/explain.md" />
         <option value="$PROJECT_DIR$/vue/tsconfig.json" />
         <option value="$PROJECT_DIR$/vue/first/exprice/src/App.vue" />
         <option value="$PROJECT_DIR$/vue/first/exprice/goods.json" />
@@ -251,10 +243,38 @@
         <option value="$PROJECT_DIR$/vue/first/exprice/data.json" />
         <option value="$PROJECT_DIR$/vue/first/exprice/src/pages/home.vue" />
         <option value="$PROJECT_DIR$/vue/exprice/src/App.vue" />
-        <option value="$PROJECT_DIR$/vue/exprice/index.html" />
         <option value="$PROJECT_DIR$/vue/exprice/src/components/Message.vue" />
-        <option value="$PROJECT_DIR$/vue/exprice/src/pages/home.vue" />
+        <option value="$PROJECT_DIR$/vue/exprice/src/router/index.js" />
+        <option value="$PROJECT_DIR$/vue/exprice/index.html" />
+        <option value="$PROJECT_DIR$/vue/exprice/explain.md" />
         <option value="$PROJECT_DIR$/vue/exprice/src/components/list.vue" />
+        <option value="$PROJECT_DIR$/vue/exprice/src/pages/home.vue" />
+        <option value="$PROJECT_DIR$/js/函数/闭包/闭包理解.html" />
+        <option value="$PROJECT_DIR$/article/wechat/快速理解 js 中的闭包.md" />
+        <option value="$PROJECT_DIR$/js/函数/闭包/闭包的作用.html" />
+        <option value="$PROJECT_DIR$/js/函数/闭包/闭包的声明周期.html" />
+        <option value="$PROJECT_DIR$/js/函数/闭包/闭包应用.html" />
+        <option value="$PROJECT_DIR$/js/函数/闭包/module.js" />
+        <option value="$PROJECT_DIR$/js/函数/闭包/js 模块/module.js" />
+        <option value="$PROJECT_DIR$/js/函数/闭包/js 模块/modle2.js" />
+        <option value="$PROJECT_DIR$/js/函数/闭包/js 模块/闭包应用.html" />
+        <option value="$PROJECT_DIR$/css3/对齐方式/水平居中/内联元素.html" />
+        <option value="$PROJECT_DIR$/css3/对齐方式/垂直居中/内敛元素/多行元素垂直居中/利用flex布局.html" />
+        <option value="$PROJECT_DIR$/css3/对齐方式/垂直居中/内敛元素/多行元素垂直居中/flex.html" />
+        <option value="$PROJECT_DIR$/css3/对齐方式/垂直居中/内敛元素/test.html" />
+        <option value="$PROJECT_DIR$/css3/对齐方式/水平居中/absolute + transform.html" />
+        <option value="$PROJECT_DIR$/article/css/对齐方式.md" />
+        <option value="$PROJECT_DIR$/vue/readMe/环境配置.md" />
+        <option value="$PROJECT_DIR$/js/数据类型/分类/基本值类型.html" />
+        <option value="$PROJECT_DIR$/js/函数/函数" />
+        <option value="$PROJECT_DIR$/js/函数/闭包/test'.html" />
+        <option value="$PROJECT_DIR$/css3/refer.md" />
+        <option value="$PROJECT_DIR$/css3/ademo/下划线跟随效果.html" />
+        <option value="$PROJECT_DIR$/css3/选择器/新增选择器/~选择兄弟元素.html" />
+        <option value="$PROJECT_DIR$/css3/ademo/css3轮播/css 点解切换.html" />
+        <option value="$PROJECT_DIR$/css3/ademo/css3轮播.html" />
+        <option value="$PROJECT_DIR$/css3/ademo/css 点击切换.html" />
+        <option value="$PROJECT_DIR$/css3/ademo/css3点击向上滑动效果.html" />
       </list>
     </option>
   </component>
@@ -272,14 +292,12 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/vue/exprice/node_modules" />
-    <handled-path value="$PROJECT_DIR$/vue/flow/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/demo/jq/jquery常用插件整理/Swiper-master/package.json" />
       <path value="$PROJECT_DIR$/jquery/jqtab/jquery-ui-1.12.1.custom/package.json" />
       <path value="$PROJECT_DIR$/vue/exprice/package.json" />
-      <path value="$PROJECT_DIR$/vue/flow/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
@@ -296,7 +314,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -307,49 +324,31 @@
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="css3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-              <item name="exprice" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-              <item name="exprice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="数据类型" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-              <item name="exprice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-              <item name="exprice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-              <item name="exprice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="数据类型" type="462c0819:PsiDirectoryNode" />
+              <item name="分类" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -369,19 +368,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css3/ademo" />
+      <recent name="$PROJECT_DIR$/css3/ademo/image" />
+      <recent name="$PROJECT_DIR$/article/wechat" />
+      <recent name="$PROJECT_DIR$/css3/demo" />
+      <recent name="$PROJECT_DIR$/vue/basics/组件化应用构建" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js/函数/闭包/js 模块" />
       <recent name="$PROJECT_DIR$/vue/exprice/src/assets/image" />
       <recent name="$PROJECT_DIR$/vue" />
       <recent name="$PROJECT_DIR$/vue/first/exprice/src/components" />
       <recent name="$PROJECT_DIR$/vue/basics/3.class 与 style 绑定" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/vue/first/exprice/src/assets" />
-      <recent name="$PROJECT_DIR$/vue/basics/5.列表渲染" />
-      <recent name="$PROJECT_DIR$/ajax/demo/同步请求和异步请求" />
-      <recent name="$PROJECT_DIR$/ajax/demo/post" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -396,28 +395,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.webpack.dev.conf.js">
-    <configuration name="显示过滤排序结果.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/vue/basics/5.列表渲染/显示过滤排序结果.html" />
+  <component name="RunManager" selected="JavaScript Debug.inherit关键字使用.html">
+    <configuration name="鼠标移入背景变化.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/css3/ademo/鼠标移入背景变化.html" />
+    <configuration name="窗口文档自适应显示.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/css3/ademo/css3-文档分列显示/窗口文档自适应显示.html" />
+    <configuration name="内联元素.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/css3/对齐方式/水平居中/内联元素.html" />
     <configuration name="事件处理方法.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/vue/basics/6.事件处理/事件处理方法.html" />
     <configuration name="内敛处理器中的方法.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/vue/basics/6.事件处理/内敛处理器中的方法.html" />
     <configuration name="监听事件.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/vue/basics/6.事件处理/监听事件.html" />
     <configuration name="闭包理解.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/js/函数/闭包/闭包理解.html" />
     <configuration name="修饰符.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/vue/basics/模板语法/指令/修饰符.html" />
     <configuration name="原型链.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/js/函数/原型链.html" />
-    <configuration name="动态添加对象到event.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/js/event对象/动态添加对象到event.html" />
-    <configuration name="动态改变html元素.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/skill/动态改变html元素.html" />
-    <configuration name="webpack.dev.conf.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/vue/exprice/build/webpack.dev.conf.js" working-dir="$PROJECT_DIR$/vue/exprice/build" />
+    <configuration name="css3点击向上滑动效果.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/css3/ademo/css3点击向上滑动效果.html" />
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/css3/ademo/css3弹性展开动画导航菜单特效/index.html" />
+    <configuration name="inherit关键字使用.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/css3/inherit关键字使用.html" />
     <list>
-      <item itemvalue="JavaScript Debug.动态改变html元素.html" />
-      <item itemvalue="JavaScript Debug.显示过滤排序结果.html" />
-      <item itemvalue="JavaScript Debug.动态添加对象到event.html" />
-      <item itemvalue="Node.js.webpack.dev.conf.js" />
+      <item itemvalue="JavaScript Debug.鼠标移入背景变化.html" />
+      <item itemvalue="JavaScript Debug.css3点击向上滑动效果.html" />
+      <item itemvalue="JavaScript Debug.窗口文档自适应显示.html" />
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="JavaScript Debug.inherit关键字使用.html" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.webpack.dev.conf.js" />
-        <item itemvalue="JavaScript Debug.动态添加对象到event.html" />
-        <item itemvalue="JavaScript Debug.显示过滤排序结果.html" />
+        <item itemvalue="JavaScript Debug.inherit关键字使用.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.窗口文档自适应显示.html" />
+        <item itemvalue="JavaScript Debug.css3点击向上滑动效果.html" />
+        <item itemvalue="JavaScript Debug.鼠标移入背景变化.html" />
       </list>
     </recent_temporary>
   </component>
@@ -454,27 +458,27 @@
       <workItem from="1530685952616" duration="303000" />
       <workItem from="1530686516566" duration="551000" />
       <workItem from="1530688441935" duration="164000" />
-      <workItem from="1530688987012" duration="5303000" />
+      <workItem from="1530688987012" duration="11845000" />
+      <workItem from="1530717553322" duration="7872000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269583000" />
+    <option name="totallyTimeSpent" value="283997000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="660" y="0" width="620" height="800" extended-state="0" />
+    <frame x="404" y="0" width="876" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49541286" visible="true" weight="0.3016129" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49541286" visible="true" weight="0.34035087" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50119144" side_tool="true" weight="0.3988604" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32905984" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="Structure" order="1" sideWeight="0.502849" side_tool="true" weight="0.32109374" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32965517" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4988086" weight="0.39724138" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32965517" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4988086" visible="true" weight="0.39601138" />
       <window_info id="Favorites" order="2" sideWeight="0.5045872" side_tool="true" weight="0.2796875" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -482,24 +486,25 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49541286" visible="true" weight="0.234375" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49541286" visible="true" weight="0.20333599" />
       <window_info id="Structure" order="1" sideWeight="0.502849" side_tool="true" weight="0.32109374" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32905984" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4988086" visible="true" weight="0.39724138" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32827586" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4988086" visible="true" weight="0.39601138" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32965517" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50119144" side_tool="true" weight="0.3988604" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" sideWeight="0.5045872" side_tool="true" weight="0.2796875" />
     </layout-to-restore>
   </component>
@@ -527,12 +532,49 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css3/对齐方式/垂直居中/内敛元素/多行元素垂直居中/flex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/对齐方式/垂直居中/内敛元素/多行元素垂直居中/transform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/对齐方式/垂直居中/内敛元素/多行元素垂直居中/利用精灵元素.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/对齐方式/垂直居中/内敛元素/单行内敛元素垂直居中.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/对齐方式/水平居中/absolute + transform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="18" column="40" selection-start-line="13" selection-end-line="18" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/wechat/对齐方式.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/article/wechat/快速理解 http.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="375">
-            <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          </first_editor>
+          <first_editor />
           <second_editor />
         </state>
       </provider>
@@ -540,325 +582,332 @@
     <entry file="file://$PROJECT_DIR$/article/wechat/搭建个人博客.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="285">
-            <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-          </first_editor>
+          <first_editor />
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/basics/render.html" />
-    <entry file="file://$PROJECT_DIR$/vue/basics/指令.html" />
-    <entry file="file://$PROJECT_DIR$/vue/basics/class.html" />
-    <entry file="file://$PROJECT_DIR$/vue/basics/demo/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/basics/lib/cdn.md">
+    <entry file="file://$PROJECT_DIR$/article/wechat/变量提升和函数提升.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-end-line="3" />
-          </first_editor>
+          <first_editor />
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/basics/5.列表渲染/数组更新和检测/变异方法-push().html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="18" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/basics/5.列表渲染/数组更新和检测/替换数组.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="24" column="27" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/basics/5.列表渲染/数组更新和检测/注意事项.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="20" selection-start-line="20" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/basics/4.条件渲染/v-if.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-67" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/basics/3.class 与 style 绑定/对象语法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/basics/5.列表渲染/数组更新和检测/对象更改检测注意事项.html" />
-    <entry file="file://$PROJECT_DIR$/vue/basics/5.列表渲染/数组更新和检测/显示过滤/显示过滤排序结果.html" />
-    <entry file="file://$PROJECT_DIR$/vue/basics/5.列表渲染/数组更新和检测/explain.md" />
-    <entry file="file://$PROJECT_DIR$/vue/basics/5.列表渲染/一段取值范围 v-for.html" />
-    <entry file="file://$PROJECT_DIR$/vue/basics/5.列表渲染/一段取值范围的v-for.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="8" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/basics/5.列表渲染/显示过滤排序结果.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/basics/6.事件处理/监听事件.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/basics/6.事件处理/内敛处理器中的方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/basics/6.事件处理/事件处理方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="23" column="26" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/event对象/动态添加对象到event.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/basics/5.列表渲染/explain.md">
+    <entry file="file://$PROJECT_DIR$/article/wechat/this 相关.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="356">
-            <caret line="56" selection-start-line="56" selection-end-line="56" />
-          </first_editor>
+          <first_editor />
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/basics/6.事件处理/explain.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/vue/readMe/MVVM.MD">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="41">
-            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/readMe/流程.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="345">
+            <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/basics/6.事件处理/事件修饰符.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="31" selection-start-line="30" selection-end-line="31" />
+    <entry file="file://$PROJECT_DIR$/vue/readMe/组件/组件.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/readMe/相关目录.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" lean-forward="true" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refer.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue/readMe/环境配置.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="142">
-            <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <first_editor relative-caret-position="531">
+            <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/flow/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/article/DailyRead.md">
+    <entry file="file://$PROJECT_DIR$/vue/basics/组件化应用构建/组件.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/basics/指令/指令.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/readMe/vue.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" selection-start-line="4" selection-end-line="4" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hhah.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/exprice/config/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-686" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/exprice/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-134" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/exprice/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/exprice/goods.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/exprice/build/vue-loader.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/exprice/config/dev.env.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/exprice/build/webpack.dev.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="89" column="9" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/first/exprice/src/components/home.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/exprice/src/components/commonFooter.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exprice/src/pages/home.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/exprice/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-            <element signature="e#96#137#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/exprice/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/exprice/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/exprice/src/components/homeHeader.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/exprice/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/exprice/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/exprice/src/components/DetailHeader.vue">
+    <entry file="file://$PROJECT_DIR$/css3/搜索框布局/搜索框.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/exprice/src/components/Message.vue">
+    <entry file="file://$PROJECT_DIR$/css3/ademo/8个css3鼠标滑过图片显示文字动画效果代码/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="110">
+          <caret line="239" column="43" lean-forward="true" selection-start-line="239" selection-start-column="43" selection-end-line="239" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/exprice/src/pages/home.vue">
+    <entry file="file://$PROJECT_DIR$/css3/ademo/立体图形效果/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
-          <folding>
-            <element signature="e#368#417#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/exprice/src/pages/goodsDetail.vue">
+    <entry file="file://$PROJECT_DIR$/css3/ademo/按钮效果/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="49" column="15" lean-forward="true" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
-          <folding>
-            <element signature="e#427#480#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/exprice/src/components/list.vue">
+    <entry file="file://$PROJECT_DIR$/css3/ademo/css3轮播/css3slider.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+        <state relative-caret-position="225">
+          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/数据类型/分类/基本值类型.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/数据类型/分类/对象类型.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-178">
+          <caret line="29" selection-start-line="27" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/数据类型/数据变量内存.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/wechat/函数">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+            <folding>
+              <element signature="n#!!doc" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/函数/闭包/test'.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/函数/函数">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="148">
+            <caret line="50" column="11" lean-forward="true" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+            <folding>
+              <element signature="n#!!doc" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/函数/原型.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/refer.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="105">
+            <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/选择器/属性选择器/E[attr~=val].html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/选择器/新增选择器/~选择兄弟元素.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/ademo/css3轮播/css 点解切换.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/ademo/css3轮播.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/ademo/css3点击向上滑动效果.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/ademo/css 点击切换.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/ademo/下划线跟随效果.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/ademo/制作蒙版文字.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/ademo/图片轮播.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/ademo/给图片添加蒙版介绍.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/ademo/css3-文档分列显示/窗口文档自适应显示.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/ademo/窗口文档自适应显示.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/ademo/css3弹性展开动画导航菜单特效/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/ademo/鼠标移入背景变化.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/网页阴影.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/ademo/网页阴影.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/animate的运用/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/css3实现虚线.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/inherit关键字使用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
         </state>
       </provider>
     </entry>

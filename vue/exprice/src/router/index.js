@@ -5,8 +5,6 @@ import Home from '../pages/home'
 */
 import Detail from '../pages/goodsDetail'
 import Msg from '../components/Message.vue'
-
-
 Vue.use(VueRouter)
 const routes = [
   {

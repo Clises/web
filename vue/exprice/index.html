@@ -11,11 +11,14 @@
   </style>
 </head>
 <body>
+<!--1.定义挂载 Vue 实例的对象# app-->
 <div id="app">
+  <!--2.展示组件-->
   <router-view></router-view>
 </div>
 </body>
 <script type="text/javascript">
+  /*根据不同的设备分辨率更改跟字体大小*/
   (function(win,doc){
     change();
     function change(){

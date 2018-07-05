@@ -1,6 +1,6 @@
 <template lang="html">
     <li class="goods-list">
-        <router-link to="/detail"  class="goods-list-link">
+        <router-link to="/detail"  class="goods-list-link"> <!--  这个是用来跳转页面的，可以理解为a标签 -->
             <div class="goods-list-pic">
                 <img :src="img" alt="">
             </div>
@@ -14,7 +14,7 @@
 
 <script>
     export default {
-        props: ['price', 'title', 'img']
+        props: ['price', 'title', 'img']  /*  props是子组件获取父组件数据用的 */
     }
 </script>
 
