@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+ <div id="app">
+     <button-counter  v-for="post in posts"   v-bind:title="post.title" v-bind:post="post"></button-counter>
+ </div>
+</body>
+<script>
+    Vue.component('button-counter',{
+        // data:function () {
+        //     return{
+        //         count:0
+        //     }
+        // },
+        props:['post'],
+        template:'<div class="blog-post"><h3>{{post.title}}</h3><div v-html="post.content"></div></div>'
+    })
+/**
+ 先定义组件,然后再进行实例化
+* */
+
+
+
+    new Vue(
+        {
+            el:'#app',
+            data:{
+                posts:[
+                    {id:1,title:'charlies',content:'what are you doing'},
+                    {id:2,title:'charlies',content:'i do not like'},
+                    {id:3,title:'charlies',content:'yes'},
+                ]
+            }
+        });
+</script>
+
+</html>

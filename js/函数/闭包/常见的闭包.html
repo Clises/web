@@ -10,8 +10,6 @@
     1.将函数作为另一个函数的返回值
     2.将函数作为实参传递给另一个函数调用
     * */
-
-
     /*整个过程中值有一个闭包,将函数作为另一个函数的返回值*/
 
         function fn1() {
@@ -25,9 +23,6 @@
     var f=fn1();
     f(); //3
     f(); //4
-
-
-
 //将函数作为实参传递给另一个函数调用
     function showDelay(msg,time) {
         setTimeout(function () {
@@ -35,8 +30,6 @@
         },time)
     }
     showDelay("charlie",3000)
-
-
 </script>
 </body>
 </html>
