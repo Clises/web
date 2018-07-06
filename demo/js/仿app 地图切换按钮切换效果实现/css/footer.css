@@ -1,0 +1,53 @@
+.logo-left{
+    position: fixed;
+    bottom: 1.5rem;
+    right: .4rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    background: url("../images/logo.png")  no-repeat ;
+    background-size: contain;
+}
+.container{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.nav-bottom{
+    height: 1.3rem;
+    display: flex;
+    justify-content: space-around;
+    background: #F5F5F5;
+}
+.nav{
+    width: 83%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.nav li{
+    width: 1rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.active{
+    color: red;
+}
+.nav li img
+{
+    width: 100%;
+    transform: scale(0.8);
+}
+.nav li span{
+    transform: scale(1);
+}
+.logo-bottom{
+    width: 17%;
+}
+.none{
+    display: none;
+}
+
