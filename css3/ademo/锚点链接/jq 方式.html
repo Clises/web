@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #div1,#div2,#div3{
+            height: 800px;
+            width: 400px;
+            border: 2px solid black;
+        }
+        .nav{
+            display: flex;
+            position: fixed;
+
+        }
+        #div1Link,#div2Link,#div3Link{
+            width: 100px;
+            height: 100px;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+<div class="nav">
+    <div id="div1Link">div1</div>
+    <div id="div2Link">div2</div>
+    <div id="div3Link">div3</div>
+</div>
+<div id="div1">1</div>
+<div id="div2">2</div>
+<div id="div3">3</div>
+
+</body>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $("#div1Link").click(function () {
+            console.log('aaa')
+            $("html, body").animate({
+                scrollTop: $("#div1").offset().top
+            }, {duration: 500, easing: "swing"});
+            return false;
+        });
+        $("#div2Link").click(function () {
+            $("html, body").animate({
+                scrollTop: $("#div2").offset().top
+            }, {duration: 500, easing: "swing"});
+            return false;
+        });
+        $("#div3Link").click(function () {
+            $("html, body").animate({
+                scrollTop: $("#div3").offset().top
+            }, {duration: 500, easing: "swing"});
+            return false;
+        });
+    });
+</script>
+
+</html>

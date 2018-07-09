@@ -12,7 +12,8 @@ function langInit() {
 }
 function changeLang() {
     var $this = $(this), index = $this.index();
-    //active
+    console.log($this)
+    console.log(index)
     // if ($this.hasClass('active'));
     // $('.checklang').find('span').removeClass('active');
     // $this.addClass('active');
