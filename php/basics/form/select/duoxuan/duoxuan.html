@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--在表单中引用PHP文件的时候，文件的后缀是要加上的-->
+<form method="post" action="duoxuan.php">
+    <select  multiple="multiple" name="arr[]">
+        <!--选择的是多个，arr[]-->
+        <!--value 是要放到php文件里做判断，判断用户是怎么操作的。-->
+        <option value="">请选择菜单</option>
+        <option value="A">菜单1</option>
+        <option value="B">菜单2</option>
+        <option value="C">菜单3</option>
+        <option value="D">菜单4</option>
+    </select>
+    <input type="submit"value="提交">
+</form>
+
+</body>
+</html>
