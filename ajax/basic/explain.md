@@ -1,11 +1,131 @@
-1.什么是 ajax?
-可以与服务器进行(异步/同步)交互的技术之一
-最大的特点的是:页面无刷新
+1.什么是 ajax?     
+-Asynchronous Javascript And XML （异步的JavaScript和XML） 
+它并不是一种单一的技术，而是有机利用一系列交互式网页应用相关的技术所形成的结合体
+AJAX 是一种用于创建快速动态网页的技术。通过在后台与服务器进行少量数据交换，AJAX 可以使网页实现异步更新。
+这意味着可以在不重新加载整个网页的情况下，对网页的某部分进行更新。
 
+优点:页面无刷新，用户体验好。
+   异步通信，更加快的响应能力。
+   减少冗余请求，减轻了服务器负担
+   基于标准化的并被广泛支持的技术，不需要下载插件或者小程序
+   
+ 缺点:
+    ajax干掉了back按钮，即对浏览器后退机制的破坏。
+    存在一定的安全问题。
+    对搜索引擎的支持比较弱。
+    破坏了程序的异常机制。
+    无法用URL直接访问
+ ajax应用场景
+ 场景 1. 数据验证
+ 场景 2. 按需取数据
+ 场景 3. 自动更新页面
+ 
+ ajax所包含的技术
+ 
+ ajax并非一种新的技术，而是几种原有技术的结合体。它由下列技术组合而成。
+ 使用CSS和XHTML来表示。
+ 使用DOM模型来交互和动态显示。
+ 使用XMLHttpRequest来和服务器进行异步通信。
+ 使用javascript来绑定和调用。
+  ajax应用场景
+    场景 1. 数据验证
+    场景 2. 按需取数据
+    场景 3. 自动更新页面
+    
+    
+    
+    
+    
 #ajax 使用步骤
+Ajax的原理简单来说通过XmlHttpRequest对象来向服务器发异步请求，从服务器获得数据，
+然后用javascript来操作DOM而更新页面。这其中最关键的一步就是从服务器获得请求数据。原生创建ajax可分为以下四步
+1.创建XMLHttpRequest对象
+Ajax的核心是XMLHttpRequest对象，它是Ajax实现的关键，发送异步请求、接受响应以及执行回调都是通过它来完成
 
-1.发送请求  
-2.接收服务器返回的信息  
+所有现代浏览器（IE7+、Firefox、Chrome、Safari 以及 Opera）均内建 XMLHttpRequest 对象。
+
+创建 XMLHttpRequest对象的语法：
+var xhr = new XMLHttpRequest();
+老版本的 Internet Explorer（IE5 和 IE6）使用ActiveX 对象：
+
+var xhr = new ActiveXObject("Microsoft.XMLHTTP");
+为了应对所有的现代浏览器，包括 IE5 和 IE6，请检查浏览器是否支持 XMLHttpRequest对象。如果支持，则创建XMLHttpRequest对象。如果不支持，则创建ActiveXObject：
+
+兼容各个浏览器的创建Ajax的工具函数
+```javascript
+function createRequest (){
+    try {
+        xhr = new XMLHttpRequest();
+    }catch (tryMS){
+        try {
+            xhr = new ActiveXObject("Msxm12.XMLHTTP");
+        } catch (otherMS) {
+            try {
+                xhr = new ActiveXObject("Microsoft.XMLHTTP");
+            }catch (failed) {
+                xhr = null;
+            }
+        }
+    }
+    return xhr;
+}
+```
+2.准备请求
+初始化该XMLHttpRequest对象，接受三个参数：
+xhr.open(method,url,async);复制代码
+第一个参数表示请求类型的字符串，其值可以是GET或者POST。
+GET请求：
+xhr.open("GET",demo.php?name=tsrot&age=24,true);
+POST请求：
+xhr.open("POST",demo.php,true);复制代码
+第二个参数是要作为请求发送目标的URL。
+第三个参数是true或false，表示请求是以异步还是同步的模式发出。（默认为true，一般不建议为false）
+false：同步模式发出的请求会暂停所有javascript代码的执行，知道服务器获得响应为止，如果浏览器在连接网络时或者在下载文件时出了故障，页面就会一直挂起。
+true：异步模式发出的请求，请求对象收发数据的同时，浏览器可以继续加载页面，执行其他javascript代码
+
+3.发送请求
+xhr.send();复制代码
+一般情况下，使用Ajax提交的参数多是些简单的字符串，可以直接使用GET方法将要提交的参数写到open方法的url参数中，此时send方法的参数为null或为空。
+
+GET请求：
+xhr.open("GET",demo.php?name=tsrot&age=24,true);
+xhr.send(null);复制代码
+POST请求：
+如果需要像 HTML 表单那样 POST 数据，请使用 setRequestHeader()来添加 HTTP 头。然后在send()方法中规定您希望发送的数据：
+xhr.open("POST",demo.php,true);
+xhr.setRequestHeder("Content-Type","application/x-www-form-urlencoded;charset=UTF-8");
+xhr.sen
+
+
+
+4.处理响应
+```javascript
+xhr.onreadystatechange = function(){
+    if(xhr.readyState == 4 && xhr.status == 200){
+        console.log(xhr.responseText);
+    }
+}
+```
+onreadystatechange ：当处理过程发生变化的时候执行下面的函数
+
+readyState ：ajax处理过程
+
+0：请求未初始化（还没有调用 open()）。
+1：请求已经建立，但是还没有发送（还没有调用 send()）。
+2：请求已发送，正在处理中（通常现在可以从响应中获取内容头）。
+3：请求在处理中；通常响应中已有部分数据可用了，但是服务器还没有完成响应的生成。
+4：响应已完成；您可以获取并使用服务器的响应了。
+status属性：
+
+200:"OK"
+404: 未找到页面
+responseText：获得字符串形式的响应数据
+
+responseXML：获得 XML形式的响应数据
+返回值一般为json字符串，可以用JSON.parse(xhr.responseText)转化为JSON对象
+
+
+
 
 #get 和 post 请求
   ##两者不同

@@ -1,0 +1,27 @@
+1.运行机制
+app.js
+  1、app.js为整个项目的启动文件，如注释写的onlaunch方法有三大功能，浏览器缓存进行存和取数据；
+  用登陆成功的回调；获取用户信息。
+  globalData是定义整个项目的全局变量或者常量哦。
+  2、app.json
+  整个项目的配置文件，比如注册页面，配置tab页，设置整个项目的样式，页面标题等等；
+  ！注意：小程序启动默认的第一个页面，就是app.json的pages中的第一个页面；
+  3、.pages
+  小程序的页面组件，有几个页面就会有几个子文件夹。
+  比如快速启动模板，就有两个页面，index和logs。
+  4、打开index目录
+  可以看到有三个文件，其实和我们web开发的文件是一一对应的。
+  index.wxml对应index.html；
+  index.wxss对应index.css；
+  index.js就是js文件哦。
+  一般我们还会给每个页面组件添加一个.json文件，作为该页面组件的配置文件，设置页面标题等功能
+  5、双击index.js文件
+  （1）var app = getApp(); 
+  引入整个项目的app.js文件，用来取期中的公共变量等信息。
+  如果要使用util.js工具库中的某个方法，在util.js中module.exports导出，
+  然后在需要的页面中require即可得到。
+  （2）比如，我们要获取豆瓣电影的时候，我们需要调用豆瓣的api；
+  我们先在app.js中的gloabData中定义doubanBase
+  然后在index.js中使用app.globaData.doubanBase即可取到这个值。
+  当然这些常量你也可以在页面需要的时候，再用写死的值，但是为了整个项目的维护，
+  还是建议把这种公用参数统一写在配置文件中哦
