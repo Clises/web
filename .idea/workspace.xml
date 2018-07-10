@@ -2,91 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb8cb017-0f0d-4f67-ae8f-d7d3d35f1afd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ajax/ajax/js封装/cccc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/demo/对 xml 语言处理/data.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/demo/对 xml 语言处理/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax/demo/无刷新分页/思路分析.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/article/html5css3/background.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/article/html5css3/手机端开发问题.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/article/wechat/函数.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css3/ademo/三角形.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css3/ademo/下拉框/纯 css3下拉.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css3/ademo/气泡悬浮框.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css3/ademo/锚点链接/jq 方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css3/ademo/锚点链接/scrollIntoView.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css3/background/arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css3/background/background.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css3/字体相关/text-align-last 设置文本最后一行对齐方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cut/0完整练习/image-one/css/pc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cut/0完整练习/image-one/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cut/0完整练习/image-one/font/iconfont.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cut/0完整练习/image-one/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cut/0完整练习/image-one/font/iconfont.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cut/0完整练习/image-one/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cut/0完整练习/image-one/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cut/0完整练习/image-one/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cut/0完整练习/image-one/images/pc/bg1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cut/0完整练习/image-one/images/pc/bg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cut/0完整练习/image-one/images/pc/bg3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cut/0完整练习/image-one/images/pc/icon-jy23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cut/0完整练习/image-one/images/pc/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cut/0完整练习/image-one/images/phone/icon@2x2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cut/0完整练习/image-one/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cut/0完整练习/image-one/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cut/0完整练习/image-one/js/tools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/jq/瀑布流.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css3/侧滑/1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/basic/explain.md" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/basic/explain.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article/css/flex布局.md" beforeDir="false" afterPath="$PROJECT_DIR$/article/html5css3/flex布局.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article/css/hot article.md" beforeDir="false" afterPath="$PROJECT_DIR$/article/html5css3/website.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article/css/html css.md" beforeDir="false" afterPath="$PROJECT_DIR$/article/html5css3/skills.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article/css/对齐方式.md" beforeDir="false" afterPath="$PROJECT_DIR$/article/html5css3/对齐方式.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article/css/简写方式.md" beforeDir="false" afterPath="$PROJECT_DIR$/article/html5css3/属性简写方式.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article/css/隐藏滚动条.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/article/wechat/函数" beforeDir="false" afterPath="$PROJECT_DIR$/article/wechat/数据" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article/wechat/快速理解 js 中的闭包.md" beforeDir="false" afterPath="$PROJECT_DIR$/article/wechat/快速理解 js 中的闭包.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css3/ademo/下划线跟随效果.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/ademo/下划线跟随效果.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css3/灵活背景img定位/background-origin 方案.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/background/灵活背景img定位/background-origin 方案.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css3/灵活背景img定位/background-position 方案  .html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/background/灵活背景img定位/background-position 方案  .html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css3/灵活背景img定位/背景定位.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/background/灵活背景img定位/背景定位.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/css/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/images/1-Query-Date前的符号_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/images/1-Query-Date前的符号_03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/images/APP-图标_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/images/APP-图标_03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/images/APP-图标_06.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/images/APP-图标_06.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/images/APP-图标_10.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/images/APP-图标_10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/images/APP-图标_12.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/images/APP-图标_12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/images/More-Messages-小图_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/images/More-Messages-小图_03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/images/Videos-视频图_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/images/Videos-视频图_03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/images/Videos-视频图_06.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/images/Videos-视频图_06.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/images/Videos-视频图_08.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/images/Videos-视频图_08.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/images/Website-图_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/images/Website-图_02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/images/Website-图_04.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/images/Website-图_04.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/images/app.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/images/app.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/images/app_selected.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/images/app_selected.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/images/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/images/close.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/images/logo_bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/images/logo_bottom.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/images/more-弹出_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/images/more-弹出_03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/images/more-弹出_06.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/images/more-弹出_06.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/images/more-弹出_08.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/images/more-弹出_08.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/images/more.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/images/more.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/images/more_selected.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/images/more_selected.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/images/query.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/images/query.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/images/query_selected.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/images/query_selected.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/images/videos.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/images/videos.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/images/videos_selected.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/images/videos_selected.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/images/website.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/images/website.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/images/website_selected.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/images/website_selected.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/images/对号.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/images/对号.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/images/未选中框.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/images/未选中框.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/images/选中框.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/images/选中框.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/js/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/js/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/js/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/0706/js/tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0完整练习/防手机端页面练习/js/tools.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/jq/中英文切换/lang.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/jq/中英文切换/lang.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/函数/闭包/闭包的声明周期.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/函数/闭包/闭包的生命周期.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3/对齐方式/水平居中/center+inline-block多块级元素.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3/对齐方式/水平居中/center+inline-block多块级元素.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -102,38 +20,7 @@
     <favorites_list name="web" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="explain.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ajax/basic/explain.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="246">
-                <caret line="61" selection-start-line="61" selection-end-line="61" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="缓存.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ajax/ajax/js封装/缓存.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ajax/demo/对 xml 语言处理/test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -195,9 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/article/js/test'.html" />
-        <option value="$PROJECT_DIR$/article/js/函数/变量提升和函数提升.md" />
-        <option value="$PROJECT_DIR$/article/js/函数/函数.md" />
         <option value="$PROJECT_DIR$/js/函数/执行上下文和执行上下文栈/执行上下文.md" />
         <option value="$PROJECT_DIR$/js/函数/执行上下文和执行上下文栈/执行上下文.html" />
         <option value="$PROJECT_DIR$/cut/0706/css/index.css" />
@@ -246,6 +130,9 @@
         <option value="$PROJECT_DIR$/ajax/basic/explain.md" />
         <option value="$PROJECT_DIR$/ajax/ajax/js封装/cccc" />
         <option value="$PROJECT_DIR$/ajax/ajax/js封装/缓存.html" />
+        <option value="$PROJECT_DIR$/css3/对齐方式/水平垂直居中/应用/垂直居中img.html" />
+        <option value="$PROJECT_DIR$/css3/侧滑/1.html" />
+        <option value="$PROJECT_DIR$/css3/对齐方式/水平居中/center+inline-block多块级元素.html" />
       </list>
     </option>
   </component>
@@ -301,27 +188,71 @@
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="ajax" type="462c0819:PsiDirectoryNode" />
-              <item name="ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="css3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="ajax" type="462c0819:PsiDirectoryNode" />
-              <item name="ajax" type="462c0819:PsiDirectoryNode" />
-              <item name="js封装" type="462c0819:PsiDirectoryNode" />
+              <item name="css3" type="462c0819:PsiDirectoryNode" />
+              <item name="侧滑" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="ajax" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="css3" type="462c0819:PsiDirectoryNode" />
+              <item name="对齐方式" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="ajax" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="css3" type="462c0819:PsiDirectoryNode" />
+              <item name="对齐方式" type="462c0819:PsiDirectoryNode" />
+              <item name="水平居中" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="css3" type="462c0819:PsiDirectoryNode" />
+              <item name="属性简写" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="css3" type="462c0819:PsiDirectoryNode" />
+              <item name="选择器" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="css3" type="462c0819:PsiDirectoryNode" />
+              <item name="选择器" type="462c0819:PsiDirectoryNode" />
+              <item name="伪类选择器" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="cut" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="cut" type="462c0819:PsiDirectoryNode" />
+              <item name="0完整练习" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="cut" type="462c0819:PsiDirectoryNode" />
+              <item name="0完整练习" type="462c0819:PsiDirectoryNode" />
+              <item name="image-one" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="cut" type="462c0819:PsiDirectoryNode" />
+              <item name="0完整练习" type="462c0819:PsiDirectoryNode" />
+              <item name="image-one" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
@@ -397,7 +328,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.缓存.html">
+  <component name="RunManager" selected="JavaScript Debug.center+inline-block多块级元素.html">
+    <configuration name="1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/css3/侧滑/1.html" />
     <configuration name="缓存.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/ajax/ajax/js封装/缓存.html" />
     <configuration name="内联元素.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/css3/对齐方式/水平居中/内联元素.html" />
     <configuration name="事件处理方法.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/vue/basics/6.事件处理/事件处理方法.html" />
@@ -406,25 +338,24 @@
     <configuration name="闭包理解.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/js/函数/闭包/闭包理解.html" />
     <configuration name="修饰符.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/vue/basics/模板语法/指令/修饰符.html" />
     <configuration name="原型链.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/js/函数/原型链.html" />
+    <configuration name="center+inline-block多块级元素.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/css3/对齐方式/水平居中/center+inline-block多块级元素.html" />
     <configuration name="index.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/image/index.html" />
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/cut/0完整练习/防手机端页面练习/index.html" />
-    <configuration name="jq 方式.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/css3/ademo/锚点链接/jq 方式.html" />
-    <configuration name="scrollIntoView.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/css3/ademo/锚点链接/scrollIntoView.html" />
     <configuration name="test.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/ajax/demo/对 xml 语言处理/test.html" />
     <list>
-      <item itemvalue="JavaScript Debug.scrollIntoView.html" />
-      <item itemvalue="JavaScript Debug.jq 方式.html" />
       <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="JavaScript Debug.test.html" />
       <item itemvalue="JavaScript Debug.缓存.html" />
+      <item itemvalue="JavaScript Debug.1.html" />
+      <item itemvalue="JavaScript Debug.center+inline-block多块级元素.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.center+inline-block多块级元素.html" />
+        <item itemvalue="JavaScript Debug.1.html" />
         <item itemvalue="JavaScript Debug.缓存.html" />
         <item itemvalue="JavaScript Debug.test.html" />
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.jq 方式.html" />
-        <item itemvalue="JavaScript Debug.scrollIntoView.html" />
       </list>
     </recent_temporary>
   </component>
@@ -465,18 +396,20 @@
       <workItem from="1530717553322" duration="34628000" />
       <workItem from="1530843388998" duration="71000" />
       <workItem from="1530843919205" duration="54145000" />
-      <workItem from="1531072246080" duration="1261000" />
+      <workItem from="1531072246080" duration="6651000" />
+      <workItem from="1531123834478" duration="33000" />
+      <workItem from="1531126557216" duration="2482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="366230000" />
+    <option name="totallyTimeSpent" value="374135000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.494302" visible="true" weight="0.16203336" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.494302" visible="true" weight="0.28514695" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50119144" side_tool="true" weight="0.3988604" />
@@ -484,7 +417,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="Structure" order="1" sideWeight="0.505698" side_tool="true" weight="0.1564734" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32965517" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4988086" visible="true" weight="0.4088319" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4988086" weight="0.4088319" />
       <window_info id="Favorites" order="2" sideWeight="0.5045872" side_tool="true" weight="0.2796875" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -543,97 +476,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ajax/demo/对 xml 语言处理/data.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
-          <folding>
-            <element signature="n#student#0;n#students#0;n#!!top" />
-            <element signature="n#student#1;n#students#0;n#!!top" />
-            <element signature="n#student#2;n#students#0;n#!!top" />
-            <element signature="n#student#3;n#students#0;n#!!top" />
-            <element signature="n#student#4;n#students#0;n#!!top" />
-            <element signature="n#student#5;n#students#0;n#!!top" />
-            <element signature="n#student#6;n#students#0;n#!!top" />
-            <element signature="n#student#7;n#students#0;n#!!top" />
-            <element signature="n#student#8;n#students#0;n#!!top" />
-            <element signature="n#student#9;n#students#0;n#!!top" />
-            <element signature="n#student#10;n#students#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/demo/对 xml 语言处理/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/demo/无刷新分页/思路分析.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css3/用户界面模块/text-overflow.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/article/html5css3/对齐方式.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/article/html5css3/属性简写方式.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="45">
-            <caret line="3" column="45" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="45" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown语法.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css3/清除浮动/使用伪类.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css3/background/灵活背景img定位/background-origin 方案.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cut/0完整练习/image-one/css/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="49" column="2" lean-forward="true" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css3/background/background.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -727,13 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cut/0完整练习/image-one/css/pc.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="75" column="32" lean-forward="true" selection-start-line="75" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css3/ademo/锚点链接/scrollIntoView.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -754,9 +589,6 @@
           <caret line="39" column="16" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="16" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image/js/rem.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/jq/瀑布流.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -895,19 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
-          <folding>
-            <element signature="n#student#0;n#students#0;n#!!top" />
-            <element signature="n#student#1;n#students#0;n#!!top" />
-            <element signature="n#student#2;n#students#0;n#!!top" />
-            <element signature="n#student#3;n#students#0;n#!!top" />
-            <element signature="n#student#4;n#students#0;n#!!top" />
-            <element signature="n#student#5;n#students#0;n#!!top" />
-            <element signature="n#student#6;n#students#0;n#!!top" />
-            <element signature="n#student#7;n#students#0;n#!!top" />
-            <element signature="n#student#8;n#students#0;n#!!top" />
-            <element signature="n#student#9;n#students#0;n#!!top" />
-            <element signature="n#student#10;n#students#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -924,23 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/demo/对 xml 语言处理/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/basic/explain.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="246">
-            <caret line="61" selection-start-line="61" selection-end-line="61" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ajax/ajax/js封装/cccc.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -950,8 +752,107 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ajax/ajax/js封装/缓存.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="180">
+          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/basic/explain.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="231">
+            <caret line="61" selection-start-line="61" selection-end-line="61" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/demo/对 xml 语言处理/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/侧滑/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="81" column="30" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/对齐方式/水平垂直居中/应用/垂直居中img.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cut/0完整练习/image-one/css/pc.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/基础/jq HTML/删除元素/siblings.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/对齐方式/水平居中/absolute + transform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/对齐方式/水平居中/flex + justify-content.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/对齐方式/水平居中/center+inline-block多块级元素.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/对齐方式/水平居中/内联元素.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/html5css3/对齐方式.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="225">
+            <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/用户界面模块/text-overflow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/选择器/nth-child()选择匹配属于父元素的第N个元素.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/html5css3/属性简写方式.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="165">
+            <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
