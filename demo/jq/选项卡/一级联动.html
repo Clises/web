@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        #box div{
+        #box div {
             width: 200px;
             height: 200px;
             border: 2px solid red;
         }
-        .active{
+
+        .active {
             background: red;
         }
-        .none
-        {
+
+        .none {
             display: none;
         }
-        </style>
+    </style>
     <script>
+
         // window.onload=function () {
         //     var obx=document.getElementById('box')
         //     var buto=obx.getElementsByTagName('button')
@@ -37,36 +39,29 @@
         //
         // }
     </script>
-
-
 </head>
-
 <div id="box">
-<button class="active">1</button>
+    <button class="active">1</button>
     <button>2</button>
     <button>3</button>
     <div>1111</div>
     <div class="none">2222</div>
     <div class="none">3333</div>
-
 </div>
-
-
-
 </html>
-<script src="../jquery.js">
-    </script>
+<script src="../lib/jquery.js">
+</script>
 <script>
     $(function () {
         $('button').click(function () {
-            var This=$(this).index();
+            var This = $(this).index();
             $('button').removeClass('active').eq(This).addClass('active')
             $('#box').find('div').addClass('none').eq(This).removeClass('none');
         })
 
     })
 
-    </script>
+</script>
 
 </body>
 </html>
