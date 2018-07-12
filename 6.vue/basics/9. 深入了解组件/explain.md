@@ -58,13 +58,13 @@ new Vue({
 1.4 模块系统暂时不看
 
 
+2.prop  使用 prop 进行数据传输
+2.1 prop
+prop 是父组件用来传递数据的一个自定义属性,子组件需要显示的用 props 选项声明
 
+什么是 prop
 
-
-2.prop
-2.1 prop 的大小写
   使用 kebab-case(短横线分割命名)
-  
 2.2 prop 类型
 
 列出prop:props: ['title', 'likes', 'isPublished', 'commentIds', 'author']
