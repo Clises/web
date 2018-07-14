@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+/*
+  通过工厂函数动态创建对象并返回
+  适合场景:需要创建多个对象
+  问题:对象没有一个具体的类型,都是 Object
+  有的时候需要对个对象
+* */
+
+function createPerson(name,age) {  //返回一个对象的函数==>工厂
+    var obj={
+        name:name,
+        age:age,
+        setName:function (name) {
+            this.name =name
+        }
+    }
+    return obj
+}
+
+var  p1=createPerson('charlie',12)
+console.log(p1)
+var p2=createPerson('asd',12)
+console.log(p2)
+
+
+//工厂模式不经常用
+
+function createStudent(name,price) {
+        var obj={
+            name:name,
+            price:price
+        }
+        return obj
+    }
+    var St=createStudent('charlies',1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
