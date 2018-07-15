@@ -11,6 +11,7 @@
     function jsonArray(data) {
         var arr=[];
         var len=eval(data).length    //eval()解析字符串
+        console.log(len)
         for(var i=0;i<len;i++){
             arr[i]=[]
             arr[i]['name']=data[i].name

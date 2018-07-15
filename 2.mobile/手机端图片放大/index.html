@@ -61,14 +61,13 @@
             pics:[ {
                 img: 'image/2.jpg'
             },{
-                img: 'image/2.jpg'
+                img: 'image/1.jpg'
             }],
             age:23
         };
-        $.each(obj,function (key,val) {
-            console.log(key)
-
-        })
+        for (var i=0;i<obj.pics.length;i++){
+            console.log(obj.pics[i].img)
+        }
         var dom = '<div class="swiper-slide">' +
             '<div class="slide_zoom_container" style="height: ' + winH + 'px">' +
             '<img class="swiper-lazy" src="' + obj.pics.img + '" alt=""/>' +

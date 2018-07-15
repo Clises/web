@@ -3,8 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
+<script>
+/*
+/!*$.grep() 函数使用指定的函数过滤数组中的元素，并返回过滤后的数组*!/
+    var array = [1,2,3,4,5,6,7,8,9];
+    var filterarray = $.grep(array,function(value){
+        return value > 5;//筛选出大于5的
+    });
+    for(var i=0;i<filterarray.length;i++){
+        alert(filterarray[i]);
+    }
+    for (key in filterarray){
+        alert(filterarray[key]);
+    }
 
+/!*$.each*!/
+var anObject = {one:1,two:2,three:3};//对json数组each
+$.each(anObject,function(name,value) {
+    alert(name);
+    alert(value);
+});
+
+*/
+
+/*inArray*/
+   /* var anArray = ['one','two','three'];
+    var index = $.inArray('two',anArray);
+    alert(index);//返回该值在数组中的键值，返回1
+    alert(anArray[index]);//value is two*/
+
+
+
+   /*map*/
+var strings = ['0','1','2','3','4','S','6'];
+var values = $.map(strings,function(value){
+        var result = new Number(value);
+        return isNaN(result) ? null:result;//isNaN:is Not a Number的缩写
+    }
+);
+for (key in values) {
+    alert(values[key]);
+}
+
+
+</script>
 </body>
 </html>
