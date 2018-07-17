@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+
+			<textarea id="txt1" cols="20" rows="10"></textarea>
+		<input type="button" value="发布" id="btn1"/>
+		<textarea id="txt2" cols="20" rows="10"></textarea>
+		<script type="text/javascript">
+			var oTxt1 = document.getElementById("txt1");
+			var oTxt2 = document.getElementById("txt2");
+			var oBtn1 = document.getElementById("btn1");
+			var re = /<[^<>]+>/g;
+			//+无限位，所有匹配。
+			
+			oBtn1.onclick=function(){
+				oTxt2.value = oTxt1.value.replace(re," ");
+			}
+		</script>
+	</body>
+</html>

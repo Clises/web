@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title></title>
-		<style>
-	.borderimage {
-		border: 3px solid #ffffff;
-	}
-</style>
-<script language="JavaScript">
-	function borderit(which, color) {
-		//if IE 4+ or NS 6+
-		if(document.all || document.getElementById) {
-			which.style.borderColor = color
-		}
-	}
-</script>
-	</head>
-	<body>
-		<img src="wall_s7.jpg" class="borderimage" onmouseover="borderit(this,'#cccccc')" onmouseout="borderit(this,'white')">
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .borderimage {
+            border: 3px solid #ffffff;
+        }
+    </style>
+    <script language="JavaScript">
+        function borderit(which, color) {
+            if (document.all || document.getElementById) {
+                which.style.borderColor = color
+            }
+        }
+    </script>
+</head>
+<body>
+<img src="wall_s7.jpg" class="borderimage" onmouseover="borderit(this,'#cccccc')" onmouseout="borderit(this,'white')">
+</body>
 </html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+<textarea id="txt1" cols="10" rows="20"></textarea>
+<textarea id="txt2" cols="10"rows="20"></textarea>
+<input type="button" name="btn" id="btn" value="" />
+	<script type="text/javascript">
+		var otxt=document.getElementById("txt1");
+		var ctxt=document.getElementById("txt2");
+		var bttn=document.getElementById("btn");
+		var re=/北京|淘宝|职业/g;
+		bttn.onclick=function(){
+			ctxt.value=otxt.value.replace(re,"**");
+		}
+	</script>
+	</body>
+</html>

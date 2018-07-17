@@ -1,5 +1,5 @@
 <template>
-<div id="details">
+<div class="details">
   <h2>{{list.title}}</h2>
   <div v-html="list.content"></div>
 </div>
@@ -10,6 +10,7 @@
       data(){
         return{
           list:[]
+
         }
       },
       mounted(){
@@ -17,13 +18,11 @@
         var aid=this.$route.params.aid;
         //调用请求数据的方法
         this.requestData(aid);
-
       },
       methods:{
         requestData(aid){
           //get请求如果跨域的话 后台php java 里面要允许跨域请求
           var api='http://www.phonegap100.com/appapi.php?a=getPortalArticle&aid='+aid;
-
           this.$http.get(api).then((response)=>{
             console.log(response);
             this.list=response.body.result[0];
@@ -36,12 +35,9 @@
 </script>
 
 <style scoped>
-#details{
+.details{
+  width: 100%;
   padding:1rem;
   line-height:2;
 }
-#details img
-{
-    width: 100%;
-  }
 </style>

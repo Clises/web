@@ -26,8 +26,6 @@ this.$http.get(地址).then(function(){}) 请求数据
   
 
 2. 父组件给子组件传值
-
-2.1 
 (1) 父组件调用子组件时 绑定动态属性
    <v-header :title="title" :run="run" :home="this"></v-header>
    
@@ -59,60 +57,40 @@ this.$parent.方法
 
 (4)在接收数据的地方.$ on 接收广播的数据
 
-
-
-
 5. vue路由
-
-动态向根里挂载数据
-
-(1) 安装
+5.1 安装
 npm install vue-router
-(2) 引入并 Vue.use(VueRouter)(main.js)
-
-
-(3) 配置路由
-   1. 创建组件 引入路由
-   2. 定义路由(复制即可)
-   3. 实例化 VueRouter
-   4. 挂载
-   5. 放在根组件中
-
-//1.创建组件
+5.2 引入并 Vue.use(VueRouter)(main.js)
+5.3 使用
+  1)创建组件
 import R from './components/R.vue';
 import RR from './components/RR.vue';
-//2.配置路由   注意：名字
+  2)配置路由   注意：名字
 const routes = [
   { path: '/R', component: R },
   { path: '/RR', component: RR },
   { path: '*', redirect: '/R' }   /*默认跳转路由*/
 ]
-//3.实例化VueRouter  注意：名字
+  3)实例化VueRouter  注意：名字
 const router = new VueRouter({
   routes // （缩写）相当于 routes: routes
 })
-//4、挂载路由
+  4)挂载路由
 new Vue({
   el: '#app',
   router,
   render: h => h(App)
 })
-//5 <router-view></router-view> 放在 App.vue
+  5)<router-view></router-view> 放在 App.vue
 
 
-
-
-
-6. 动态路由   get传值
-
-(1)配置动态路由
-  routes:[
-  {path:'/user/:id',component:User}
-  
-  ]
-
-(2)在对应页面
-this.$route.params 获取动态路由的值
+5.4 动态路由使用get传值
+   1)配置动态路由
+    routes:[
+    {path:'/user/:id',component:User}
+    ]
+  2)在对应页面
+    this.$route.params 获取动态路由的值
 
 
 
