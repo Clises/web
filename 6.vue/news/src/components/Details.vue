@@ -37,7 +37,5 @@
 <style scoped>
 .details{
   width: 100%;
-  padding:1rem;
-  line-height:2;
 }
 </style>
