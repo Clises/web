@@ -3,84 +3,13 @@ eleStatus = {    //nav滚动条滚动距离
     srollnow: 0,
     offsetLeft: 0
 }
-nav_list=$('.case-classify li').clone(true)
 function init() {
-    // paging();
-    console.log($('.case-cases').width)
-    $('.drop-down-content .list').append(nav_list)
+    $('.drop-down-content .list').append($('.case-classify li').clone(true))
     $('.case-classify').on('click', 'li', classify)
     $('.open').on('click', allOpen)
     $('.list').on('click', 'li', allList)
     $('.close,.mask').on('click', allClose)
-
 }
-/*翻页*/
-// function paging(index) {
-//     var totalPage = 1;//总共多少页
-//     var totalRecords = 4;//总共多少条数据
-//     var pageSize = 6;//每页显示多少case
-//     /*
-//     * pno  默认加载第一页内容
-//     * */
-//     loadList(1); //初始化显示第一页
-//     function loadList(pno) {
-//         $.ajax({
-//             async: false,
-//             url: 'data.json',   //  获取地址
-//             type: 'post',
-//             dataType: 'json',
-//             data: {'pageNum': pno, 'pageSize': pageSize},    //传递参数
-//             success: function (data) {
-//                 console.log(data);
-//                 console.log(pno);
-//                 if (data.success) {
-//                     var count = data.total;
-//                     var result = data.result.case;
-//                     totalRecords = count; //总共多少case
-//                     totalPage = Math.ceil(count / pageSize); //总共多少页
-//                     var datalist = "";
-//                     $.each(result, function (i, item) {
-//                         datalist += '<a href="#" target="_blank"class="case-item__items">' +
-//                             '<div class="case-items__photo">' +
-//                             '<img src="' + item.photo + '">' +
-//                             '</div>' +
-//                             '<div class="case-items__msg">' +
-//                             '<h2>' + item.title + '</h2>' +
-//                             '<div class="case-items__tag">' +
-//                             '<span class="case-items__tags">' + item.tags + ' </span>' +
-//                             '</div>' +
-//                             '<div class="case-items__sponsor">' +
-//                             '<span class="sponsor--icon"></span>' +
-//                             '<span class="sponsor">' + item.sponsor + '</span>' +
-//                             '</div>' +
-//                             '</div>' +
-//                             '</a>';
-//                     });
-//                     $(".all").html(datalist);  //渲染dom
-//                     $('#count_total').text(totalPage);
-//                     $('.M-box').pagination({
-//                         showData: pageSize,
-//                         pageCount: totalPage,
-//                         current: pno,//当前第几页
-//                         jump: true,
-//                         coping: true,
-//                         prevContent: '上一页',
-//                         nextContent: '下一页',
-//                         callback: PageClick
-//                     });
-//                 }
-//             },
-//             error: function (XMLHttpRequest, textStatus, errorThrown) {
-//                 alert('网络连接异常，请重试！')
-//             }
-//         })
-//     }
-//
-//     function PageClick(index){
-//         $('#count_now').text(index.getCurrent());
-//         loadList(index.getCurrent());//点击分页加载列表数据  */
-//     }
-// }
 /*分类*/
 function classify() {
     var $this = $(this), $index = $this.index();
@@ -91,9 +20,7 @@ function classify() {
     eleStatus.offsetLeft = $(this).offset().left;
     if (eleStatus.offsetLeft > 220) {
         $('.case-classify').animate({'scrollLeft': eleStatus.srollnow + 90}, 1000);
-
     }
-
 }
 /*全部分类*/
 function allList() {
@@ -111,7 +38,6 @@ function allList() {
     }
 }
 function allOpen() {
-
     $('.mask,.drop-down-content').bind("touchmove", function (e) {
         e.preventDefault();
     });
@@ -122,12 +48,15 @@ function allOpen() {
 }
 
 function allClose() {
-
     $('html,body').removeClass('ovfHiden');
     $('.open').css({'display': 'block'})
     $('.mask').css({'display': 'none'})
     $('.drop-down-content').css({'height': '0'})
 }
+$(".m-style a").attr("href",function(){
+    return location.pathname+$(this).attr("href");
+})
+
 function panel(index) {
     $('.all,.case-item ').addClass('none');
     switch (index) {
@@ -170,3 +99,4 @@ function panel(index) {
     }
 
 }
+

@@ -13,7 +13,7 @@
     height:.02rem;
     background:rgba(209,209,224,1);
     -webkit-transform: scale(.5);
-            transform: scale(.5);
+    transform: scale(.5);
 
 }
 .case-top--subline::after{
@@ -42,22 +42,10 @@
     font-size: .125rem;
     padding: .1rem 0;
 }
-/*case_classify*/
+/*分类*/
 .case-content{
     position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;}
+}
 .case-classify{
     width: 90%;
     display: flex;
@@ -65,15 +53,15 @@
     overflow-y: hidden;
     -webkit-overflow-scrolling:touch;
     -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
 }
 .case-classify li{
     width: .75rem;
     height: .3rem;
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
     margin:0 .06rem;
     line-height:.3rem ;
     text-align: center;
@@ -82,11 +70,11 @@
     background:rgba(255,255,255,1);
     border-radius:.14rem;
     color:rgba(229,61,0,1);
-    /*padding:0 10px;*/
 }
 .case-cases,.case-item,.drop-down{
     width: 100%;
 }
+/*案例展示*/
 .case-item__items{
     display: block;
     margin: .15rem;
@@ -98,12 +86,12 @@
     margin-top: -.05rem;
 }
 .case-items__photo{
+    width: 100%;
     height: 1.64rem;
     background: red;
 }
-
 .case-items__msg{
-    padding: 18px;
+    padding: .18rem 0 0 .18rem;
 }
 .case-items__msg h2{
     font-size:.18rem;
@@ -128,14 +116,13 @@
 .case-items__tags:nth-child(1){
     margin-left: 0;
 }
-
- .case-items__sponsor{
+.case-items__sponsor{
     margin-top: .2rem;
 }
-.sponsor--icon{
+.sponsor_icon{
     width: .14rem;
     height: .14rem;
-    background-image: url("../../img/case/tx.png");
+    background-image: url("http://static.qiezipai.cn/wechat/photoplus/img/case/tx.png");
     background-size: 100% 100%;
     display:inline-block ;
     margin-bottom: -.02rem;
@@ -150,6 +137,7 @@
 .case_paging_box{
     display: none;
 }
+/*更多*/
 .more_open{
     background-image: url("http://static.qiezipai.cn/wechat/photoplus/img/case/bj.png");
     background-size: 100% 100%;
@@ -180,14 +168,14 @@
     height: .022rem;
     background:black;
     -webkit-transform: translate3d(0, 0, 0) rotate(45deg);
-            transform: translate3d(0, 0, 0) rotate(45deg);
+    transform: translate3d(0, 0, 0) rotate(45deg);
     position:absolute;
     left: 0;
     top: .10rem;
     -webkit-transform-origin: right;
-            transform-origin: right;
+    transform-origin: right;
     -webkit-transition-delay:.2s;
-            transition-delay:.2s;
+    transition-delay:.2s;
 }
 .open span:after{
     content: "";
@@ -196,14 +184,11 @@
     background: black;
     position: absolute;
     -webkit-transform: translate3d(0, 0, 0) rotate(-90deg);
-            transform: translate3d(0, 0, 0) rotate(-90deg);
+    transform: translate3d(0, 0, 0) rotate(-90deg);
     left:.07rem;
     top: -.075rem;
 }
-
-
-
-
+/*下拉*/
 .drop-down{
     height: 0px;
 }
@@ -223,10 +208,10 @@
 .drop-down-content .list{
     width: 100%;
     -webkit-box-pack:start;
-        -ms-flex-pack:start;
-            justify-content:flex-start;
+    -ms-flex-pack:start;
+    justify-content:flex-start;
     -ms-flex-wrap:wrap;
-        flex-wrap:wrap;
+    flex-wrap:wrap;
 }
 .list li{
     width: .73rem;
@@ -253,7 +238,7 @@
     height: .022rem;
     background:black;
     -webkit-transform: translate3d(0, 0, 0) rotate(225deg);
-            transform: translate3d(0, 0, 0) rotate(225deg);
+    transform: translate3d(0, 0, 0) rotate(225deg);
     position:absolute;
     top: .07rem;
     left: .16rem;
@@ -265,13 +250,11 @@
     background: black;
     position: absolute;
     -webkit-transform: translate3d(0, 0, 0) rotate(-90deg);
-            transform: translate3d(0, 0, 0) rotate(-90deg);
+    transform: translate3d(0, 0, 0) rotate(-90deg);
     left:.06rem;
     top: -.06rem;
 }
-/*更多*/
 .ovfHiden{overflow: hidden;height: 100%;}
-
 .mask{
     width: 100%;
     height: 100%;
@@ -281,4 +264,7 @@
     background: RGBA(204, 204, 217, .5);
     -webkit-transition:all .5s ease;
     transition:all .5s ease;
+}
+.case-paging__box{
+    display: none;
 }

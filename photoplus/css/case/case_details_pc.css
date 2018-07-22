@@ -1,6 +1,9 @@
 * {
     font-size: 14px;
 }
+body{
+    zoom: 1;
+}
 .case-show__details h2 {
     font-size: 23px;
     color:#A1A1A1;
@@ -29,9 +32,11 @@
     padding: 100px 0 109px;
     display: flex;
     justify-content: center;
-}
+    position: relative;
 
+}
 .case-detail__show {
+    position: relative;
     width: 750px;
     background: rgba(255, 255, 255, 1);
 }
@@ -193,10 +198,9 @@
 .details-qr {
     width: 135px;
     height: 178px;
-    top: 100px;
-    position: fixed;
-    right: 125px;
+    position:fixed;
     background: #ffffff;
+    z-index: 1;
 
 }
 
@@ -228,3 +232,4 @@
     line-height: 60px;
     color: RGBA(229, 61, 0, 1);
 }
+

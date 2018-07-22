@@ -10,15 +10,14 @@ header {
     height: 58px;
     font-size: 14px;
 }
-
-.logo {
+header .logo {
     width: 74px;
     height: 33px;
     background: url("../images/pc/logo.png") no-repeat;
     background-size: contain;
 }
 
-nav ul {
+nav ul{
     width: 600px;
     display: flex;
     justify-content: space-around;
@@ -50,11 +49,9 @@ nav ul li:hover::before {
     border-bottom-color: blue;
     z-index: 999;
 }
-
 nav ul li:hover ~ li::before {
     left: 0;
 }
-
 nav ul li:active {
     background: blue;
     color: #fff;
@@ -88,14 +85,14 @@ nav ul a, .switch--languages {
     background: blue;
 }
 section {
-    height: 3000px;
-    background: url("../images/pc/bg1.png") 0 0 no-repeat,
-    url("../images/pc/bg2.png") 0 100px no-repeat;
+    background: url("../images/pc/bg1.png") -100px 0 no-repeat,
+    url("../images/pc/bg2.png") 0 2000px no-repeat;
     /*url("../images/pc/bg3.png") 0 0 no-repeat;*/
-    padding: 100px 100px 0 100px;
+    padding: 300px 100px 0 100px;
 }
 
-.title p {
+
+section .title p {
     color: rgba(255, 255, 255, 1);
     font-size: 48px;
 }
@@ -105,10 +102,9 @@ section {
     line-height: 65px;
     padding-bottom: 30px;
 }
-
-.introduce {
+section .introduce {
     background: linear-gradient(-143deg, rgba(25, 202, 240, 1), rgba(0, 28, 255, 1));
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .introduce-title {
@@ -135,7 +131,6 @@ section {
 .introduce-item {
     flex-direction: column;
 }
-
 .introduce-item p {
     font-size: 24px;
     color: rgba(255, 255, 255, .5);

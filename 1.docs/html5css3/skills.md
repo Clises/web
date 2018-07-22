@@ -65,3 +65,14 @@ p{font-size:10px;-webkit-transform:scale(0.8);} //0.8是缩放比例
 15.reset重置必要性
     由于各个浏览器自带默认样式，而且都不一样，reset 重置是为了让各个浏览器有统一的标准。
         
+
+16.部分手机端吸底会出现抖动问题
+设置 html 和 body padding-bottom:x 与底部的值
+
+
+
+
+
+
+
+

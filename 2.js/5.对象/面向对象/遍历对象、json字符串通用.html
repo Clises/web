@@ -64,11 +64,13 @@
     }
 
 
-    jsonn = {"name": "charlie", "result": [{"act": [{"one": "one_"}, {"two": "two_"}],"time":"now"}]}
+    jsonn = {"name": "charlie",
+        "result": [{"act": [{"one": "one_"}, {"two": "two_"}],
+            "time": "now"}]}
 
-    for (var k in jsonn){
+    for (var k in jsonn) {
 
-        console.log(k,"-----------"+jsonn[k])
+        console.log(k, "-----------" + jsonn[k])
 
 
     }
