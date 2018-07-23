@@ -1,202 +1,202 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8" />
-		<title></title>
-		<style type="text/css">
-			#tab td{
-				border: 1px solid blue;
-				width: 50px;
-			}
-		</style>
-		<script type="text/javascript">
-			window.onload=function(){
-				var bg=document.getElementById("tab")
-				var tt1=document.getElementById("txt1")
-				var tt2=document.getElementById("txt2")
-				var tt3=document.getElementById("txt3")
-				var tt4=document.getElementById("txt4")
-				var tt5=document.getElementById("txt5")
-				var btn=document.getElementById("btn1")
-				var b=bg.tBodies[0].rows.length;
-				btn.onclick=function(){
-				//单元格1
-					var otr=document.createElement("tr")
-					var otd=document.createElement("td")
-					otd.innerHTML=tt1.value;
-					otr.appendChild(otd)
-					//2
-					var otd=document.createElement("td")
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+    <style type="text/css">
+        #tab td {
+            border: 1px solid blue;
+            width: 50px;
+        }
+    </style>
+    <script type="text/javascript">
+        window.onload = function () {
+            var bg = document.getElementById("tab")
+            var tt1 = document.getElementById("txt1")
+            var tt2 = document.getElementById("txt2")
+            var tt3 = document.getElementById("txt3")
+            var tt4 = document.getElementById("txt4")
+            var tt5 = document.getElementById("txt5")
+            var btn = document.getElementById("btn1")
+            var b = bg.tBodies[0].rows.length;
+            btn.onclick = function () {
+                //单元格1
+                var otr = document.createElement("tr")
+                var otd = document.createElement("td")
+                otd.innerHTML = tt1.value;
+                otr.appendChild(otd)
+                //2
+                var otd = document.createElement("td")
 //					otd.innerHTML=bg.tBodies[0].rows.length;
-					otd.innerHTML=b++
-					otr.appendChild(otd)
-					//3
-					var otd=document.createElement("td")
-					otd.innerHTML=tt2.value;
-					otr.appendChild(otd)
-					//4
-					var otd=document.createElement("td")
-					otd.innerHTML=tt3.value;
-					otr.appendChild(otd)
-					//5
-					var otd=document.createElement("td")
-					otd.innerHTML=tt4.value;
-					otr.appendChild(otd)
-					//6
-					var otd=document.createElement("td")
-					otd.innerHTML=tt5.value;
-					otr.appendChild(otd)
-				//7
-					var otd=document.createElement("td")
-					otd.innerHTML="<a href='javascript:;'>删除</a>";
-					otr.appendChild(otd)
-					bg.tBodies[0].appendChild(otr);
-				
-				var aa=document.getElementsByTagName("a")
-				
-					for(var i=0;i<aa.length;i++){
-						aa[i].onclick=function(){
-							bg.tBodies[0].removeChild(this.parentNode.parentNode)
-					}
-			}
-			
-				var btt=document.getElementById("btn2")
-				var tt6=document.getElementById("txt6")
-				btt.onclick=function(){
-					for(var i=1;i<bg.tBodies[0].rows.length;i++){
-					
-						var bgz=bg.tBodies[0].rows[i].cells[2].innerHTML.toLowerCase();
-						var txtz=tt6.value.toLowerCase()
-						if(bgz.search(txtz)!=-1){
-							bg.tBodies[0].rows[i].style.backgroundColor="red"
-							
-						}
-						else{
-							bg.tBodies[0].rows[i].style.backgroundColor=""
-						}
-					}
-				}
-			}
-				var cjj=document.getElementsByClassName("cj")
-				for(var i=0;i<cjj.length;i++){
-						cjj[i].onclick=function(){
-							bg.tBodies[0].removeChild(this.parentNode.parentNode)
-					}
-			}
-		}	</script>
-	</head>
-	<body>
-		员工信息:<input type="text" id="txt1" /><br/>
-		Name:<input type="text" id="txt2" /><br/>
-		Age:<input type="text" id="txt3" /><br/>
-		Sex：<input type="text" id="txt4" /><br/>
-		Tex：<input type="text" id="txt5" /><br/>
-		<input type="button"id="btn1" value="添加员工"/><br/>
-		<input type="text" id="txt6" /><br/>
-		<input type="button"id="btn2" value="查找员工" />
-		<table id="tab"style="border: 1px solid blue;"cellpadding="10"cellspacing="0">
-			
-			<tr>
-				<td>员工信息</td>
-				<td>ID</td>
-				<td>Name</td>
-				<td>Age</td>
-				<td>Sex</td>
-				<td>Tex</td>
-				<td>操作</td>
-			</tr>
-			<tr>
-				<td>正式工</td>
-				<td>1</td>
-				<td>张三</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td><a href="javascript:" class="cj">删除</a></td>
-			</tr>
-			<tr>
-				<td>正式工</td>
-				<td>2</td>
-				<td>李四</td>
-				<td></td>
-				<td></td>
-				<td></td>
-			<td><a href="javascript:" class="cj">删除</a></td>
-			</tr>
-			<tr>
-				<td>正式工</td>
-				<td>3</td>
-				<td>王五</td>
-				<td></td>
-				<td></td>
-				<td></td>
-			<td><a href="javascript:" class="cj">删除</a></td>
-			</tr>
-			<tr>
-				<td>正式工</td>
-				<td>4</td>
-				<td>赵强</td>
-				<td></td>
-				<td></td>
-				<td></td>
-			<td><a href="javascript:" class="cj">删除</a></td>
-			</tr>
-			<tr>
-				<td>正式工</td>
-				<td>5</td>
-				<td>李燕</td>
-				<td></td>
-                <td></td>
-                <td></td>
-      <td><a href="javascript:" class="cj">删除</a></td>
-			</tr>
-			<tr>
-				<td>正式工</td>
-				<td>6</td>
-				<td>高强</td>
-				<td></td>
-				<td></td>
-				<td></td>
-		<td><a href="javascript:" class="cj">删除</a></td>
-			</tr>
-			<tr>
-				<td>正式工</td>
-				<td>7</td>
-				<td>小明</td>
-				<td></td>
-				<td></td>
-				<td></td>
-		<td><a href="javascript:" class="cj">删除</a></td>
-			</tr>
-			<tr>
-				<td>正式工</td>
-				<td>8</td>
-				<td>小红</td>
-				<td></td>
-				<td></td>
-				<td></td>
-	<td><a href="javascript:" class="cj">删除</a></td>
-			</tr>
-			<tr>
-				<td>正式工</td>
-				<td>9</td>
-				<td>张龙</td>
-				<td></td>
-				<td></td>
-				<td></td>
-		<td><a href="javascript:" class="cj">删除</a></td>
-			</tr>
-			<tr>
-				<td>正式工</td>
-				<td>10</td>
-				<td>王强</td>
-				<td></td>
-				<td></td>
-				<td></td>
-			<td><a href="javascript:" class="cj">删除</a></td>
-			</tr>
-		
-		</table>
-		
-	</body>
+                otd.innerHTML = b++
+                otr.appendChild(otd)
+                //3
+                var otd = document.createElement("td")
+                otd.innerHTML = tt2.value;
+                otr.appendChild(otd)
+                //4
+                var otd = document.createElement("td")
+                otd.innerHTML = tt3.value;
+                otr.appendChild(otd)
+                //5
+                var otd = document.createElement("td")
+                otd.innerHTML = tt4.value;
+                otr.appendChild(otd)
+                //6
+                var otd = document.createElement("td")
+                otd.innerHTML = tt5.value;
+                otr.appendChild(otd)
+                //7
+                var otd = document.createElement("td")
+                otd.innerHTML = "<a href='javascript:;'>删除</a>";
+                otr.appendChild(otd)
+                bg.tBodies[0].appendChild(otr);
+
+                var aa = document.getElementsByTagName("a")
+
+                for (var i = 0; i < aa.length; i++) {
+                    aa[i].onclick = function () {
+                        bg.tBodies[0].removeChild(this.parentNode.parentNode)
+                    }
+                }
+
+                var btt = document.getElementById("btn2")
+                var tt6 = document.getElementById("txt6")
+                btt.onclick = function () {
+                    for (var i = 1; i < bg.tBodies[0].rows.length; i++) {
+
+                        var bgz = bg.tBodies[0].rows[i].cells[2].innerHTML.toLowerCase();
+                        var txtz = tt6.value.toLowerCase()
+                        if (bgz.search(txtz) != -1) {
+                            bg.tBodies[0].rows[i].style.backgroundColor = "red"
+
+                        }
+                        else {
+                            bg.tBodies[0].rows[i].style.backgroundColor = ""
+                        }
+                    }
+                }
+            }
+            var cjj = document.getElementsByClassName("cj")
+            for (var i = 0; i < cjj.length; i++) {
+                cjj[i].onclick = function () {
+                    bg.tBodies[0].removeChild(this.parentNode.parentNode)
+                }
+            }
+        }    </script>
+</head>
+<body>
+员工信息:<input type="text" id="txt1"/><br/>
+Name:<input type="text" id="txt2"/><br/>
+Age:<input type="text" id="txt3"/><br/>
+Sex：<input type="text" id="txt4"/><br/>
+Tex：<input type="text" id="txt5"/><br/>
+<input type="button" id="btn1" value="添加员工"/><br/>
+<input type="text" id="txt6"/><br/>
+<input type="button" id="btn2" value="查找员工"/>
+<table id="tab" style="border: 1px solid blue;" cellpadding="10" cellspacing="0">
+
+    <tr>
+        <td>员工信息</td>
+        <td>ID</td>
+        <td>Name</td>
+        <td>Age</td>
+        <td>Sex</td>
+        <td>Tex</td>
+        <td>操作</td>
+    </tr>
+    <tr>
+        <td>正式工</td>
+        <td>1</td>
+        <td>张三</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a href="javascript:" class="cj">删除</a></td>
+    </tr>
+    <tr>
+        <td>正式工</td>
+        <td>2</td>
+        <td>李四</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a href="javascript:" class="cj">删除</a></td>
+    </tr>
+    <tr>
+        <td>正式工</td>
+        <td>3</td>
+        <td>王五</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a href="javascript:" class="cj">删除</a></td>
+    </tr>
+    <tr>
+        <td>正式工</td>
+        <td>4</td>
+        <td>赵强</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a href="javascript:" class="cj">删除</a></td>
+    </tr>
+    <tr>
+        <td>正式工</td>
+        <td>5</td>
+        <td>李燕</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a href="javascript:" class="cj">删除</a></td>
+    </tr>
+    <tr>
+        <td>正式工</td>
+        <td>6</td>
+        <td>高强</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a href="javascript:" class="cj">删除</a></td>
+    </tr>
+    <tr>
+        <td>正式工</td>
+        <td>7</td>
+        <td>小明</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a href="javascript:" class="cj">删除</a></td>
+    </tr>
+    <tr>
+        <td>正式工</td>
+        <td>8</td>
+        <td>小红</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a href="javascript:" class="cj">删除</a></td>
+    </tr>
+    <tr>
+        <td>正式工</td>
+        <td>9</td>
+        <td>张龙</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a href="javascript:" class="cj">删除</a></td>
+    </tr>
+    <tr>
+        <td>正式工</td>
+        <td>10</td>
+        <td>王强</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a href="javascript:" class="cj">删除</a></td>
+    </tr>
+
+</table>
+
+</body>
 </html>

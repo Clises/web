@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    <title>hello</title>
+    <script src="../lib/rem_r.js"></script>
+    <link href="../lib/useful.css"rel="stylesheet"type="text/css">
+    <style>
+        .box{
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background: black;
+        }
+        .box .btn-scroll{
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%,0);
+            text-align: center;
+            overflow: hidden;
+            z-index: 10;
+        }
+        .box .btn-scroll a{
+            display: inline-block;
+            text-align: center;
+            width: 100%;
+            position: relative;
+            transition: 0.3s ease-in;
+            padding-top: 20px;
+            font-family: 'BodoniMT', serif;
+            font-size: 12px;
+            letter-spacing:.07em;
+            color: #FFF;
+            text-decoration: none;
+        }
+        .box .btn-scroll a::after{
+            content: "";
+            display: block;
+            width: 1px;
+            height: 60px;
+            position: relative;
+            background-color: #FFFFFF;
+            margin: 15px auto 0;
+        }
+        .box .btn-scroll a:hover{
+            transform:translate(0px,20px);
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="btn-scroll">
+        <a href="javascript:void (0)">
+            Scroll Down
+        </a>
+    </div>
+</div>
+</body>
+</html>

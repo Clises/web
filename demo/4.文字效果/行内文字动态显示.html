@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body onload="ABC()">
+		<script type="text/javascript">
+			var a=[];
+			a[0]="charlies"
+			a[1]=" "
+			var count=-1;
+			var timer=null;
+			function ABC(){
+				count++;
+				if(count==0)
+				{
+					document.aa.bb.value=a[0];
+
+				}
+				if(count>=1){
+					a[2]=a[0].substring(0,count-1)+a[1]+a[0].substring(7,count)
+					document.aa.bb.value=a[2]
+
+				}
+				if(count==a[0].length)
+				{
+					count=-1;
+				}
+				timer=setTimeout("ABC()",200)
+
+			}
+
+		</script>
+
+
+
+
+
+		<form name="aa">
+			<input type="text" name="bb"/>
+
+		</form>
+
+	</body>
+</html>
