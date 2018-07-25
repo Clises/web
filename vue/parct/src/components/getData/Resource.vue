@@ -1,9 +1,11 @@
 <template>
   <div id="resource">
     <h3>vue-resource获取数据</h3>
-    <button @click="getData()">获取河津市数据</button>
+    <button @click="getData()">获取河津市天气信息</button>
     <p>{{list.citynm}}</p>
     <p>{{list.days}}</p>
+    <p>{{list.weather}}</p>
+
     </ul>
   </div>
 </template>
@@ -34,5 +36,9 @@
 </script>
 
 <style scoped>
-
+#resource{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
 </style>

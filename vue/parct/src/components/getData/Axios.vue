@@ -44,5 +44,11 @@
 </script>
 
 <style scoped>
+  #axios{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+  }
 
 </style>

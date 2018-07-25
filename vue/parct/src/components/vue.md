@@ -2,7 +2,7 @@
     (1) vue-resource  官方提供的 vue的一个插件
     (2) axios
     (3) fetch-jsonp
-1.1 var-resource使用
+1.1 vue-resource使用
 (1) 安装 vue-resouce
   npm install vue-resource --save
     -- save 写入 package.json 中,不然把项目发给别人会出问题
@@ -58,6 +58,7 @@ this.$parent.方法
 (4)在接收数据的地方.$ on 接收广播的数据
 
 5. vue路由
+
 5.1 安装
 npm install vue-router
 5.2 引入并 Vue.use(VueRouter)(main.js)
@@ -84,14 +85,30 @@ new Vue({
   5)<router-view></router-view> 放在 App.vue
 
 
-5.4 动态路由使用get传值
-   1)配置动态路由
+5.4 动态路由和使用get传值
+
+  1.配置动态路由
     routes:[
     {path:'/user/:id',component:User}
     ]
-  2)在对应页面
+    1.2在对应页面
     this.$route.params 获取动态路由的值
+    
+  2.使用 get 传值
+   <router-link :to="'/albumDetails?id='+key">{{key}} {{item}}</router-link>
 
+
+
+
+
+5.5 编程式导航
+  (1)this.$router.push({path:'/ albumDetails?id=1'})
+  (2)命名:{ path: '/album', component: album,name:'album'},
+     导航方式:this.$router.push({path:'album'})
+  
+5.6 哈希模式改成 history 模式
+  在路由实例化的时候添加:mode: 'history',
+  不要去用.  
 
 
 

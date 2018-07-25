@@ -5,11 +5,8 @@ import App from './App'
 import router from './router'
 import VueResource from 'vue-resource';
 import './assets/css/basic.scss';
-
 Vue.use(VueResource);
-
 Vue.config.productionTip = false
-
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

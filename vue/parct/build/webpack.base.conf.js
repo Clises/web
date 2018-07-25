@@ -15,6 +15,9 @@ module.exports = {
   entry: {
     app: './src/main.js'
   },
+  externals:{
+    "Map":"Map"
+  },
   output: {
     path: config.build.assetsRoot,
     filename: '[name].js',

@@ -2,14 +2,21 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
-//使用 vue-resource
+import router from './router'
+//使用 vue-resource/**/
 import VueResource from 'vue-resource'
-//使用 vue-router
-import VueRouter from 'vue-router'
 Vue.use(VueResource);
-Vue.use(VueRouter);
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
+new Vue({
+  el: '#app',
+  router,
+  components: { App },
+  template: '<App/>'
+})
 
+
+// import VueRouter from 'vue-router'
+/*
 //1.创建组件
 import R from './components/R.vue';
 import RR from './components/RR.vue';
@@ -22,7 +29,7 @@ const routes = [
   { path: '/RR', component: RR },
   { path: '/Content/:aid', component: Content },
   { path: '/Pcontent', component: Pcontent },
-  { path: '*', redirect: '/R' }   /*默认跳转路由*/
+  { path: '*', redirect: '/R' }   /!*默认跳转路由*!/
 ]
 //3.实例化VueRouter  注意：名字
 const router = new VueRouter({
@@ -36,23 +43,8 @@ new Vue({
 })
 //5 <router-view></router-view> 放在 App.vue
 
-
-
-
-
-
-
-
-
-
-
-
-/*
-/!* eslint-disable no-new *!/
-new Vue({
-  el: '#app',
-  router,
-  components: { App },
-  template: '<App/>'
-})
 */
+
+
+
+
