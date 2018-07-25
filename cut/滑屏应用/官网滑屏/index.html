@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    <title>滑屏应用</title>
+    <link rel="stylesheet" href="css/common.css" type="text/css">
+    <link href="css/swiper.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/index.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!--吸顶-->
+<nav class="none">
+</nav>
+<button class="hamburger hamburger--slider" type="button">
+    <span class="hamburger-inner"></span>
+</button>
+<div class="wrapper">
+    <div class="swiper-container swiper-container-all">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide startPage col-all-center">
+                <div class="logo">
+                    <!--<img src="image/logo.jpeg">-->
+                </div>
+                <div class="btn-scroll">
+                    <a href="javascript:void (0)">
+                        Scroll Down
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide secondPage">
+                <header>
+                    <!--banner-->
+                    <div class="swiper-container banner_container">
+                        <div class="bannerSwiper ">
+                            <div class="swiper-wrapper">
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </header>
+                <section>
+                </section>
+                <footer>
+                </footer>
+            </div>
+        </div>
+    </div>
+</div>
+<!--大图加载-->
+<div class="imgShowSwiper none">
+    <div class="img-close">
+    </div>
+    <div class="swiper-wrapper">
+    </div>
+    <div class="footer">
+    </div>
+</div>
+</body>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/tools.js"></script>
+<script src="js/index.js"></script>
+</html>

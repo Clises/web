@@ -1,0 +1,357 @@
+.wrapper, .swiper-container-all {
+    width: 100%;
+    height: 100%;
+    background: #f3f3f3;
+}
+.swiper-slide {
+    /*移动端滑屏*/
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.startPage,
+.secondPage {
+    position: relative;
+}
+.startPage {
+    background: red;
+}
+.secondPage {
+    padding-top: 1rem;
+}
+
+/*汉堡*/
+/*button*/
+.hamburger {
+    display: inline-block;
+    cursor: pointer;
+    transition-property: opacity, filter;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    font: inherit;
+    color: inherit;
+    text-transform: none;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    overflow: visible;
+    width: .82rem;
+    height: .62rem;
+    position: fixed;
+    right: .5rem;
+    top: 0.2rem;
+    z-index: 888;
+}
+
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+    width: .65rem;
+    height: .04rem;
+    background-color: #FFF;
+    border-radius: 4px;
+    position: absolute;
+    transition-property: transform;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.hamburger-inner::before, .hamburger-inner::after {
+    content: "";
+    display: block;
+}
+
+.hamburger--slider .hamburger-inner {
+    top: .02rem;
+    left: -.03rem;
+}
+
+.hamburger--slider .hamburger-inner::before {
+    top: .24rem;
+    transition-property: transform, opacity;
+    transition-timing-function: ease;
+    transition-duration: 0.4s;
+}
+
+.hamburger--slider .hamburger-inner::after {
+    top: .48rem;
+}
+
+/*after*/
+.hamburger--slider.is-active .hamburger-inner {
+    transform: translate3d(0, .1rem, 0) rotate(45deg);
+}
+
+.hamburger--slider.is-active .hamburger-inner::before {
+    transform: rotate(-45deg) translate3d(-.0571429rem, -.06rem, 0);
+    opacity: 0;
+}
+
+.hamburger--slider.is-active .hamburger-inner::after {
+    transform: translate3d(0, -.48rem, 0) rotate(-90deg);
+}
+
+.hamburger-inner-black, .hamburger-inner-black:after, .hamburger-inner-black:before {
+    background-color: #333;
+}
+
+.banner_container .bannerSwiper .swiper-wrapper img,
+.picItem img {
+    width: 100%;
+    height: 100%;
+}
+
+/*nav*/
+.slider-bottom {
+    transition: 0.3s;
+    padding: .84rem .8rem 0 0;
+    background: hsla(216, 4%, 74%, .97);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 100%;
+    z-index: 400;
+}
+
+.slider-bottom a {
+    font-size: 30px;
+    height: 46px;
+    display: block;
+    margin: 0 0 .5rem 1.5rem;
+}
+
+.slider-bottom a:nth-child(1) {
+    margin-top: 1.8rem;
+}
+
+.nav_container span {
+    font-size: .6rem;
+}
+
+.slider-bottom-active {
+    top: 0;
+}
+
+/*logo*/
+.startPage .logo {
+    width: 2rem;
+    height: 2rem;
+    background: blue;
+    opacity: 0;
+    z-index: 12;
+    position: absolute;
+    bottom:2rem;
+}
+
+.startPage.slide-move .logo {
+    bottom: 3rem;
+    opacity: 1;
+    -webkit-transition: all 1s ease-in;
+}
+
+/*arrow*/
+.startPage .btn-scroll {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    overflow: hidden;
+    z-index: 10;
+}
+.startPage .btn-scroll a {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    transition: 0.3s ease-out;
+    padding-top: 20px;
+    font-family: 'BodoniMT', serif;
+    font-size: 12px;
+    letter-spacing: .07em;
+    color: #FFF;
+    text-decoration: none;
+}
+.startPage .btn-scroll a::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 60px;
+    position: relative;
+    background-color: #FFFFFF;
+    margin: 15px auto 0;
+}
+
+.startPage .btn-scroll a:hover {
+    transform: translate(0px, 20px);
+}
+
+/*secondPage*/
+/*nav*/
+nav {
+    width: 100%;
+    height: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 300;
+    background: blue;
+}
+/*banner*/
+.banner_container .bannerSwiper {
+    position: relative;
+    width: 100%;
+    height: 4rem;
+    background: red;
+}
+/*section*/
+.secondPage section {
+    padding: 1rem .45rem;
+    height: 10rem;
+    background: black;
+}
+h2 {
+    text-align: center;
+    font-family: 'BodoniMT', serif;
+    color: #0A2530;
+    letter-spacing: .01em;
+    font-size: .48rem;
+    font-weight: normal;
+
+}
+
+h2::after {
+    content: '';
+    width: .26rem;
+    display: block;
+    margin: 8px auto 16px;
+    border-bottom: 1px solid #2c4a56;
+
+}
+/*
+section .list {
+    position: relative;
+    width: 100%;
+    margin-top: 1rem;
+    padding: .2rem;
+    background: #FFF;
+}
+
+.list_photo {
+    height: 5.5rem;
+}
+
+.list_photo img {
+    width: 100%;
+    height: 100%;
+}
+
+.list_title {
+    margin-top: .3rem;
+    line-height: 180%;
+    font-size: .34rem;
+}
+
+.list .list_date {
+    margin-top: .3rem;
+}
+
+.list :nth-child(4) {
+    position: absolute;
+    right: .3rem;
+    bottom: .01rem;
+    font-size: .6rem;
+}
+
+!*image可以向右滑动*!
+.image-container .comment-box {
+    overflow: auto;
+    width: 100%;
+    height: 1.52rem;
+    -webkit-overflow-scrolling: touch;
+}
+
+.image-container .picItem {
+    width: 1.52rem;
+    height: 1.52rem;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    background-position: top;
+    background-size: cover;
+    margin: 0 .2rem 0 0;
+}
+
+!*大图预览*!
+.imgShowSwiper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    bottom: 0;
+    background: black;
+}
+
+.imgShowSwiper .img-close {
+    position: absolute;
+    width: .44rem;
+    height: .44rem;
+    background: url("../image/close.png") no-repeat;
+    background-size: contain;
+    right: .4rem;
+    top: .3rem;
+    z-index: 1000;
+}
+
+.big_img_slide {
+    width: 100%;
+    margin: -1.1rem 0 0 0;
+    -webkit-user-drag: none;
+}
+
+.imgShowSwiper .footer {
+    width: 100%;
+    padding: 0 .4rem;
+    background: rgba(0, 0, 0, .4);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    color: red;
+    font-size: .3rem;
+}
+
+!*more更多*!
+.btn_category a {
+    display: inline-block;
+    margin-left: 4rem;
+    margin-top: .8rem;
+}
+
+.btn_category .andmore {
+    position: relative;
+    height: 6px;
+    margin: 0;
+    padding: 0;
+    transition: all .3s ease;
+    left: 0px;
+}
+
+.btn_category a::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid #0d3143;
+    transition: all .3s ease;
+    width: 140px;
+    height: 35px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer .iconfont {
+    font-size: .48rem;
+}
+
+
+*/

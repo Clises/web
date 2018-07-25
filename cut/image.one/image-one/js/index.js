@@ -1,24 +1,26 @@
-var words={
-    lans:[
-        {"cn":"首页","en":"index"},
-        {"cn":"问题","en":"question"}
+var words = {
+    lans: [
+        {"cn": "首页", "en": "index"},
+        {"cn": "问题", "en": "question"}
     ]
 };
 var checkELement = ['.nav'];
 
-$(langInit)
-function langInit()
-{
-    $('.menu').on('click',function () {
+init()
+
+function init() {
+    $('.menu').on('click', function () {
         $('nav').toggleClass('nav--pullDown')
-
     });
+    $('.nav').on('click', 'li', skip);
 
-    $('.switch--languages').on('click',function () {
+    $('.switch--languages').on('click', function () {
         $('.changeLan').toggleClass('changeLan--pullDown')
     })
-    $('.changeLan').on('click','li',changeLanguages);
+
+    $('.changeLan').on('click', 'li', changeLanguages);
 }
+
 function changeLanguages() {
     var $this = $(this), index = $this.index();
     $('.language').html($this.text());
@@ -28,6 +30,7 @@ function changeLanguages() {
         interprete(checkELement[i], lan);
     }
 }
+
 function interprete(ele, lan) {
     var eleString = $(ele).html() || '';
     var lans = words.lans;
@@ -46,4 +49,18 @@ function interprete(ele, lan) {
             break;
     }
     $(ele).html(eleString);
+}
+function skip() {
+    $('nav').toggleClass('nav--pullDown')
+    var $this = $(this), index = $this.index();
+    var headHeight=$('header').outerHeight();
+    switch(index) {
+        case 0:
+            $('html, body').stop().animate({scrollTop:$(".image-top").offset().top},500);
+        break;
+        case 1:
+            console.log($(".timeLine").offset().top)
+            $('html, body').stop().animate({scrollTop:$(".industryPain").offset().top-headHeight},500);
+            break;
+    }
 }

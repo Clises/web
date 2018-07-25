@@ -1,6 +1,9 @@
 body {
     background-color: #010c2b;
 }
+.nav-head,.title img{
+    display: none;
+}
 
 header {
     display: flex;

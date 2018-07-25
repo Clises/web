@@ -20,6 +20,10 @@ webstrom 上安装 autoprefixer 自动补全工具
 4.设置
 
 
+mac 查看端口占用
+sudo lsof -i :8080
 
+杀死进程
+ sudo kill -9 8080
 
 
