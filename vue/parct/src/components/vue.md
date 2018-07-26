@@ -111,6 +111,22 @@ new Vue({
   不要去用.  
 
 
+5.7 路由嵌套
+在路由中嵌套子路由
+```vuejs
+  {
+    path: '/user',
+    component: user,
+    children:[
+      { path: 'userid', component: userid},
+      { path: 'userlist', component: userlist}
+    ]
+  }
+
+```
+
+
+
 
 
 

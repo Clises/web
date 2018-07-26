@@ -4,7 +4,6 @@
       <div class="left">
         <ul>
           <li>
-
             <router-link to="/user/userid">用户数量</router-link>
           </li>
           <li>
@@ -32,7 +31,7 @@
 .user{
   display: flex;
   .left{
-    width: 200px;
+    width: 50%;
     min-height: 400px;
     border-right: 1px solid red;
   }

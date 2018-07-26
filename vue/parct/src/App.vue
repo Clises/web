@@ -3,6 +3,7 @@
     <getData></getData>
     <transferData></transferData>
     <router></router>
+    <vframe></vframe>
     <!--<M-map></M-map>-->
   </div>
 </template>
@@ -14,6 +15,10 @@
   import transferData from './components/transferData/transferData';
   /*使用路由*/
   import router from './components/router/home';
+
+  /*使用框架*/
+  import frame from './components/frame/frame'
+
   /*使用百度地图 api*/
   import Map from './components/api/Map'
 
@@ -26,7 +31,9 @@
     'getData':getData,
     'transferData':transferData,
     'router':router,
+    'vframe':frame,
     'M-map':Map
+
   },
   mounted(){
 

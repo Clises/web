@@ -6,6 +6,19 @@ import router from './router'
 //使用 vue-resource/**/
 import VueResource from 'vue-resource'
 Vue.use(VueResource);
+//MintUI
+import MintUI from 'mint-ui'
+Vue.use(MintUI)
+import 'mint-ui/lib/style.css'
+
+
+//elementUI
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+Vue.use(ElementUI);
+
+
+
 Vue.config.productionTip = false;
 new Vue({
   el: '#app',
