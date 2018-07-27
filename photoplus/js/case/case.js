@@ -1,25 +1,26 @@
 $(init)
-eleStatus = {    //nav滚动条滚动距离
-    srollnow: 0,
+eleRoling = {    //nav滚动条滚动距离
     offsetLeft: 0
 }
 function init() {
     $('.drop-down-content .list').append($('.case-classify li').clone(true))
     $('.case-classify').on('click', 'li', classify)
-    $('.open').on('click', allOpen)
+    $('.all_open').on('click', allOpen)
     $('.list').on('click', 'li', allList)
-    $('.close,.mask').on('click', allClose)
+
 }
 /*分类*/
 function classify() {
     var $this = $(this), $index = $this.index();
     $(".case-classify li").removeClass("active").eq($index).addClass("active");
-    $('.list').find('li').removeClass("active").eq($index).addClass("active");
-    panel($index)
-    eleStatus.srollnow = $('.case-classify')[0].scrollLeft;
-    eleStatus.offsetLeft = $(this).offset().left;
-    if (eleStatus.offsetLeft > 220) {
-        $('.case-classify').animate({'scrollLeft': eleStatus.srollnow + 90}, 1000);
+    panel($index);
+    eleRoling.offsetLeft = $(this).offset().left;
+    var rolingNow=$('.case-classify')[0].scrollLeft;
+    var eleWith=$('.case-classify li').width();
+    var maxWith=eleWith*3+eleWith/2;
+    var rollingWith=$('.case-classify').width()/2;
+    if (eleRoling.offsetLeft >maxWith) {
+        $('.case-classify').animate({'scrollLeft': rolingNow +rollingWith}, 500);
     }
 }
 /*全部分类*/
@@ -29,33 +30,29 @@ function allList() {
     $(".list li").removeClass("active").eq($index).addClass("active")
     $('.case-classify').find('li').removeClass("active").eq($index).addClass("active");
     panel($index)
-    $('.drop-down-content').css({'height': '0'})
-    $('.mask').css({'display': 'none'})
-    $('.open').css({'display': 'block'})
-    eleStatus.offsetLeft = $('.case-classify').find('li').eq($index).get(0).offsetLeft;
+    $('.drop-down-content').toggleClass('drop-down--down');
+    $('.all_open').children('a').toggleClass('arrow-up')
+    $('.mask').toggleClass('block');
+    eleRoling.offsetLeft = $('.case-classify').find('li').eq($index).get(0).offsetLeft;
     if ($('.case-classify').find('li').eq($index).hasClass('active')) {
-        $('.case-classify')[0].scrollLeft = eleStatus.offsetLeft - 20;
+        $('.case-classify')[0].scrollLeft = eleRoling.offsetLeft-20;
     }
 }
 function allOpen() {
-    $('.mask,.drop-down-content').bind("touchmove", function (e) {
-        e.preventDefault();
-    });
-    $('html,body').addClass('ovfHiden');
-    $(this).css({'display': 'none'})
-    $('.mask').css({'display': 'block'})
-    $('.drop-down-content').css({'height': '3rem', 'top': '0'})
+    $(this).children('a').toggleClass('arrow-up')
+    $('html,body').toggleClass('ovfHiden');
+    $('.mask').toggleClass('block');
+    $('.drop-down-content').toggleClass('drop-down--down');
 }
 
-function allClose() {
-    $('html,body').removeClass('ovfHiden');
-    $('.open').css({'display': 'block'})
-    $('.mask').css({'display': 'none'})
-    $('.drop-down-content').css({'height': '0'})
-}
+
+
+
+
 $(".m-style a").attr("href",function(){
     return location.pathname+$(this).attr("href");
 })
+
 
 function panel(index) {
     $('.all,.case-item ').addClass('none');

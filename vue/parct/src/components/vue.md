@@ -17,7 +17,7 @@ this.$http.get(地址).then(function(){}) 请求数据
 
 1.2 axios 使用
 (1) 安装
-   注意-- save
+   注意$ npm install axios -- save
 (2) 直接在子组件中调用 axios
     import Axios from 'axios';
 

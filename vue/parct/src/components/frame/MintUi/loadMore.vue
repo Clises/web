@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!--加载更多-->
     <ul
       v-infinite-scroll="loadMore"
       infinite-scroll-disabled="loading"

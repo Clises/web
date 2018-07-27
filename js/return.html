@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+/*
+    function f(){
+        while(true){
+            return 1;
+        }
+    }
+    alert(f())
+*/
+
+//    官方定义的 return 之后是可以跟一个 value 值,可以跟js 的任何数据类型,包括函数等
+    function f1() {
+        return function () {
+            alert('这是返回的函数,类型为自执行函数')
+        }
+    }
+    alert(!f1()())   //执行自执行函数
+
+//通过 ruturn 实现一个循环,下面代码中犹豫 return 会中断函数,所以进入函数的时候 i 已经成了2 所以输出为234
+var i=1;      //定义循环变量
+         function func1(){
+                 i++;       //改变循环变量
+                 if(i<5){　　　　　　　　//小括号为循环条件
+                         document.write(i+'<br>');      //这里是循环体
+                         return func1();
+                     }
+             }
+         !func1()();               //调用函数
+
+//    js 自带方法的回调函数
+//    sort 排序  sort();方法会根据数值的正负对数组的各个部分进行排序。
+var arr=[1,3,21,2]
+    arr.sort(function (a,b) {
+        return a-b;
+        // return -1;
+        // return 0
+        // return 1 排序被反转了.
+
+    })
+    console.log(arr)
+</script>
+</body>
+</html>

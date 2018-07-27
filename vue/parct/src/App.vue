@@ -1,14 +1,18 @@
 <template>
   <div id="app">
+    <basics></basics>
     <getData></getData>
     <transferData></transferData>
     <router></router>
     <vframe></vframe>
+    <count></count>
     <!--<M-map></M-map>-->
   </div>
 </template>
 <script>
-  /*声明周期韩式*/
+  /*生命周期函数*/
+  /*基础语法*/
+  import basics from './components/basics/basics'
   /*获取数据的方式*/
   import getData from './components/getData/getData';
   /*父子组件传值*/
@@ -19,6 +23,9 @@
   /*使用框架*/
   import frame from './components/frame/frame'
 
+  /*使用 vuex*/
+  import vuex from './components/vuex/count'
+
   /*使用百度地图 api*/
   import Map from './components/api/Map'
 
@@ -28,10 +35,12 @@
     }
   },
   components:{
+    'basics':basics,
     'getData':getData,
     'transferData':transferData,
     'router':router,
     'vframe':frame,
+    'count':vuex,
     'M-map':Map
 
   },

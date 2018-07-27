@@ -32,6 +32,6 @@
   border: 1px solid grey;
   margin-top: 10px;
   border-radius: 10px;
-  padding: 10px;
+  padding: 11rem;
 }
 </style>
