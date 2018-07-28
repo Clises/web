@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../lib/jquery.js"></script>
+    <style>
+        .hidden{
+            position: absolute;
+            visibility: hidden;
+        }
+        .div{
+            width: 200px;
+            height: 200px;
+            background: red;
+        }
+    </style>
+</head>
+<body>
+<div class="hidden div">
+</div>
+<input type="button"value="点击显示">
+<script>
+    $('input').on('click',function () {
+        console.log('aa')
+        $('.div').removeClass('hidden')
+    })
+</script>
+</body>
+</html>
