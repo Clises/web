@@ -13,7 +13,6 @@
     },
     mounted(){
       console.log(this.$route.params);  /*获取动态路由传值*/
-      xhrFields: { withCredentials: true }
       var aid=this.$route.params.aid;
       //调用请求数据的方法
       this.requestData(aid);

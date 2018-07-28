@@ -16,22 +16,14 @@
 */
 //对象类型的判断
     /*
-    *
-    * typeof：可以判断：undefined/数值/字符串/布尔值
-    *               不能判断：null  object    object和array
     * instaneof: 判断对象基本类型
-    *
-    *   ===
-    *   可以判断：undefined，null
-    *
-    *
     *
     * */
 var b1={
-    b2:[1,'abc',console.log],
+    b2:[1,'abc',console.log],  //Array
     b3:function () {
         return function () {
-            return 'xfzhang'
+            return 'charlies'
         }
     }
 }
@@ -39,14 +31,13 @@ var b1={
 console.log(b1 instanceof Object,b1 instanceof Array) // true  false
 /*b1是实例对象，Object是构造函数*/
 console.log(b1.b2 instanceof Array,b1.b2 instanceof Object)  //  true   true
-console.log(b1.b3 instanceof Function,b1.b3 instanceof Object)  // true   true
+console.log(b1.b3 instanceof Function,b1.b3 instanceof Object)  // true   true  函数也是对象
 console.log(typeof b1.b2)    //object
     console.log(typeof b1.b3==='function') //true
     console.log(  typeof b1.b2[2]==='function')  //true
             //b1.b2[2]是一个函数
-            b1.b2[2](4)
      //b3()是对象  b3()() 是对象中的函数，
-     console.log(b1.b3()())
+     console.log(b1.b3()()) //chalies
 
 
 

@@ -2,9 +2,9 @@
     <div id="header">
       <div class="nav">
         <router-link to="/song">推荐音乐</router-link>
+        <router-link to="/home">首页</router-link>
         <router-link to="/list">热歌榜</router-link>
       </div>
-      <router-view></router-view>
     </div>
 </template>
 

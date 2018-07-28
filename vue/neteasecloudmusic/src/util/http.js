@@ -1,22 +1,15 @@
+//解决跨域
 import axios from 'axios'
-// import {
-//   Message
-// } from 'element-ui';
-// 创建axios实例
 const service = axios.create({
   withCredentials: true,
-  // baseURL: 'http://localhost:3000',
   baseURL: 'http://192.168.31.95:3000',
   timeout: 15000 // 请求超时时间
 })
-
 service.interceptors.request.use(config => {
-  //config.headers['Accept'] = 'application/json'
   return config
 }, error => {
   Promise.reject(error)
 })
-
 // respone拦截器
 service.interceptors.response.use(
   response => {

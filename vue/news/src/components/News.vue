@@ -8,25 +8,36 @@
   </div>
 </template>
 <script>
+  import store from '../vuex/store.js';
   export default {
     data() {
       return {
         list: []
       }
-    }, methods: {
+    },
+    store,
+    methods: {
       requestData() {
         var api = 'http://www.phonegap100.com/appapi.php?a=getPortalList&catid=20&page=1';
         this.$http.jsonp(api).then((response) => {
           console.log(response);
           //注意：用到this要注意this指向
-          this.list = response.body.result;
+          this.list=response.body.result;
+        //  数据放在 store 之中
+          this.$store.commit('addList',response.body.result)
         }, function (err) {
           console.log(err);
         })
       }
     },
     mounted() {
-      this.requestData();
+      //判断store 里面有没有数据
+      var listData=this.$store.state.list;
+      if(listData.length>0){
+        this.list=listData;
+      }else {
+        this.requestData()
+      }
     }
   }
 </script>

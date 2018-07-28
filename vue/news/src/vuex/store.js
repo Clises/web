@@ -13,8 +13,8 @@ var mutations={
   incCount(){
     ++state.count;
   },
-  addList(data){
-    state.list.push(data)
+  addList(state,data){
+    state.list = data;
   }
 }
 //核心方法 getter 改变数据的时候做一些操作,改变state 里面的count数据的时候会触发getters里面的方法 获取新的值

@@ -1,21 +1,16 @@
 <template>
   <div id="app">
-    <c-header></c-header>
-    <c-home></c-home>
-    <!--<c-highquality></c-highquality>-->
+    <Header></Header>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-  /*header*/
-  import header from './components/header/header'
-  import home from './components/home/home'
-  import Goods from './components/playlist/highquality'
-export default {
+  import Header from "@/components/header"
+
+  export default {
     components:{
-      'c-header':header,
-      'c-home':home,
-      'c-highquality':Goods
+      'Header':Header
     }
 }
 </script>
@@ -23,11 +18,4 @@ export default {
 <style>
   @import './assets/css/common.css';
 
-  #app {
-/*  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;*/
-}
 </style>

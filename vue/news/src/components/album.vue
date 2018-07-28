@@ -1,7 +1,7 @@
 <template>
-  <div id="list">
-    热歌榜
-  </div>
+    <div>
+      相册
+    </div>
 </template>
 
 <script>

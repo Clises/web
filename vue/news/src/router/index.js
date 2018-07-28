@@ -3,10 +3,12 @@ import Router from 'vue-router'
 Vue.use(Router);
 //创建组件
 import News from '../components/News';
+import album from '../components/album';
 import Details from '../components/Details';
 //配置路由
 const routes = [
   { path: '/news', component: News },
+  { path: '/album', component: album },
   { path: '/details/:aid', component: Details },
   { path: '*', redirect: '/news' }   /*默认跳转路由*/
 ]

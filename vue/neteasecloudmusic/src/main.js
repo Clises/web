@@ -11,10 +11,11 @@ VueTouch.config.swipe = {
   threshold: 100 //手指左右滑动距离
 }
 
-
-
-Vue.http = Vue.prototype.$http = axios;
-Vue.config.productionTip = false
+Vue.prototype.$http=axios;
+Vue.prototype.config={
+  api:'http://192.168.1.101:3000'
+}
+Vue.config.productionTip = false;
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

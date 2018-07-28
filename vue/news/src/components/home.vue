@@ -1,6 +1,8 @@
 <template>
 <div id="home">
-  <h1>msg</h1>
+  <router-link to="/News">新闻</router-link>
+  <router-link to="/album">相册</router-link>
+  <router-view/>
 </div>
 </template>
 

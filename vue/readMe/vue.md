@@ -1,121 +1,192 @@
-响应式原理
-Vue 最独特的特性之一，是其非侵入性的响应式系统。
-数据模型仅仅是普通的 JavaScript 对象，修改它们时，视图会进行更新。
+1. 请求数据的模板包括
+    (1) vue-resource  官方提供的 vue的一个插件
+    (2) axios
+    (3) fetch-jsonp
+1.1 vue-resource使用
+(1) 安装 vue-resouce
+  npm install vue-resource --save
+    -- save 写入 package.json 中,不然把项目发给别人会出问题
+    
+(2) main.js 引入  vue-resource
+  import VueResource from 'vue-resource '
+  
+(3) 使用 Vue.use(VueResource);
+
+(4) 在组件中使用  
+this.$http.get(地址).then(function(){}) 请求数据
+
+1.2 axios 使用
+(1) 安装
+   注意$ npm install axios -- save
+(2) 直接在子组件中调用 axios
+    import Axios from 'axios';
+
+(3) 请求数据
+
+  
+
+2. 父组件给子组件传值
+(1) 父组件调用子组件时 绑定动态属性
+   <v-header :title="title" :run="run" :home="this"></v-header>
+   
+(2)在子组件里通过 props接收父组件传过来的数据
+     props:['title','run','home']
+   注意:验证父组件传递数据的合法性,使用 props:{} 一般在大公司需要受约束
+
+
+3. 父子组件主动获取各自的数据和方法 
+3.1 父组件主动获取子组件的数据和方法
+(1)调用子组件的时候定义一个 ref
+  <v-child ref="child"></v-child>
+(2)在父组件里面通过以下两种方式调用子组件的数据和方法
+this.$refs.child.属性
+this.$refs.child.方法 
+
+3.2 子组件主动获取父组件的数据和方法
+this.$parent.属性
+this.$parent.方法
 
 
 
+4. 非父子组件通信
+(1) 新建 js 文件,引入 vue 实例 vue 暴露这个实例
 
-1. 
-1.1 声明式渲染：
-采用模板语法声明式地将数据渲染进DOM系统,初始化根实例, vue 将会自动将数据绑定到 DOM 模板上
-```vue
-<div id="app">
-  {{ message }}
-</div>
-```
-```javascript
-var app = new Vue({
+(2)在需要广播的地方引入刚才的实例
+
+(3)通过 VueEmit.$emit('名称','数据')
+
+(4)在接收数据的地方.$ on 接收广播的数据
+
+5. vue路由
+
+5.1 安装
+npm install vue-router
+5.2 引入并 Vue.use(VueRouter)(main.js)
+5.3 使用
+  1)创建组件
+import R from './components/R.vue';
+import RR from './components/RR.vue';
+  2)配置路由   注意：名字
+const routes = [
+  { path: '/R', component: R },
+  { path: '/RR', component: RR },
+  { path: '*', redirect: '/R' }   /*默认跳转路由*/
+]
+  3)实例化VueRouter  注意：名字
+const router = new VueRouter({
+  routes // （缩写）相当于 routes: routes
+})
+  4)挂载路由
+new Vue({
   el: '#app',
-  data: {
-    message: 'Hello Vue!'
+  router,
+  render: h => h(App)
+})
+  5)<router-view></router-view> 放在 App.vue
+
+
+5.4 动态路由和使用get传值
+
+  1.配置动态路由
+    routes:[
+    {path:'/user/:id',component:User}
+    ]
+    1.2在对应页面
+    this.$route.params 获取动态路由的值
+    
+  2.使用 get 传值
+   <router-link :to="'/albumDetails?id='+key">{{key}} {{item}}</router-link>
+
+
+
+
+
+5.5 编程式导航
+  (1)this.$router.push({path:'/ albumDetails?id=1'})
+  (2)命名:{ path: '/album', component: album,name:'album'},
+     导航方式:this.$router.push({path:'album'})
+  
+5.6 哈希模式改成 history 模式
+  在路由实例化的时候添加:mode: 'history',
+  不要去用.  
+
+
+5.7 路由嵌套
+在路由中嵌套子路由
+```vuejs
+  {
+    path: '/user',
+    component: user,
+    children:[
+      { path: 'userid', component: userid},
+      { path: 'userlist', component: userlist}
+    ]
   }
-})
-```
-1.2 双向数据绑定
-
-
-
-
-
-
-2. 指令
-一种特殊的自定义行间属性,指令表达式的值改变时相应地将某些行为应用到 DOM 上
-内置指令包括:
-
-```
-v-bind：动态绑定数据。简写为“:” 。=> 以后的:class="{red:boolean}"
-v-on ：绑定时间监听器。简写为“@”，例：@click="xxx"；
-v-text ：更新数据，会覆盖已有结构。类似{{ msg }} ；
-v-show ：根据值的真假，切换元素的display属性；
-v-if ：根据值的真假，切换元素会被销毁、重建； => 在dom中已消失
-v-else-if ：多条件判断，为真则渲染；
-v-else ：条件都不符合时渲染；
-v-for ：基于源数据多次渲染元素或模块；
-v-model ：在表单控件元素（input等）上创建双向数据绑定（数据源）；
-v-pre ：跳过元素和子元素的编译过程；
-v-once ：只渲染一次，随后数据更新也不重新渲染；
-v-cloak ：隐藏未编译的Mustache语法，在css中设置[v-cloak]{display:none;}
 
 ```
 
 
+5.8 模块化路由
+
+6. vuex
+  专门为 vue.js应用程序开发的状态管理模式
+  (1)vuex 解决组件之间同一状态的共享问题(解决不同组件之间的数据共享问题)
+  (2)组件数据持久化.
+  
+新建文件夹
+  src 下新建文件夹 vuex文件夹
+  vuex 下新建store.js
+  
+安装 vuex 
+  npm install vuex--save
+  
+  在刚才创建的 store.js 引入 vuex 并且 use它
+  
+
+定义数据
+
+var state={
+  count:1
+}
+
+定义方法
+
+var mutations={
+  incCount(){
+    ++state.count;
+  }
+}
+
+优点类似计算属性   ，  改变state里面的count数据的时候会触发 getters里面的方法 获取新的值 (基本用不到)
+		var getters= {
+		    computedCount: (state) => {
+			return state.count*2
+		    }
+		}
+
+Action 基本没有用
+		Action 类似于 mutation，不同在于：
+		Action 提交的是 mutation，而不是直接变更状态。
+		Action 可以包含任意异步操作。
+		var actions= {
+		    incMutationsCount(context) {    /*因此你可以调用 context.commit 提交一个 mutation*/
+			context.commit('incCount');    /*执行 mutations 里面的incCount方法 改变state里面的数据*/
+		    }
+		}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2. 条件和循环
-控制元素是否显示  
-
-#双向数据绑定
-v-model指令进行双向数据绑定。  
-#组件化应用的构建
-
-#创建vue实例
-vm 变量名表示 Vue实例
-##数据和方法
-当实例创建，向vue的响应式系统中加入了其data对象中能找的所有属性。当这些属性变化时，试图也会随着变化，匹配更新为新的值
-
-```javascript
-// 我们的数据对象
-var data = { a: 1 }
-
-// 该对象被加入到一个 Vue 实例中
-var vm = new Vue({
-  data: data
+暴露
+const store = new Vuex.Store({
+  state,
+  mutations
 })
 
-// 获得这个实例上的属性
-// 返回源数据中对应的字段
-vm.a == data.a // => true
-
-// 设置属性也会影响到原始数据
-vm.a = 2
-data.a // => 2
-
-// ……反之亦然
-data.a = 3
-vm.a // => 3
-
-```
-
-
-
-
-
-
-
-
-
-
-
+在组件中使用
+  引入 store
+  注册 import
+  获取state里的数据:this.$store.state 数据
+  触发mutations 改变数据
+   
 
 
 
