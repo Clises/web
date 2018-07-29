@@ -16,22 +16,9 @@ if(is_uploaded_file($_FILES["userFile"]["tmp_name"])){
         "upload/".$_FILES["userFile"]["name"])){
         echo "失败";
         exit;
-
-
     }
     else{
         echo "成功";
         echo "<script>location.href='wjsc.html?url=upload/".$_FILES[userFile][name]."'</script>";
-
     }
-
-
-
-
-
-
-
-
-
-
 }
