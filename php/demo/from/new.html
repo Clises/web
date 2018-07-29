@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload=function(){
+            var fm=document.getElementsByTagName('form')[0]
+            fm.onsubmit=function(){
+                //dom收集表单信息
+                //利用formdata快速收集表单信息
+
+                //实例化表单数据对象,同时收集fm的表单域信息
+                var fd=new FormData(fm);
+                var xhr =new XMLHttpRequest();
+                xhr.onreadystatechange=function () {
+                    if (xhr.readyState==4){
+                        alert(xhr.responseText)
+                    }
+                };
+                xhr.open('post','config.php')
+                //使用formdata不需要设置head头
+                // xhr.setRequestHeader('content-type','application/x-www-form-urlencoded')
+                xhr.send(fd)
+                return false; //阻止浏览器的默认动作
+            }
+        }
+    </script>
+</head>
+<body>
+<h2>实现无刷新表单提交</h2>
+<form method="post">
+    <p>用户名:
+        <input type="text"name="username" id="username"/>
+    </p>
+    <p>密码:
+        <input type="password"name="password" id="password">
+    </p>
+    <p>邮箱:
+        <input type="text"name="email" id="email">
+    </p>
+    <p>头像:
+        <input type="file"name="email" id="user_pic">
+    </p>
+    <p>
+        <input type="submit"value="注册">
+    </p>
+
+
+</form>
+</body>
+</html>
+
+
