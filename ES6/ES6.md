@@ -1,6 +1,7 @@
-1. let和 const 命令
-1.1 let命令
-1.1.1 作用：声明变量，只在 let命令所在的代码块内有效，不存在变量提升
+##一 let和 const 命令
+
+##1.1 let命令
+###1.1.1 作用：声明变量，只在 let命令所在的代码块内有效，不存在变量提升
     var会出现变量提升现象，即在变量声明之前使用，此时会导致undefined，let改变语法行为声明的变量必须在声明之后去使用否则报错
 ```javascript
     for (let i = 0; i < 10; i++) {
@@ -9,7 +10,8 @@
     }
         console.log(i);//报错
 ```
-1.1.2 闭包问题：
+
+###1.1.2 闭包问题：
 ```javascript
 var a = [];
 for (var i = 0; i < 10; i++) {
@@ -30,16 +32,14 @@ for (let i = 0; i < 10; i++) {
 a[6](); // 6
 ```
 
-1.1.3 变量提升问题，let 不存在变量提升
+###1.1.3 变量提升问题，let 不存在变量提升
 ```javascript
 console.log(bar); // 报错ReferenceError
 let bar = 2;
 
 ```
 
-
-
-1.1.4 暂时性死区
+###1.1.4 暂时性死区
 只要在块级作用域内存在 let 命令，它所声明的变量就"绑定"这个区域，不再受外部影响。
 ```javascript
 var tmp = 123;
@@ -69,7 +69,7 @@ bar(); // [2, 2]
 
 
 
-1.1.5 不允许重复声明 
+###1.1.5 不允许重复声明 
 let不允许在相同作用域内，重复声明同一个变量。
 
 ```javascript
@@ -98,7 +98,7 @@ function func(arg) {
 }
 ```
     
-1.2 块级作用域   
+###1.1.6 块级作用域   
  ```javascript
 function f1() {
   let n = 5;
@@ -137,7 +137,7 @@ ES6允许块级作用域任意嵌套
 
 ```
 
-1.3 块级作用域和函数声明
+###1.1.7 块级作用域和函数声明
 ES5 规定，函数只能在顶层作用域和函数作用域之中声明，不能在块级作用域声明。
 ```javascript
 // 情况一
@@ -158,6 +158,54 @@ ES6 引入了块级作用域，明确允许在块级作用域之中声明函数�
 ES6 规定，块级作用域之中，函数声明语句的行为类似于let，在块级作用域之外不可引用。
 ```
 ```
+
+
+
+
+##2. const 命令
+基本用法:
+  const声明一个只读的常量。一旦声明，常量的值就不能改变。
+
+const声明的变量不得改变值，这意味着，const一旦声明变量，就必须立即初始化，不能留到以后赋值。
+```javascript
+const foo;
+// SyntaxError: Missing initializer in const declaration
+
+```
+
+const的作用域与let命令相同：只在声明所在的块级作用域内有效。
+
+```javascript
+if (true) {
+  const MAX = 5;
+}
+
+MAX // Uncaught ReferenceError: MAX is not defined
+
+```
+
+声明的常量也不提升,在声明之后使用
+```javascript
+if (true) {
+    console.log(MAX); // ReferenceError
+    const MAX = 5;
+}
+
+```
+
+
+const声明的常量，也与let一样不可重复声明
+
+```javascript
+var message = "Hello!";
+let age = 25;
+
+// 以下两行都会报错
+const message = "Goodbye!";
+const age = 30;
+
+```
+
 
 
 

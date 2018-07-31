@@ -1,0 +1,16 @@
+<template>
+<div>
+  这是文章详情页
+
+</div>
+</template>
+
+<script>
+    export default {
+        name: ""
+    }
+</script>
+
+<style scoped>
+
+</style>
