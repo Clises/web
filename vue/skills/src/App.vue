@@ -1,11 +1,13 @@
 <template>
   <div id="app">
     <demo></demo>
-    <router></router>
-    <getData></getData>
-    <transferData></transferData>
-    <vuex></vuex>
+    <!--<router></router>-->
+    <!--<getData></getData>-->
+    <!--<transferData></transferData>-->
+    <!--<vuex></vuex>-->
+    <!--<animation></animation>-->
     <!--<Map></Map>-->
+    <!--<c-frame></c-frame>-->
   </div>
 </template>
 
@@ -22,7 +24,10 @@
   import vuex from './components/vuex/count'
   /*使用百度地图 api*/
   // import Map from './components/api/Map'
-
+  //学习动画
+  import animation from './components/animation/animation'
+  //使用框架
+  import frame from './components/frame/Vant/vant'
 
   export default {
   components:{
@@ -31,6 +36,8 @@
       'getData':getData,
       'transferData':transferData,
     'vuex':vuex,
+    'animation':animation,
+    'c-frame':frame
     // 'Map':Map
     }
 }

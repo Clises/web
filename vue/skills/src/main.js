@@ -21,6 +21,16 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(ElementUI);
 
+//图片预览 demo
+import vuePicturePreview from 'vue-picture-preview'
+Vue.use(vuePicturePreview)
+
+// 使用 Vant
+import Vant from 'vant';
+import 'vant/lib/vant-css/index.css';
+Vue.use(Vant);
+
+
 //启动时生成生产提示
 Vue.config.productionTip = false;
 
