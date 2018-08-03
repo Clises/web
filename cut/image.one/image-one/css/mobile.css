@@ -468,3 +468,23 @@ section .introduce {
     line-height: 1;
     margin-top: .5rem;
 }
+.white-paper{
+    padding-top: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+.white-paper p{
+    font-size: .64rem;
+    text-align: center;
+    line-height: 1;
+    color: #FFF;
+}
+.white-paper a{
+    flex: 1 1 auto;
+    display: inline-block;
+    width: 3rem;
+    height: .7rem;
+    border:3px solid #053169;
+    text-align: center;
+    line-height: .7rem;
+}

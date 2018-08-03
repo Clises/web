@@ -1,3 +1,10 @@
+*{
+    font-size: .14rem;
+}
+#menu-case a {
+    color: #E53D00;
+    border-color: #f60;
+}
 .block-case {
     background: rgba(245, 245, 250, 1);
     padding-bottom: .5rem;
@@ -209,7 +216,7 @@ nav {
     z-index: 97;
 }
 .drop-down--down {
-    height: 3rem !important;
+    height: 2rem !important;
 }
 .drop-down-content .more_msg {
     margin-left: .2rem;

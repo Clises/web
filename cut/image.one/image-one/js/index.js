@@ -9,7 +9,6 @@ var checkELement = ['.nav'];
 init()
 
 function init() {
-    alert(1)
     $('.menu').on('click', function () {
         $('nav').toggleClass('nav--pullDown')
     });

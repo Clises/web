@@ -4,10 +4,10 @@ eleRoling = {    //nav滚动条滚动距离
 }
 function init() {
     $('.drop-down-content .list').append($('.case-classify li').clone(true))
-    $('.case-classify').on('click', 'li', classify)
-    $('.all_open').on('click', allOpen)
-    $('.list').on('click', 'li', allList)
-
+    $('.case-classify').on('click', 'li', classify);
+    $('.all_open').on('click', allOpen);
+    $('.list').on('click', 'li', allList);
+    $('.mask').on('click',mask);
 }
 /*分类*/
 function classify() {
@@ -45,10 +45,12 @@ function allOpen() {
     $('.drop-down-content').toggleClass('drop-down--down');
 }
 
-
-
-
-
+function mask(){
+    $('.all_open').children('a').toggleClass('arrow-up')
+    $('html,body').toggleClass('ovfHiden');
+    $('.mask').toggleClass('block');
+    $('.drop-down-content').toggleClass('drop-down--down');
+}
 $(".m-style a").attr("href",function(){
     return location.pathname+$(this).attr("href");
 })

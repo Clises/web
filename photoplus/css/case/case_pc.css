@@ -88,6 +88,9 @@
     color: rgba(229, 61, 0, 1);
     padding: 0 10px;
 }
+
+
+
 /*案例展示*/
 .case-cases{
     margin-top: 20px;
@@ -157,6 +160,11 @@
     line-height: 19px;
     padding: 0 5px;
 }
+
+
+
+
+
 /*翻页*/
 .case-paging__box {
     margin-top: 47px;

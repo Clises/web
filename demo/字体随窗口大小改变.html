@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    <title>Title</title>
+    <style>
+        #demo {
+
+        }
+    </style>
+</head>
+<body>
+<div id="demo">
+    哈
+</div>
+</body>
+<script type="text/javascript">
+    window.onresize = function(){
+        const demo = document.querySelector('#demo');
+        const clienth=window.innerWidth;
+        console.log(clienth)
+        const height=demo.clientHeight;
+        demo.style.width=clienth-750+'px';
+        demo.style.height=clienth-750+'px';
+        demo.style.lineHeight=1;
+        demo.style.fontSize = height+'px';
+
+
+    }
+</script>
+</html>
