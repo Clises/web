@@ -1,71 +1,96 @@
 var winH = $(window).height()
 $(function () {
-    navSlider()
-    allSwiper()
+    var charlie = {
+        init: function () {
+            this.navSlider();
+            this.allSwiper();
+        },
+        navSlider: function () {
+            $('.hamburger').click(function () {
+                $(this).toggleClass('is-active');
+                $('.slider-bottom').toggleClass('slider-bottom-active');
+            })
+            // 返回
+            // $('.return-icon').click(function() {
+            //     window.history.back(-1);
+            // })
+            var commonslider = '\
+  <div class="slider-bottom col-all-start">\
+    <a href="#" class="slider-title-black">blog</a>\
+    <a href="#" class="slider-title-black">album</a>\
+    <a href="#" class="slider-title-black">github</a>\
+    <a href="#" class="slider-title-black">sina</a>\
+    <a href="#" class="slider-title-black">about</a>\
+    <div>\
+    '
+            $('body').append(commonslider);
+        },
+        allSwiper: function () {
+            allSwiper = new Swiper('.swiper-container-all', {
+                direction: 'vertical',
+                navigation: {
+                    nextEl: '.btn-scroll',
+                },
+                on: {
+                    init: function () {
+                        $('.startPage').addClass('slide-move')
+                    },
+                    slideChange: function () {
+                        var index_ = this.activeIndex
+                        if (index_ == 0) {
+                            $('nav').addClass('none')
+                            $('.hamburger-inner').removeClass('hamburger-inner-black');
+                            allSwiper.allowSlidePrev = false;
+                            allSwiper.allowSlideNext = true;
+                        }
+                        else {
+                            $('nav').removeClass('none')
+                            $('.hamburger-inner').addClass('hamburger-inner-black');
+                            allSwiper.allowSlidePrev = true;
+                            allSwiper.allowSlideNext = false;
+                        }
+                        //点击上滑设置
+                        if (this.isEnd) {
+                            this.navigation.$nextEl.css('display', 'none');
+
+                        } else {
+                            this.navigation.$nextEl.css('display', 'block');
+                        }
+
+                    }
+                }
+
+
+            });
+            //设置次页内部滑动
+            var startScroll, touchStart, touchCurrent;
+            allSwiper.slides.on('touchstart', function (e) {
+                startScroll = this.scrollTop;
+                touchStart = e.targetTouches[0].pageY;
+            }, true);
+            allSwiper.slides.on('touchmove', function (e) {
+                touchCurrent = e.targetTouches[0].pageY;
+                var touchesDiff = touchCurrent - touchStart;
+                var slide = this;
+                var onlyScrolling =
+                    (slide.scrollHeight > slide.offsetHeight) && //allow only when slide is scrollable
+                    (
+                        (touchesDiff < 0 && startScroll === 0) || //start from top edge to scroll bottom
+                        (touchesDiff > 0 && startScroll === (slide.scrollHeight - slide.offsetHeight)) || //start from bottom edge to scroll top
+                        (startScroll > 0 && startScroll < (slide.scrollHeight - slide.offsetHeight)) //start from the middle
+                    );
+                if (onlyScrolling) {
+                    e.stopPropagation();
+                }
+            }, true);
+        }
+
+    }
+    charlie.init();
     // getContent()
     // $('.comment-box').on('click', '.picItem', bigPicShow())
     // $('.img-close').on('click', bigPicClose())
-})
-
-function allSwiper() {
-    allSwiper = new Swiper('.swiper-container-all', {
-        direction: 'vertical',
-        navigation: {
-            nextEl: '.btn-scroll',
-        },
-        on: {
-            init: function () {
-                $('.startPage').addClass('slide-move')
-            },
-            slideChange: function (even) {
-                var index_ = this.activeIndex
-                if (index_ == 0) {
-                    $('nav').addClass('none')
-                    $('.hamburger-inner').removeClass('hamburger-inner-black')
-                    allSwiper.allowSlidePrev = false;
-                    allSwiper.allowSlideNext = true;
-                }
-                else {
-                    $('nav').removeClass('none')
-                    $('.hamburger-inner').addClass('hamburger-inner-black')
-                    allSwiper.allowSlidePrev = true;
-                    allSwiper.allowSlideNext = false;
-                }
-                //点击上滑设置
-                if (this.isEnd) {
-                    this.navigation.$nextEl.css('display', 'none');
-
-                } else {
-                    this.navigation.$nextEl.css('display', 'block');
-                }
-
-            }
-        }
-
-
-    });
-    //设置次页内部滑动
-    var startScroll, touchStart, touchCurrent;
-    allSwiper.slides.on('touchstart', function (e) {
-        startScroll = this.scrollTop;
-        touchStart = e.targetTouches[0].pageY;
-    }, true);
-    allSwiper.slides.on('touchmove', function (e) {
-        touchCurrent = e.targetTouches[0].pageY;
-        var touchesDiff = touchCurrent - touchStart;
-        var slide = this;
-        var onlyScrolling =
-            (slide.scrollHeight > slide.offsetHeight) && //allow only when slide is scrollable
-            (
-                (touchesDiff < 0 && startScroll === 0) || //start from top edge to scroll bottom
-                (touchesDiff > 0 && startScroll === (slide.scrollHeight - slide.offsetHeight)) || //start from bottom edge to scroll top
-                (startScroll > 0 && startScroll < (slide.scrollHeight - slide.offsetHeight)) //start from the middle
-            );
-        if (onlyScrolling) {
-            e.stopPropagation();
-        }
-    }, true);
-}
+}());
 
 // function getContent() {
 //     $.ajax({
@@ -159,23 +184,5 @@ function allSwiper() {
 //         picShowSwiper.destroy(false, true);
 //     });
 // }
-function navSlider() {
-    $('.hamburger').click(function() {
-        $(this).toggleClass('is-active');
-        $('.slider-bottom').toggleClass('slider-bottom-active');
-    })
-    // 返回
-    // $('.return-icon').click(function() {
-    //     window.history.back(-1);
-    // })
-    var commonslider = '\
-  <div class="slider-bottom col-all-start">\
-    <a href="#" class="slider-title-black">blog</a>\
-    <a href="#" class="slider-title-black">album</a>\
-    <a href="#" class="slider-title-black">github</a>\
-    <a href="#" class="slider-title-black">sina</a>\
-    <a href="#" class="slider-title-black">about</a>\
-    <div>\
-    '
-    $('body').append(commonslider);
-}
+
+
