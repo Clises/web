@@ -19,14 +19,12 @@
     window.onresize = function(){
         const demo = document.querySelector('#demo');
         const clienth=window.innerWidth;
+        // const height=demo.clientHeight;
+        // demo.style.width=clienth-750+'px';
+        // demo.style.height=clienth-750+'px';
+        // demo.style.lineHeight=1;
         console.log(clienth)
-        const height=demo.clientHeight;
-        demo.style.width=clienth-750+'px';
-        demo.style.height=clienth-750+'px';
-        demo.style.lineHeight=1;
-        demo.style.fontSize = height+'px';
-
-
+        demo.style.fontSize = clienth+'px';
     }
 </script>
 </html>
