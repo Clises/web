@@ -432,7 +432,7 @@ jQuery.extend({
 		// If there are functions bound, to execute
 		readyList.resolveWith( document, [ jQuery ] );
 
-		// Trigger any bound ready events
+		//  any bound ready events
 		if ( jQuery.fn.trigger ) {
 			jQuery( document ).trigger("ready").off("ready");
 		}

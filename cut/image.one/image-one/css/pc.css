@@ -84,6 +84,10 @@ nav ul a, .switch--languages {
 .switch--languages ul li:hover{
     background: blue;
 }
+
+
+
+
 section {
     background: url("../images/pc/bg1.png") -100px 0 no-repeat,
     url("../images/pc/bg2.png") 0 2000px no-repeat;
