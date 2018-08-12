@@ -15,9 +15,45 @@
             ajax请求回调函数
             声明周期回调函数
     * */
-        setTimeout(function () {
-            alert('提示了')
-        },2000)
+        // setTimeout(function () {
+        //     alert('提示了')
+        // },2000)
+
+/*
+    function a(callback){
+        var m = 1;
+        var n = 2;
+        alert(callback(m,n));
+    }
+    function b(m,n){
+        return m+n;
+    }
+    a(b);*/
+
+
+/*    function doSomething(callback) {
+// …
+// Call the callback
+        callback('stuff', 'goes', 'here');
+
+    }
+    function foo(a, b, c) {
+// I'm the callback
+        alert(a + " " + b + " " + c);
+    }*/
+    function Thing(name) {
+        this.name = name;
+    }
+    Thing.prototype.doSomething = function(callback) {
+// Call our callback, but using our own instance as the context
+        callback.apply(this, ['Hi', 3, 2, 1]);
+    }
+    function foo(salutation, three, two, one) {
+        alert(salutation + " " + this.name + " – " + three + " " + two + " " + one);
+    }
+    var t = new Thing('Joe');
+    t.doSomething(foo); // Alerts "Hi Joe – 3 2 1" via `foo`
+
 </script>
 </body>
 </html>

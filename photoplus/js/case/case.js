@@ -2,6 +2,7 @@ $(init)
 eleRoling = {    //nav滚动条滚动距离
     offsetLeft: 0
 }
+
 function init() {
     $('.drop-down-content .list').append($('.case-classify li').clone(true))
     $('.case-classify').on('click', 'li', classify);
@@ -13,7 +14,6 @@ function init() {
 function classify() {
     var $this = $(this), $index = $this.index();
     $(".case-classify li").removeClass("active").eq($index).addClass("active");
-    panel($index);
     eleRoling.offsetLeft = $(this).offset().left;
     var rolingNow=$('.case-classify')[0].scrollLeft;
     var eleWith=$('.case-classify li').width();
@@ -29,7 +29,6 @@ function allList() {
     var $this = $(this), $index = $this.index();
     $(".list li").removeClass("active").eq($index).addClass("active")
     $('.case-classify').find('li').removeClass("active").eq($index).addClass("active");
-    panel($index)
     $('.drop-down-content').toggleClass('drop-down--down');
     $('.all_open').children('a').toggleClass('arrow-up')
     $('.mask').toggleClass('block');
@@ -51,51 +50,56 @@ function mask(){
     $('.mask').toggleClass('block');
     $('.drop-down-content').toggleClass('drop-down--down');
 }
+
+
+
+
+
 $(".m-style a").attr("href",function(){
     return location.pathname+$(this).attr("href");
 })
 
 
-function panel(index) {
-    $('.all,.case-item ').addClass('none');
-    switch (index) {
-        case 1:
-            $('.dxfbh').removeClass('none');
-            break;
-        case 2:
-            $('.hylt').removeClass('none');
-            break;
-        case 3:
-            $('.qdnh').removeClass('none');
-            break;
-        case 4:
-            $('.jzkt').removeClass('none');
-            break;
-        case 5:
-            $('.jmlz').removeClass('none');
-            break;
-        case 6:
-            $('.zlzx').removeClass('none');
-            break;
-        case 7:
-            $('.tjlx').removeClass('none');
-            break;
-        case 8:
-            $('.hlgp').removeClass('none');
-            break;
-        case 9:
-            $('.wyyc').removeClass('none');
-            break;
-        case 10:
-            $('.slpt').removeClass('none');
-            break;
-        case 11:
-            $('.tyss').removeClass('none');
-            break;
-
-        default:
-            $('.all').removeClass('none');
-    }
-
-}
+// function panel(index) {
+//     $('.all,.case-item ').addClass('none');
+//     switch (index) {
+//         case 1:
+//             $('.dxfbh').removeClass('none');
+//             break;
+//         case 2:
+//             $('.hylt').removeClass('none');
+//             break;
+//         case 3:
+//             $('.qdnh').removeClass('none');
+//             break;
+//         case 4:
+//             $('.jzkt').removeClass('none');
+//             break;
+//         case 5:
+//             $('.jmlz').removeClass('none');
+//             break;
+//         case 6:
+//             $('.zlzx').removeClass('none');
+//             break;
+//         case 7:
+//             $('.tjlx').removeClass('none');
+//             break;
+//         case 8:
+//             $('.hlgp').removeClass('none');
+//             break;
+//         case 9:
+//             $('.wyyc').removeClass('none');
+//             break;
+//         case 10:
+//             $('.slpt').removeClass('none');
+//             break;
+//         case 11:
+//             $('.tyss').removeClass('none');
+//             break;
+//
+//         default:
+//             $('.all').removeClass('none');
+//     }
+//
+// }
 

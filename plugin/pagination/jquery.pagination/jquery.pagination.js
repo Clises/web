@@ -1,3 +1,4 @@
+/**
  * pagination.js 1.5.1
  * A jQuery plugin to provide simple yet fully customisable pagination.
  * @version 1.5.1
@@ -59,7 +60,7 @@
         endPage: '', //尾页节点内容
         keepShowPN: false, //是否一直显示上一页下一页
         mode: 'unfixed', //分页模式，unfixed：不固定页码数量，fixed：固定页码数量
-        count: 4, //mode为unfixed时显示当前选中页前后页数，mode为fixed显示页码总数
+        count: 2, //mode为unfixed时显示当前选中页前后页数，mode为fixed显示页码总数
         jump: false, //跳转到指定页数
         jumpIptCls: 'jump-ipt', //文本框内容
         jumpBtnCls: 'jump-btn', //跳转按钮
@@ -131,13 +132,14 @@
                     html += '<a href="javascript:;" class="' + opts.nextCls + '">' + opts.nextContent + '</a>';
                     break;
                 case 'unfixed': //不固定按钮模式
-                    if (opts.keepShowPN || current > 1) { //上一页
+                    // if (opts.keepShowPN || current > 1) { //上一页
                         html += '<a href="javascript:;" class="' + opts.prevCls + '">' + opts.prevContent + '</a>';
-                    } else {
-                        if (opts.keepShowPN == false) {
-                            $obj.find('.' + opts.prevCls) && $obj.find('.' + opts.prevCls).remove();
-                        }
-                    }
+                    // }
+                    // else {
+                    //     if (opts.keepShowPN == false) {
+                    //         $obj.find('.' + opts.prevCls) && $obj.find('.' + opts.prevCls).remove();
+                    //     }
+                    // }
                     if (current >= opts.count + 2 && current != 1 && pageCount != opts.count) {
                         var home = opts.coping && opts.homePage ? opts.homePage : '1';
                         html += opts.coping ? '<a href="javascript:;" data-page="1">' + home + '</a><span>...</span>' : '';
@@ -157,13 +159,14 @@
                         var end = opts.coping && opts.endPage ? opts.endPage : pageCount;
                         html += opts.coping ? '<span>...</span><a href="javascript:;" data-page="' + pageCount + '">' + end + '</a>' : '';
                     }
-                    if (opts.keepShowPN || current < pageCount) { //下一页
+                    // if (opts.keepShowPN || current < pageCount) { //下一页
                         html += '<a href="javascript:;" class="' + opts.nextCls + '">' + opts.nextContent + '</a>';
-                    } else {
-                        if (opts.keepShowPN == false) {
-                            $obj.find('.' + opts.nextCls) && $obj.find('.' + opts.nextCls).remove();
-                        }
-                    }
+
+                    // } else {
+                    //     if (opts.keepShowPN == false) {
+                    //         $obj.find('.' + opts.nextCls) && $obj.find('.' + opts.nextCls).remove();
+                    //     }
+                    // }
                     break;
                 case 'easy': //简单模式
                     break;

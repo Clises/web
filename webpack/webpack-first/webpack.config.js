@@ -1,5 +1,8 @@
 const path = require('path');
 
+//处理html
+
+//js处理
 module.exports = {
     entry: './src/index.js',
     output: {

@@ -11,7 +11,7 @@
 }
 /*top*/
 .case-top {
-    padding-top: .7rem;
+    padding-top: .9rem;
 }
 .case-top__title .case-top--subline {
     position: relative;
@@ -41,10 +41,9 @@
 }
 .case-top__topic {
     font-size: .16rem;
-    color: rgba(51, 51, 51, 1);
 }
 
-.case-top__authorization {
+.case-authorization {
     color: rgba(176, 176, 191, 1);
     font-size: .125rem;
     padding: .1rem 0;
@@ -59,6 +58,7 @@ nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-top: .3rem;
 
 }
 
@@ -91,45 +91,42 @@ nav {
     color: rgba(229, 61, 0, 1);
 }
 
-.case-cases, .case-item, .drop-down {
+.case-item, .drop-down {
     width: 100%;
+
+}
+
+.case{
+    padding: .1rem;
 }
 
 /*案例展示*/
-.case-item__items {
+
+.case-item {
     display: block;
-    margin: .15rem;
     padding: .1rem;
+    margin-top: .1rem;
     background: rgba(255, 255, 255, 1);
     border: 1px solid rgba(228, 228, 235, 1);
 }
-
-.case-item__items:not(:first-child) {
-    margin-top: -.05rem;
-}
-
-.case-items__photo {
+.case-photo {
+    display: inline-block;
     width: 100%;
     height: 1.64rem;
-    background: red;
 }
-
-.case-items__msg {
+.case-msg {
     padding: .18rem 0 0 .18rem;
 }
-
-.case-items__msg p {
+.case-msg p {
     font-size: .18rem;
 }
-
-.case-items__tag {
+.case-tag {
     margin-top: .14rem;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
 }
-
-.case-items__tags {
+.case-tags {
     height: .2rem;
     background: rgba(245, 245, 250, 1);
     border-radius: .12rem;
@@ -140,12 +137,10 @@ nav {
     margin-left: .08rem;
     padding: 0 .1rem;
 }
-
-.case-items__tags:nth-child(1) {
+.case-tags:nth-child(1) {
     margin-left: 0;
 }
-
-.case-items__sponsor {
+.case-sponsor {
     margin-top: .2rem;
 }
 
@@ -159,7 +154,7 @@ nav {
 
 }
 
-.case-items__sponsor .sponsor {
+.case-sponsor .sponsor {
     height: .19rem;
     color: rgba(176, 176, 191, 1);
     line-height: .19rem;
@@ -254,7 +249,7 @@ nav {
     -webkit-transition: all .5s ease;
     transition: all .5s ease;
 }
-.case-paging__box {
+.paging{
     display: none;
 }
 .block {

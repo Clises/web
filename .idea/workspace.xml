@@ -1,7 +1,568 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3dc5e66c-727d-424a-8253-c1570d0d8fca" name="Default Changelist" comment="" />
+    <list default="true" id="3dc5e66c-727d-424a-8253-c1570d0d8fca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0分一页/TETS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0分一页/html.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0分一页/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0分一页/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ES6/块级作用域.html" beforeDir="false" afterPath="$PROJECT_DIR$/ES6/块级作用域.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/css/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/css/footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/images/1-Query-Date前的符号_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/images/APP-图标_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/images/APP-图标_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/images/APP-图标_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/images/APP-图标_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/images/More-Messages-小图_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/images/Videos-视频图_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/images/Videos-视频图_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/images/Videos-视频图_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/images/Website-图_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/images/Website-图_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/images/app.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/images/app_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/images/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/images/logo_bottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/images/more-弹出_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/images/more-弹出_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/images/more-弹出_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/images/more.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/images/more_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/images/query.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/images/query_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/images/videos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/images/videos_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/images/website.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/images/website_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/images/对号.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/images/未选中框.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/images/选中框.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/js/footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/js/tools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2jpeg/1-Query-Usage-details_PxCook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2jpeg/2-Query-Buy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2jpeg/2-Query-Buy_PxCook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2jpeg/3-Query-Rechaarge.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2jpeg/4-Query-Confirm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2jpeg/5-Query.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2jpeg/APP_PxCook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2jpeg/More-Close_PxCook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2jpeg/More-Feedback_PxCook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2jpeg/More-Messages_PxCook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2jpeg/More_PxCook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2jpeg/O2-未点击.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2jpeg/O2-点击_PxCook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2jpeg/Videos_PxCook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2jpeg/Website_PxCook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2切图/images/1-Query-Date前的符号_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2切图/images/APP-图标_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2切图/images/APP-图标_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2切图/images/APP-图标_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2切图/images/APP-图标_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2切图/images/More-Messages-小图_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2切图/images/O2-未点击-LOGO_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2切图/images/Videos-视频图_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2切图/images/Videos-视频图_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2切图/images/Videos-视频图_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2切图/images/Website-图_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2切图/images/Website-图_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2切图/images/more-弹出_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2切图/images/more-弹出_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2切图/images/more-弹出_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2切图/images/叉.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2切图/images/对号.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2切图/images/底栏图标(点击)_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2切图/images/底栏图标(点击)_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2切图/images/底栏图标(点击)_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2切图/images/底栏图标(点击)_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2切图/images/底栏图标(点击)_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2切图/images/底栏图标_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2切图/images/底栏图标_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2切图/images/底栏图标_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2切图/images/底栏图标_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2切图/images/底栏图标_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2切图/images/底栏图标_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2切图/images/未选中框.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/app 底部/app底部/切图和设计图/O2切图/images/选中框.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/css/mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/css/pc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/font/iconfont.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/font/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/font/iconfont.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/font/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/font/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/font/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/images/Combined.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/images/Combined1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/images/Combined2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/images/Combined3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/images/Rectangle3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/images/Rectangle31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/images/Rectangle32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/images/ceo.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/images/cto.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/images/icon-q1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/images/icon-q2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/images/icon-q3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/images/icon-w1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/images/icon-w2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/images/icon-w3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/images/p1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/images/p2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/images/p3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/images/p4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/images/p5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/images/p6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/images/p7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/images/pc/bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/images/pc/bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/images/pc/bg3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/images/pc/icon-jy23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/images/pc/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/images/phone/icon@2x2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/images/phone/log02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image-one/js/rem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/css/mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/font/iconfont.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/font/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/font/iconfont.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/font/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/font/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/font/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/imagech.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/imageen.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/pc/5a12ea38d68f51@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/pc/Combined.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/pc/Combined1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/pc/Combined2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/pc/Combined3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/pc/Mask@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/pc/Mike@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/pc/Rectangle3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/pc/Rectangle31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/pc/Rectangle32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/pc/Rectangle4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/pc/Rectangle5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/pc/bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/pc/bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/pc/bg3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/pc/ceo.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/pc/cto.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/pc/icon-jm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/pc/icon-jm1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/pc/icon-jy21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/pc/icon-jy22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/pc/icon-jy23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/pc/icon-q1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/pc/icon-q2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/pc/icon-q3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/pc/icon-w1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/pc/icon-w2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/pc/icon-w3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/pc/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/phone/Group.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/phone/Group@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/phone/Mask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/phone/Oval@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/phone/btn_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/phone/icon@2x2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/phone/log02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/phone/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/phone/nav_btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/phone/p1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/phone/p2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/phone/p3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/phone/p4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/phone/p5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/phone/p6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/images/phone/p7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/image.one/image/js/rem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/lib/jquery-1.11.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/list/1.图文列表栏.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/list/2.无图列表栏.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/list/3.响应式列表栏.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/list/WechatIMG633.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/滑屏应用/官网滑屏/css/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/滑屏应用/官网滑屏/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/滑屏应用/官网滑屏/css/swiper.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/滑屏应用/官网滑屏/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/滑屏应用/官网滑屏/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/滑屏应用/官网滑屏/js/jquery-1.11.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/滑屏应用/官网滑屏/js/swiper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/滑屏应用/官网滑屏/js/tools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/1.数据类型/注意事项.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/1.数据类型/注意事项.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/3.函数/1.函数分类/IIFE立即调用函数.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/3.函数/1.函数分类/IIFE立即调用函数.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/3.函数/1.函数分类/回调函数.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/3.函数/1.函数分类/回调函数.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/1. 布局模板/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/1. 布局模板/meta.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/1. 布局模板/rem_r.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/1. 布局模板/strcktfooter布局/flex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/1. 布局模板/strcktfooter布局/兼容性好点.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/1. 布局模板/tools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/1. 布局模板/媒体查询.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/1. 布局模板/模板.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/2. plugin/pinchzoom移动端图片的放大缩小/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/2. plugin/pinchzoom移动端图片的放大缩小/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/2. plugin/pinchzoom移动端图片的放大缩小/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/3. touch/判断touch手指方向.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/css关闭滚动条.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/iconfont在线链接使用方法/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/large/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/large/image/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/large/image/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/large/image/align-items.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/large/image/flex 布局.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/large/image/flex-direction.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/large/image/flex-grow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/large/image/flex-shrink.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/large/image/flex-wrap 换行，第一行在上方.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/large/image/flex-wrap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/large/image/justify-content.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/large/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/large/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/large/pinchzoom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/large/tools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/访qq手机端/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/访qq手机端/dataa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/访qq手机端/img/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/访qq手机端/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/访qq手机端/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/阻止触摸默认事件.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/photoplus/case.html" beforeDir="false" afterPath="$PROJECT_DIR$/photoplus/case.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photoplus/case_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/photoplus/case_details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photoplus/css/case/case_h5.css" beforeDir="false" afterPath="$PROJECT_DIR$/photoplus/css/case/case_h5.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photoplus/css/case/case_pc.css" beforeDir="false" afterPath="$PROJECT_DIR$/photoplus/css/case/case_pc.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photoplus/js/case/case.js" beforeDir="false" afterPath="$PROJECT_DIR$/photoplus/js/case/case.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/noted/mysql/数据库操作.md" beforeDir="false" afterPath="$PROJECT_DIR$/php/noted/mysql/数据库操作.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/css reset 重置/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/iconfont在线链接使用方法/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/md5/md5加密.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/md5/md5加密工具/password.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/md5/md5加密工具/password.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/md5/md5加密工具/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/Mricode.Pagination-master/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/Mricode.Pagination-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/Mricode.Pagination-master/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/Mricode.Pagination-master/jquery-2.1.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/Mricode.Pagination-master/learn.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/Mricode.Pagination-master/lib/jquery-2.1.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/Mricode.Pagination-master/lib/jquery.pagination.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/Mricode.Pagination-master/lib/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/Mricode.Pagination-master/lib/pagination.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/Mricode.Pagination-master/lib/基本demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/Mricode.Pagination-master/mricode.pagination.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/Mricode.Pagination-master/mricode.pagination.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/Mricode.Pagination-master/test-ajax.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/Mricode.Pagination-master/test-default.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/Mricode.Pagination-master/可能的流程.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/jquery.pagination/common/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/jquery.pagination/common/highlight.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/jquery.pagination/common/highlight.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/jquery.pagination/common/jquery-2.1.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/jquery.pagination/common/pagination.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/jquery.pagination/common/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/jquery.pagination/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/pagination/jquery.pagination/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/jquery.pagination/jquery-2.1.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/jquery.pagination/jquery.pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/pagination/jquery.pagination/jquery.pagination.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/jquery.pagination/jquery插件库.url" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/jquery.pagination/pagination.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/pagination/jquery.pagination/pagination.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/jquery.pagination/test/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/jquery.pagination/test/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/jquery.pagination/test/jquery-2.1.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/jquery.pagination/test/jquery.pagination.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/jquery.pagination/test/pagination.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/jquery.pagination/test/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/jquery.pagination/test/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/jquery.pagination/test/案例1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/jquery.pagination/test/案例2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/pagination/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/pagination/test.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pagination/pagination/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/case.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/case_details.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/common/foot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/common/foot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/common/head.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/common/head.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/common/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/common/useful.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/common/wxshare.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/css/about_h5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/css/about_pc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/css/case/case_details_pc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/css/case/case_h5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/css/case/case_pc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/css/case/pagination.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/css/detail_pc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/css/founder_h5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/css/founder_pc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/css/linkus_h5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/css/linkus_pc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/css/model_h5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/css/model_pc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/css/price_h5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/css/price_pc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/css/style_h5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/css/style_pc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/explain.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/founder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/aboutus/companybg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/aboutus/headbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/aboutus/partner1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/aboutus/partner2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/aboutus/partner3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/aboutus/partner4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/aboutus/progress1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/aboutus/progress2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/aboutus/progress3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/aboutus/progress4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/aboutus/progress5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/aboutus/progress6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/aboutus/valuebg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/aboutus/valueimg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/case/bj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/case/jt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/case/tx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/common/ewm.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/common/wb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/common/wx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/founder/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/founder/dy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/founder/lg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/founder/ql.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/founder/ycc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/Group 6@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/backimg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/cha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/chendijin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/foot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/hanbao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/hengxian.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/hong.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/jilu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/leftbtn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/lefthover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/liucengh5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/liucheng.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/logle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/pingjia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/pingjiah5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/qilei.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/rightbtn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/righthover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/shop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/time-phone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/timepc1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/timepc10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/timepc11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/timepc2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/timepc3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/timepc4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/timepc5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/timepc6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/timepc7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/timepc8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/timepc9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/timeqrcode1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/timeqrcode10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/timeqrcode11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/timeqrcode2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/timeqrcode3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/timeqrcode4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/timeqrcode5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/timeqrcode6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/timeqrcode7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/timeqrcode8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/timeqrcode9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/wangwei.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/xia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/you.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/home/zhuce.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/img/fun1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/img/fun10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/img/fun11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/img/fun12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/img/fun2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/img/fun3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/img/fun4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/img/fun5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/img/fun6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/img/fun7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/img/fun8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/img/fun9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/linkus/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/linkus/bj-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/linkus/business-card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/linkus/card-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/linkus/company-card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/linkus/email-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/linkus/help-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/linkus/linkusbg_h5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/linkus/service-card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/linkus/service-content.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/linkus/servicebg_h5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/linkus/sh-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/linkus/sz-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/linkus/tel-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/linkus/want-card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/linkus/wx-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/model/Bitmap@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/model/bubble.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/model/computer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/model/diannao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/model/left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/model/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/model/model.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/model/phone-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/model/phone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/model/photo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/model/right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/model/star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/model/tel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/model/top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/model/toph5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/model/workpc1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/model/workpc2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/model/workpc3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/model/workpc4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/model/workpc5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/model/workpc6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/model/workpc7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/model/yun.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/model/yunphone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/model/yunphoneh5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/price/price.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/price/purchase-bg1@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/price/purchase-bg2@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/price/usb2.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/price/usb2.0h5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/price/usb3.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/price/usb3.0h5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/price/xiushi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/price/zj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/img/price/zjh5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/js/about.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/js/case/case.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/js/case/case_details.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/js/case/jquery.pagination.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/js/case/tabs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/js/founder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/js/home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/js/jquery-1.7.2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/js/linkus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/js/model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/js/price.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/linkus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/model.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/photoplus/price.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/picturefill文档内容随窗口大小变化的插件/WLAN.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/picturefill文档内容随窗口大小变化的插件/picturefill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/picturefill文档内容随窗口大小变化的插件/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/picturefill文档内容随窗口大小变化的插件/thread_181276573111243_20180208155751_s_160751_o_h_1250px_w_1000px581940483.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/picturefill文档内容随窗口大小变化的插件/金色磨砂.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pinchzoom移动端图片的放大缩小/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pinchzoom移动端图片的放大缩小/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pinchzoom移动端图片的放大缩小/pinchzoom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/pinchzoom移动端图片的放大缩小/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/useful工具方法/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/useful工具方法/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/useful工具方法/useful.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/代码高亮/highlight/highlight.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/代码高亮/highlight/highlight.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/代码高亮/prism/prism.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/代码高亮/prism/prism.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/在线生成二维码/qrcodejs-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/在线生成二维码/qrcodejs-master/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/在线生成二维码/qrcodejs-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/在线生成二维码/qrcodejs-master/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/在线生成二维码/qrcodejs-master/index-svg.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/在线生成二维码/qrcodejs-master/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/在线生成二维码/qrcodejs-master/index.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/在线生成二维码/qrcodejs-master/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/在线生成二维码/qrcodejs-master/qrcode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/在线生成二维码/qrcodejs-master/qrcode.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/在线生成二维码/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/微信禁止上拉下滑/ban.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/微信禁止上拉下滑/ban.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/拖拽/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/拖拽/drag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/拖拽/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/拖拽/js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/拖拽/判断手指方向.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/拖拽/打包使用.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/拖拽/来回拖拽.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/拖拽/添加drag对象的插件.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/文本区域扩展/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/文本区域扩展/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/文本区域扩展/demo/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/文本区域扩展/demo/assets/img/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/文本区域扩展/demo/assets/img/fork-me@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/文本区域扩展/demo/assets/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/文本区域扩展/demo/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/文本区域扩展/jquery.flexText.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/文本区域扩展/jquery.flexText.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/文本区域扩展/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/audio/黄晓明,邓超,佟大为 - 光阴的故事.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/bootPage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/css/jquery.fullPage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/1527000199_373026.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/6.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/9.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/WechatIMG163.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/cccc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/damen.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/end.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/p10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/p12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/p13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/p14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/p2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/p3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/p4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/p5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/p6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/p7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/p8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/p9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/page1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/timg.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/xl.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/image/ydh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/js/jquery-1.11.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/js/jquery.fullPage.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/js/main.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/滑屏插件jquery.fullPage.min/js/style.js" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,22 +614,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="fs1.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/node/FS/fs1.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/cssLibrary/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="80" column="35" lean-forward="false" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
-              <folding />
+            <state relative-caret-position="120">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="charlie.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node/FS/charlie.txt">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/template/cut/image.one/image-one/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="190">
+              <caret line="295" column="28" selection-start-line="295" selection-start-column="28" selection-end-line="295" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wechat/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -123,69 +691,63 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/css/cssLibrary/node_modules" />
     <handled-path value="$PROJECT_DIR$/node/commonjs/node_modules" />
     <handled-path value="$PROJECT_DIR$/node/npm/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
+      <path value="$PROJECT_DIR$/css/cssLibrary/package.json" />
       <path value="$PROJECT_DIR$/node/commonjs/node_modules/nav/package.json" />
       <path value="$PROJECT_DIR$/node/npm/package.json" />
-      <path value="$PROJECT_DIR$/vue/neteasecloudmusic/package.json" />
-      <path value="$PROJECT_DIR$/vue/news/package.json" />
-      <path value="$PROJECT_DIR$/vue/parct/package.json" />
-      <path value="$PROJECT_DIR$/vue/shop/package.json" />
+      <path value="$PROJECT_DIR$/webpack/webpack-first/package.json" />
     </packageJsonPaths>
   </component>
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="54" />
-    <option name="y" value="36" />
-    <option name="width" value="1346" />
-    <option name="height" value="698" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="www" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="8.9.3" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="javascript.nodejs.core.library.configured.version" value="8.9.3" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -209,25 +771,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.fs1.js">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://static.1sight.cn/template/cut/image.one/image-one/index.html" />
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://static.charlie.cn/template/cut/image.one/image-one/index.html" />
     <configuration name="fs1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/node/FS/fs1.js" working-dir="$PROJECT_DIR$/node/FS" />
     <configuration name="showDate.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="showDate.js" working-dir="$PROJECT_DIR$/node/npm" />
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.showDate.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.fs1.js" />
+    <list>
+      <item itemvalue="Node.js.showDate.js" />
+      <item itemvalue="Node.js.fs1.js" />
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="JavaScript Debug.index.html (1)" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.fs1.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.showDate.js" />
+      <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.fs1.js" />
+        <item itemvalue="Node.js.showDate.js" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
   <component name="SvnConfiguration">
-    <configuration>C:\Users\15318\AppData\Roaming\Subversion</configuration>
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -243,32 +808,36 @@
       <workItem from="1532835043080" duration="1785000" />
       <workItem from="1532837226792" duration="1444000" />
       <workItem from="1532838953733" duration="4313000" />
+      <workItem from="1533929919284" duration="39000" />
+      <workItem from="1533930061601" duration="1030000" />
+      <workItem from="1533952352545" duration="380000" />
+      <workItem from="1533952757572" duration="27000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13700000" />
+    <option name="totallyTimeSpent" value="15176000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32901135" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3005698" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,25 +850,51 @@
     <breakpoint-manager>
       <option name="time" value="1" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css/cssLibrary/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/cut/image.one/image-one/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4425">
+          <caret line="295" column="28" lean-forward="true" selection-start-line="295" selection-start-column="28" selection-end-line="295" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/cssLibrary/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/cut/image.one/image-one/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4335">
+          <caret line="289" column="28" lean-forward="true" selection-start-line="289" selection-start-column="28" selection-end-line="289" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/node/npm/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/FS模块/文件系统模块.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node/FS模块/文件系统模块.md" />
     <entry file="file://$PROJECT_DIR$/php/demo/paging/pagingAjax.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -328,7 +923,7 @@
     <entry file="file://$PROJECT_DIR$/php/demo/upload files/wjsc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -342,87 +937,48 @@
     <entry file="file://$PROJECT_DIR$/php/demo/from/reg.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
-          <caret line="22" column="76" lean-forward="false" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
+          <caret line="22" column="76" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node/npm/showDate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/FS模块/文件系统模块.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node/FS模块/文件系统模块.md" />
     <entry file="file://$PROJECT_DIR$/node/npm/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="19" />
-          <folding />
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/ajax/jqueryAjax常用参数.md">
+    <entry file="file://$PROJECT_DIR$/docs/ajax/jqueryAjax常用参数.md" />
+    <entry file="file://$PROJECT_DIR$/node/FS/文件模块.md" />
+    <entry file="file://$PROJECT_DIR$/node/FS/t1.txt" />
+    <entry file="file://$PROJECT_DIR$/node/FS/css/index.html" />
+    <entry file="file://$PROJECT_DIR$/node/FS/fs1.js" />
+    <entry file="file://$PROJECT_DIR$/css/cssLibrary/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="120">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/FS/文件模块.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/FS/charlie.txt">
+    <entry file="file://$PROJECT_DIR$/wechat/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="225">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/FS/t1.txt">
+    <entry file="file://$PROJECT_DIR$/template/cut/image.one/image-one/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/FS/css/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/FS/fs1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="80" column="35" lean-forward="false" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="190">
+          <caret line="295" column="28" selection-start-line="295" selection-start-column="28" selection-end-line="295" selection-end-column="28" />
         </state>
       </provider>
     </entry>

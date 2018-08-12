@@ -2,10 +2,10 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="0212e96e-1b1e-43f2-aaa3-d8fd9de9cc2c" name="locallhost" url="http://static.charlie.cn">
-        <fileTransfer host="static.charlie.cn" port="80">
+      <webServer id="0212e96e-1b1e-43f2-aaa3-d8fd9de9cc2c" name="locallhost" url="http://static.1sight.cn">
+        <fileTransfer host="static.1sight.cn" port="80">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+            <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
           <option name="port" value="80" />
         </fileTransfer>

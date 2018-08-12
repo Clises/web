@@ -1,19 +1,57 @@
 webpack
 
 
-## 1.环境搭建 
+## 环境搭建 
 全局安装
 npm install --global webpack
 
-## 2.搭建 webpack 项目
+## 搭建 webpack 项目
 创建文件夹：
 mkdir webpack-first && cd webpack-first
 
-初始化：
+## 初始化：
 npm init -y 初始化
 
-安装 cli：
+## 安装 cli：
 npm install webpack webpack-cli --save-dev
+
+## 服务和热更新
+npm install webpack-dev-server --save-dev
+
+## 创建入口文件
+mkdir src && cd src
+mkdir index.js 示例
+
+## package.json
+**不能再package.json中天剑注释，否则会失效**
+### 运行
+scripts:{
+"dev":"webpack --mode development",
+ "build":"webpack --mode production"
+}
+
+### 自动处理css3前缀
+安装postcss-loader 和autoprefixer
+npm install --save-dev postcss-loader autoprefixer
+
+### 消除未使用的CSS
+安装PurifyCSS-webpack
+npm install --save-dev purifycss-webpack purify-css
+
+
+
+npm run dev 开发环境
+npm run build 运行环境
+
+
+## 
+ 
+
+
+
+
+
+
 
  创建目录结构、文件、内容
    webpack-first
@@ -89,24 +127,8 @@ document.body.appendChild(component());
   }
 ```
 
-  第一个 test
-  webpack-my 下新建目录 src，src 下新建 index.js文件
-  运行：npm run build
-  此时会在主目录下新增一个 dist 的文件夹目录，里面的 main.js 就是打包好的文件
 
 
-
-
-webpack 配置流程  
-  在开发中打包src下文件包括
-    发布时需要的 html src js
-    css预编译器stylus，less，sass
-    es6的高级语法
-    图片资源.png，.gif，.ico，.jpg
-    文件间的require
-    别名@等修饰符
-    
-###webpack 中webpack.config.js的配置
 
 ### Html在webpack中的配置
 在开发环境中安装html-webpack-plugin
@@ -114,10 +136,7 @@ webpack 配置流程
 
 ```javascript
 
+
 ```
-
-
-
-webpack dev server
 
 
