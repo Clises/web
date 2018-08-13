@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <div v-bind:style="[styleObject,sizeObject]">charlies</div>
+
+</div>
+<script src="../../../lib/vue.js">
+</script>
+<script>
+    new Vue({
+        el:'#app',
+        data:{
+            styleObject:{
+                color:'red',
+            },
+            sizeObject:{
+                fontSize:'99px'
+            }
+        }
+    })
+</script>
+</body>
+</html>

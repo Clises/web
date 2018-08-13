@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <div :style="{ fontSize: postFontSize + 'em' }">
+        <blog-post
+                v-for="post in posts"
+                v-bind:key="post.id"
+                v-bind:post="post"
+        v-on:enlarge-text="onEnlargeText"
+        ></blog-post>
+    </div>
+</div>
+
+</body>
+<script>
+
+    /**
+     给一个特定值,指定文本到底需要放大多少,可以在$ emit 的第二个参数来提供这个值.
+    * */
+    Vue.component('blog-post', {
+        props: ['post'],
+        template: `
+    <div class="blog-post">
+      <h3>{{ post.title }}</h3>
+      <button v-on:click="$emit('enlarge-text',1)">
+  Enlarge text
+    </button>
+      <div v-html="post.content"></div>
+    </div>
+  `
+    });
+    new Vue(
+        {
+            el:'#app',
+            data:{
+                posts:[
+                    {id:1,title:'charlies',content:'what are you doing'},
+                    {id:2,title:'charlies',content:'i do not like'},
+                    {id:3,title:'charlies',content:'yes'},
+                ],
+                postFontSize:1
+            },
+            methods:{
+                onEnlargeText: function (enlargeAmount) {
+                    this.postFontSize += enlargeAmount
+                }
+            }
+        });
+</script>
+
+</html>

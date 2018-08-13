@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    {{fullname}}
+</div>
+<script>
+    var vm=new Vue({
+        el:"#app",
+        data:{
+            firstname:'Charles',
+            lastName:'errol'
+        }
+        //computed 计算
+        ,computed:{
+            fullname:function () {
+                return this.firstname+'++'+this.lastName
+            }
+        }
+    })
+</script>
+</body>
+</html>

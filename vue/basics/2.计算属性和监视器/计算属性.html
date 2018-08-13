@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <span>{{message}}</span>
+    <span>{{reversedMessage}}</span>
+</div>
+<script>
+    var vm=new Vue({
+        el:"#app",
+        data:{
+            message:'charlie'
+        }
+        //computed 计算
+        ,computed:{
+            reversedMessage:function () {
+                //this 指向 vm 实例
+                return this.message.split('').reverse().join('')
+
+
+            }
+        }
+    })
+</script>
+</body>
+</html>

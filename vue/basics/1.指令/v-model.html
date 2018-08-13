@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--
+在表单控件或者组件上创建双向绑定.
+v-model会忽略所有表单元素value、checked、selected特性的初始值，vue实例的数据是其唯一的额来源，所以设置value等值之后会无效
+-->
+
+<!--
+v-modelL:负责监听用户输入事件以更新数据，并对一些场景进行特殊处理
+-->
+
+<div id="app">
+    <!--输入框-->
+    <input type="text"placeholder="输入文字" v-model="msg">
+    <p>输入文字{{msg}}</p>
+
+    <!--文本框-->
+    <!--<textarea v-model="msg"></textarea>-->
+    <!--<p style="white-space: pre">{{msg}}</p>-->
+
+    <!--复选框，多个复选框添加到数组之中-->
+    <!--<input type="checkbox" id="checkbox" value="checked" v-model="checked"/>-->
+    <!--<label for="checkbox">checkbox</label>-->
+    <!--<input type="checkbox" id="charlie" value="charlie" v-model="checked"/>-->
+    <!--<label for="charlie">charlie</label>-->
+    <!--<span>你选择了{{ checked }}</span>-->
+
+
+
+    <!--单选按钮-->
+
+    <!--<div id="example-4">-->
+        <!--<input type="radio" id="one" value="One" v-model="picked">-->
+        <!--<label for="one">One</label>-->
+        <!--<br>-->
+        <!--<input type="radio" id="two" value="Two" v-model="picked">-->
+        <!--<label for="two">Two</label>-->
+        <!--<br>-->
+        <!--<span>Picked: {{ picked }}</span>-->
+    <!--</div>-->
+
+
+
+
+    <!--选择框-->
+    <!--<select v-model="selected">-->
+        <!--<option disabled value="">请选择</option>-->
+        <!--<option>1</option>-->
+        <!--<option>2</option>-->
+        <!--<option>3</option>-->
+    <!--</select>-->
+    <!--<span>Selected: {{ selected }}</span>-->
+
+
+    <!--使用v-for渲染选择值-->
+    <select v-model="selected">
+        <option v-for="option in options"  v-bind:value="option.value" >
+
+            {{ option.text }}
+        </option>
+    </select>
+    <span>Selected: {{ selected }}</span>
+
+</div>
+<script src="../lib/vue.js"></script>
+<script>
+new Vue({
+    el:"#app",
+    data:{
+        // msg:"",
+        // checked:[],
+        // picked:"",
+        // selected:""
+    //     多选绑定到数组之中
+    //     selected:[]
+        selected:"A",
+        options:[
+            { text:'One', value:'A'},
+            { text:'Two', value:'B'},
+            { text:'Three', value:'C'}
+        ]
+    }
+})
+</script>
+</body>
+</html>

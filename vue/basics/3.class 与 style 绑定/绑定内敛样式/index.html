@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+<div class="app">
+    <!--<div v-bind:style="{color:activeColor,fontSize}"></div>-->
+    <!--使用对象语法-->
+    <!--<div v-bind:style="styleObject"></div>-->
+    <!--数组语法 -->
+    <div v-bind:style="[baseStyles, overridingStyles]">哈哈哈是多少</div>
+
+
+</div>
+<script>
+    new Vue({
+        el:'.app',
+        //内敛样式
+        /*data:{
+            activeColor:'red',
+            fontSize:30
+        }*/
+        //数组语法
+        data:{
+            baseStyles:{
+                color:'red',
+            },
+            overridingStyles:{
+                fontSize:'40px'
+            }
+        }
+        //对象语法
+        // data:{
+        //     styleObject:{
+        //         color:'red',
+        //         fontSize:30
+        //     }
+        // }
+    })
+</script>
+</body>
+</html>

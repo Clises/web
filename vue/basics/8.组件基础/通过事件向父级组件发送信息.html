@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <div :style="{ fontSize: postFontSize + 'em' }">
+        <blog-post
+                v-on:enlarge-text="postFontSize += 0.1"
+                v-for="post in posts"
+                v-bind:key="post.id"
+                v-bind:post="post"
+        ></blog-post>
+    </div>
+</div>
+
+</body>
+<script>
+    Vue.component('blog-post', {
+        props: ['post'],
+        template: `
+    <div class="blog-post">
+      <h3>{{ post.title }}</h3>
+      <button v-on:click="$emit('enlarge-text')">
+  Enlarge text
+    </button>
+      <div v-html="post.content"></div>
+    </div>
+  `
+    });
+    new Vue(
+        {
+            el:'#app',
+            data:{
+                posts:[
+                    {id:1,title:'charlies',content:'what are you doing'},
+                    {id:2,title:'charlies',content:'i do not like'},
+                    {id:3,title:'charlies',content:'yes'},
+                ],
+                postFontSize:1
+            }
+        });
+</script>
+
+</html>
