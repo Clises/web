@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+    function Fn() {
+        console.log(Fn)
+    }
+    var f=new Fn()
+
+    //1. 函数的显示原型指向的对象默认是Object实例对象（但是Object不满足）
+    console.log(Fn.prototype instanceof Object)  //true
+    console.log(Object.prototype instanceof Object) //false
+    console.log(Function.prototype instanceof Object) //true
+
+    //2. 所有函数都是Function的实例
+    console.log(Function.__proto__===Function.prototype)  //true
+    //3. Object的原型对象是原型链的尽头
+    console.log(Object.prototype.__proto__) //null
+
+
+
+
+</script>
+</html>
