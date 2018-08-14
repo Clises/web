@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+            /*
+                所有的函数都有一个显式属性和一个隐式属性
+                所有函数的隐式原型都指向构造函数的显示原型属性
+            * */
+
+
+    /*
+    *1、原型链
+    * 访问一个对象的属性时
+    *   先从自身属性中查找，找到返回
+    *   如果没有，再沿着__proto__这条链上查找，找到返回
+    *   如果最终没找到，返回undefined
+    *   别名：隐式原型链
+    * 2、构造函数/原型/实体对象的关系
+    * 3、构造函数/原型/实体对象的关系2
+    *
+    * */
+
+
+    /*
+    *在创建函数之前。已经就有了一个Object函数对象
+    *   js在加载引擎的时候首先会把内置的函数加载进来。
+    *
+    * 1、创建函数对象
+    * 2、在原型上添加方法
+    * 3、实例化，创建
+    *
+    *
+    * */
+
+
+
+
+    function Fn() {
+        // console.log(Object)
+        // console.log(Object.prototype)
+        this.test1=function () {
+            console.log('test1()')
+        }
+    }
+    console.log(Fn.prototype);
+    //在原型上添加方法
+    Fn.prototype.test2=function () {
+        console.log('test2()')
+    };
+    //什么是实例化？/
+    //    实例化就是为对象开辟空间
+    var fn=new Fn();
+    fn.test1();
+    fn.test2();
+
+    console.log(fn)
+    console.log(fn.toString());
+
+    fn.test3()  //undefined
+
+</script>
+</body>
+</html>

@@ -15,27 +15,22 @@
     * 作用：函数的所有实例对象自动拥有原型中的属性（方法）
     *
     * */
-
     console.log(Date.prototype,typeof Date.prototype)   //object
-    function f() {
+    function aa() {
     }
-    console.log(f.prototype)
-    // console.log(aa.prototype)   //属性为constructor   __proto__Object
-    f.prototype.method=function () {
+    console.log(aa.prototype)   //属性为constructor   __proto__Object
+    aa.prototype.test=function () {
     }
-    console.log(f.prototype)   //默认指向的是object空对象
-    console.log(f.prototype.constructor===f)  //true
+    console.log(aa.prototype)   //默认指向的是object空对象
+    console.log(aa.prototype.constructor===aa)  //true
     console.log(Date.prototype.constructor===Date)  // true
-    // 给原型对象添加属性（一般是方法）===>实例对象可以访问
-    f.prototype.method=function () {
-        console.log('method()')
+
+    //给原型对象添加属性（一般是方法）===>实例对象可以访问
+    aa.prototype.test=function () {
+        console.log('test()')
     }
-    //创建实例去调用刚才添加的属性
-    var fun =new f()
-    console.log(f.prototype)
-    console.log( fun.__proto__===f.prototype)   //true
-    console.log(f.prototype.__proto__.constructor)  //ƒ Object() { [native code] }
-    fun.method()
+    var fun =new aa()
+    fun.test()
 </script>
 </body>
 </html>

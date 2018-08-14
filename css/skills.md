@@ -161,14 +161,6 @@ vw就是当前屏幕宽度的1%，补充一句，当设置width:100%，被设置
 
 
 
-## 滚动条样式的自定义
-主要是三部分组成：
-1、::-webkit-scrollbar   定义滚动条整体的样式；
-2、::-webkit-scrollbar-thumb  滑块部分；
-3、::-webkit-scrollbar-thumb  轨道部分；
-
-
-
 
 
 

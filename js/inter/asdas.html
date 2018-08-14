@@ -7,14 +7,15 @@
 </head>
 <body>
 <script>
-    var arr = [
-        {a: 1},
-        {}
-        ];
-    arr.forEach(function (item, idx) {
-        item.b = idx
-    });
-    console.log(arr)
+    function f5() {
+        if (!"a" in window){
+            var a=1;   //变量提前问题
+        }
+        console.log(a)
+    }
+    f5()
+
+
 
 </script>
 
