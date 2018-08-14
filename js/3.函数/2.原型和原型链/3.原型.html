@@ -24,7 +24,6 @@
     *
     * */
 
-
     /*
     *在创建函数之前。已经就有了一个Object函数对象
     *   js在加载引擎的时候首先会把内置的函数加载进来。
@@ -36,9 +35,6 @@
     *
     * */
 
-
-
-
     function Fn() {
         // console.log(Object)
         // console.log(Object.prototype)
@@ -46,6 +42,7 @@
             console.log('test1()')
         }
     }
+
     console.log(Fn.prototype);
     //在原型上添加方法
     Fn.prototype.test2=function () {
@@ -59,8 +56,8 @@
 
     console.log(fn)
     console.log(fn.toString());
-
-    fn.test3()  //undefined
+/*
+    fn.test3()  //undefined*/
 
 </script>
 </body>

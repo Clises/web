@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <!--<demo></demo>-->
+    <demo></demo>
     <!--<router></router>-->
     <!--<getData></getData>-->
     <!--<transferData></transferData>-->
