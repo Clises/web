@@ -44,10 +44,9 @@ npm run dev 开发环境
 npm run build 运行环境
 
 
-## 
- 
+ #全局安装一个小型的Node.js Express服务器
 
-
+npm install webpack-dev-server -g
 
 
 
