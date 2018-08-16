@@ -29,7 +29,7 @@ module.exports = {
             //css loaders
             {
                 test: /\.css$/,
-                use: ["style-loader", "css-loader"]
+                use: ['style-loader', 'css-loader','postcss-loader']
             },
             //html loaders
             {
@@ -73,7 +73,7 @@ module.exports = {
         new webpack.HotModuleReplacementPlugin(),
         new HTMLWebpackPlugin({
             template:"./src/index.html"
-        })
+        }),
     ]
 }
 
