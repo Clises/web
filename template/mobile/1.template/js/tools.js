@@ -289,3 +289,4 @@ function copy(el) {
     document.execCommand("copy", false, null);
     selection.removeRange(range);
 }
+

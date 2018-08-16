@@ -1,11 +1,11 @@
 <template>
   <div id="app">
-    <demo></demo>
+    <!--<demo></demo>-->
     <!--<router></router>-->
     <!--<getData></getData>-->
     <!--<transferData></transferData>-->
-    <vuex></vuex>
-    <!--<animation></animation>-->
+    <!--<vuex></vuex>-->
+    <animation></animation>
     <!--<Map></Map>-->
     <!--<c-frame></c-frame>-->
   </div>
