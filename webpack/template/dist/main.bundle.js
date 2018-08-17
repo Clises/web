@@ -64,7 +64,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "702469e8c764438a70e3";
+/******/ 	var hotCurrentHash = "a5103ef239f3cab8fb7a";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -1616,7 +1616,7 @@ eval("var $iterators = __webpack_require__(/*! ./es6.array.iterator */ \"./node_
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"body {\\n    background-color: blueviolet;\\n    color: #fff;\\n}\\n\\ndiv {\\n    width: 100%;\\n    color: blue;\\n    display: flex;\\n}\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/main.css?./node_modules/css-loader!./node_modules/postcss-loader/src");
+eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"body {\\n    background-color: blueviolet;\\n    color: #fff;\\n}\\n\\ndiv {\\n    width: 100%;\\n    color: blue;\\n    display: flex;\\n    -webkit-transform: scale(1);\\n            transform: scale(1);\\n    align-items: center;\\n    flex-direction: column;\\n    align-content: center;\\n    \\n}\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/main.css?./node_modules/css-loader!./node_modules/postcss-loader/src");
 
 /***/ }),
 
