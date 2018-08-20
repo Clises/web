@@ -3,9 +3,9 @@
     <!--<demo></demo>-->
     <!--<router></router>-->
     <!--<getData></getData>-->
-    <!--<transferData></transferData>-->
+    <transferData></transferData>
     <!--<vuex></vuex>-->
-    <animation></animation>
+    <!--<animation></animation>-->
     <!--<Map></Map>-->
     <!--<c-frame></c-frame>-->
   </div>

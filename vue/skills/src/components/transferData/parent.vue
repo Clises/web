@@ -32,7 +32,7 @@
   export default {
     data() {
       return {
-        msg: ' 这是parent广播给 parentBrother的数据',
+        msg: ' 这是parentBrother广播给parent的数据',
         title: "这是父组件传递给子组件的值"
 
       }
@@ -53,9 +53,9 @@
     }
     ,mounted() {
       //监听 parentBrother 广播的数据
-      VueEvent.$on('to-parent', function (data) {
-        alert(data)
-      })
+      // VueEvent.$on('to-parent', function (data) {
+      //   alert(data)
+      // })
     }
   }
 </script>

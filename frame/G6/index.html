@@ -11,56 +11,6 @@
 <script src="https://gw.alipayobjects.com/os/antv/assets/g6/1.2.8/g6.min.js"></script>
 <script src="https://gw.alipayobjects.com/os/antv/assets/lib/jquery-3.2.1.min.js"></script>
 <script type="text/javascript">
-    $('#mountNode').append('<button id="autoZoom">autoZoom</button>');
-    $('#mountNode').append('<button id="autoSize">autoSize</button>');
-    $('#mountNode').append('<button id="restore">restore</button>');
-    var autoZoom = $('#autoZoom');
-    var autoSize = $('#autoSize');
-    var restore = $('#restore');
-    var net = createNet();
-    autoZoom.on('click', function () {
-        net.destroy();
-        net = createNet('autoZoom');
-    });
-    autoSize.on('click', function () {
-        net.destroy();
-        net = createNet('autoSize');
-    });
-    restore.on('click', function () {
-        net.destroy();
-        net = createNet();
-    });
-    function createNet(fitView) {
-        // 第三步：设置数据
-        var data = {
-            "nodes": [{
-                "x": 100,
-                "y": 130,
-                "id": "node1"
-            }, {
-                "x": 230,
-                "y": 130,
-                "id": "node2"
-            }],
-            "edges": [{
-                "source": "node1",
-                "id": "edge1",
-                "target": "node2"
-            }]
-        };
-        // 第四步：配置G6画布
-        var net = new G6.Net({
-            id: 'mountNode', // 容器ID
-            fitView: fitView,
-            width: 430, // 画布宽
-            height: 430 // 画布高
-        });
-        // 第五步：载入数据
-        net.source(data.nodes, data.edges);
-        // 第六步：渲染关系图
-        net.render();
-        return net;
-    }
 </script>
 </body>
 </html>
