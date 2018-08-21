@@ -3,11 +3,12 @@
     <!--<demo></demo>-->
     <!--<router></router>-->
     <!--<getData></getData>-->
-    <transferData></transferData>
+    <!--<transferData></transferData>-->
     <!--<vuex></vuex>-->
     <!--<animation></animation>-->
     <!--<Map></Map>-->
     <!--<c-frame></c-frame>-->
+    <Signin></Signin>
   </div>
 </template>
 
@@ -28,17 +29,13 @@
   import animation from './components/animation/animation'
   //使用框架
   import frame from './components/frame/Vant/vant'
+  //login
+  import Signin from './components/login/Signin'
+
 
   export default {
     components: {
-      'demo': demo,
-      'router': router,
-      'getData': getData,
-      'transferData': transferData,
-      'vuex': vuex,
-      'animation': animation,
-      'c-frame': frame
-      // 'Map':Map
+      demo,router,getData,transferData,vuex,animation,frame,Signin
     }
   }
 </script>
