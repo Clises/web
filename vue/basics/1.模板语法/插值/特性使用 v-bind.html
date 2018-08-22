@@ -8,15 +8,23 @@
 </head>
 <body>
 <div id="app">
-    <p>使用 html: {{ rawHtml }}</p>
-    <p>使用 html指令: <span v-html="rawHtml"></span></p>
+    <div v-bind:id="dynamicId"></div>
+
     <script>
         new Vue({
             el: '#app',
-            data: function () {
-                return {
-                    rawHtml: '<span style="color: red">红色的 .</span>'
+            data:{
+                dynamicId:{
+                    active:true
                 }
+            },
+            computed:{
+                classObject:function () {
+                    return{
+                        active:true
+                    }
+                }
+
             }
         })
 
