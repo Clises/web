@@ -1,14 +1,14 @@
 <template>
   <div id="app">
+    <router></router>
     <!--<demo></demo>-->
-    <!--<router></router>-->
     <!--<getData></getData>-->
     <!--<transferData></transferData>-->
     <!--<vuex></vuex>-->
     <!--<animation></animation>-->
     <!--<Map></Map>-->
     <!--<c-frame></c-frame>-->
-    <Signin></Signin>
+    <!--<Signin></Signin>-->
   </div>
 </template>
 

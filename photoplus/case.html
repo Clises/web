@@ -62,9 +62,10 @@
             </div>
         </div>
         <div class="mask"></div>
+
         <div class="case">
             <div class="cases">
-                <a href="#" target="_blank" class="case-item">
+                <a href="javascript:(screen.width>=768)?window.open('https://nba.hupu.com/'):window.location.href='https://www.baidu.com/'" class="case-item">
                     <img src="" alt="photoplus直播案例" class="case-photo">
                     <div class="case-msg">
                         <p>题目</p>
@@ -80,8 +81,9 @@
                     </div>
                 </a>
             </div>
+
             <div class="paging col-all-center">
-                <div class="m-style">
+                <div class="ps-style">
                     <a href="javascript:;" class="prev">上一页</a>
                     <a href="javascript:;" class="active" data-page="1">1</a>
                     <a href="javascript:;" data-page="2">2</a>
@@ -93,9 +95,11 @@
                     <a href="javascript:;" class="next">下一页</a>
                     <div class="jump">
                         <div class="jump_count">
-                            <div id="count_now">
-                            </div>
-                            &nbsp;/&nbsp;
+                            <!--当前页-->
+                            <i id="count_now">
+                            </i>
+                            /
+                            <!--页总数-->
                             <i id="count_total">
                             </i>
                             到第几

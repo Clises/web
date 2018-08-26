@@ -2,64 +2,45 @@ $(init)
 eleRoling = {    //nav滚动条滚动距离
     offsetLeft: 0
 }
-
 function init() {
     $('.drop-down-content .list').append($('.case-classify li').clone(true))
     $('.case-classify').on('click', 'li', classify);
-    $('.all_open').on('click', allOpen);
     $('.list').on('click', 'li', allList);
-    $('.mask').on('click',mask);
+    $('.all_open,.mask,.list li').on('click', _toggle);
 }
 /*分类*/
 function classify() {
     var $this = $(this), $index = $this.index();
-    $(".case-classify li").removeClass("active").eq($index).addClass("active");
+    $('.case-classify').find('li').removeClass("active").eq($index).addClass("active");
+    $('.list').find('li').removeClass("active").eq($index).addClass("active");
     eleRoling.offsetLeft = $(this).offset().left;
     var rolingNow=$('.case-classify')[0].scrollLeft;
-    var eleWith=$('.case-classify li').width();
-    var maxWith=eleWith*3+eleWith/2;
+    var maxWith=$('.case-classify li').width()*3;
     var rollingWith=$('.case-classify').width()/2;
     if (eleRoling.offsetLeft >maxWith) {
         $('.case-classify').animate({'scrollLeft': rolingNow +rollingWith}, 500);
     }
 }
-/*全部分类*/
+/*H5全部分类*/
 function allList() {
-    $('html,body').removeClass('ovfHiden');
     var $this = $(this), $index = $this.index();
-    $(".list li").removeClass("active").eq($index).addClass("active")
+    $('.list').find('li').removeClass("active").eq($index).addClass("active");
     $('.case-classify').find('li').removeClass("active").eq($index).addClass("active");
-    $('.drop-down-content').toggleClass('drop-down--down');
-    $('.all_open').children('a').toggleClass('arrow-up')
-    $('.mask').toggleClass('block');
+    var rollingWith=$('.case-classify').width()/3;
     eleRoling.offsetLeft = $('.case-classify').find('li').eq($index).get(0).offsetLeft;
     if ($('.case-classify').find('li').eq($index).hasClass('active')) {
-        $('.case-classify')[0].scrollLeft = eleRoling.offsetLeft-20;
+        $('.case-classify')[0].scrollLeft = eleRoling.offsetLeft-rollingWith;
     }
 }
-function allOpen() {
-    $(this).children('a').toggleClass('arrow-up')
+function _toggle() {
     $('html,body').toggleClass('ovfHiden');
-    $('.mask').toggleClass('block');
-    $('.drop-down-content').toggleClass('drop-down--down');
-}
-
-function mask(){
     $('.all_open').children('a').toggleClass('arrow-up')
-    $('html,body').toggleClass('ovfHiden');
-    $('.mask').toggleClass('block');
     $('.drop-down-content').toggleClass('drop-down--down');
+    $('.mask').toggleClass('block');
 }
-
-
-
-
-
 $(".m-style a").attr("href",function(){
     return location.pathname+$(this).attr("href");
 })
-
-
 // function panel(index) {
 //     $('.all,.case-item ').addClass('none');
 //     switch (index) {

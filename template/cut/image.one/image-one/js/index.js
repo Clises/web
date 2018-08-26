@@ -9,58 +9,11 @@ var words = {
     ]
 };
 var checkELement = ['.nav'];
-
-/*
-$(function () {
-    var iamgeOne = {
-        init: function () {
-            this.navPullDown()
-            this.skip()
-            this.lanPullDown()
-
-        },
-        navPullDown: function (){
-            $('.menu').on('click', function () {
-                $('nav').toggleClass('nav--pullDown')
-            });
-        },
-        skip: function () {
-            $('.nav').on('click', 'li', function () {
-                $('nav').toggleClass('nav--pullDown')
-                var $this = $(this), index = $this.index();
-                var headHeight = $('header').outerHeight() + 50;
-                switch (index) {
-                    case 0:
-                        $('html, body').stop().animate({scrollTop: $(".image-top").offset().top}, 500);
-                        break;
-                    case 1:
-                        $('html, body').stop().animate({scrollTop: $(".industryPain").offset().top - headHeight}, 500);
-                        break;
-                    case 2:
-                        $('html, body').stop().animate({scrollTop: $(".teachnology").offset().top - headHeight}, 500);
-                        break;
-                    case 3:
-                        $('html, body').stop().animate({scrollTop: $(".white-paper").offset().top - headHeight}, 500);
-                        break;
-                    case 4:
-                        $('html, body').stop().animate({scrollTop: $(".team").offset().top - headHeight}, 500);
-                        break;
-                    case 5:
-                        $('html, body').stop().animate({scrollTop: $("footer").offset().top - headHeight}, 500);
-                        break;
-                }
-            });
-        },
-        lanPullDown: function () {
-            $('.switch--languages').on('click', function () {
-                $('.changeLan').toggleClass('changeLan--pullDown')
-            });
-        }
-
-    }
-})*/
+//判断系统语言
+var LANGUAGE = navigator.language.indexOf('CN') > -1;
 init()
 function init() {
+
     tets()
     $('.menu').on('click', function () {
         $('nav').toggleClass('nav--pullDown')
@@ -72,11 +25,18 @@ function init() {
     $('.changeLan').on('click', 'li', changeLanguages);
 }
 function tets() {
+    if (LANGUAGE)
+    {
+        $('.changeLan').children('.languages .cn').addClass('active')
+
+    }
+
     var lan = localStorage.getItem('language');
     switch (lan) {
         case 'en':
             $('.language').html('EN');
             $('.changeLan').children('.en').toggleClass('active')
+
             break;
         case 'cn':
             $('.language').html('中文');
@@ -107,7 +67,6 @@ function interprete(ele, lan) {
                 var data_cn = lans[i].cn, data_en = lans[i].en;
                 eleString = eleString.replace(data_en, data_cn);
             }
-            console.log(typeof (data_en))
             break;
         case 'en':
             for (var i = 0, len = lans.length; i < len; i++) {
@@ -145,3 +104,52 @@ function skip() {
     }
 }
 
+// $(function () {
+//     var iamgeOne = {
+//         init: function () {
+//             this.navPullDown()
+//             this.skip()
+//             this.lanPullDown()
+//         },
+//         navPullDown: function (){
+//             $('.menu').on('click', function () {
+//                 $('nav').toggleClass('nav--pullDown')
+//             });
+//         },
+//         skip: function () {
+//             $('.nav').on('click', 'li', function () {
+//                 $('nav').toggleClass('nav--pullDown')
+//                 var $this = $(this), index = $this.index();
+//                 var headHeight = $('header').outerHeight() + 50;
+//                 switch (index) {
+//                     case 0:
+//                         $('html, body').stop().animate({scrollTop: $(".image-top").offset().top}, 500);
+//                         break;
+//                     case 1:
+//                         $('html, body').stop().animate({scrollTop: $(".industryPain").offset().top - headHeight}, 500);
+//                         break;
+//                     case 2:
+//                         $('html, body').stop().animate({scrollTop: $(".teachnology").offset().top - headHeight}, 500);
+//                         break;
+//                     case 3:
+//                         $('html, body').stop().animate({scrollTop: $(".white-paper").offset().top - headHeight}, 500);
+//                         break;
+//                     case 4:
+//                         $('html, body').stop().animate({scrollTop: $(".team").offset().top - headHeight}, 500);
+//                         break;
+//                     case 5:
+//                         $('html, body').stop().animate({scrollTop: $("footer").offset().top - headHeight}, 500);
+//                         break;
+//                 }
+//             });
+//         },
+//         lanPullDown: function () {
+//             $('.switch--languages').on('click', function () {
+//                 $('.changeLan').toggleClass('changeLan--pullDown')
+//             });
+//         }
+//
+//     }
+//     iamgeOne.init()
+//
+// })

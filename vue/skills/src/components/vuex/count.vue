@@ -4,8 +4,6 @@
   {{this.$store.getters.computedCount}}
 
   <button @click="incCount()">增加数量+</button>
-
-
 </div>
 </template>
 <script>
