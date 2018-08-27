@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    <title>Title</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.1.0/echarts.min.js" charset="UTF-8"></script>
+</head>
+<body>
+<div id="main" style="width: 600px;height:400px;"></div>
+
+</body>
+<script>
+    // 绘制图表。
+    echarts.init(document.getElementById('main')).setOption({
+        series: {
+            type: 'pie',
+            data: [
+                {name: 'A', value: 1212},
+                {name: 'B', value: 2323},
+                {name: 'C', value: 1919}
+            ]
+        }
+    });
+</script>
+
+</html>
