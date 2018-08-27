@@ -8,13 +8,11 @@
     }
 })(typeof self !== "undefined" ? self : this, function() {
     "use strict";
-
     // 元素类名
     var CLASS_NAME = {
         ITEM: 'pagination-item',
         LINK: 'pagination-link'
     };
-
     // 跨浏览器事件对象
     var EventUtil = {
         addEvent: function(element, type, handler) {

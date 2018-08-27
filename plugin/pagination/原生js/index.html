@@ -8,7 +8,8 @@
 </head>
 <body>
 <div class="pagination">
-    <ol class="page-navigator" id="pagelist"></ol>
+    <ol class="page-navigator" id="pagelist">
+    </ol>
 </div>
 <script>
     // 分页元素ID（必填）
@@ -33,9 +34,9 @@
             // obj.curr：获取当前页码
             // obj.limit：获取每页显示数据条数
             // obj.isFirst：是否首次加载页面，一般用于初始加载的判断
-
             // 首次不执行
             if (!obj.isFirst) {
+
                 // do something
             }
         }

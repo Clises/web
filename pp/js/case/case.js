@@ -8,7 +8,12 @@ function init() {
     $('.case-classify').on('click', 'li', classify);
     $('.list').on('click', 'li', allList);
     $('.all_open,.mask,.list li').on('click', _toggle);
-    pullOnLoading('//www.baidu.com/')
+    pullOnLoading()
+    var aa = $('.ps-style').children().length;
+    for (var i = 1; i < aa; i++) {
+        showPages(i, aa, 2)
+        console.log(showPages(i, aa, 2))
+    }
 }
 
 /*分类*/
@@ -44,19 +49,50 @@ function _toggle() {
     $('.mask').toggleClass('block');
 }
 
-function pullOnLoading(address) {
+function pullOnLoading() {
     $(document).scroll(function () {
         var dh = $(document).height();
         var sh = $(window).height();
         var wh = $(window).width()
         var top = $(document).scrollTop()
         if (wh <= 768 && dh - sh - top < 50) {
-            // alert("加载数据了")
-            $(window).attr('location',address);
-
+            //数据加载
         }
     })
 
+}
+
+
+/*
+page 当前页码
+total 总页码数
+show 当前页面后展示的页码数
+*/
+
+
+function showPages(page, total, show) {
+    var str = page + '';
+    for (var i = 1; i <= show; i++) {
+        if (page - i > 1) {
+            str = page - i + ' ' + str;
+        }
+        if (page + i < total) {
+            str = str + ' ' + (page + i);
+        }
+    }
+    if (page - (show + 1) > 1) {
+        str = '... ' + str;
+    }
+    if (page > 1) {
+        str = 1 + ' ' + str;
+    }
+    if (page + show + 1 < total) {
+        str = str + ' ...';
+    }
+    if (page < total) {
+        str = str + ' ' + total;
+    }
+    return str;
 }
 
 /*
