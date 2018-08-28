@@ -29,4 +29,3 @@ let age = 25;
 // 以下两行都会报错
 const message = "Goodbye!";
 const age = 30;
-

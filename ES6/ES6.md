@@ -1,7 +1,7 @@
-##一 let和 const 命令
+## 一 let和 const 命令
 
-##1.1 let命令
-###1.1.1 作用：声明变量，只在 let命令所在的代码块内有效，不存在变量提升
+## 1.1 let命令
+### 1.1.1 作用：声明变量，只在 let命令所在的代码块内有效，不存在变量提升
     var会出现变量提升现象，即在变量声明之前使用，此时会导致undefined，let改变语法行为声明的变量必须在声明之后去使用否则报错
 ```javascript
     for (let i = 0; i < 10; i++) {
@@ -162,18 +162,16 @@ ES6 规定，块级作用域之中，函数声明语句的行为类似于let，�
 
 
 
-##2. const 命令
+## 2. const 命令
 基本用法:
   const声明一个只读的常量。一旦声明，常量的值就不能改变。
-
-const声明的变量不得改变值，这意味着，const一旦声明变量，就必须立即初始化，不能留到以后赋值。
+  const声明的变量不得改变值，这意味着，const一旦声明变量，就必须立即初始化，不能留到以后赋值。
 ```javascript
 const foo;
 // SyntaxError: Missing initializer in const declaration
 
 ```
-
-const的作用域与let命令相同：只在声明所在的块级作用域内有效。
+  const的作用域与let命令相同：只在声明所在的块级作用域内有效。
 
 ```javascript
 if (true) {
@@ -183,8 +181,7 @@ if (true) {
 MAX // Uncaught ReferenceError: MAX is not defined
 
 ```
-
-声明的常量也不提升,在声明之后使用
+  声明的常量也不提升,在声明之后使用
 ```javascript
 if (true) {
     console.log(MAX); // ReferenceError
@@ -192,9 +189,7 @@ if (true) {
 }
 
 ```
-
-
-const声明的常量，也与let一样不可重复声明
+  const声明的常量，也与let一样不可重复声明
 
 ```javascript
 var message = "Hello!";
@@ -205,6 +200,19 @@ const message = "Goodbye!";
 const age = 30;
 
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
