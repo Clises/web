@@ -1,29 +1,27 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title></title>
-	</head>
-	<body>
-		<p>点击显示当前星期</p>
-		<p id="demo"></p>
-		<input type="button"value="点击查看" onclick="aa()"/>
-	</body>
-	<script type="text/javascript">
-		function aa(){
-			
-				var d=new Date();
-		var weekday=new Array;
-		weekday[0]="周日";
-			weekday[1]="周一";
-				weekday[2]="周二";
-					weekday[3]="周三";
-						weekday[4]="周四";
-							weekday[5]="周五";
-								weekday[6]="周六";
-								document.getElementById("demo").innerHTML=weekday[d.getDay()];	
-			
-		}
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<p>点击显示当前星期</p>
+<p id="demo"></p>
+<input type="button" value="点击查看" onclick="aa()"/>
+</body>
+<script type="text/javascript">
+    function aa() {
+        var d = new Date();
+        var weekday = new Array;
+        weekday[0] = "周日";
+        weekday[1] = "周一";
+        weekday[2] = "周二";
+        weekday[3] = "周三";
+        weekday[4] = "周四";
+        weekday[5] = "周五";
+        weekday[6] = "周六";
+        document.getElementById("demo").innerHTML = weekday[d.getDay()];
+    }
 
-	</script>
+</script>
 </html>

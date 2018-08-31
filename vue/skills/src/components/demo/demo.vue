@@ -8,13 +8,15 @@
   <!--<router-link to="/LoadMore">加载更多</router-link>-->
   <!--<router-link to="/PreviewPicture">图片预览组件</router-link>-->
   <!--<router-view></router-view>-->
-  <home>
+  <home></home>
 
-  </home>
+
+
 </div>
 </template>
 
 <script>
+  import tab from './tab/tab'
   import Elasticlayer from './Elasticlayer'
   import LoadMore from './LoadMore'
   import PreviewPicture from './PreviewPicture'
@@ -27,7 +29,8 @@
       "Elasticlayer":Elasticlayer,
       'LoadMore':LoadMore,
       'PreviewPicture':PreviewPicture,
-      'home':home
+      'home':home,
+      'tab':tab
     }
     }
 

@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <router></router>
-    <!--<demo></demo>-->
+    <!--<router></router>-->
+    <demo></demo>
     <!--<getData></getData>-->
     <!--<transferData></transferData>-->
     <!--<vuex></vuex>-->

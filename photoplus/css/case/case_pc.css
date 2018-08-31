@@ -1,0 +1,262 @@
+* {
+    font-size: 14px;
+}
+
+#menu-case a {
+    color: #E53D00;
+    border-color: #f60;
+}
+
+#menu-case span {
+    position: absolute;
+    width: 13px;
+    height: 3px;
+    background: #E53D00;
+    bottom: 8px;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+    display: block;
+}
+
+.block-case {
+    background: rgba(245, 245, 250, 1);
+    padding-top: 100px;
+}
+
+/*top*/
+.case-top__title .case-top--subline {
+    width: 212px;
+    height: 1px;
+    position: relative;
+    background: rgba(209, 209, 224, 1);
+}
+.case-top--subline::after {
+    content: '';
+    width: 182px;
+    height: 1px;
+    background: rgba(209, 209, 224, 1);
+    position: absolute;
+    top: 12px;
+}
+.case-top--subline.left::after {
+    right: 0;
+}
+.case-top__title .case-top__topic {
+    padding: 0 20px;
+    font-size: 32px;
+}
+.case-authorization {
+    text-align: center;
+    color: rgba(176, 176, 191, 1);
+    margin: 20px 0;
+}
+
+/*!*分类*!*/
+.case-classify {
+    width: 740px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.case-classify li {
+    width: 100px;
+    height: 32px;
+    margin: 10px 0 0 28px;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+}
+.case-classify li:nth-child(1),
+.case-classify li:nth-child(7) {
+    margin-left: 0;
+}
+.case-classify .active {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 14px;
+    color: rgba(229, 61, 0, 1);
+    padding: 0 10px;
+}
+
+/*案例展示*/
+.cases{
+    width: 1160px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.case-item {
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 10px;
+    width: 370px;
+    height: 312px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(228, 228, 235, 1);
+}
+.case-item:nth-child(3n){
+    margin-right: 0;
+}
+.case-photo {
+    width: 100%;
+    min-width: 100%;
+    min-height: 164px;
+    height: 164px;
+    background: red;
+}
+.case-msg {
+    padding: 18px 0 0 18px;
+    width: 100%;
+}
+.case-msg p {
+    font-size: 18px;
+}
+.case-tag{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+}
+.case-tag::-webkit-scrollbar{
+    width: 0 !important
+}
+.case-tags {
+    margin-top: 14px;
+    height: 20px;
+    padding: 0 10px;
+    background: rgba(245, 245, 250, 1);
+    border-radius: 12px;
+    display: inline-block;
+    text-align: center;
+    color: rgba(117, 117, 128, 1);
+    line-height: 20px;
+}
+.case-tags:nth-child(1) {
+    margin-left: 0;
+}
+.case-sponsor .sponsor_icon {
+    width: 14px;
+    height: 14px;
+    background-image: url("http://static.qiezipai.cn/web/photoplus/img/case/tx.png");
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-bottom: -2px;
+}
+.case-sponsor .sponsor {
+    height: 19px;
+    color: rgba(176, 176, 191, 1);
+    line-height: 19px;
+    padding: 0 5px;
+}
+
+
+.drop-down-content {
+    display: none;
+}
+
+/*翻页*/
+.pagination {
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 80px;
+    zoom: 1;
+}
+
+.pagination:before,
+.pagination:after {
+    content: "";
+    display: table;
+}
+
+.pagination:after {
+    clear: both;
+    overflow: hidden;
+}
+
+.pagination span {
+    float: left;
+    margin: 0 5px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.pagination .active {
+    float: left;
+    margin: 0 5px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    background: rgba(51, 51, 51, 1);
+    color: #fff;
+}
+
+.pagination a {
+    float: left;
+    margin: 0 5px;
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+    line-height: 24px;
+    background: #fff;
+    border: 1px solid #ebebeb;
+}
+
+.pagination a:hover {
+    color: #fff;
+    background: rgba(51, 51, 51, 1);
+}
+
+.pagination .next,
+.pagination .prev {
+    width: 64px;
+    font-weight: bold;
+}
+
+.now,
+.count {
+    padding: 0 5px;
+    color: #f00;
+}
+
+.ps_jump{
+    position: absolute;
+    right: 100px;
+}
+.jump_count{
+    display: inline-block;
+    color:rgba(128,128,128,1);
+    letter-spacing: 4px;
+}
+i{
+    letter-spacing: 2px;
+}
+input {
+    width: 40px;
+    height: 24px;
+    line-height: 38px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ebebeb;
+    outline: none;
+    font-size: 14px;
+}
+
+
+.pagination a:last-child{
+    position: absolute;
+    right: 95px;
+    top: 23px;
+    width: 40px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    background: rgba(51, 51, 51, 1);
+    color:rgba(255,255,255,1);
+}

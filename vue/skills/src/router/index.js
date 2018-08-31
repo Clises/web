@@ -48,7 +48,7 @@ const routes = [
       {path: 'userlist', component: userlist}
     ]
   },
-  {path: '*', redirect: '/user'}   /*默认跳转路由*/
+  {path: '*', redirect: '/demo'}   /*默认跳转路由*/
   ,
   {
     path: '/demo',

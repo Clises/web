@@ -28,7 +28,7 @@
         pageShow: 2,
         // 开启location.hash，并自定义hash值 （默认关闭）
         // 如果开启，在触发分页时，会自动对url追加：#!hash值={curr} 利用这个，可以在页面载入时就定位到指定页
-        hash: false,
+        hash: true,
         // 页面加载后默认执行一次，然后当分页被切换时再次触发
         callback: function(obj) {
             // obj.curr：获取当前页码
@@ -36,8 +36,8 @@
             // obj.isFirst：是否首次加载页面，一般用于初始加载的判断
             // 首次不执行
             if (!obj.isFirst) {
-
                 // do something
+                window.open('https://www.baidu.com/')
             }
         }
     };

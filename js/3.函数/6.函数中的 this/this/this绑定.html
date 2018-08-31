@@ -5,116 +5,120 @@
     <title>Title</title>
 </head>
 <body>
-
 <script>
-/*this的默认绑定*/
+    /*this的默认绑定*/
+    var name = 'window';
 
-var name='window';
-function show() {
-    var name='show';
-    console.log(this.name)
-}
-show()  //window
+    function show() {
+        var name = 'show';
+        console.log(this.name)
+    }
 
-    var obj={
-    name:'obj',
-        tellme:function () {
+    show()  //window
+
+    var obj = {
+        name: 'obj',
+        tellme: function () {
             setTimeout(function () {
-console.log(this)
-            },1000)
+                console.log(this)
+            }, 1000)
         }
     }
-
     obj.tellme()
-
-
-    var arr=[1,2,3,4]
+    var arr = [1, 2, 3, 4]
     arr.forEach(function () {
         console.log(this)   // window
-     });
+    });
     //函数原型
-    Array.prototype.forEach=function (cd,bindthis) {
+    Array.prototype.forEach = function (cd, bindthis) {
         cd()
     };
-    var name='window';
-    function dir(fn){
-        var name='dir';
+    var name = 'window';
+
+    function dir(fn) {
+        var name = 'dir';
         fn()
     }
+
     function show() {
         console.log(this.name)
     }
+
     dir(show)   //window
-    new Promise(function (resolve,rejcted) {
+    new Promise(function (resolve, rejcted) {
         console.log(this);  //window
         resolve()
     })
-//隐式绑定
-    var obj={
-        name:'obj',
-        show:function () {
+    //隐式绑定
+    var obj = {
+        name: 'obj',
+        show: function () {
             console.log(this.name)
         }
     }
     obj.show()// obj*/
-/*
+    /*
 
-//    上下文对象
-    var show=obj.show;
-    show()   //window
-*/
+    //    上下文对象
+        var show=obj.show;
+        show()   //window
+    */
 
-    window.name='window'
+    window.name = 'window'
+
     function show() {
         console.log(this.name)
     }
-    var obj={
-        name:'obj',
-        show:show
+
+    var obj = {
+        name: 'obj',
+        show: show
     }
-    var obj1={
-        name:'obj1'
+    var obj1 = {
+        name: 'obj1'
     }
     obj.show()  //obj
-    obj.show=show.bind(window)  //window     在改完之后是不能变的
-    var newShow=obj.show;
+    obj.show = show.bind(window)  //window     在改完之后是不能变的
+    var newShow = obj.show;
     newShow.call(obj);
     show.call(obj1)  //obj1
 
 
     function Preson() {
-        ctx={};
-        this.name=name
+        ctx = {};
+        this.name = name
     }
-    var p=new Preson('wxd')
+
+    var p = new Preson('wxd')
     console.log(p);
 
 
-//显式绑定 （bind，call，aplly）
-//    bind 返回带有一个明确this指向的函数
-//   apply call 在函数执行的时候改变this指向
-// new绑定优先级是最高的
+    //显式绑定 （bind，call，aplly）
+    //    bind 返回带有一个明确this指向的函数
+    //   apply call 在函数执行的时候改变this指向
+    // new绑定优先级是最高的
 
 
-/*判断this指向的顺序:   new => bind =>apply,all=>隐式绑定=>默认绑定*/
+    /*判断this指向的顺序:   new => bind =>apply,all=>隐式绑定=>默认绑定*/
 
     //验证new绑定是优先级最高的方法
-    var newPreson=Preson.bind(window)
-    var newp=new newPreson('dg')
+    var newPreson = Preson.bind(window)
+    var newp = new newPreson('dg')
     console.log(newp)
 
 
+    /*interview*/
+    var a = 111
+    var b = 222
 
-/*interview*/
-    var a=111
-    var b=222
     function test() {
-        var a=123
-        var b=456
+        var a = 123
+        var b = 456
         console.log(this.a)//undefined
         console.log(this.b)//undefined
     }
-    var n=new test()  //此时this指向的n
+
+    var n = new test()  //此时this指向的n
     console.log(n)
     console.log(n.__proto__)
 
@@ -122,51 +126,10 @@ console.log(this)
     console.log(this.b)//undefined
 
     /**
-    默认绑定：没人调用   this=》window
-    隐式绑定:谁调用this指向谁，
-    显示绑定: bind apply call
-    **/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+     默认绑定：没人调用   this=》window
+     隐式绑定:谁调用this指向谁，
+     显示绑定: bind apply call
+     **/
 
 </script>
 </body>
