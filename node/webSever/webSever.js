@@ -1,4 +1,3 @@
-
 //引入http模块
 var http=require('http');
 
@@ -14,7 +13,6 @@ var path=require('path');  /*nodejs自带的模块*/
 var url=require('url');
 
 //解决后缀名问题
-
 
 var mimeModel=require('./model/getmimefromfile.js');
 

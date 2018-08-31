@@ -4,7 +4,17 @@ function init() {
     $('.case-classify').on('click', 'li', classify);
     $('.list').on('click', 'li', allList);
     $('.all_open,.mask,.list li').on('click', __toggle);
-    pullOnLoading()
+    /*分页处理*/
+    $('.pagination').pagination({
+        pageCount: 50,
+        jump: true,
+        coping: true,
+        prevContent: '上一页',
+        nextContent: '下一页',
+        callback: function () {
+            window.open('http://www.jq22.com/jquery-info5697')
+        }
+    });
 }
 /*分类*/
 function classify() {
@@ -46,17 +56,6 @@ function pullOnLoading() {
         var top = $(document).scrollTop()
         if (wh <= 768 && dh - sh - top < 50) {
             //数据加载
-            // alert(1)
         }
     })
 }
-$('.pagination').pagination({
-    pageCount: 50,
-    jump: true,
-    coping: true,
-    prevContent: '上一页',
-    nextContent: '下一页',
-    callback: function () {
-        window.open('http://www.jq22.com/jquery-info5697')
-    }
-});
