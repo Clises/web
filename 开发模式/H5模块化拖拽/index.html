@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #box {
+            width: 500px;
+            height: 500px;
+            border: 2px solid red;
+        }
+
+        #drag {
+            width: 100px;
+            height: 100px;
+            background: red;
+        }
+    </style>
+</head>
+<body>
+<div id="drag" draggable="true">
+</div>
+<div id="box">
+</div>
+</body>
+<script type="text/javascript">
+    /*		被拖拽的元素
+            ondrgastart:开始拖拽
+            ondrag:拖拽过程中
+            ondragend:拖拽之后
+            //目标元素
+            ondragenter//进入目标元素
+            ondragover//在目标元素上移动，浏览器有默认的事件，
+            ondragleave//离开目标元素
+            ondrop//鼠标释放
+            * */
+    var drag = document.getElementById("drag")
+    var box = document.getElementById("box")
+    //被拖拽事件
+    drag.ondragstart = function () {
+        this.style.background = "green"
+    }
+    drag.ondrag = function () {
+        this.style.background = "black"
+    }
+    drag.ondragend = function () {
+        this.style.background = "blue"
+    }
+    //目标元素事件
+    box.ondragenter = function () {
+        this.innerHTML = "可以将文件拖放到这里"
+    }
+    box.ondragover = function (ev) {
+        ev.preventDefault()//阻止浏览器的默认事件
+        this.style.background = "yellow"
+    }
+    box.ondragleave = function () {
+        this.innerHTML = "你出去了，"
+    }
+    box.ondrop = function () {
+        alert("鼠标拖拽结束")
+    }
+
+</script>
+</html>
