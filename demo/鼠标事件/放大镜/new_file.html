@@ -18,9 +18,9 @@
 				height: 100px;
 				background-color:red;
 				opacity: 0.5;
-				position: absolute; 
+				position: absolute;
 				display: none;
-				
+
 			}
 			#a2{
 				width: 400px;
@@ -29,7 +29,7 @@
 				background-size: 200% 200%;
 				display: none;
 				background-repeat: no-repeat;
-								
+
 			}
 		</style>
 		<script type="text/javascript">
@@ -41,7 +41,7 @@
 				bdiv.style.display="block";
 				big.style.display="block";
 			}
-		
+
 		adiv.onmousemove=function(){
 			if(event.clientX-adiv.offsetLeft-50<0){
 				bdiv.style.left=0;
@@ -55,9 +55,9 @@
             big.style.backgroundPositionX=-(event.clientX-adiv.offsetLeft-50)*4+"px"
                     big.style.backgroundPositionY=-(event.clientY-adiv.offsetLeft-50)*4+"px"
 			}
-			
-			
-			
+
+
+
             if(event.clientY-adiv.offsetTop-50<0){
 				bdiv.style.top=0;
 			}
@@ -70,18 +70,18 @@
 			big.style.display="none";
 		}
 			}
-			
-		
+
+
 		</script>
 	</head>
 	<body>
 		<div id="a1">
 			<div id="a">
-				
+
 			</div>
 		</div>
 		<div id="a2">
-			
+
 		</div>
 	</body>
 </html>
