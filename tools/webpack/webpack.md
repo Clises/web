@@ -5,6 +5,8 @@ webpack是当下最热门的模块化管理工具，使用webpack可以对模块
 ## 环境搭建 
 全局安装
 npm install --global webpack
+安装报错处理： SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\webpack\node_modules\fsevents):
+ fsevent是mac osx系统的  在windows下安装证明已经安装成功。
 
 ## 搭建 webpack 项目
 创建文件夹：
