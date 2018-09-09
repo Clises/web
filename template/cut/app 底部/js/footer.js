@@ -8,10 +8,7 @@ function init() {
 function nav(event) {
     /*字体变色*/
     var $this = $(this), $index = $this.index();
-    // var preindex=$("li.active").attr("index");
     $this.addClass("active").siblings().removeClass("active");
-    console.log($index)
-    console.log(event.target.tagName==='IMG')
     if (event.target.tagName==='IMG')
     {
         var child=$('.nav li img')
