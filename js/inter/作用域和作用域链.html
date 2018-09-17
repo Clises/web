@@ -6,24 +6,24 @@
 </head>
 <body>
 <script>
-var x=10;
-function fn() {
-    console.log(x)
-}
-function show(f) {
-    var x=20;
-    // console.log(x)
-    f()    //执行f()相当于就是把console.log(x)拿过来执行
-}
-show(fn)  //10
-
-
-
-
-
-    var fn=function () {
-        console.log(fn)
+    var x=10;
+    function fn() {
+        console.log(x)
     }
+    function show(f) {
+        var x=20;
+        // console.log(x)
+        f()    //执行f()相当于就是把console.log(x)拿过来执行
+    }
+    show(fn)  //10
+
+
+
+
+
+var fn=function () {
+    console.log(fn)
+}
     fn()
     var obj={
         fn2:function () {
@@ -32,30 +32,12 @@ show(fn)  //10
         }
     }
     obj.fn2()//报错
-    /*
+/*
     *为什么会出现报错问题？
     *   直接输出fn2内部作用域找fn2，没有，为什么不找fn2:,要想找必须是this.fn2  因为fn2只是obj的一个属性
     *
     *
     * */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </script>
 </body>
 </html>
