@@ -13,7 +13,7 @@ httpModule.createServer(function (req, res) {
 * 设置HTTP头部，状态码200，文件类型 html 字符集 utf-8
  *
 * */
-res.writeHead(200,{"C ontent-Type":"text/html;charset='utf-8"})
+res.writeHead(200,{"Content-Type":"text/html;charset='utf-8"})
 res.write('hello world');
     res.end();//相应结束
 }).listen(8083);

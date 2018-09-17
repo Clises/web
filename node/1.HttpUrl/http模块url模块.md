@@ -1,10 +1,11 @@
-一、第一个 node 应用:
+## 一、创建第一个 node 应用:
   1. 引入http模块
   2. 创建http服务器
 使用 http.createServer() 方法创建服务器，并使用 listen 方法绑定 8888 端口。 函数通过 request, response 参数来接收和响应数据
 
 ```
-var http = require('http'); http.createServer(function (request, response) {
+var http = require('http'); 
+http.createServer(function (request, response) {
 // 发送 HTTP 头部
 // HTTP 状态值: 200 : OK
 //设置 HTTP 头部，状态码是 200，文件类型是 html，字符集是 utf8 response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
@@ -14,7 +15,6 @@ res.end("哈哈哈哈，我买了一个 iPhone" + (1+2+3) + "s"); }).listen(8888
 console.log('Server running at http://127.0.0.1:8888/');
 ```
 3. 运行程序
-
 http 模块使用
 
 ```
