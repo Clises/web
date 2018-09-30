@@ -18,19 +18,15 @@
 *   p.call(obj)  obj
 * */
 function person() {
-    console.log(this)
     this.color="red"
     this.getColor=function () {
-        console.log(this)
         return this.color
     }
     this.setColor=function (color) {
-        console.log(this)
         return this.color
     }
 }
-person("red")//window
-
+person()//window
     var p=new Person("hello")  //this是谁 ？  p
     p.getColor()  //this    p
     var obj={}
