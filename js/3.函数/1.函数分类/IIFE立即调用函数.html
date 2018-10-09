@@ -11,19 +11,21 @@
     * 用它来编写js模块
     * */
     (function () {  //匿名函数自调用
-        var a=3;
-    console.log(a+3)
+        var a = 3;
+        console.log(a + 3)
     })();
 
     (function () {
-        var a=1;
-        function test(){
+        var a = 1;
+
+        function test() {
             console.log(++a)
         }
-        window.$=function () {   //向外暴露一个全局函数
-                return{
-                    test:test
-                }
+
+        window.$ = function () {   //向外暴露一个全局函数
+            return {
+                test: test
+            }
         }
     })();
     $().test()  //$是一个函数   $执行后，返回的是一个对象，对应的是一个对象
